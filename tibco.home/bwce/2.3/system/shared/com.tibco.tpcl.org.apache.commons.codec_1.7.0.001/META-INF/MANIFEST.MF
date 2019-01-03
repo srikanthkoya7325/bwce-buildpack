@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.commons.codec;version="1.7.0",org.apache.co
+ mmons.codec.binary;version="1.7.0"; uses:="org.apache.commons.codec",
+   org.apache.commons.codec.digest;version="1.7.0",  org.apache.common
+ s.codec.language;version="1.7.0"; uses:="org.apache.commons.codec",  
+ org.apache.commons.codec.language.bm;version="1.7.0"; uses:="org.apac
+ he.commons.codec.language.bm,  org.apache.commons.codec",  org.apache
+ .commons.codec.net;version="1.7.0"; uses:="org.apache.commons.codec"
+Bundle-Vendor: The Apache Software Foundation
+Bundle-ClassPath: commons-codec-1.7.jar
+Bundle-Version: 1.7.0.001
+Bundle-Name: Apache Commons Codec
+Bundle-ManifestVersion: 2
+Import-Package: org.apache.commons.codec;version="[1.7.0,2.0.0)",org.a
+ pache.commons.codec.binary;version="[1.7.0,2.0.0)",org.apache.commons
+ .codec.digest;version="[1.7.0,2.0.0)",org.apache.commons.codec.langua
+ ge;version="[1.7.0,2.0.0)",org.apache.commons.codec.language.bm;versi
+ on="[1.7.0,2.0.0)",org.apache.commons.codec.net;version="[1.7.0,2.0.0
+ )"
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.commons.codec
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

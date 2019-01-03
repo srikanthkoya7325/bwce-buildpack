@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Export-Package: com.tibco.bw.tpcl.jdbc.datasourcefactory.sqlserver;ver
+ sion="4.0.100"
+Service-Component: OSGI-INF/sqlserverDataSourceFactory.xml
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/sqljdbc4.jar,.
+Bundle-Name: TIBCO BW TPCL MS SqlServer JDBC Driver
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-Version: 4.0.100.001
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.tibco.bw.tpcl.jdbc.datasourcefactory.sqlserver.A
+ ctivator
+Bundle-SymbolicName: com.tibco.bw.tpcl.jdbc.datasourcefactory.sqlserve
+ r
+Import-Package: org.osgi.framework;version="[1.6.0,2.0.0)",org.osgi.se
+ rvice.jdbc;version="[1.0.0,2.0.0)"
+
+

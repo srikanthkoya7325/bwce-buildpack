@@ -1,0 +1,124 @@
+Manifest-Version: 1.0
+Export-Package: org.eclipse.bpel.common;version="0.10.0",org.eclipse.b
+ pel.common.extension.model;version="0.10.0"; uses:="org.eclipse.core.
+ runtime,  org.eclipse.emf.ecore,  org.eclipse.emf.common.util,  org.o
+ sgi.framework,  org.eclipse.emf.common.notify",org.eclipse.bpel.commo
+ n.extension.model.adapters;version="0.10.0";uses:="org.eclipse.emf.ec
+ ore,org.eclipse.bpel.common.extension.model,org.eclipse.emf.common.no
+ tify",org.eclipse.bpel.common.extension.model.adapters.impl;version="
+ 0.10.0"; uses:="org.eclipse.emf.ecore,  org.eclipse.emf.common.notify
+ .impl,  org.eclipse.bpel.common.extension.model,  org.eclipse.emf.com
+ mon.notify,  org.eclipse.bpel.common.extension.model.adapters",org.ec
+ lipse.bpel.common.extension.model.impl;version="0.10.0"; uses:="org.e
+ clipse.emf.ecore,  org.eclipse.emf.common.util,  org.eclipse.bpel.com
+ mon.extension.model,  org.eclipse.emf.ecore.impl,  org.eclipse.emf.co
+ mmon.notify,  org.eclipse.bpel.common.extension.model.adapters",org.e
+ clipse.bpel.common.extension.model.notify;version="0.10.0";uses:="org
+ .eclipse.emf.common.notify",org.eclipse.bpel.common.extension.model.n
+ otify.impl;version="0.10.0";uses:="org.eclipse.emf.ecore,org.eclipse.
+ bpel.common.extension.model.notify,org.eclipse.emf.common.notify.impl
+ ",org.eclipse.bpel.common.extension.model.util;version="0.10.0"; uses
+ :="org.eclipse.emf.ecore,  org.eclipse.emf.common.notify.impl,  org.e
+ clipse.bpel.common.extension.model,  org.eclipse.emf.common.notify",o
+ rg.eclipse.bpel.fnmeta;version="0.10.0",org.eclipse.bpel.fnmeta.model
+ ;version="0.10.0";uses:="org.eclipse.emf.ecore,org.eclipse.emf.common
+ .util",org.eclipse.bpel.fnmeta.model.impl;version="0.10.0"; uses:="or
+ g.eclipse.emf.ecore,  org.eclipse.emf.common.util,  org.eclipse.bpel.
+ fnmeta.model,  org.eclipse.emf.common.notify,  org.eclipse.emf.ecore.
+ impl",org.eclipse.bpel.fnmeta.model.proxy;version="0.10.0",org.eclips
+ e.bpel.fnmeta.model.util;version="0.10.0"; uses:="org.eclipse.emf.eco
+ re.xmi.impl,  org.eclipse.emf.ecore.resource,  org.eclipse.emf.ecore,
+   org.eclipse.emf.common.notify.impl,  org.eclipse.emf.common.util,  
+ org.eclipse.bpel.fnmeta.model,  org.eclipse.emf.common.notify,  org.e
+ clipse.emf.ecore.resource.impl,  org.eclipse.emf.ecore.xmi.util",org.
+ eclipse.bpel.names;version="0.10.0",org.eclipse.bpel.model;version="0
+ .10.0"; uses:="org.eclipse.emf.common,  org.eclipse.wst.wsdl,  org.ec
+ lipse.bpel.model.partnerlinktype,  javax.xml.namespace,  org.eclipse.
+ bpel.model.messageproperties,  org.eclipse.xsd,  org.eclipse.core.res
+ ources,  org.eclipse.emf.common.util,  org.eclipse.emf.ecore",org.ecl
+ ipse.bpel.model.adapters;version="0.10.0"; uses:="org.eclipse.bpel.mo
+ del.util,  org.eclipse.emf.common.notify,  org.eclipse.core.runtime, 
+  org.eclipse.emf.ecore",org.eclipse.bpel.model.extensions;version="0.
+ 10.0"; uses:="javax.wsdl.extensions,  org.eclipse.bpel.model,  org.ec
+ lipse.bpel.model.resource,  javax.xml.namespace,  org.w3c.dom,  org.e
+ clipse.emf.common.util,  org.eclipse.emf.ecore",org.eclipse.bpel.mode
+ l.impl;version="0.10.0"; uses:="org.eclipse.bpel.model,  javax.xml.na
+ mespace,  org.eclipse.bpel.model.messageproperties,  org.eclipse.emf.
+ common.notify,  org.w3c.dom,  org.eclipse.emf.common.util,  org.eclip
+ se.wst.wsdl.internal.impl,  org.eclipse.emf.ecore.impl,  org.eclipse.
+ wst.wsdl,  org.eclipse.bpel.model.partnerlinktype,  org.eclipse.xsd, 
+  org.eclipse.emf.ecore",org.eclipse.bpel.model.messageproperties;vers
+ ion="0.10.0";uses:="org.eclipse.wst.wsdl,javax.xml.namespace,org.ecli
+ pse.emf.ecore",org.eclipse.bpel.model.messageproperties.util;version=
+ "0.10.0"; uses:="org.eclipse.emf.common.notify.impl,  org.eclipse.wst
+ .wsdl.util,  javax.wsdl.extensions,  org.eclipse.wst.wsdl,  org.eclip
+ se.bpel.model.messageproperties,  org.w3c.dom,  org.eclipse.emf.commo
+ n.notify,  org.eclipse.emf.ecore",org.eclipse.bpel.model.partnerlinkt
+ ype;version="0.10.0";uses:="org.eclipse.wst.wsdl,org.eclipse.emf.comm
+ on.util,org.eclipse.emf.ecore",org.eclipse.bpel.model.partnerlinktype
+ .util;version="0.10.0"; uses:="org.eclipse.emf.common.notify.impl,  o
+ rg.eclipse.wst.wsdl.util,  javax.wsdl.extensions,  org.eclipse.wst.ws
+ dl,  org.eclipse.bpel.model.partnerlinktype,  org.w3c.dom,  org.eclip
+ se.emf.common.notify,  org.eclipse.emf.ecore",org.eclipse.bpel.model.
+ proxy;version="0.10.0"; uses:="org.eclipse.bpel.model.impl,  org.ecli
+ pse.wst.wsdl.internal.impl,  org.eclipse.wst.wsdl,  org.eclipse.bpel.
+ model.messageproperties.impl,  org.eclipse.xsd.impl,  javax.xml.names
+ pace,  org.eclipse.emf.common.util,  org.eclipse.bpel.model.partnerli
+ nktype.impl,  org.eclipse.emf.ecore.resource",org.eclipse.bpel.model.
+ reordering;version="0.10.0";uses:="org.eclipse.wst.wsdl",org.eclipse.
+ bpel.model.reordering.extensions;version="0.10.0",org.eclipse.bpel.mo
+ del.resource;version="0.10.0"; uses:="org.eclipse.bpel.model,  org.xm
+ l.sax,  org.apache.xerces.parsers,  javax.xml.namespace,  org.w3c.dom
+ ,  org.eclipse.core.resources,  org.eclipse.emf.common.util,  org.ecl
+ ipse.emf.ecore.resource,  javax.wsdl.extensions,  org.eclipse.emf.eco
+ re.resource.impl,  org.eclipse.wst.wsdl,  org.eclipse.emf.ecore.xmi.i
+ mpl,  javax.xml.parsers,  org.apache.xerces.xni,  org.eclipse.emf.eco
+ re",org.eclipse.bpel.model.terms;version="0.10.0";uses:="org.eclipse.
+ core.runtime",org.eclipse.bpel.model.util;version="0.10.0"; uses:="or
+ g.eclipse.bpel.model,  org.xml.sax,  org.apache.xerces.parsers,  org.
+ eclipse.bpel.names,  javax.xml.namespace,  org.eclipse.bpel.model.res
+ ource,  org.eclipse.bpel.model.messageproperties,  org.eclipse.emf.co
+ mmon.notify,  org.w3c.dom,  org.eclipse.emf.common.util,  org.eclipse
+ .emf.ecore.resource,  org.eclipse.emf.common.notify.impl,  javax.wsdl
+ .extensions,  org.eclipse.wst.wsdl,  org.eclipse.bpel.model.adapters,
+   org.eclipse.bpel.model.partnerlinktype,  javax.xml.parsers,  org.ec
+ lipse.xsd,  org.eclipse.emf.ecore"
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,com.tibco.tpcl.org.eclipse.bpel.common.model.jar,c
+ om.tibco.tpcl.org.eclipse.bpel.model.jar
+Bundle-Version: 0.10.0.001
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Import-Package: com.ibm.wsdl.util.xml;version="[0.0.0,2.0.0)",javax.ws
+ dl;version="[0.0.0,2.0.0)",javax.wsdl.extensions;version="[0.0.0,2.0.
+ 0)",javax.xml.namespace;version="[1.1.0,2.0.0)",javax.xml.parsers;ver
+ sion="[1.3.0,2.0.0)",org.apache.xerces.dom;version="[0.0.0,3.0.0)",or
+ g.apache.xerces.jaxp;version="[0.0.0,3.0.0)",org.apache.xerces.parser
+ s;version="[0.0.0,3.0.0)",org.apache.xerces.util;version="[0.0.0,3.0.
+ 0)",org.apache.xerces.xni;version="[0.0.0,3.0.0)",org.apache.xml.seri
+ alize;version="[0.0.0,3.0.0)",org.eclipse.core.internal.runtime;versi
+ on="[0.0.0,3.0.0)";resolution:=optional,org.eclipse.core.resources;ve
+ rsion="[0.0.0,3.0.0)";resolution:=optional,org.eclipse.core.runtime;c
+ ommon=split;version="[0.0.0,4.0.0)";resolution:=optional,org.eclipse.
+ emf.common;version="[0.0.0,3.0.0)",org.eclipse.emf.common.notify;vers
+ ion="[0.0.0,3.0.0)",org.eclipse.emf.common.notify.impl;version="[0.0.
+ 0,3.0.0)",org.eclipse.emf.common.util;version="[0.0.0,3.0.0)",org.ecl
+ ipse.emf.ecore;version="[0.0.0,3.0.0)",org.eclipse.emf.ecore.impl;ver
+ sion="[0.0.0,3.0.0)",org.eclipse.emf.ecore.plugin;version="[0.0.0,3.0
+ .0)",org.eclipse.emf.ecore.resource;version="[0.0.0,3.0.0)",org.eclip
+ se.emf.ecore.resource.impl;version="[0.0.0,3.0.0)",org.eclipse.emf.ec
+ ore.util;version="[0.0.0,3.0.0)",org.eclipse.emf.ecore.xmi;version="[
+ 0.0.0,3.0.0)",org.eclipse.emf.ecore.xmi.impl;version="[0.0.0,3.0.0)",
+ org.eclipse.emf.ecore.xmi.util;version="[0.0.0,3.0.0)",org.eclipse.ws
+ t.wsdl;version="[0.0.0,2.0.0)",org.eclipse.wst.wsdl.internal.impl;ver
+ sion="[0.0.0,2.0.0)",org.eclipse.wst.wsdl.util;version="[0.0.0,2.0.0)
+ ",org.eclipse.xsd;version="[0.0.0,3.0.0)",org.eclipse.xsd.impl;versio
+ n="[0.0.0,3.0.0)",org.eclipse.xsd.util;version="[0.0.0,3.0.0)",org.os
+ gi.framework;version="[1.4.0,2.0.0)",org.w3c.dom;version="[3.0.0,4.0.
+ 0)",org.xml.sax;version="[2.0.2,3.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.eclipse.bpel
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

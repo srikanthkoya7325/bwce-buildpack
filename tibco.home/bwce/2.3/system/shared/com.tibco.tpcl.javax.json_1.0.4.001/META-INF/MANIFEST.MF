@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Export-Package: javax.json;uses:="javax.json.stream,javax.json.spi";ve
+ rsion="1.0.4",javax.json.stream;uses:="javax.json";version="1.0.4",ja
+ vax.json.spi;uses:="javax.json,javax.json.stream";version="1.0.4"
+Bundle-Vendor: Oracle
+Bundle-ClassPath: javax.json-1.0.4.jar
+Bundle-Version: 1.0.4.001
+Tool: Bnd-1.50.0
+Bundle-Name: JSR 353 (JSON Processing) Default Provider
+Bundle-ManifestVersion: 2
+Bundle-License: https://glassfish.java.net/public/CDDL+GPL_1_1.html
+Bundle-Description: Default provider for JSR 353:Java API for Processi
+ ng JSON
+Import-Package: javax.json;version="[1.0,2)";resolution:=optional,java
+ x.json.spi;version="[1.0,2)";resolution:=optional,javax.json.stream;v
+ ersion="[1.0,2)";resolution:=optional
+Bundle-SymbolicName: com.tibco.tpcl.javax.json
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

@@ -1,0 +1,544 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.axis2;version="3.1.0"; uses:="org.apache.ax
+ is2.description,  org.apache.axiom.soap,  org.apache.axis2.namespace,
+   org.apache.axis2.context,  org.apache.axiom.om,  javax.xml.namespac
+ e",org.apache.axis2.addressing;version="3.1.0"; uses:="org.apache.axi
+ s2.description,  org.apache.axis2.addressing.metadata,  org.apache.ax
+ is2.context.externalize,  org.apache.axis2.context,  javax.xml.namesp
+ ace,  org.apache.axiom.om",org.apache.axis2.addressing.i18n;version="
+ 3.1.0";uses:="org.apache.axis2.i18n",org.apache.axis2.addressing.meta
+ data;version="3.1.0";uses:="org.apache.axiom.om,javax.xml.namespace",
+ org.apache.axis2.addressing.wsdl;version="3.1.0";uses:="javax.wsdl",o
+ rg.apache.axis2.builder;version="3.1.0"; uses:="org.apache.commons.fi
+ leupload.disk,  javax.mail.util,  org.apache.axiom.attachments,  org.
+ apache.axis2.context,  org.apache.axiom.om.impl.builder,  org.apache.
+ axiom.om,  javax.activation,  org.apache.axiom.soap,  org.apache.axis
+ 2.util,  javax.xml.stream",org.apache.axis2.builder.unknowncontent;ve
+ rsion="3.1.0"; uses:="javax.activation,  javax.xml.stream,  org.apach
+ e.axis2.builder,  org.apache.axis2.context,  javax.xml.namespace,  or
+ g.apache.axiom.om",org.apache.axis2.classloader;version="3.1.0",org.a
+ pache.axis2.client;version="3.1.0"; uses:="org.apache.axis2.addressin
+ g,  org.apache.commons.logging,  org.apache.axis2.transport,  org.apa
+ che.axis2.context.externalize,  org.apache.axis2.context,  javax.xml.
+ namespace,  javax.wsdl,  org.apache.axiom.om,  org.apache.axis2.descr
+ iption,  org.apache.axiom.soap,  org.apache.axis2.engine,  org.apache
+ .axis2.client.async",org.apache.axis2.client.async;version="3.1.0";us
+ es:="org.apache.axiom.soap,org.apache.axis2.context",org.apache.axis2
+ .clustering;version="3.1.0"; uses:="org.apache.axis2,  org.apache.axi
+ s2.description,  org.apache.axis2.engine,  org.apache.axis2.clusterin
+ g.management,  org.apache.axis2.clustering.state,  org.apache.axis2.h
+ andlers,  org.apache.axis2.context",org.apache.axis2.clustering.manag
+ ement;version="3.1.0";uses:="org.apache.axis2.description,org.apache.
+ axis2.clustering,org.apache.axis2.context",org.apache.axis2.clusterin
+ g.state;version="3.1.0"; uses:="org.apache.axis2.description,  org.ap
+ ache.axis2.engine,  org.apache.axis2.clustering,  org.apache.axis2.co
+ ntext",org.apache.axis2.context;version="3.1.0"; uses:="org.apache.ax
+ is2.addressing,  org.apache.commons.logging,  org.apache.neethi,  org
+ .apache.axis2.context.externalize,  org.apache.axis2.client,  org.apa
+ che.axiom.attachments,  javax.xml.namespace,  javax.activation,  org.
+ apache.axiom.soap,  org.apache.axis2.description,  org.apache.axis2.w
+ sdl,  org.apache.axis2.engine,  org.apache.axis2.util.threadpool",org
+ .apache.axis2.context.externalize;version="3.1.0"; uses:="org.apache.
+ commons.logging,  org.apache.axis2.transport,  org.apache.axis2.conte
+ xt,  org.apache.axiom.om,  javax.xml.namespace,  org.apache.axiom.soa
+ p,  org.apache.axis2.description,  org.apache.axis2.util,  org.apache
+ .axis2.engine",org.apache.axis2.dataretrieval;version="3.1.0"; uses:=
+ "org.apache.axis2.description,  org.apache.axis2,  org.apache.ws.comm
+ ons.schema,  org.apache.axis2.context,  javax.wsdl,  org.apache.axiom
+ .om",org.apache.axis2.dataretrieval.client;version="3.1.0"; uses:="or
+ g.apache.axis2.description,  org.apache.axis2.client,  org.apache.axi
+ s2.context,  org.apache.axiom.om,  javax.xml.namespace,  javax.wsdl",
+ org.apache.axis2.datasource;version="3.1.0"; uses:="org.apache.axiom.
+ om.ds,  javax.xml.stream,  javax.xml.transform,  org.apache.axiom.om"
+ ,org.apache.axis2.datasource.jaxb;version="3.1.0"; uses:="org.apache.
+ commons.logging,  javax.mail.internet,  org.apache.axiom.om.impl.buil
+ der,  org.apache.axis2.jaxws.message.databinding,  org.apache.axis2.c
+ ontext,  javax.xml.namespace,  org.apache.axiom.util.stax.xop,  org.a
+ pache.axiom.om,  javax.activation,  org.apache.axiom.om.ds,  javax.xm
+ l.bind.attachment,  javax.xml.stream,  javax.xml.bind",org.apache.axi
+ s2.deployment;version="3.1.0"; uses:="org.apache.axis2,  org.apache.c
+ ommons.logging,  org.apache.axis2.deployment.repository.util,  org.ap
+ ache.axis2.context,  javax.xml.namespace,  org.apache.axiom.om,  org.
+ apache.axiom.soap,  org.apache.axis2.description,  javax.servlet,  or
+ g.apache.axis2.classloader,  org.apache.axis2.engine,  org.apache.axi
+ s2.deployment.scheduler",org.apache.axis2.deployment.repository.util;
+ version="3.1.0"; uses:="org.apache.axis2.description,  org.apache.axi
+ s2.deployment,  org.apache.axis2.engine,  org.apache.axis2.context",o
+ rg.apache.axis2.deployment.resolver;version="3.1.0"; uses:="org.apach
+ e.commons.logging,  javax.wsdl.xml,  org.apache.ws.commons.schema.res
+ olver,  org.apache.woden.resolver,  org.xml.sax",org.apache.axis2.dep
+ loyment.scheduler;version="3.1.0";uses:="org.apache.axis2.deployment,
+ org.apache.axis2.engine",org.apache.axis2.deployment.util;version="3.
+ 1.0"; uses:="org.apache.axis2.deployment,  org.apache.axis2.deploymen
+ t.repository.util,  org.apache.axis2.context,  org.apache.axiom.om,  
+ org.apache.axis2.description,  org.apache.axis2.jsr181,  org.apache.a
+ xis2.engine",org.apache.axis2.description;version="3.1.0"; uses:="org
+ .apache.axis2.addressing,  org.apache.axis2.modules,  org.apache.axis
+ 2.deployment.util,  org.apache.woden.wsdl20,  org.apache.commons.logg
+ ing,  org.apache.axis2.context.externalize,  javax.xml.namespace,  or
+ g.apache.axiom.om,  org.apache.axis2.wsdl,  javax.wsdl.xml,  org.apac
+ he.axis2.dataretrieval,  org.apache.ws.commons.schema,  org.apache.ax
+ is2.transport,  org.apache.ws.commons.schema.resolver,  org.apache.ne
+ ethi,  org.apache.axis2.client,  org.apache.woden.resolver,  javax.xm
+ l.parsers,  org.apache.axis2.context,  org.w3c.dom,  javax.wsdl,  org
+ .apache.axis2.description.java2wsdl,  org.apache.axis2.engine,  org.a
+ pache.axis2.client.async,  org.apache.ws.commons.schema.utils",org.ap
+ ache.axis2.description.java2wsdl;version="3.1.0"; uses:="org.apache.a
+ xis2.description,  org.apache.ws.commons.schema,  org.apache.axis2.de
+ scription.java2wsdl.bytecode,  javax.xml.namespace",org.apache.axis2.
+ description.java2wsdl.bytecode;version="3.1.0",org.apache.axis2.dispa
+ tchers;version="3.1.0"; uses:="org.apache.axis2.addressing,  org.apac
+ he.axis2.description,  org.apache.axis2.engine,  org.apache.axis2.han
+ dlers,  org.apache.axis2.context",org.apache.axis2.engine;version="3.
+ 1.0"; uses:="org.apache.axis2.addressing,  org.apache.axis2.dataretri
+ eval,  org.apache.axis2.deployment.util,  org.apache.axis2.dispatcher
+ s,  org.apache.commons.logging,  org.apache.axis2.transport,  org.apa
+ che.axis2.clustering,  org.apache.axis2.transaction,  org.apache.axis
+ 2.context,  org.apache.axis2.handlers,  javax.xml.namespace,  org.apa
+ che.axis2.description,  org.apache.axis2.util,  org.apache.axis2.buil
+ der",org.apache.axis2.handlers;version="3.1.0";uses:="org.apache.axis
+ 2.description,org.apache.axis2.engine,org.apache.axis2.context",org.a
+ pache.axis2.i18n;version="3.1.0";uses:="org.apache.commons.logging",o
+ rg.apache.axis2.java.security;version="3.1.0";uses:="org.apache.commo
+ ns.httpclient.protocol,org.apache.commons.httpclient.params,javax.net
+ .ssl",org.apache.axis2.jaxrs;version="3.1.0",org.apache.axis2.jaxws;v
+ ersion="3.1.0"; uses:="org.apache.axis2.addressing,  org.apache.axis2
+ .jaxws.description,  org.apache.axis2.jaxws.spi,  org.apache.axis2.ja
+ xws.core,  javax.xml.ws",org.apache.axis2.jaxws.addressing;version="3
+ .1.0"; uses:="javax.xml.transform,  javax.xml.bind,  javax.xml.ws,  o
+ rg.w3c.dom,  javax.xml.namespace",org.apache.axis2.jaxws.addressing.f
+ actory;version="3.1.0"; uses:="org.apache.axis2.addressing,  javax.xm
+ l.transform,  javax.xml.ws,  javax.xml.namespace",org.apache.axis2.ja
+ xws.addressing.factory.impl;version="3.1.0"; uses:="org.apache.axis2.
+ addressing,  org.apache.axis2.jaxws.addressing.factory,  javax.xml.tr
+ ansform,  javax.xml.ws,  javax.xml.namespace",org.apache.axis2.jaxws.
+ addressing.migrator;version="3.1.0";uses:="org.apache.axis2.util,org.
+ apache.axis2.context",org.apache.axis2.jaxws.addressing.util;version=
+ "3.1.0"; uses:="org.apache.axis2.addressing,  org.apache.axiom.soap, 
+  javax.xml.transform,  javax.xml.ws,  org.w3c.dom,  javax.xml.namespa
+ ce",org.apache.axis2.jaxws.api;version="3.1.0";uses:="org.apache.axis
+ 2.jaxws.core",org.apache.axis2.jaxws.binding;version="3.1.0"; uses:="
+ javax.xml.ws.http,  org.apache.axis2.addressing,  org.apache.axis2.ja
+ xws.description,  org.apache.axis2.jaxws.spi,  javax.xml.soap,  org.a
+ pache.axis2.jaxws.core,  javax.xml.ws,  javax.xml.ws.soap",org.apache
+ .axis2.jaxws.client;version="3.1.0";uses:="org.apache.axis2.jaxws.spi
+ .migrator,org.apache.axis2.context,org.apache.axis2.jaxws.core",org.a
+ pache.axis2.jaxws.client.async;version="3.1.0"; uses:="org.apache.axi
+ s2.jaxws.description,  org.apache.axis2.client.async,  org.apache.axi
+ s2.context,  org.apache.axis2.jaxws.core,  javax.xml.ws",org.apache.a
+ xis2.jaxws.client.config;version="3.1.0";uses:="org.apache.axis2.jaxw
+ s.spi,org.apache.axis2.jaxws.feature,org.apache.axis2.jaxws.core",org
+ .apache.axis2.jaxws.client.dispatch;version="3.1.0"; uses:="org.apach
+ e.axis2.jaxws.description,  org.apache.axis2.addressing,  org.apache.
+ axis2.jaxws.spi,  org.apache.axis2.jaxws.message,  org.apache.axis2.j
+ axws,  org.apache.axis2.client,  org.apache.axis2.handlers,  org.apac
+ he.axis2.context,  org.apache.axis2.jaxws.core,  org.apache.axis2.jax
+ ws.core.controller,  org.apache.axis2.jaxws.client.async,  javax.xml.
+ namespace,  org.apache.axis2.engine,  javax.xml.bind,  javax.xml.ws",
+ org.apache.axis2.jaxws.client.proxy;version="3.1.0"; uses:="org.apach
+ e.axis2.addressing,  org.apache.axis2.jaxws.description,  org.apache.
+ axis2.jaxws.spi,  org.apache.axis2.jaxws,  org.apache.axis2.jaxws.cor
+ e,  org.apache.axis2.jaxws.core.controller,  javax.xml.ws,  org.apach
+ e.axis2.jaxws.client.async",org.apache.axis2.jaxws.context;version="3
+ .1.0";uses:="javax.xml.ws.handler,javax.xml.ws,org.w3c.dom",org.apach
+ e.axis2.jaxws.context.factory;version="3.1.0";uses:="org.apache.axis2
+ .jaxws.handler,org.apache.axis2.jaxws.core,javax.xml.ws",org.apache.a
+ xis2.jaxws.context.listener;version="3.1.0"; uses:="org.apache.axis2.
+ description,  javax.xml.stream,  org.apache.axiom.om.impl.builder,  o
+ rg.apache.axis2.context,  org.apache.axis2.jaxws.core,  org.apache.ax
+ iom.om",org.apache.axis2.jaxws.context.utils;version="3.1.0";uses:="j
+ avax.xml.ws.handler.soap,org.apache.axis2.context,org.apache.axis2.ja
+ xws.core",org.apache.axis2.jaxws.core;version="3.1.0"; uses:="org.apa
+ che.axis2.jaxws.description,  org.apache.axis2,  org.apache.axis2.jax
+ ws.message,  org.apache.axis2.client,  org.apache.axis2.context,  org
+ .apache.axis2.jaxws.client.async,  javax.xml.namespace,  org.apache.a
+ xis2.jaxws.server,  org.apache.axis2.jaxws.handler,  javax.xml.ws",or
+ g.apache.axis2.jaxws.core.controller;version="3.1.0";uses:="org.apach
+ e.axis2.jaxws.core,javax.xml.ws",org.apache.axis2.jaxws.core.controll
+ er.impl;version="3.1.0";uses:="org.apache.axis2.jaxws.core,org.apache
+ .axis2.jaxws.core.controller,javax.xml.ws",org.apache.axis2.jaxws.cor
+ e.util;version="3.1.0";uses:="org.apache.axis2.jaxws.core",org.apache
+ .axis2.jaxws.dispatchers;version="3.1.0"; uses:="org.apache.axis2.des
+ cription,  org.apache.axis2.engine,  org.apache.axis2.handlers,  org.
+ apache.axis2.context",org.apache.axis2.jaxws.feature;version="3.1.0";
+ uses:="org.apache.axis2.jaxws.spi,org.apache.axis2.jaxws.core,javax.x
+ ml.ws",org.apache.axis2.jaxws.framework;version="3.1.0"; uses:="org.a
+ pache.axis2.description,  org.apache.axis2.deployment,  org.apache.ax
+ is2.engine,  org.apache.axis2.deployment.repository.util,  org.apache
+ .axis2.context",org.apache.axis2.jaxws.handler;version="3.1.0"; uses:
+ ="org.apache.axis2.jaxws.description,  javax.xml.ws.handler.soap,  or
+ g.apache.axis2.jaxws.message,  org.apache.axis2.jaxws.spi.handler,  o
+ rg.apache.axis2.context,  org.apache.axis2.jaxws.core,  javax.xml.nam
+ espace,  javax.activation,  javax.xml.ws.handler,  org.apache.axiom.s
+ oap,  javax.xml.transform,  javax.xml.soap,  javax.xml.bind,  javax.x
+ ml.ws",org.apache.axis2.jaxws.handler.factory;version="3.1.0";uses:="
+ org.apache.axis2.jaxws.handler,org.apache.axis2.jaxws.core",org.apach
+ e.axis2.jaxws.handler.factory.impl;version="3.1.0";uses:="org.apache.
+ axis2.jaxws.handler,org.apache.axis2.jaxws.core,org.apache.axis2.jaxw
+ s.handler.factory",org.apache.axis2.jaxws.handler.impl;version="3.1.0
+ ";uses:="javax.xml.ws.handler,org.apache.axis2.jaxws.handler",org.apa
+ che.axis2.jaxws.handler.lifecycle.factory;version="3.1.0";uses:="java
+ x.xml.ws.handler,org.apache.axis2.jaxws.core",org.apache.axis2.jaxws.
+ handler.lifecycle.impl;version="3.1.0"; uses:="javax.xml.ws.handler, 
+  org.apache.axis2.jaxws.handler.lifecycle.factory,  org.apache.axis2.
+ jaxws.lifecycle,  org.apache.axis2.jaxws.core",org.apache.axis2.jaxws
+ .injection;version="3.1.0",org.apache.axis2.jaxws.lifecycle;version="
+ 3.1.0",org.apache.axis2.jaxws.marshaller;version="3.1.0";uses:="org.a
+ pache.axis2.jaxws.description,org.apache.axis2.jaxws.message",org.apa
+ che.axis2.jaxws.marshaller.factory;version="3.1.0";uses:="org.apache.
+ axis2.jaxws.description,org.apache.axis2.jaxws.marshaller",org.apache
+ .axis2.jaxws.marshaller.impl.alt;version="3.1.0"; uses:="org.apache.a
+ xis2.jaxws.description,  org.apache.axis2.jaxws.message,  org.apache.
+ axis2.context,  org.apache.axis2.jaxws.core,  javax.xml.namespace,  o
+ rg.apache.axis2.description,  javax.activation,  org.apache.axis2.jax
+ ws.marshaller,  org.apache.axis2.jaxws.runtime.description.marshal,  
+ javax.xml.ws",org.apache.axis2.jaxws.message;version="3.1.0"; uses:="
+ new org.apache.axis2.jaxws.message,  org.apache.axis2.jaxws.core,  or
+ g.apache.axis2.jaxws.message.factory,  javax.xml.namespace,  org.apac
+ he.axiom.om,  javax.jws.soap,  org.apache.axiom.soap,  javax.activati
+ on,  javax.xml.stream,  javax.xml.soap",org.apache.axis2.jaxws.messag
+ e.attachments;version="3.1.0"; uses:="javax.activation,  javax.xml.st
+ ream,  org.apache.axis2.datasource.jaxb,  org.apache.axis2.jaxws.mess
+ age,  org.apache.axiom.attachments,  org.apache.axiom.om,  org.apache
+ .axiom.util.stax.xop",org.apache.axis2.jaxws.message.databinding;vers
+ ion="3.1.0"; uses:="org.apache.axis2.jaxws.message,  org.apache.axis2
+ .context,  org.apache.axiom.util.stax.xop,  javax.xml.bind.attachment
+ ,  javax.xml.stream,  org.apache.axis2.datasource.jaxb,  javax.xml.bi
+ nd,  javax.xml.ws",org.apache.axis2.jaxws.message.databinding.impl;ve
+ rsion="3.1.0"; uses:="org.apache.axis2.jaxws.message.impl,  org.apach
+ e.axis2.jaxws.message,  org.apache.axis2.jaxws.message.databinding,  
+ org.apache.axis2.jaxws.message.factory,  javax.xml.namespace,  org.ap
+ ache.axiom.om,  javax.activation,  javax.xml.stream,  javax.xml.trans
+ form",org.apache.axis2.jaxws.message.factory;version="3.1.0"; uses:="
+ org.apache.axis2.jaxws.message.util,  javax.xml.stream,  org.apache.a
+ xis2.jaxws.message,  org.apache.axis2.jaxws.message.databinding,  jav
+ ax.xml.soap,  javax.xml.namespace,  org.apache.axiom.om",org.apache.a
+ xis2.jaxws.message.impl;version="3.1.0"; uses:="org.apache.axis2.jaxw
+ s.message.util,  org.apache.axis2.jaxws.message,  org.apache.axiom.at
+ tachments,  org.apache.axis2.jaxws.core,  org.apache.axis2.jaxws.mess
+ age.factory,  org.apache.axiom.om,  javax.xml.namespace,  javax.activ
+ ation,  javax.jws.soap,  org.apache.axiom.soap,  javax.xml.stream,  j
+ avax.xml.soap",org.apache.axis2.jaxws.message.util;version="3.1.0"; u
+ ses:="org.apache.axis2.jaxws.message,  org.apache.axiom.attachments, 
+  org.apache.axis2.context,  org.w3c.dom,  javax.xml.namespace,  org.a
+ pache.axiom.om,  org.apache.axiom.soap,  javax.activation,  javax.xml
+ .stream,  javax.xml.soap",org.apache.axis2.jaxws.message.util.impl;ve
+ rsion="3.1.0"; uses:="org.apache.axiom.soap,  org.apache.axis2.jaxws.
+ message.util,  javax.xml.stream,  org.apache.axiom.attachments,  java
+ x.xml.soap,  org.w3c.dom,  org.apache.axis2.jaxws.message.factory,  j
+ avax.xml.namespace,  org.apache.axiom.om",org.apache.axis2.jaxws.regi
+ stry;version="3.1.0";uses:="org.apache.axis2.jaxws.server,org.apache.
+ axis2.jaxws.feature",org.apache.axis2.jaxws.runtime.description.injec
+ tion;version="3.1.0";uses:="org.apache.axis2.jaxws.description",org.a
+ pache.axis2.jaxws.runtime.description.injection.impl;version="3.1.0";
+ uses:="org.apache.axis2.jaxws.description,org.apache.axis2.jaxws.runt
+ ime.description.injection",org.apache.axis2.jaxws.runtime.description
+ .marshal;version="3.1.0";uses:="org.apache.axis2.jaxws.description,or
+ g.apache.axis2.jaxws.message.factory",org.apache.axis2.jaxws.runtime.
+ description.marshal.impl;version="3.1.0"; uses:="org.apache.axis2.jax
+ ws.description,  org.apache.commons.logging,  org.apache.axis2.jaxws.
+ runtime.description.marshal,  org.apache.axis2.jaxws.message.factory"
+ ,org.apache.axis2.jaxws.server;version="3.1.0"; uses:="org.apache.axi
+ s2.engine,  org.apache.axis2.jaxws.server.dispatcher,  org.apache.axi
+ s2.jaxws.handler,  org.apache.axis2.context,  org.apache.axis2.jaxws.
+ core,  javax.xml.ws",org.apache.axis2.jaxws.server.dispatcher;version
+ ="3.1.0"; uses:="org.apache.axis2.jaxws.server,  org.apache.commons.l
+ ogging,  org.apache.axis2.jaxws.message,  org.apache.axis2.jaxws.core
+ ,  javax.xml.ws",org.apache.axis2.jaxws.server.dispatcher.factory;ver
+ sion="3.1.0";uses:="org.apache.axis2.jaxws.server.dispatcher,org.apac
+ he.axis2.jaxws.core",org.apache.axis2.jaxws.server.endpoint;version="
+ 3.1.0"; uses:="org.apache.axis2.jaxws.description,  org.apache.common
+ s.logging,  org.apache.axis2.jaxws.message,  org.apache.axis2.jaxws.c
+ ore,  org.w3c.dom,  javax.xml.ws",org.apache.axis2.jaxws.server.endpo
+ int.injection;version="3.1.0";uses:="javax.xml.ws.handler,javax.xml.w
+ s",org.apache.axis2.jaxws.server.endpoint.injection.factory;version="
+ 3.1.0";uses:="org.apache.axis2.jaxws.server.endpoint.injection",org.a
+ pache.axis2.jaxws.server.endpoint.injection.impl;version="3.1.0";uses
+ :="javax.xml.ws.handler,org.apache.axis2.jaxws.server.endpoint.inject
+ ion,javax.xml.ws",org.apache.axis2.jaxws.server.endpoint.lifecycle;ve
+ rsion="3.1.0";uses:="org.apache.axis2.jaxws.lifecycle,org.apache.axis
+ 2.jaxws.core",org.apache.axis2.jaxws.server.endpoint.lifecycle.factor
+ y;version="3.1.0";uses:="org.apache.axis2.jaxws.server.endpoint.lifec
+ ycle",org.apache.axis2.jaxws.server.endpoint.lifecycle.factory.impl;v
+ ersion="3.1.0";uses:="org.apache.axis2.jaxws.server.endpoint.lifecycl
+ e,org.apache.axis2.jaxws.server.endpoint.lifecycle.factory",org.apach
+ e.axis2.jaxws.server.endpoint.lifecycle.impl;version="3.1.0"; uses:="
+ javax.xml.ws.handler,  org.apache.axis2.jaxws.description,  org.apach
+ e.axis2.jaxws.server.endpoint.lifecycle,  org.apache.axis2.jaxws.life
+ cycle,  org.apache.axis2.jaxws.core,  javax.xml.ws,  org.apache.axis2
+ .jaxws.runtime.description.injection",org.apache.axis2.jaxws.spi;vers
+ ion="3.1.0"; uses:="org.apache.axis2.jaxws.description,  org.apache.a
+ xis2.addressing,  javax.xml.ws.spi,  javax.xml.ws.wsaddressing,  org.
+ apache.axis2.client,  org.apache.axis2.jaxws.core,  javax.xml.namespa
+ ce,  javax.xml.ws.handler,  org.apache.axis2.jaxws.description.builde
+ r,  javax.xml.transform,  javax.xml.bind,  javax.xml.ws",org.apache.a
+ xis2.jaxws.spi.handler;version="3.1.0"; uses:="javax.xml.ws.handler, 
+  org.apache.commons.logging,  org.apache.axis2.jaxws.description.xml.
+ handler,  org.apache.axis2.jaxws.lifecycle,  javax.xml.namespace",org
+ .apache.axis2.jaxws.spi.migrator;version="3.1.0";uses:="org.apache.ax
+ is2.context,org.apache.axis2.jaxws.core",org.apache.axis2.jaxws.utili
+ ty;version="3.1.0"; uses:="org.apache.commons.logging,  org.apache.ax
+ is2.transport,  org.apache.axis2.context,  javax.xml.namespace,  org.
+ apache.axiom.om,  org.apache.axis2.util,  javax.xml.soap",org.apache.
+ axis2.jaxws.wrapper;version="3.1.0";uses:="org.apache.axis2.jaxws.uti
+ lity",org.apache.axis2.jaxws.wrapper.impl;version="3.1.0";uses:="org.
+ apache.axis2.jaxws.wrapper,org.apache.axis2.jaxws.utility",org.apache
+ .axis2.jaxws.wsdl;version="3.1.0";uses:="javax.wsdl",org.apache.axis2
+ .jaxws.wsdl.impl;version="3.1.0";uses:="org.apache.axis2.jaxws.wsdl,j
+ avax.wsdl",org.apache.axis2.jsr181;version="3.1.0",org.apache.axis2.m
+ odules;version="3.1.0";uses:="org.apache.axis2.description,org.apache
+ .neethi,org.apache.axis2.context",org.apache.axis2.namespace;version=
+ "3.1.0";uses:="javax.xml.namespace",org.apache.axis2.phaseresolver;ve
+ rsion="3.1.0";uses:="org.apache.axis2.description,org.apache.axis2,or
+ g.apache.axis2.engine",org.apache.axis2.receivers;version="3.1.0"; us
+ es:="org.apache.axiom.soap,  org.apache.axis2,  org.apache.commons.lo
+ gging,  org.apache.axis2.engine,  org.apache.axis2.context",org.apach
+ e.axis2.service;version="3.1.0";uses:="org.apache.axis2.context",org.
+ apache.axis2.transaction;version="3.1.0";uses:="org.apache.axis2.desc
+ ription,javax.transaction",org.apache.axis2.transport;version="3.1.0"
+ ; uses:="org.apache.axis2,  org.apache.axiom.soap,  org.apache.axis2.
+ addressing,  org.apache.axis2.description,  org.apache.axis2.util,  o
+ rg.apache.axis2.engine,  org.apache.axis2.context,  org.apache.axiom.
+ om",org.apache.axis2.transport.http;version="3.1.0"; uses:="org.apach
+ e.axis2.addressing,  org.apache.axis2,  org.apache.axis2.transport,  
+ org.apache.axis2.handlers,  org.apache.axis2.context,  org.apache.com
+ mons.httpclient,  org.apache.axiom.om,  org.apache.axiom.soap,  org.a
+ pache.axis2.description,  org.apache.axis2.util,  javax.servlet,  org
+ .apache.commons.httpclient.methods,  org.apache.axis2.engine,  org.ap
+ ache.axis2.transport.http.server,  javax.servlet.http",org.apache.axi
+ s2.transport.http.server;version="3.1.0"; uses:="org.apache.axis2,  o
+ rg.apache.http.protocol,  org.apache.commons.logging,  org.apache.htt
+ p.params,  org.apache.axis2.transport,  org.apache.axis2.context,  or
+ g.apache.axis2.description,  org.apache.axis2.engine,  org.apache.htt
+ p",org.apache.axis2.transport.http.util;version="3.1.0"; uses:="org.a
+ pache.axis2.engine,  org.apache.commons.httpclient.methods.multipart,
+   org.apache.axis2.context,  org.apache.commons.httpclient",org.apach
+ e.axis2.util;version="3.1.0"; uses:="org.apache.commons.logging,  org
+ .apache.axis2.context.externalize,  org.apache.axiom.om,  javax.xml.n
+ amespace,  org.xml.sax,  org.apache.axis2.description,  javax.xml.str
+ eam,  org.apache.axis2,  org.apache.ws.commons.schema,  org.apache.ax
+ is2.transport,  org.apache.axis2.deployment.repository.util,  org.apa
+ che.neethi,  javax.xml.parsers,  org.apache.axis2.context,  org.apach
+ e.axiom.om.util,  org.w3c.dom,  javax.activation,  org.apache.axis2.e
+ ngine,  javax.xml.transform,  org.apache.axis2.client.async",org.apac
+ he.axis2.util.threadpool;version="3.1.0";uses:="org.apache.commons.lo
+ gging",org.apache.axis2.wsdl;version="3.1.0";uses:="javax.xml.namespa
+ ce",org.apache.axis2.wsdl.util;version="3.1.0"; uses:="org.apache.com
+ mons.logging,  org.apache.axis2.engine,  javax.wsdl.xml,  javax.wsdl.
+ extensions,  org.w3c.dom,  javax.xml.namespace,  javax.wsdl"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: axis2-kernel-1.6.2.jar,axis2-transport-http-1.6.2.ja
+ r,axis2-jaxws-1.6.2.jar
+Provide-Capability: osgi.contract;osgi.contract=org.apache.axis2;versi
+ on:Version=1.6.2;uses:="javax.activation,javax.mail.util,javax.net.ss
+ l,javax.servlet,javax.servlet.http,javax.transaction,javax.wsdl,javax
+ .wsdl.extensions,javax.wsdl.xml,javax.xml.namespace,javax.xml.parsers
+ ,javax.xml.stream,javax.xml.transform,org.apache.axiom.attachments,or
+ g.apache.axiom.om,org.apache.axiom.om.impl.builder,org.apache.axiom.o
+ m.util,org.apache.axiom.soap,org.apache.axis2,org.apache.axis2.addres
+ sing,org.apache.axis2.addressing.i18n,org.apache.axis2.addressing.met
+ adata,org.apache.axis2.addressing.wsdl,org.apache.axis2.builder,org.a
+ pache.axis2.builder.unknowncontent,org.apache.axis2.classloader,org.a
+ pache.axis2.client,org.apache.axis2.client.async,org.apache.axis2.clu
+ stering,org.apache.axis2.clustering.management,org.apache.axis2.clust
+ ering.state,org.apache.axis2.context,org.apache.axis2.context.externa
+ lize,org.apache.axis2.dataretrieval,org.apache.axis2.dataretrieval.cl
+ ient,org.apache.axis2.deployment,org.apache.axis2.deployment.reposito
+ ry.util,org.apache.axis2.deployment.resolver,org.apache.axis2.deploym
+ ent.scheduler,org.apache.axis2.deployment.util,org.apache.axis2.descr
+ iption,org.apache.axis2.description.java2wsdl,org.apache.axis2.descri
+ ption.java2wsdl.bytecode,org.apache.axis2.dispatchers,org.apache.axis
+ 2.engine,org.apache.axis2.handlers,org.apache.axis2.i18n,org.apache.a
+ xis2.java.security,org.apache.axis2.jsr181,org.apache.axis2.jaxrs,org
+ .apache.axis2.jaxws,org.apache.axis2.jaxws.addressing,org.apache.axis
+ 2.jaxws.addressing.factory,org.apache.axis2.jaxws.addressing.factory.
+ impl,org.apache.axis2.jaxws.addressing.migrator,org.apache.axis2.jaxw
+ s.addressing.util,org.apache.axis2.jaxws.api,org.apache.axis2.jaxws.b
+ inding,org.apache.axis2.jaxws.client,org.apache.axis2.jaxws.client.as
+ ync,org.apache.axis2.jaxws.client.config,org.apache.axis2.jaxws.clien
+ t.dispatch,org.apache.axis2.jaxws.client.proxy,org.apache.axis2.jaxws
+ .context,org.apache.axis2.jaxws.context.factory,org.apache.axis2.jaxw
+ s.context.listener,org.apache.axis2.jaxws.context.utils,org.apache.ax
+ is2.jaxws.core,org.apache.axis2.jaxws.core.controller,org.apache.axis
+ 2.jaxws.core.controller.impl,org.apache.axis2.jaxws.core.util,org.apa
+ che.axis2.jaxws.dispatchers,org.apache.axis2.jaxws.feature,org.apache
+ .axis2.jaxws.framework,org.apache.axis2.jaxws.handler,org.apache.axis
+ 2.jaxws.handler.factory,org.apache.axis2.jaxws.handler.factory.impl,o
+ rg.apache.axis2.jaxws.handler.impl,org.apache.axis2.jaxws.handler.lif
+ ecycle.factory,org.apache.axis2.jaxws.handler.lifecycle.impl,org.apac
+ he.axis2.jaxws.injection,org.apache.axis2.jaxws.lifecycle,org.apache.
+ axis2.jaxws.marshaller,org.apache.axis2.jaxws.marshaller.factory,org.
+ apache.axis2.jaxws.marshaller.impl.alt,org.apache.axis2.jaxws.message
+ ,org.apache.axis2.jaxws.message.attachments,org.apache.axis2.jaxws.me
+ ssage.databinding,org.apache.axis2.jaxws.message.databinding.impl,org
+ .apache.axis2.jaxws.message.factory,org.apache.axis2.jaxws.message.im
+ pl,org.apache.axis2.jaxws.message.util,org.apache.axis2.jaxws.message
+ .util.impl,org.apache.axis2.jaxws.registry,org.apache.axis2.jaxws.run
+ time.description.injection,org.apache.axis2.jaxws.runtime.description
+ .injection.impl,org.apache.axis2.jaxws.runtime.description.marshal,or
+ g.apache.axis2.jaxws.runtime.description.marshal.impl,org.apache.axis
+ 2.jaxws.server,org.apache.axis2.jaxws.server.dispatcher,org.apache.ax
+ is2.jaxws.server.dispatcher.factory,org.apache.axis2.jaxws.server.end
+ point,org.apache.axis2.jaxws.server.endpoint.injection,org.apache.axi
+ s2.jaxws.server.endpoint.injection.factory,org.apache.axis2.jaxws.ser
+ ver.endpoint.injection.impl,org.apache.axis2.jaxws.server.endpoint.li
+ fecycle,org.apache.axis2.jaxws.server.endpoint.lifecycle.factory,org.
+ apache.axis2.jaxws.server.endpoint.lifecycle.factory.impl,org.apache.
+ axis2.jaxws.server.endpoint.lifecycle.impl,org.apache.axis2.jaxws.spi
+ ,org.apache.axis2.jaxws.spi.handler,org.apache.axis2.jaxws.spi.migrat
+ or,org.apache.axis2.jaxws.utility,org.apache.axis2.jaxws.wrapper,org.
+ apache.axis2.jaxws.wrapper.impl,org.apache.axis2.jaxws.wsdl,org.apach
+ e.axis2.jaxws.wsdl.impl,org.apache.axis2.modules,org.apache.axis2.nam
+ espace,org.apache.axis2.phaseresolver,org.apache.axis2.receivers,org.
+ apache.axis2.service,org.apache.axis2.transaction,org.apache.axis2.tr
+ ansport,org.apache.axis2.transport.http,org.apache.axis2.transport.ht
+ tp.server,org.apache.axis2.transport.http.util,org.apache.axis2.util,
+ org.apache.axis2.util.threadpool,org.apache.axis2.wsdl,org.apache.axi
+ s2.wsdl.util,org.apache.commons.fileupload.disk,org.apache.commons.ht
+ tpclient,org.apache.commons.httpclient.methods,org.apache.commons.htt
+ pclient.methods.multipart,org.apache.commons.httpclient.params,org.ap
+ ache.commons.httpclient.protocol,org.apache.commons.logging,org.apach
+ e.http,org.apache.http.params,org.apache.http.protocol,org.apache.nee
+ thi,org.apache.woden.resolver,org.apache.woden.wsdl20,org.apache.ws.c
+ ommons.schema,org.apache.ws.commons.schema.resolver,org.apache.ws.com
+ mons.schema.utils,org.w3c.dom,org.xml.sax"
+Bundle-Version: 1.7.0.001
+Bundle-Name: Axis2 Core
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: The core of Apache Axis2
+Import-Package: javax.activation;version="[1.0.0,2.0.0)",javax.mail.in
+ ternet;version="[1.4.0,2.0.0)",javax.mail.util;version="[1.4.0,2.0.0)
+ ",javax.net.ssl,javax.servlet;version="[2.0.0,3.0.0)",javax.servlet.h
+ ttp;version="[2.0.0,3.0.0)",javax.transaction;version="[1.0.0,2.0.0)"
+ ,javax.wsdl;version="[1.0.0,2.0.0)",javax.wsdl.extensions;version="[1
+ .0.0,2.0.0)",javax.wsdl.extensions.soap;version="[1.0.0,2.0.0)",javax
+ .wsdl.extensions.soap12;version="[1.0.0,2.0.0)",javax.wsdl.xml;versio
+ n="[1.0.0,2.0.0)",javax.xml.namespace;version="[1.0.0,2.0.0)",javax.x
+ ml.parsers;version="[1.3.0,2.0.0)",javax.xml.stream;version="[1.0.0,2
+ .0.0)",javax.xml.transform;version="[1.3.0,2.0.0)",org.apache.axiom.a
+ ttachments;version="[2.2.0,3.0.0)",org.apache.axiom.attachments.lifec
+ ycle;version="[2.2.0,3.0.0)",org.apache.axiom.attachments.lifecycle.i
+ mpl;version="[2.2.0,3.0.0)",org.apache.axiom.om;version="[2.2.0,3.0.0
+ )",org.apache.axiom.om.impl;version="[2.2.0,3.0.0)",org.apache.axiom.
+ om.impl.builder;version="[2.2.0,3.0.0)",org.apache.axiom.om.util;vers
+ ion="[2.2.0,3.0.0)",org.apache.axiom.soap;version="[2.2.0,3.0.0)",org
+ .apache.axiom.soap.impl.builder;version="[2.2.0,3.0.0)",org.apache.ax
+ iom.util;version="[2.2.0,3.0.0)",org.apache.axis2;version="[3.0.0,4.0
+ .0)",org.apache.axis2.addressing;version="[3.0.0,4.0.0)",org.apache.a
+ xis2.addressing.i18n;version="[3.0.0,4.0.0)",org.apache.axis2.address
+ ing.metadata;version="[3.0.0,4.0.0)",org.apache.axis2.addressing.wsdl
+ ;version="[3.0.0,4.0.0)",org.apache.axis2.builder;version="[3.0.0,4.0
+ .0)",org.apache.axis2.builder.unknowncontent;version="[3.0.0,4.0.0)",
+ org.apache.axis2.classloader;version="[3.0.0,4.0.0)",org.apache.axis2
+ .client;version="[3.0.0,4.0.0)",org.apache.axis2.client.async;version
+ ="[3.0.0,4.0.0)",org.apache.axis2.clustering;version="[3.0.0,4.0.0)",
+ org.apache.axis2.clustering.management;version="[3.0.0,4.0.0)",org.ap
+ ache.axis2.clustering.state;version="[3.0.0,4.0.0)",org.apache.axis2.
+ context;version="[3.0.0,4.0.0)",org.apache.axis2.context.externalize;
+ version="[3.0.0,4.0.0)",org.apache.axis2.dataretrieval;version="[3.0.
+ 0,4.0.0)",org.apache.axis2.dataretrieval.client;version="[3.0.0,4.0.0
+ )",org.apache.axis2.deployment;version="[3.0.0,4.0.0)",org.apache.axi
+ s2.deployment.repository.util;version="[3.0.0,4.0.0)",org.apache.axis
+ 2.deployment.resolver;version="[3.0.0,4.0.0)",org.apache.axis2.deploy
+ ment.scheduler;version="[3.0.0,4.0.0)",org.apache.axis2.deployment.ut
+ il;version="[3.0.0,4.0.0)",org.apache.axis2.description;version="[3.0
+ .0,4.0.0)",org.apache.axis2.description.java2wsdl;version="[3.0.0,4.0
+ .0)",org.apache.axis2.description.java2wsdl.bytecode;version="[3.0.0,
+ 4.0.0)",org.apache.axis2.dispatchers;version="[3.0.0,4.0.0)",org.apac
+ he.axis2.engine;version="[3.0.0,4.0.0)",org.apache.axis2.handlers;ver
+ sion="[3.0.0,4.0.0)",org.apache.axis2.i18n;version="[3.0.0,4.0.0)",or
+ g.apache.axis2.java.security;version="[3.0.0,4.0.0)",org.apache.axis2
+ .jaxrs;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws;version="[3.0.0
+ ,4.0.0)",org.apache.axis2.jaxws.addressing;version="[3.0.0,4.0.0)",or
+ g.apache.axis2.jaxws.addressing.factory;version="[3.0.0,4.0.0)",org.a
+ pache.axis2.jaxws.addressing.factory.impl;version="[3.0.0,4.0.0)",org
+ .apache.axis2.jaxws.addressing.migrator;version="[3.0.0,4.0.0)",org.a
+ pache.axis2.jaxws.addressing.util;version="[3.0.0,4.0.0)",org.apache.
+ axis2.jaxws.api;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.bindin
+ g;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.client;version="[3.0
+ .0,4.0.0)",org.apache.axis2.jaxws.client.async;version="[3.0.0,4.0.0)
+ ",org.apache.axis2.jaxws.client.config;version="[3.0.0,4.0.0)",org.ap
+ ache.axis2.jaxws.client.dispatch;version="[3.0.0,4.0.0)",org.apache.a
+ xis2.jaxws.client.proxy;version="[3.0.0,4.0.0)",org.apache.axis2.jaxw
+ s.context;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.context.fact
+ ory;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.context.listener;v
+ ersion="[3.0.0,4.0.0)",org.apache.axis2.jaxws.context.utils;version="
+ [3.0.0,4.0.0)",org.apache.axis2.jaxws.core;version="[3.0.0,4.0.0)",or
+ g.apache.axis2.jaxws.core.controller;version="[3.0.0,4.0.0)",org.apac
+ he.axis2.jaxws.core.controller.impl;version="[3.0.0,4.0.0)",org.apach
+ e.axis2.jaxws.core.util;version="[3.0.0,4.0.0)",org.apache.axis2.jaxw
+ s.dispatchers;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.feature;
+ version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.framework;version="[3.
+ 0.0,4.0.0)",org.apache.axis2.jaxws.handler;version="[3.0.0,4.0.0)",or
+ g.apache.axis2.jaxws.handler.factory;version="[3.0.0,4.0.0)",org.apac
+ he.axis2.jaxws.handler.factory.impl;version="[3.0.0,4.0.0)",org.apach
+ e.axis2.jaxws.handler.impl;version="[3.0.0,4.0.0)",org.apache.axis2.j
+ axws.handler.lifecycle.factory;version="[3.0.0,4.0.0)",org.apache.axi
+ s2.jaxws.handler.lifecycle.impl;version="[3.0.0,4.0.0)",org.apache.ax
+ is2.jaxws.injection;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.li
+ fecycle;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.marshaller;ver
+ sion="[3.0.0,4.0.0)",org.apache.axis2.jaxws.marshaller.factory;versio
+ n="[3.0.0,4.0.0)",org.apache.axis2.jaxws.marshaller.impl.alt;version=
+ "[3.0.0,4.0.0)",org.apache.axis2.jaxws.message;version="[3.0.0,4.0.0)
+ ",org.apache.axis2.jaxws.message.attachments;version="[3.0.0,4.0.0)",
+ org.apache.axis2.jaxws.message.databinding;version="[3.0.0,4.0.0)",or
+ g.apache.axis2.jaxws.message.databinding.impl;version="[3.0.0,4.0.0)"
+ ,org.apache.axis2.jaxws.message.factory;version="[3.0.0,4.0.0)",org.a
+ pache.axis2.jaxws.message.impl;version="[3.0.0,4.0.0)",org.apache.axi
+ s2.jaxws.message.util;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.
+ message.util.impl;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.regi
+ stry;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.runtime.descripti
+ on.injection;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.runtime.d
+ escription.injection.impl;version="[3.0.0,4.0.0)",org.apache.axis2.ja
+ xws.runtime.description.marshal;version="[3.0.0,4.0.0)",org.apache.ax
+ is2.jaxws.runtime.description.marshal.impl;version="[3.0.0,4.0.0)",or
+ g.apache.axis2.jaxws.server;version="[3.0.0,4.0.0)",org.apache.axis2.
+ jaxws.server.dispatcher;version="[3.0.0,4.0.0)",org.apache.axis2.jaxw
+ s.server.dispatcher.factory;version="[3.0.0,4.0.0)",org.apache.axis2.
+ jaxws.server.endpoint;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.
+ server.endpoint.injection;version="[3.0.0,4.0.0)",org.apache.axis2.ja
+ xws.server.endpoint.injection.factory;version="[3.0.0,4.0.0)",org.apa
+ che.axis2.jaxws.server.endpoint.injection.impl;version="[3.0.0,4.0.0)
+ ",org.apache.axis2.jaxws.server.endpoint.lifecycle;version="[3.0.0,4.
+ 0.0)",org.apache.axis2.jaxws.server.endpoint.lifecycle.factory;versio
+ n="[3.0.0,4.0.0)",org.apache.axis2.jaxws.server.endpoint.lifecycle.fa
+ ctory.impl;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.server.endp
+ oint.lifecycle.impl;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.sp
+ i;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.spi.handler;version=
+ "[3.0.0,4.0.0)",org.apache.axis2.jaxws.spi.migrator;version="[3.0.0,4
+ .0.0)",org.apache.axis2.jaxws.utility;version="[3.0.0,4.0.0)",org.apa
+ che.axis2.jaxws.wrapper;version="[3.0.0,4.0.0)",org.apache.axis2.jaxw
+ s.wrapper.impl;version="[3.0.0,4.0.0)",org.apache.axis2.jaxws.wsdl;ve
+ rsion="[3.0.0,4.0.0)",org.apache.axis2.jaxws.wsdl.impl;version="[3.0.
+ 0,4.0.0)",org.apache.axis2.jsr181;version="[3.0.0,4.0.0)",org.apache.
+ axis2.modules;version="[3.0.0,4.0.0)",org.apache.axis2.namespace;vers
+ ion="[3.0.0,4.0.0)",org.apache.axis2.phaseresolver;version="[3.0.0,4.
+ 0.0)",org.apache.axis2.receivers;version="[3.0.0,4.0.0)",org.apache.a
+ xis2.service;version="[3.0.0,4.0.0)",org.apache.axis2.transaction;ver
+ sion="[3.0.0,4.0.0)",org.apache.axis2.transport;version="[3.0.0,4.0.0
+ )",org.apache.axis2.transport.http;version="[3.0.0,4.0.0)",org.apache
+ .axis2.transport.http.server;version="[3.0.0,4.0.0)",org.apache.axis2
+ .transport.http.util;version="[3.0.0,4.0.0)",org.apache.axis2.util;ve
+ rsion="[3.0.0,4.0.0)",org.apache.axis2.util.threadpool;version="[3.0.
+ 0,4.0.0)",org.apache.axis2.wsdl;version="[3.0.0,4.0.0)",org.apache.ax
+ is2.wsdl.util;version="[3.0.0,4.0.0)",org.apache.commons.codec;versio
+ n="1.3.200",org.apache.commons.fileupload;version="[1.2.0,2.0.0)",org
+ .apache.commons.fileupload.disk;version="[1.2.0,2.0.0)",org.apache.co
+ mmons.httpclient;version="[3.0.0,4.0.0)",org.apache.commons.httpclien
+ t.methods;version="[3.0.0,4.0.0)",org.apache.commons.httpclient.metho
+ ds.multipart;version="[3.0.0,4.0.0)",org.apache.commons.httpclient.pa
+ rams;version="[3.0.0,4.0.0)",org.apache.commons.httpclient.protocol;v
+ ersion="[3.0.0,4.0.0)",org.apache.commons.logging;version="[1.3.1,2.0
+ .0)",org.apache.http;version="[4.0.1,5.0.0)",org.apache.http.params;v
+ ersion="[4.0.1,5.0.0)",org.apache.http.protocol;version="[4.0.1,5.0.0
+ )",org.apache.neethi;version="[3.0.0,4.0.0)",org.apache.woden.resolve
+ r;version="[1.0.0,2.0.0)",org.apache.woden.wsdl20;version="[1.0.0,2.0
+ .0)",org.apache.ws.commons.schema;version="[2.0.100,3.0.0)",org.apach
+ e.ws.commons.schema.resolver;version="[2.0.100,3.0.0)",org.apache.ws.
+ commons.schema.utils;version="[2.0.100,3.0.0)",org.w3c.dom;version="[
+ 3.0.0,4.0.0)",org.xml.sax;version="[2.0.2,3.0.0)"
+Bundle-SymbolicName: com.tibco.bw.tpcl.org.apache.axis2.core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

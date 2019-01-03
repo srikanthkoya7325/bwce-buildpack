@@ -1,0 +1,143 @@
+Manifest-Version: 1.0
+Export-Package: com.sun.istack;version="2.10.0"; uses:="javax.activati
+ on,  javax.xml.stream,  org.xml.sax.helpers,  org.xml.sax",com.sun.is
+ tack.localization;version="2.10.0",com.sun.istack.logging;version="2.
+ 10.0",com.sun.xml.bind;version="2.10.0"; uses:="javax.xml.bind.annota
+ tion.adapters,  javax.xml.namespace,  org.xml.sax,  com.sun.xml.bind.
+ v2.runtime.reflect,  javax.xml.bind",com.sun.xml.bind.annotation;vers
+ ion="2.10.0",com.sun.xml.bind.api;version="2.10.0"; uses:="org.w3c.do
+ m,  javax.xml.namespace,  org.xml.sax,  com.sun.xml.bind.v2.runtime, 
+  javax.xml.bind.attachment,  javax.xml.stream,  com.sun.xml.bind.v2.m
+ odel.runtime,  javax.xml.transform,  com.sun.xml.bind.v2.model.annota
+ tion,  javax.xml.bind",com.sun.xml.bind.api.impl;version="2.10.0",com
+ .sun.xml.bind.marshaller;version="2.10.0";uses:="org.xml.sax.helpers,
+ org.w3c.dom,org.xml.sax",com.sun.xml.bind.unmarshaller;version="2.10.
+ 0"; uses:="javax.xml.bind,  com.sun.xml.bind.v2.runtime.unmarshaller,
+   org.w3c.dom,  org.xml.sax",com.sun.xml.bind.util;version="2.10.0";u
+ ses:="javax.xml.bind.helpers,com.sun.xml.bind,org.xml.sax",com.sun.xm
+ l.bind.v2;version="2.10.0";uses:="com.sun.xml.bind.v2.model.annotatio
+ n,com.sun.xml.bind.api,javax.xml.bind",com.sun.xml.bind.v2.bytecode;v
+ ersion="2.10.0",com.sun.xml.bind.v2.model.annotation;version="2.10.0"
+ ; uses:="com.sun.xml.bind.v2.runtime,  com.sun.xml.bind.v2.model.core
+ ,  javax.xml.bind.annotation,  com.sun.xml.bind.v2.model.nav",com.sun
+ .xml.bind.v2.model.core;version="2.10.0"; uses:="javax.activation,  c
+ om.sun.xml.bind.v2.runtime,  com.sun.xml.bind.v2.model.impl,  javax.x
+ ml.transform,  javax.xml.bind.annotation,  com.sun.xml.bind.v2.model.
+ nav,  com.sun.xml.bind.v2.model.annotation,  javax.xml.bind.annotatio
+ n.adapters,  javax.xml.namespace",com.sun.xml.bind.v2.model.impl;vers
+ ion="2.10.0"; uses:="com.sun.istack,  com.sun.xml.bind.v2.model.nav, 
+  com.sun.xml.bind.v2.runtime.unmarshaller,  javax.xml.namespace,  com
+ .sun.xml.bind.v2.runtime,  com.sun.xml.bind.v2.model.runtime,  com.su
+ n.xml.bind.v2.runtime.output,  com.sun.xml.bind,  com.sun.xml.bind.v2
+ .model.annotation,  com.sun.xml.bind.v2.model.impl,  javax.xml.dataty
+ pe,  javax.activation,  com.sun.xml.bind.v2.model.core,  javax.xml.tr
+ ansform,  javax.xml.bind.annotation,  com.sun.xml.bind.v2.runtime.ref
+ lect",com.sun.xml.bind.v2.model.nav;version="2.10.0";uses:="com.sun.x
+ ml.bind.v2.runtime",com.sun.xml.bind.v2.model.runtime;version="2.10.0
+ "; uses:="com.sun.xml.bind.v2.runtime,  com.sun.xml.bind.v2.model.cor
+ e,  com.sun.xml.bind.v2.model.nav,  com.sun.xml.bind.v2.runtime.refle
+ ct,  javax.xml.namespace",com.sun.xml.bind.v2.runtime;version="2.10.0
+ "; uses:="com.sun.istack,  com.sun.xml.bind.v2.runtime.property,  com
+ .sun.xml.bind.v2.runtime.unmarshaller,  org.xml.sax,  javax.xml.names
+ pace,  javax.xml.bind.helpers,  javax.xml.stream,  com.sun.xml.bind.v
+ 2.model.runtime,  com.sun.xml.bind.v2.runtime.output,  com.sun.xml.bi
+ nd,  com.sun.xml.bind.v2.model.annotation,  javax.xml.transform.sax, 
+  com.sun.xml.bind.unmarshaller,  com.sun.xml.bind.v2.util,  javax.xml
+ .bind.annotation.adapters,  com.sun.xml.bind.api,  org.w3c.dom,  java
+ x.activation,  javax.xml.bind.attachment,  com.sun.xml.bind.v2.model.
+ core,  javax.xml.transform,  javax.xml.bind.annotation,  com.sun.xml.
+ bind.marshaller,  javax.xml.validation,  com.sun.xml.bind.v2.runtime.
+ reflect,  javax.xml.bind,  org.xml.sax.helpers",com.sun.xml.bind.v2.r
+ untime.output;version="2.10.0"; uses:="com.sun.xml.fastinfoset.stax, 
+  com.sun.xml.bind.v2.runtime.output,  org.w3c.dom,  org.xml.sax,  com
+ .sun.xml.bind.v2.runtime,  javax.xml.stream,  com.sun.xml.bind.marsha
+ ller,  org.jvnet.staxex,  org.jvnet.fastinfoset",com.sun.xml.bind.v2.
+ runtime.property;version="2.10.0"; uses:="com.sun.xml.bind.v2.runtime
+ ,  com.sun.xml.bind.v2.model.core,  com.sun.xml.bind.v2.model.runtime
+ ,  com.sun.xml.bind.v2.util,  com.sun.xml.bind.v2.runtime.reflect,  c
+ om.sun.xml.bind.v2.runtime.unmarshaller,  javax.xml.namespace",com.su
+ n.xml.bind.v2.runtime.reflect;version="2.10.0"; uses:="com.sun.xml.bi
+ nd.v2.runtime,  com.sun.xml.bind.v2.model.core,  com.sun.xml.bind.v2.
+ model.runtime,  javax.xml.bind.annotation.adapters,  com.sun.xml.bind
+ .v2.runtime.reflect,  javax.xml.bind,  com.sun.xml.bind.v2.runtime.un
+ marshaller",com.sun.xml.bind.v2.runtime.reflect.opt;version="2.10.0";
+ uses:="com.sun.xml.bind.v2.runtime,com.sun.xml.bind.v2.model.runtime,
+ com.sun.xml.bind.v2.runtime.reflect",com.sun.xml.bind.v2.runtime.unma
+ rshaller;version="2.10.0"; uses:="com.sun.xml.bind.util,  org.xml.sax
+ ,  javax.xml.namespace,  javax.xml.bind.helpers,  com.sun.xml.bind.v2
+ .runtime,  javax.xml.stream,  com.sun.xml.bind.v2.runtime.output,  co
+ m.sun.xml.bind,  org.jvnet.staxex,  com.sun.xml.bind.unmarshaller,  j
+ avax.xml.transform.sax,  com.sun.xml.fastinfoset.stax,  javax.xml.bin
+ d.annotation.adapters,  com.sun.xml.bind.api,  org.w3c.dom,  javax.ac
+ tivation,  javax.xml.bind.attachment,  com.sun.xml.bind.v2.model.core
+ ,  javax.xml.transform,  javax.xml.bind.annotation,  javax.xml.valida
+ tion,  com.sun.xml.bind.v2.runtime.reflect,  javax.xml.bind,  com.sun
+ .xml.bind.v2.runtime.unmarshaller",com.sun.xml.bind.v2.schemagen;vers
+ ion="2.10.0"; uses:="com.sun.xml.bind.v2.util,  com.sun.xml.bind.v2.m
+ odel.nav,  com.sun.xml.bind.api,  com.sun.xml.txw2.output,  javax.xml
+ .namespace,  com.sun.xml.bind.v2.model.core,  com.sun.xml.bind.v2.sch
+ emagen.xmlschema,  javax.xml.transform,  com.sun.xml.bind.v2.schemage
+ n,  javax.xml.bind.annotation,  javax.xml.bind",com.sun.xml.bind.v2.s
+ chemagen.episode;version="2.10.0";uses:="com.sun.xml.txw2",com.sun.xm
+ l.bind.v2.schemagen.xmlschema;version="2.10.0";uses:="com.sun.xml.txw
+ 2,javax.xml.namespace",com.sun.xml.bind.v2.util;version="2.10.0"; use
+ s:="javax.activation,  com.sun.xml.bind.v2.runtime,  javax.xml.transf
+ orm.stream,  com.sun.xml.bind.v2.runtime.unmarshaller,  javax.xml.nam
+ espace,  org.xml.sax",com.sun.xml.txw2;version="2.10.0";uses:="com.su
+ n.xml.txw2,com.sun.xml.txw2.output,javax.xml.namespace",com.sun.xml.t
+ xw2.annotation;version="2.10.0",com.sun.xml.txw2.output;version="2.10
+ .0"; uses:="javax.xml.transform.dom,  org.w3c.dom,  org.xml.sax,  jav
+ ax.xml.namespace,  javax.xml.stream,  com.sun.xml.txw2,  org.xml.sax.
+ ext,  javax.xml.transform,  javax.xml.transform.stream,  javax.xml.tr
+ ansform.sax,  org.xml.sax.helpers"
+Bundle-Vendor: %providerName
+Bundle-ClassPath: jaxb-core.jar,jaxb-impl.jar
+Bundle-Version: 2.10.0.001
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Import-Package: com.sun.istack;version="[2.10.0,3.0.0)",com.sun.istack
+ .localization;version="[2.10.0,3.0.0)",com.sun.istack.logging;version
+ ="[2.10.0,3.0.0)",com.sun.xml.bind;version="[2.10.0,3.0.0)",com.sun.x
+ ml.bind.annotation;version="[2.10.0,3.0.0)",com.sun.xml.bind.api;vers
+ ion="[2.10.0,3.0.0)",com.sun.xml.bind.api.impl;version="[2.10.0,3.0.0
+ )",com.sun.xml.bind.marshaller;version="[2.10.0,3.0.0)",com.sun.xml.b
+ ind.unmarshaller;version="[2.10.0,3.0.0)",com.sun.xml.bind.util;versi
+ on="[2.10.0,3.0.0)",com.sun.xml.bind.v2;version="[2.10.0,3.0.0)",com.
+ sun.xml.bind.v2.bytecode;version="[2.10.0,3.0.0)",com.sun.xml.bind.v2
+ .model.annotation;version="[2.10.0,3.0.0)",com.sun.xml.bind.v2.model.
+ core;version="[2.10.0,3.0.0)",com.sun.xml.bind.v2.model.impl;version=
+ "[2.10.0,3.0.0)",com.sun.xml.bind.v2.model.nav;version="[2.10.0,3.0.0
+ )",com.sun.xml.bind.v2.model.runtime;version="[2.10.0,3.0.0)",com.sun
+ .xml.bind.v2.runtime;version="[2.10.0,3.0.0)",com.sun.xml.bind.v2.run
+ time.output;version="[2.10.0,3.0.0)",com.sun.xml.bind.v2.runtime.prop
+ erty;version="[2.10.0,3.0.0)",com.sun.xml.bind.v2.runtime.reflect;ver
+ sion="[2.10.0,3.0.0)",com.sun.xml.bind.v2.runtime.reflect.opt;version
+ ="[2.10.0,3.0.0)",com.sun.xml.bind.v2.runtime.unmarshaller;version="[
+ 2.10.0,3.0.0)",com.sun.xml.bind.v2.schemagen;version="[2.10.0,3.0.0)"
+ ,com.sun.xml.bind.v2.schemagen.episode;version="[2.10.0,3.0.0)",com.s
+ un.xml.bind.v2.schemagen.xmlschema;version="[2.10.0,3.0.0)",com.sun.x
+ ml.bind.v2.util;version="[2.10.0,3.0.0)",com.sun.xml.txw2;version="[2
+ .10.0,3.0.0)",com.sun.xml.txw2.annotation;version="[2.10.0,3.0.0)",co
+ m.sun.xml.txw2.output;version="[2.10.0,3.0.0)",javax.activation;versi
+ on="[1.1.0,2.0.0)",javax.imageio;version="0.0.0",javax.imageio.stream
+ ;version="0.0.0",javax.xml.bind;version="[2.2.0,3.0.0)",javax.xml.bin
+ d.annotation;version="[2.2.0,3.0.0)",javax.xml.bind.annotation.adapte
+ rs;version="[2.2.0,3.0.0)",javax.xml.bind.attachment;version="[2.2.0,
+ 3.0.0)",javax.xml.bind.helpers;version="[2.2.0,3.0.0)",javax.xml.bind
+ .util;version="[2.2.0,3.0.0)",javax.xml.datatype;version="[1.4.0,2.0.
+ 0)",javax.xml.namespace;version="[1.2.0,2.0.0)",javax.xml.parsers;ver
+ sion="[1.4.0,2.0.0)",javax.xml.stream;version="[1.2.0,2.0.0)",javax.x
+ ml.stream.events;version="[1.2.0,2.0.0)",javax.xml.stream.util;versio
+ n="[1.2.0,2.0.0)",javax.xml.transform;version="[1.4.0,2.0.0)",javax.x
+ ml.transform.dom;version="[1.4.0,2.0.0)",javax.xml.transform.sax;vers
+ ion="[1.4.0,2.0.0)",javax.xml.transform.stax;version="[1.4.0,2.0.0)",
+ javax.xml.transform.stream;version="[1.4.0,2.0.0)",javax.xml.validati
+ on;version="[1.4.0,2.0.0)",javax.xml.xpath;version="[1.4.0,2.0.0)",or
+ g.w3c.dom;version="[3.0.0,4.0.0)",org.xml.sax;version="[2.0.2,3.0.0)"
+ ,org.xml.sax.ext;version="[2.0.2,3.0.0)",org.xml.sax.helpers;version=
+ "[2.0.2,3.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.javax.xml.bind
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

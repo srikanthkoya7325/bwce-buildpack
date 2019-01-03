@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/datasourcefactorycomponent.xml
+Export-Package: com.tibco.bw.tpcl.jdbc.datasourcefactory.postgresql;ve
+ rsion="9.2.100";uses:="javax.sql,org.osgi.service.jdbc"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,lib/postgresql-9.4.1212.jar
+Bundle-Version: 9.4.0.001
+Bundle-Name: TIBCO BW PostgreSQL Driver DataSource Factory
+Bundle-ManifestVersion: 2
+Import-Package: org.osgi.framework;version="[1.6.0,2.0.0)",org.osgi.se
+ rvice.jdbc;version="[1.0.0,2.0.0)"
+Bundle-SymbolicName: com.tibco.bw.tpcl.jdbc.datasourcefactory.postgres
+ ql
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

@@ -1,0 +1,82 @@
+Manifest-Version: 1.0
+Export-Package: org.genxdm.processor.w3c.xs;version="1.3";uses:="javax
+ .xml.namespace,org.genxdm,org.genxdm.xs,org.genxdm.xs.exceptions,org.
+ genxdm.xs.facets,org.genxdm.xs.resolve",org.genxdm.processor.w3c.xs.e
+ xception;version="1.3";uses:="org.genxdm.xs.exceptions",org.genxdm.pr
+ ocessor.w3c.xs.exception.cvc;version="1.3";uses:="javax.xml.namespace
+ ,org.genxdm.processor.w3c.xs.exception.sm,org.genxdm.xs.components,or
+ g.genxdm.xs.exceptions,org.genxdm.xs.resolve,org.genxdm.xs.types",org
+ .genxdm.processor.w3c.xs.exception.scc;version="1.3";uses:="javax.xml
+ .namespace,org.genxdm.xs.enums,org.genxdm.xs.exceptions,org.genxdm.xs
+ .facets,org.genxdm.xs.resolve,org.genxdm.xs.types",org.genxdm.process
+ or.w3c.xs.exception.sm;version="1.3";uses:="javax.xml.namespace,org.g
+ enxdm.processor.w3c.xs.exception.cvc,org.genxdm.processor.w3c.xs.exce
+ ption.src,org.genxdm.xs.enums,org.genxdm.xs.exceptions,org.genxdm.xs.
+ resolve",org.genxdm.processor.w3c.xs.exception.src;version="1.3";uses
+ :="javax.xml.namespace,org.genxdm.processor.w3c.xs.exception.cvc,org.
+ genxdm.processor.w3c.xs.exception.sm,org.genxdm.xs.enums,org.genxdm.x
+ s.exceptions,org.genxdm.xs.resolve",org.genxdm.processor.w3c.xs.regex
+ ;version="1.3";uses:="org.genxdm.xs.exceptions,org.genxdm.xs.facets",
+ org.genxdm.processor.w3c.xs.regex.api;version="1.3",org.genxdm.proces
+ sor.w3c.xs.regex.nfa;version="1.3";uses:="org.genxdm.processor.w3c.xs
+ .regex.api",org.genxdm.processor.w3c.xs.regex.string;version="1.3",or
+ g.genxdm.processor.w3c.xs.xmlrep;version="1.3";uses:="javax.xml.names
+ pace,javax.xml.stream,org.genxdm.processor.w3c.xs.exception.sm,org.ge
+ nxdm.processor.w3c.xs.xmlrep.components,org.genxdm.processor.w3c.xs.x
+ mlrep.util,org.genxdm.xs.components,org.genxdm.xs.constraints,org.gen
+ xdm.xs.enums,org.genxdm.xs.exceptions",org.genxdm.processor.w3c.xs.xm
+ lrep.exceptions;version="1.3";uses:="org.genxdm.processor.w3c.xs.xmlr
+ ep.util,org.genxdm.xs.components,org.genxdm.xs.constraints,org.genxdm
+ .xs.exceptions,org.genxdm.xs.types",org.genxdm.processor.w3c.xs.xmlre
+ p.components;version="1.3";uses:="javax.xml.namespace,org.genxdm.proc
+ essor.w3c.xs.xmlrep,org.genxdm.processor.w3c.xs.xmlrep.facets,org.gen
+ xdm.processor.w3c.xs.xmlrep.particles,org.genxdm.processor.w3c.xs.xml
+ rep.util,org.genxdm.xs.components,org.genxdm.xs.constraints,org.genxd
+ m.xs.enums",org.genxdm.processor.w3c.xs.xmlrep.facets;version="1.3";u
+ ses:="org.genxdm.names,org.genxdm.processor.w3c.xs.xmlrep.components,
+ org.genxdm.processor.w3c.xs.xmlrep.util,org.genxdm.xs.facets",org.gen
+ xdm.processor.w3c.xs.xmlrep.particles;version="1.3";uses:="org.genxdm
+ .processor.w3c.xs.xmlrep,org.genxdm.processor.w3c.xs.xmlrep.component
+ s,org.genxdm.processor.w3c.xs.xmlrep.util,org.genxdm.xs.constraints,o
+ rg.genxdm.xs.enums",org.genxdm.processor.w3c.xs.xmlrep.util;version="
+ 1.3";uses:="javax.xml.namespace,javax.xml.stream,org.genxdm.processor
+ .w3c.xs.xmlrep.components,org.genxdm.xs.components,org.genxdm.xs.cons
+ traints,org.genxdm.xs.resolve,org.genxdm.xs.types"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: org.genxdm.processor.w3c.xs_1.3.0.jar
+Bundle-Version: 1.3.0.001
+Bundle-Name: GenXDM W3C XML Schema Parser
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: GenXDM enables applications to write code that use
+ s and manipulates XML trees without being tied to a particular XML tr
+ ee representation like DOM, DOM4J, AXIOM, or any other. It also prods
+  developers towards an immutable view of XML trees, which will make i
+ t easier and faster to work with XML across multiple cores and multip
+ le processors.
+Import-Package: javax.xml;version="[1.0,2)",javax.xml.namespace;versio
+ n="[1.1,2)",javax.xml.stream;version="[1.0,2)",org.genxdm;version="[1
+ .3,2)",org.genxdm.bridgekit.atoms;version="[1.3,2)",org.genxdm.bridge
+ kit.misc;version="[1.3,2)",org.genxdm.bridgekit.xs;version="[1.3,2)",
+ org.genxdm.bridgekit.xs.complex;version="[1.3,2)",org.genxdm.bridgeki
+ t.xs.constraint;version="[1.3,2)",org.genxdm.bridgekit.xs.simple;vers
+ ion="[1.3,2)",org.genxdm.exceptions;version="[1.3,2)",org.genxdm.name
+ s;version="[1.3,2)",org.genxdm.processor.w3c.xs.exception;version="[1
+ .3,2)",org.genxdm.processor.w3c.xs.exception.cvc;version="[1.3,2)",or
+ g.genxdm.processor.w3c.xs.exception.scc;version="[1.3,2)",org.genxdm.
+ processor.w3c.xs.exception.sm;version="[1.3,2)",org.genxdm.processor.
+ w3c.xs.exception.src;version="[1.3,2)",org.genxdm.processor.w3c.xs.xm
+ lrep;version="[1.3,2)",org.genxdm.processor.w3c.xs.xmlrep.components;
+ version="[1.3,2)",org.genxdm.processor.w3c.xs.xmlrep.exceptions;versi
+ on="[1.3,2)",org.genxdm.processor.w3c.xs.xmlrep.facets;version="[1.3,
+ 2)",org.genxdm.processor.w3c.xs.xmlrep.particles;version="[1.3,2)",or
+ g.genxdm.processor.w3c.xs.xmlrep.util;version="[1.3,2)",org.genxdm.ty
+ ped.types;version="[1.3,2)",org.genxdm.xs;version="[1.3,2)",org.genxd
+ m.xs.components;version="[1.3,2)",org.genxdm.xs.constraints;version="
+ [1.3,2)",org.genxdm.xs.enums;version="[1.3,2)",org.genxdm.xs.exceptio
+ ns;version="[1.3,2)",org.genxdm.xs.facets;version="[1.3,2)",org.genxd
+ m.xs.resolve;version="[1.3,2)",org.genxdm.xs.types;version="[1.3,2)"
+Bundle-SymbolicName: com.tibco.tpcl.org.genxdm.processor.w3c.xs
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

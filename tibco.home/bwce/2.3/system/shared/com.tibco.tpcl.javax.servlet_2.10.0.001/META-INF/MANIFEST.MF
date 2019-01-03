@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Export-Package: javax.servlet;version="2.10.0";uses:="javax.servlet.de
+ scriptor,javax.servlet.annotation",javax.servlet.annotation;version="
+ 2.10.0";uses:="javax.servlet",javax.servlet.descriptor;version="2.10.
+ 0",javax.servlet.http;version="2.10.0";uses:="javax.servlet",javax.se
+ rvlet.resources;version="2.10.0",javax.servlet;version="2.10.00";uses
+ :="javax.servlet.descriptor,javax.servlet.annotation",javax.servlet.a
+ nnotation;version="2.10.0";uses:="javax.servlet",javax.servlet.descri
+ ptor;version="2.10.0",javax.servlet.http;version="2.10.0";uses:="java
+ x.servlet",javax.servlet.resources;version="2.10.0"
+Bundle-Vendor: Sun Microsystems, Inc.
+Bundle-ClassPath: lib/geronimo-servlet_3.0_spec-1.0.jar
+Bundle-Version: 2.10.0.001
+Bundle-Name: Java Servlet API
+Bundle-ManifestVersion: 2
+Import-Package: javax.servlet;version="2.6.0",javax.servlet.annotation
+ ;version="2.6.0",javax.servlet.descriptor;version="2.6.0",javax.servl
+ et.http;version="2.6.0",javax.servlet.resources;version="2.6.0"
+Bundle-SymbolicName: com.tibco.tpcl.javax.servlet
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

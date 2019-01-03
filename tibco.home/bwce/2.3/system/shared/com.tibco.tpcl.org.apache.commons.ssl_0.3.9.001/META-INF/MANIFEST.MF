@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-Name: %pluginName
+Bundle-ClassPath: not-yet-commons-ssl-0.3.9.jar
+Import-Package: com.sun.net.ssl;version="0.0.0",com.sun.net.ssl.intern
+ al.ssl;version="0.0.0",javax.crypto;version="0.0.0",javax.crypto.spec
+ ;version="0.0.0",javax.net;version="0.0.0",javax.net.ssl;version="0.0
+ .0",javax.security.auth.x500;version="0.0.0",javax.security.cert;vers
+ ion="0.0.0",javax.xml.parsers;version="[1.3.0,2.0.0)",org.apache.comm
+ ons.httpclient.contrib.ssl;version="[0.3.9,1.0.0)",org.apache.commons
+ .httpclient.params;version="[3.0.1,4.0.0)",org.apache.commons.httpcli
+ ent.protocol;version="[3.0.1,4.0.0)",org.apache.commons.ssl;version="
+ [0.3.9,1.0.0)",org.apache.commons.ssl.asn1;version="[0.3.9,1.0.0)",or
+ g.apache.commons.ssl.rmi;version="[0.3.9,1.0.0)",org.apache.commons.s
+ sl.util;version="[0.3.9,1.0.0)",org.apache.log4j;version="[1.2.13,2.0
+ .0)",org.w3c.dom;version="[3.0.0,4.0.0)"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: %provider
+Bundle-ManifestVersion: 2
+Bundle-Localization: plugin
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.commons.ssl
+Export-Package: org.apache.commons.httpclient.contrib.ssl;version="0.3
+ .9";uses:="org.apache.commons.ssl",org.apache.commons.ssl;version="0.
+ 3.9"; uses:="org.apache.commons.httpclient.params,  org.apache.common
+ s.httpclient.protocol,  javax.crypto,  com.sun.net.ssl,  org.apache.c
+ ommons.ssl.asn1,  javax.net,  javax.net.ssl",org.apache.commons.ssl.a
+ sn1;version="0.3.9",org.apache.commons.ssl.rmi;version="0.3.9",org.ap
+ ache.commons.ssl.util;version="0.3.9"
+Bundle-Version: 0.3.9.001
+

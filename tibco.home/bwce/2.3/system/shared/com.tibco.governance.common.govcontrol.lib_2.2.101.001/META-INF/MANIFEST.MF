@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Export-Package: com.tibco.governance.common.govcontrol.exportimport.ty
+ pes;version="2.2.101"; uses:="javax.xml.stream,  org.apache.xmlbeans,
+   org.w3c.dom,  com.tibco.governance.common.govcontrol.exportimport.t
+ ypesBase,  javax.xml.namespace,  org.apache.xmlbeans.xml.stream",com.
+ tibco.governance.common.govcontrol.exportimport.types.impl;version="2
+ .2.101"; uses:="org.apache.xmlbeans.impl.values,  org.apache.xmlbeans
+ ,  com.tibco.governance.common.govcontrol.exportimport.types,  com.ti
+ bco.governance.common.govcontrol.exportimport.typesBase.impl,  com.ti
+ bco.governance.common.govcontrol.exportimport.typesBase,  javax.xml.n
+ amespace",com.tibco.governance.common.govcontrol.exportimport.typesBa
+ se;version="2.2.101"; uses:="javax.xml.stream,  org.apache.xmlbeans, 
+  org.w3c.dom,  javax.xml.namespace,  org.apache.xmlbeans.xml.stream",
+ com.tibco.governance.common.govcontrol.exportimport.typesBase.impl;ve
+ rsion="2.2.101"; uses:="org.apache.xmlbeans.impl.values,  org.apache.
+ xmlbeans,  javax.xml.namespace,  com.tibco.governance.common.govcontr
+ ol.exportimport.typesBase",com.tibco.governance.common.govcontrol.exp
+ ortimport.typesPer;version="2.2.101"; uses:="javax.xml.stream,  org.a
+ pache.xmlbeans,  com.tibco.governance.common.govcontrol.exportimport.
+ types,  org.w3c.dom,  org.apache.xmlbeans.xml.stream",com.tibco.gover
+ nance.common.govcontrol.exportimport.typesPer.impl;version="2.2.101";
+  uses:="com.tibco.governance.common.govcontrol.exportimport.typesPer,
+   com.tibco.governance.common.govcontrol.exportimport.types.impl,  or
+ g.apache.xmlbeans,  com.tibco.governance.common.govcontrol.exportimpo
+ rt.types"
+Bundle-Vendor: %providerName
+Bundle-ClassPath: .,govcontrolExportImportTypes.jar,actionOnlyECATypes
+ .jar
+Bundle-Version: 2.2.101.001
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Import-Package: com.tibco.governance.common.govcontrol.exportimport.ty
+ pes;version="[2.2.101,3.0.0)",com.tibco.governance.common.govcontrol.
+ exportimport.types.impl;version="[2.2.101,3.0.0)",com.tibco.governanc
+ e.common.govcontrol.exportimport.typesBase;version="[2.2.101,3.0.0)",
+ com.tibco.governance.common.govcontrol.exportimport.typesBase.impl;ve
+ rsion="[2.2.101,3.0.0)",com.tibco.governance.common.govcontrol.export
+ import.typesPer;version="[2.2.101,3.0.0)",com.tibco.governance.common
+ .govcontrol.exportimport.typesPer.impl;version="[2.2.101,3.0.0)",org.
+ apache.xmlbeans;version="[2.4.0,3.0.0)",org.apache.xmlbeans.impl.sche
+ ma;version="[2.4.0,3.0.0)",org.apache.xmlbeans.impl.values;version="[
+ 2.4.0,3.0.0)",org.apache.xmlbeans.xml.stream;version="[2.4.0,3.0.0)",
+ org.w3c.dom;version="[3.0.0,4.0.0)"
+Bundle-SymbolicName: com.tibco.governance.common.govcontrol.lib
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

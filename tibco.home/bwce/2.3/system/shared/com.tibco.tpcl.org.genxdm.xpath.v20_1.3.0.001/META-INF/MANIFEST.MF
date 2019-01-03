@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Export-Package: org.genxdm.xpath.v20;version="1.3";uses:="org.genxdm.t
+ yped,org.genxdm.typed.variant,org.genxdm.xpath.v20.err,org.genxdm.xpa
+ th.v20.expressions,org.genxdm.xpath.v20.keys,org.genxdm.xs.types",org
+ .genxdm.xpath.v20.common;version="1.3";uses:="org.genxdm.typed.types"
+ ,org.genxdm.xpath.v20.err;version="1.3";uses:="javax.xml.namespace,or
+ g.genxdm.xpath.v20",org.genxdm.xpath.v20.expressions;version="1.3";us
+ es:="javax.xml.namespace,org.genxdm,org.genxdm.io,org.genxdm.names,or
+ g.genxdm.typed,org.genxdm.typed.io,org.genxdm.typed.types,org.genxdm.
+ typed.variant,org.genxdm.xpath.v20.common,org.genxdm.xpath.v20.err,or
+ g.genxdm.xpath.v20.functions,org.genxdm.xpath.v20.keys,org.genxdm.xpa
+ th.v20.namespace,org.genxdm.xpath.v20.policy,org.genxdm.xs.types",org
+ .genxdm.xpath.v20.functions;version="1.3";uses:="javax.xml.namespace,
+ org.genxdm,org.genxdm.exceptions,org.genxdm.typed,org.genxdm.typed.ty
+ pes,org.genxdm.xpath.v20.common,org.genxdm.xpath.v20.err,org.genxdm.x
+ path.v20.expressions,org.genxdm.xs,org.genxdm.xs.types",org.genxdm.xp
+ ath.v20.keys;version="1.3";uses:="javax.xml.namespace,org.genxdm.type
+ d,org.genxdm.xpath.v20.common,org.genxdm.xpath.v20.err,org.genxdm.xpa
+ th.v20.expressions,org.genxdm.xpath.v20.match,org.genxdm.xpath.v20.po
+ licy",org.genxdm.xpath.v20.match;version="1.3";uses:="org.genxdm,org.
+ genxdm.typed,org.genxdm.xpath.v20.err,org.genxdm.xpath.v20.expression
+ s",org.genxdm.xpath.v20.namespace;version="1.3";uses:="org.genxdm.nam
+ es",org.genxdm.xpath.v20.policy;version="1.3"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: org.genxdm.xpath.v20_1.3.0.jar
+Bundle-Version: 1.3.0.001
+Bundle-Name: GenXDM XPath 2.0 API
+Bundle-ManifestVersion: 2
+Bundle-Description: The GenXDM XPath 2.0 API module.
+Import-Package: javax.xml.namespace;version="[1.1,2)",org.genxdm;versi
+ on="[1.3,2)",org.genxdm.exceptions;version="[1.3,2)",org.genxdm.io;ve
+ rsion="[1.3,2)",org.genxdm.names;version="[1.3,2)",org.genxdm.typed;v
+ ersion="[1.3,2)",org.genxdm.typed.io;version="[1.3,2)",org.genxdm.typ
+ ed.types;version="[1.3,2)",org.genxdm.typed.variant;version="[1.3,2)"
+ ,org.genxdm.xs;version="[1.3,2)",org.genxdm.xs.types;version="[1.3,2)
+ "
+Bundle-SymbolicName: com.tibco.tpcl.org.genxdm.xpath.v20
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

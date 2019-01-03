@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Export-Package: org.genxdm.bridge.axiom;version="1.3";uses:="javax.xml
+ .namespace,javax.xml.stream,javax.xml.transform.sax,org.apache.axiom.
+ om,org.genxdm,org.genxdm.bridge.axiom.enhanced,org.genxdm.exceptions,
+ org.genxdm.io,org.genxdm.mutable,org.genxdm.names,org.genxdm.typed,or
+ g.genxdm.xs",org.genxdm.bridge.axiom.enhanced;version="1.3";uses:="ja
+ vax.xml.namespace,javax.xml.stream,org.genxdm,org.genxdm.bridge.axiom
+ ,org.genxdm.bridgekit.atoms,org.genxdm.io,org.genxdm.typed,org.genxdm
+ .typed.io,org.genxdm.typed.types,org.genxdm.xs"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: org.genxdm.bridge.axiom_1.3.0.jar
+Bundle-Version: 1.3.100.001
+Bundle-Name: GenXDM Axiom Bridge
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: GenXDM enables applications to write code that use
+ s and manipulates XML trees without being tied to a particular XML tr
+ ee representation like DOM, DOM4J, AXIOM, or any other. It also prods
+  developers towards an immutable view of XML trees, which will make i
+ t easier and faster to work with XML across multiple cores and multip
+ le processors.
+Import-Package: javax.xml;version="[1.0,2)",javax.xml.namespace;versio
+ n="[1.1,2)",javax.xml.stream;version="[1.0,2)",javax.xml.transform.sa
+ x;version="[1.3,2)",org.apache.axiom.om;version="[2.2,3)",org.apache.
+ axiom.om.impl;version="[2.2,3)",org.genxdm;version="[1.3,2)",org.genx
+ dm.bridgekit.atoms;version="[1.3,2)",org.genxdm.bridgekit.axes;versio
+ n="[1.3,2)",org.genxdm.bridgekit.misc;version="[1.3,2)",org.genxdm.br
+ idgekit.names;version="[1.3,2)",org.genxdm.bridgekit.tree;version="[1
+ .3,2)",org.genxdm.bridgekit.validation;version="[1.3,2)",org.genxdm.b
+ ridgekit.xs;version="[1.3,2)",org.genxdm.exceptions;version="[1.3,2)"
+ ,org.genxdm.io;version="[1.3,2)",org.genxdm.mutable;version="[1.3,2)"
+ ,org.genxdm.names;version="[1.3,2)",org.genxdm.processor.io;version="
+ [1.3,2)",org.genxdm.typed;version="[1.3,2)",org.genxdm.typed.io;versi
+ on="[1.3,2)",org.genxdm.typed.types;version="[1.3,2)",org.genxdm.xs;v
+ ersion="[1.3,2)"
+Bundle-SymbolicName: com.tibco.tpcl.org.genxdm.bridge.axiom
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

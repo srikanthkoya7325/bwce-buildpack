@@ -1,0 +1,110 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.velocity;version="1.7.0";uses:="org.apache.
+ velocity.context,org.apache.velocity.runtime.resource",org.apache.vel
+ ocity.anakia;version="1.7.0"; uses:="org.jdom.output,  com.werken.xpa
+ th,  org.jdom.input,  org.jdom,  org.apache.tools.ant.taskdefs",org.a
+ pache.velocity.app;version="1.7.0"; uses:="org.apache.velocity.runtim
+ e.log,  org.apache.velocity.runtime,  org.apache.commons.collections,
+   org.apache.velocity,  org.apache.velocity.context",org.apache.veloc
+ ity.app.event;version="1.7.0";uses:="org.apache.velocity.runtime,org.
+ apache.velocity.util.introspection,org.apache.velocity.context",org.a
+ pache.velocity.app.event.implement;version="1.7.0"; uses:="org.apache
+ .velocity.runtime,  org.apache.velocity.util.introspection,  org.apac
+ he.velocity.util,  org.apache.velocity.context,  org.apache.velocity.
+ app.event",org.apache.velocity.app.tools;version="1.7.0";uses:="org.a
+ pache.velocity.context",org.apache.velocity.context;version="1.7.0"; 
+ uses:="org.apache.velocity.runtime,  org.apache.velocity.util.introsp
+ ection,  org.apache.velocity.runtime.resource,  org.apache.velocity.a
+ pp.event,  org.apache.velocity.runtime.parser.node",org.apache.veloci
+ ty.convert;version="1.7.0",org.apache.velocity.exception;version="1.7
+ .0";uses:="org.apache.velocity.runtime.parser,org.apache.velocity.uti
+ l.introspection",org.apache.velocity.io;version="1.7.0";uses:="org.ap
+ ache.velocity.io",org.apache.velocity.runtime;version="1.7.0"; uses:=
+ "org.apache.velocity.runtime.directive,  org.apache.velocity.runtime.
+ parser,  org.apache.commons.collections,  org.apache.velocity.util.in
+ trospection,  org.apache.velocity.context,  org.apache.velocity.runti
+ me.parser.node,  org.apache.velocity.runtime.log,  org.apache.velocit
+ y,  org.apache.velocity.util,  org.apache.velocity.app.event,  org.ap
+ ache.velocity.runtime.resource",org.apache.velocity.runtime.defaults;
+ version="1.7.0",org.apache.velocity.runtime.directive;version="1.7.0"
+ ; uses:="org.apache.velocity.runtime.log,  org.apache.velocity.runtim
+ e,  org.apache.velocity.runtime.parser,  org.apache.velocity.exceptio
+ n,  org.apache.velocity.util.introspection,  org.apache.velocity.runt
+ ime.directive,  org.apache.velocity.context,  org.apache.velocity.run
+ time.parser.node",org.apache.velocity.runtime.log;version="1.7.0"; us
+ es:="org.apache.velocity.runtime.directive,  javax.servlet,  org.apac
+ he.velocity.runtime,  org.apache.commons.logging,  org.apache.log4j, 
+  org.apache.velocity.util.introspection,  org.apache.log.format,  org
+ .apache.velocity.runtime.parser.node",org.apache.velocity.runtime.par
+ ser;version="1.7.0"; uses:="org.apache.velocity.runtime.directive,  o
+ rg.apache.velocity.runtime,  org.apache.velocity.exception,  org.apac
+ he.velocity.runtime.parser.node",org.apache.velocity.runtime.parser.n
+ ode;version="1.7.0"; uses:="org.apache.velocity.runtime.log,  org.apa
+ che.velocity.runtime,  org.apache.velocity.runtime.parser,  org.apach
+ e.velocity.util.introspection,  org.apache.velocity.context,  org.apa
+ che.commons.lang.text",org.apache.velocity.runtime.resource;version="
+ 1.7.0";uses:="org.apache.velocity.runtime.log,org.apache.velocity.run
+ time,org.apache.velocity.runtime.resource.loader",org.apache.velocity
+ .runtime.resource.loader;version="1.7.0"; uses:="org.apache.velocity.
+ runtime.log,  org.apache.velocity.runtime,  org.apache.velocity.runti
+ me.resource.util,  javax.sql,  org.apache.commons.collections,  org.a
+ pache.velocity.runtime.resource",org.apache.velocity.runtime.resource
+ .util;version="1.7.0",org.apache.velocity.runtime.visitor;version="1.
+ 7.0";uses:="org.apache.velocity.context,org.apache.velocity.runtime.p
+ arser.node",org.apache.velocity.servlet;version="1.7.0"; uses:="javax
+ .servlet,  org.apache.velocity,  org.apache.velocity.context,  javax.
+ servlet.http",org.apache.velocity.texen;version="1.7.0";uses:="org.ap
+ ache.velocity,org.apache.velocity.context,org.apache.velocity.app",or
+ g.apache.velocity.texen.ant;version="1.7.0";uses:="org.apache.commons
+ .collections,org.apache.velocity.context,org.apache.tools.ant",org.ap
+ ache.velocity.texen.defaults;version="1.7.0",org.apache.velocity.texe
+ n.util;version="1.7.0",org.apache.velocity.util;version="1.7.0"; uses
+ :="org.apache.velocity.runtime,  org.apache.velocity.util.introspecti
+ on,  org.apache.velocity.context,  org.apache.velocity.runtime.parser
+ .node",org.apache.velocity.util.introspection;version="1.7.0"; uses:=
+ "org.apache.velocity.runtime.log,  org.apache.velocity.runtime,  org.
+ apache.velocity.util,  org.apache.velocity.runtime.parser.node"
+Bundle-Vendor: Apache Software Foundation
+Bundle-ClassPath: velocity-1.7.jar
+Bundle-Version: 1.7.0.001
+Bundle-Name: Apache Velocity
+Bundle-ManifestVersion: 2
+Import-Package: javax.naming;version="0.0.0",javax.servlet;version="[2
+ .5.100,3.0.0)";resolution:=optional,javax.servlet.http;version="[2.5.
+ 100,3.0.0)";resolution:=optional,javax.sql;version="[3.0.0,4.0.0)",or
+ g.apache.commons.collections;version="[3.2.1,4.0.0)",org.apache.commo
+ ns.collections.map;version="[3.2.1,4.0.0)",org.apache.commons.lang;ve
+ rsion="[2.4.0,3.0.0)",org.apache.commons.lang.builder;version="[2.4.0
+ ,3.0.0)",org.apache.commons.lang.text;version="[2.4.0,3.0.0)",org.apa
+ che.commons.logging;version="[1.5.2,2.0.0)";resolution:=optional,org.
+ apache.log4j;version="[1.2.300,2.0.0)";resolution:=optional,org.apach
+ e.tools.ant;version="[1.7.200,2.0.0)";resolution:=optional,org.apache
+ .tools.ant.taskdefs;version="[1.7.200,2.0.0)";resolution:=optional,or
+ g.apache.velocity;version="[1.7.0,2.0.0)",org.apache.velocity.anakia;
+ version="[1.7.0,2.0.0)",org.apache.velocity.app;version="[1.7.0,2.0.0
+ )",org.apache.velocity.app.event;version="[1.7.0,2.0.0)",org.apache.v
+ elocity.app.event.implement;version="[1.7.0,2.0.0)",org.apache.veloci
+ ty.app.tools;version="[1.7.0,2.0.0)",org.apache.velocity.context;vers
+ ion="[1.7.0,2.0.0)",org.apache.velocity.convert;version="[1.7.0,2.0.0
+ )",org.apache.velocity.exception;version="[1.7.0,2.0.0)",org.apache.v
+ elocity.io;version="[1.7.0,2.0.0)",org.apache.velocity.runtime;versio
+ n="[1.7.0,2.0.0)",org.apache.velocity.runtime.defaults;version="[1.7.
+ 0,2.0.0)",org.apache.velocity.runtime.directive;version="[1.7.0,2.0.0
+ )",org.apache.velocity.runtime.log;version="[1.7.0,2.0.0)",org.apache
+ .velocity.runtime.parser;version="[1.7.0,2.0.0)",org.apache.velocity.
+ runtime.parser.node;version="[1.7.0,2.0.0)",org.apache.velocity.runti
+ me.resource;version="[1.7.0,2.0.0)",org.apache.velocity.runtime.resou
+ rce.loader;version="[1.7.0,2.0.0)",org.apache.velocity.runtime.resour
+ ce.util;version="[1.7.0,2.0.0)",org.apache.velocity.runtime.visitor;v
+ ersion="[1.7.0,2.0.0)",org.apache.velocity.servlet;version="[1.7.0,2.
+ 0.0)",org.apache.velocity.texen;version="[1.7.0,2.0.0)",org.apache.ve
+ locity.texen.ant;version="[1.7.0,2.0.0)",org.apache.velocity.texen.de
+ faults;version="[1.7.0,2.0.0)",org.apache.velocity.texen.util;version
+ ="[1.7.0,2.0.0)",org.apache.velocity.util;version="[1.7.0,2.0.0)",org
+ .apache.velocity.util.introspection;version="[1.7.0,2.0.0)",org.jdom;
+ version="[1.0.100,2.0.0)";resolution:=optional,org.jdom.input;version
+ ="[1.0.100,2.0.0)";resolution:=optional,org.jdom.output;version="[1.0
+ .100,2.0.0)";resolution:=optional,org.xml.sax;version="[2.0.2,3.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.velocity
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

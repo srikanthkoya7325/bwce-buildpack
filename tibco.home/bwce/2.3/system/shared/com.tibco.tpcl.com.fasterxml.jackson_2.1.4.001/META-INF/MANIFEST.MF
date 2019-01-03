@@ -1,0 +1,159 @@
+Manifest-Version: 1.0
+Export-Package: com.fasterxml.jackson.annotation;version="2.1.4",com.f
+ asterxml.jackson.core;version="2.1.4"; uses:="com.fasterxml.jackson.c
+ ore.io,  com.fasterxml.jackson.core.util,  com.fasterxml.jackson.core
+ .sym,  com.fasterxml.jackson.core.type,  com.fasterxml.jackson.core.f
+ ormat",com.fasterxml.jackson.core.base;version="2.1.4"; uses:="com.fa
+ sterxml.jackson.core.io,  com.fasterxml.jackson.core.json,  com.faste
+ rxml.jackson.core,  com.fasterxml.jackson.core.util",com.fasterxml.ja
+ ckson.core.format;version="2.1.4";uses:="com.fasterxml.jackson.core",
+ com.fasterxml.jackson.core.io;version="2.1.4";uses:="com.fasterxml.ja
+ ckson.core,com.fasterxml.jackson.core.util",com.fasterxml.jackson.cor
+ e.json;version="2.1.4"; uses:="com.fasterxml.jackson.core.io,  com.fa
+ sterxml.jackson.core,  com.fasterxml.jackson.core.util,  com.fasterxm
+ l.jackson.core.base,  com.fasterxml.jackson.core.sym,  com.fasterxml.
+ jackson.core.format",com.fasterxml.jackson.core.sym;version="2.1.4",c
+ om.fasterxml.jackson.core.type;version="2.1.4",com.fasterxml.jackson.
+ core.util;version="2.1.4";uses:="com.fasterxml.jackson.core.io,com.fa
+ sterxml.jackson.core",com.fasterxml.jackson.databind;version="2.1.4";
+  uses:="com.fasterxml.jackson.databind.jsonFormatVisitors,  com.faste
+ rxml.jackson.databind.deser,  com.fasterxml.jackson.databind.deser.im
+ pl,  com.fasterxml.jackson.databind.introspect,  com.fasterxml.jackso
+ n.databind.type,  com.fasterxml.jackson.databind.util,  com.fasterxml
+ .jackson.databind.jsonschema,  com.fasterxml.jackson.annotation,  com
+ .fasterxml.jackson.core.format,  com.fasterxml.jackson.databind.jsont
+ ype.impl,  com.fasterxml.jackson.databind.node,  com.fasterxml.jackso
+ n.databind.jsontype,  com.fasterxml.jackson.core.type,  com.fasterxml
+ .jackson.core,  com.fasterxml.jackson.databind.ser,  com.fasterxml.ja
+ ckson.databind.ser.impl,  com.fasterxml.jackson.databind.annotation, 
+  com.fasterxml.jackson.databind.cfg",com.fasterxml.jackson.databind.a
+ nnotation;version="2.1.4",com.fasterxml.jackson.databind.cfg;version=
+ "2.1.4"; uses:="com.fasterxml.jackson.databind,  com.fasterxml.jackso
+ n.databind.deser,  com.fasterxml.jackson.databind.introspect,  com.fa
+ sterxml.jackson.core.type,  com.fasterxml.jackson.databind.jsontype, 
+  com.fasterxml.jackson.databind.type,  com.fasterxml.jackson.core,  c
+ om.fasterxml.jackson.databind.ser,  com.fasterxml.jackson.core.util, 
+  com.fasterxml.jackson.annotation",com.fasterxml.jackson.databind.des
+ er;version="2.1.4"; uses:="com.fasterxml.jackson.databind,  com.faste
+ rxml.jackson.databind.deser.impl,  com.fasterxml.jackson.databind.int
+ rospect,  com.fasterxml.jackson.databind.jsontype,  com.fasterxml.jac
+ kson.databind.type,  com.fasterxml.jackson.core,  com.fasterxml.jacks
+ on.databind.util,  com.fasterxml.jackson.databind.annotation,  com.fa
+ sterxml.jackson.databind.deser.std,  com.fasterxml.jackson.databind.c
+ fg,  com.fasterxml.jackson.annotation,  com.fasterxml.jackson.databin
+ d.ext,  com.fasterxml.jackson.core.format",com.fasterxml.jackson.data
+ bind.deser.impl;version="2.1.4"; uses:="com.fasterxml.jackson.databin
+ d,  com.fasterxml.jackson.databind.deser,  com.fasterxml.jackson.data
+ bind.introspect,  com.fasterxml.jackson.databind.jsontype,  com.faste
+ rxml.jackson.databind.util,  com.fasterxml.jackson.core,  com.fasterx
+ ml.jackson.annotation",com.fasterxml.jackson.databind.deser.std;versi
+ on="2.1.4"; uses:="com.fasterxml.jackson.databind,  com.fasterxml.jac
+ kson.databind.node,  com.fasterxml.jackson.databind.deser,  com.faste
+ rxml.jackson.databind.deser.impl,  com.fasterxml.jackson.databind.int
+ rospect,  com.fasterxml.jackson.databind.jsontype,  com.fasterxml.jac
+ kson.databind.type,  com.fasterxml.jackson.databind.util,  com.faster
+ xml.jackson.core",com.fasterxml.jackson.databind.exc;version="2.1.4";
+ uses:="com.fasterxml.jackson.core,com.fasterxml.jackson.databind",com
+ .fasterxml.jackson.databind.ext;version="2.1.4"; uses:="com.fasterxml
+ .jackson.databind,  com.fasterxml.jackson.databind.jsonFormatVisitors
+ ,  javax.xml.parsers,  org.w3c.dom,  javax.xml.datatype,  javax.xml.n
+ amespace,  com.fasterxml.jackson.core,  com.fasterxml.jackson.databin
+ d.util,  org.w3c.dom.ls,  com.fasterxml.jackson.databind.deser.std,  
+ com.fasterxml.jackson.databind.ser.std",com.fasterxml.jackson.databin
+ d.introspect;version="2.1.4"; uses:="com.fasterxml.jackson.databind.j
+ sontype.impl,  com.fasterxml.jackson.databind,  com.fasterxml.jackson
+ .databind.jsontype,  com.fasterxml.jackson.databind.type,  com.faster
+ xml.jackson.databind.util,  com.fasterxml.jackson.core,  com.fasterxm
+ l.jackson.databind.annotation,  com.fasterxml.jackson.databind.cfg,  
+ com.fasterxml.jackson.annotation",com.fasterxml.jackson.databind.json
+ FormatVisitors;version="2.1.4";uses:="com.fasterxml.jackson.databind.
+ jsonFormatVisitors,com.fasterxml.jackson.databind",com.fasterxml.jack
+ son.databind.jsonschema;version="2.1.4";uses:="com.fasterxml.jackson.
+ databind,com.fasterxml.jackson.databind.node",com.fasterxml.jackson.d
+ atabind.jsontype;version="2.1.4"; uses:="com.fasterxml.jackson.core, 
+  com.fasterxml.jackson.databind,  com.fasterxml.jackson.databind.cfg,
+   com.fasterxml.jackson.annotation,  com.fasterxml.jackson.databind.i
+ ntrospect",com.fasterxml.jackson.databind.jsontype.impl;version="2.1.
+ 4"; uses:="com.fasterxml.jackson.databind.util,  com.fasterxml.jackso
+ n.core,  com.fasterxml.jackson.databind,  com.fasterxml.jackson.datab
+ ind.cfg,  com.fasterxml.jackson.annotation,  com.fasterxml.jackson.da
+ tabind.introspect,  com.fasterxml.jackson.databind.jsontype,  com.fas
+ terxml.jackson.databind.type",com.fasterxml.jackson.databind.module;v
+ ersion="2.1.4"; uses:="com.fasterxml.jackson.core,  com.fasterxml.jac
+ kson.databind,  com.fasterxml.jackson.databind.ser,  com.fasterxml.ja
+ ckson.databind.deser,  com.fasterxml.jackson.databind.jsontype,  com.
+ fasterxml.jackson.databind.type",com.fasterxml.jackson.databind.node;
+ version="2.1.4"; uses:="com.fasterxml.jackson.core,  com.fasterxml.ja
+ ckson.databind,  com.fasterxml.jackson.core.base,  com.fasterxml.jack
+ son.databind.jsontype",com.fasterxml.jackson.databind.ser;version="2.
+ 1.4"; uses:="com.fasterxml.jackson.databind,  com.fasterxml.jackson.d
+ atabind.jsonFormatVisitors,  com.fasterxml.jackson.databind.node,  co
+ m.fasterxml.jackson.databind.introspect,  com.fasterxml.jackson.datab
+ ind.jsontype,  com.fasterxml.jackson.databind.type,  com.fasterxml.ja
+ ckson.core.io,  com.fasterxml.jackson.databind.util,  com.fasterxml.j
+ ackson.core,  com.fasterxml.jackson.databind.jsonschema,  com.fasterx
+ ml.jackson.databind.ser.impl,  com.fasterxml.jackson.databind.cfg,  c
+ om.fasterxml.jackson.annotation,  com.fasterxml.jackson.databind.ext,
+   com.fasterxml.jackson.databind.ser.std",com.fasterxml.jackson.datab
+ ind.ser.impl;version="2.1.4"; uses:="com.fasterxml.jackson.databind, 
+  com.fasterxml.jackson.databind.node,  com.fasterxml.jackson.databind
+ .jsonFormatVisitors,  com.fasterxml.jackson.databind.introspect,  com
+ .fasterxml.jackson.databind.jsontype,  com.fasterxml.jackson.core.io,
+   com.fasterxml.jackson.databind.util,  com.fasterxml.jackson.core,  
+ com.fasterxml.jackson.databind.ser,  com.fasterxml.jackson.annotation
+ ,  com.fasterxml.jackson.databind.ser.std",com.fasterxml.jackson.data
+ bind.ser.std;version="2.1.4"; uses:="com.fasterxml.jackson.databind, 
+  com.fasterxml.jackson.databind.node,  com.fasterxml.jackson.databind
+ .jsonFormatVisitors,  com.fasterxml.jackson.databind.introspect,  com
+ .fasterxml.jackson.databind.jsontype,  com.fasterxml.jackson.core,  c
+ om.fasterxml.jackson.databind.util,  com.fasterxml.jackson.databind.s
+ er,  com.fasterxml.jackson.databind.jsonschema,  com.fasterxml.jackso
+ n.databind.ser.impl,  com.fasterxml.jackson.annotation",com.fasterxml
+ .jackson.databind.type;version="2.1.4"; uses:="com.fasterxml.jackson.
+ databind.util,  com.fasterxml.jackson.core,  com.fasterxml.jackson.da
+ tabind,  com.fasterxml.jackson.databind.jsontype,  com.fasterxml.jack
+ son.core.type",com.fasterxml.jackson.databind.util;version="2.1.4"; u
+ ses:="com.fasterxml.jackson.core.json,  com.fasterxml.jackson.databin
+ d,  com.fasterxml.jackson.core.base,  com.fasterxml.jackson.databind.
+ introspect,  com.fasterxml.jackson.databind.jsontype,  com.fasterxml.
+ jackson.core.io,  com.fasterxml.jackson.core,  com.fasterxml.jackson.
+ databind.cfg,  com.fasterxml.jackson.core.util"
+Bundle-Vendor: http://fasterxml.com
+Bundle-ClassPath: jackson-core-2.1.4.jar,jackson-annotations-2.1.4.jar
+ ,jackson-databind-2.1.4.jar
+Bundle-Version: 2.1.4.001
+Bundle-Name: Jackson JSON processor
+Bundle-ManifestVersion: 2
+Import-Package: com.fasterxml.jackson.annotation;version="[2.1.4,3.0.0
+ )",com.fasterxml.jackson.core;version="[2.1.4,3.0.0)",com.fasterxml.j
+ ackson.core.base;version="[2.1.4,3.0.0)",com.fasterxml.jackson.core.f
+ ormat;version="[2.1.4,3.0.0)",com.fasterxml.jackson.core.io;version="
+ [2.1.4,3.0.0)",com.fasterxml.jackson.core.json;version="[2.1.4,3.0.0)
+ ",com.fasterxml.jackson.core.sym;version="[2.1.4,3.0.0)",com.fasterxm
+ l.jackson.core.type;version="[2.1.4,3.0.0)",com.fasterxml.jackson.cor
+ e.util;version="[2.1.4,3.0.0)",com.fasterxml.jackson.databind;version
+ ="[2.1.4,3.0.0)",com.fasterxml.jackson.databind.annotation;version="[
+ 2.1.4,3.0.0)",com.fasterxml.jackson.databind.cfg;version="[2.1.4,3.0.
+ 0)",com.fasterxml.jackson.databind.deser;version="[2.1.4,3.0.0)",com.
+ fasterxml.jackson.databind.deser.impl;version="[2.1.4,3.0.0)",com.fas
+ terxml.jackson.databind.deser.std;version="[2.1.4,3.0.0)",com.fasterx
+ ml.jackson.databind.exc;version="[2.1.4,3.0.0)",com.fasterxml.jackson
+ .databind.ext;version="[2.1.4,3.0.0)",com.fasterxml.jackson.databind.
+ introspect;version="[2.1.4,3.0.0)",com.fasterxml.jackson.databind.jso
+ nFormatVisitors;version="[2.1.4,3.0.0)",com.fasterxml.jackson.databin
+ d.jsonschema;version="[2.1.4,3.0.0)",com.fasterxml.jackson.databind.j
+ sontype;version="[2.1.4,3.0.0)",com.fasterxml.jackson.databind.jsonty
+ pe.impl;version="[2.1.4,3.0.0)",com.fasterxml.jackson.databind.module
+ ;version="[2.1.4,3.0.0)",com.fasterxml.jackson.databind.node;version=
+ "[2.1.4,3.0.0)",com.fasterxml.jackson.databind.ser;version="[2.1.4,3.
+ 0.0)",com.fasterxml.jackson.databind.ser.impl;version="[2.1.4,3.0.0)"
+ ,com.fasterxml.jackson.databind.ser.std;version="[2.1.4,3.0.0)",com.f
+ asterxml.jackson.databind.type;version="[2.1.4,3.0.0)",com.fasterxml.
+ jackson.databind.util;version="[2.1.4,3.0.0)",javax.xml.datatype;vers
+ ion="[1.3.0,2.0.0)",javax.xml.namespace;version="[1.1.0,2.0.0)",javax
+ .xml.parsers;version="[1.3.0,2.0.0)",org.w3c.dom;version="[3.0.0,4.0.
+ 0)",org.w3c.dom.bootstrap;version="[3.0.0,4.0.0)",org.w3c.dom.ls;vers
+ ion="[3.0.0,4.0.0)",org.xml.sax;version="[2.0.2,3.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.com.fasterxml.jackson
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

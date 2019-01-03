@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.james.mime4j;version="1.0.0",org.apache.jam
+ es.mime4j.codec;version="1.0.0",org.apache.james.mime4j.io;version="1
+ .0.0";uses:="org.apache.james.mime4j.util,org.apache.james.mime4j",or
+ g.apache.james.mime4j.parser;version="1.0.0";uses:="org.apache.james.
+ mime4j.stream,org.apache.james.mime4j.codec",org.apache.james.mime4j.
+ stream;version="1.0.0"; uses:="org.apache.james.mime4j.util,  org.apa
+ che.james.mime4j.io,  org.apache.james.mime4j,  org.apache.james.mime
+ 4j.codec",org.apache.james.mime4j.util;version="1.0.0"
+Bundle-Vendor: %providerName
+Bundle-ClassPath: apache-mime4j-core-0.7.2.jar
+Bundle-Version: 1.0.0.001
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Import-Package: org.apache.james.mime4j;version="[1.0.0,2.0.0)",org.ap
+ ache.james.mime4j.codec;version="[1.0.0,2.0.0)",org.apache.james.mime
+ 4j.io;version="[1.0.0,2.0.0)",org.apache.james.mime4j.parser;version=
+ "[1.0.0,2.0.0)",org.apache.james.mime4j.stream;version="[1.0.0,2.0.0)
+ ",org.apache.james.mime4j.util;version="[1.0.0,2.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.james.mime4j
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

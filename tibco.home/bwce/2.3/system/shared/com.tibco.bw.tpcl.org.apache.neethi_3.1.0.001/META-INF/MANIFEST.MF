@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.neethi;version="3.1.0"; uses:="javax.xml.st
+ ream,  org.apache.neethi.builders.converters,  org.apache.neethi.buil
+ ders,  org.w3c.dom,  org.apache.axiom.om,  javax.xml.namespace",org.a
+ pache.neethi.builders;version="3.1.0";uses:="javax.xml.stream,org.apa
+ che.neethi,javax.xml.namespace",org.apache.neethi.builders.converters
+ ;version="3.1.0"; uses:="javax.xml.stream,  org.w3c.dom,  org.apache.
+ axiom.om,  javax.xml.namespace",org.apache.neethi.builders.xml;versio
+ n="3.1.0"; uses:="javax.xml.stream,  org.apache.neethi,  org.apache.n
+ eethi.builders,  org.w3c.dom,  javax.xml.namespace",org.apache.neethi
+ .util;version="3.1.0";uses:="org.apache.neethi"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: neethi-3.0.2.jar
+Provide-Capability: osgi.contract;osgi.contract=org.apache.neethi;vers
+ ion:Version=3.0.2;uses:="javax.xml.namespace,javax.xml.stream,org.apa
+ che.axiom.om,org.apache.neethi,org.apache.neethi.builders,org.apache.
+ neethi.builders.converters,org.apache.neethi.builders.xml,org.apache.
+ neethi.util,org.w3c.dom"
+Bundle-Version: 3.1.0.001
+Bundle-Name: Axis2 Neethi
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Neethi packaged for Axis2 core.
+Import-Package: javax.xml.namespace;version="[1.1.0,2.0.0)",javax.xml.
+ stream;version="[1.0.0,2.0.0)",org.apache.axiom.om;version="[2.2.0,3.
+ 0.0)",org.apache.neethi;version="[3.1.0,4.0.0)",org.apache.neethi.bui
+ lders;version="[3.1.0,4.0.0)",org.apache.neethi.builders.converters;v
+ ersion="[3.1.0,4.0.0)",org.apache.neethi.builders.xml;version="[3.1.0
+ ,4.0.0)",org.apache.neethi.util;version="[3.1.0,4.0.0)",org.w3c.dom;v
+ ersion="[3.0.0,4.0.0)"
+Bundle-SymbolicName: com.tibco.bw.tpcl.org.apache.neethi
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

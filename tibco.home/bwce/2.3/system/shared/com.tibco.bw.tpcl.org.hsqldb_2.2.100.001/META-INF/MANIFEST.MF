@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/hsqlDBDataSourceFactory.xml
+Export-Package: com.tibco.bw.jdbc.datasourcefactory.hsqldb;version="2.
+ 2.100",org.hsqldb;version="2.2.100",org.hsqldb.auth;version="2.2.100"
+ ,org.hsqldb.dbinfo;version="2.2.100",org.hsqldb.error;version="2.2.10
+ 0",org.hsqldb.index;version="2.2.100",org.hsqldb.jdbc;version="2.2.10
+ 0",org.hsqldb.jdbc.pool;version="2.2.100",org.hsqldb.lib;version="2.2
+ .100",org.hsqldb.lib.java;version="2.2.100",org.hsqldb.lib.tar;versio
+ n="2.2.100",org.hsqldb.navigator;version="2.2.100",org.hsqldb.persist
+ ;version="2.2.100",org.hsqldb.resources;version="2.2.100",org.hsqldb.
+ result;version="2.2.100",org.hsqldb.rights;version="2.2.100",org.hsql
+ db.rowio;version="2.2.100",org.hsqldb.scriptio;version="2.2.100",org.
+ hsqldb.server;version="2.2.100",org.hsqldb.store;version="2.2.100",or
+ g.hsqldb.types;version="2.2.100",org.hsqldb.util;version="2.2.100"
+Bundle-Vendor: The HSQL Development Group
+Bundle-ClassPath: hsqldb.jar,.
+Bundle-Version: 2.2.100.001
+Bundle-Localization: plugin
+Bundle-Name: HSQL jdbc driver
+Bundle-ManifestVersion: 2
+Import-Package: org.osgi.framework;version="[1.6.0,2.0.0)",org.osgi.se
+ rvice.jdbc;version="[1.0.0,2.0.0)"
+Bundle-SymbolicName: com.tibco.bw.tpcl.org.hsqldb
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

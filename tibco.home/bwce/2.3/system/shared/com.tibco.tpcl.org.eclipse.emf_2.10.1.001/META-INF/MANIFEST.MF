@@ -1,0 +1,107 @@
+Manifest-Version: 1.0
+Export-Package: com.tibco.tpcl.org.eclipse.emf;version="2.10.1";uses:=
+ "org.eclipse.emf.ecore",org.eclipse.emf.common;version="2.10.1";uses:
+ ="org.eclipse.core.runtime,org.eclipse.emf.common.util,org.osgi.frame
+ work",org.eclipse.emf.common.archive;version="2.10.1",org.eclipse.emf
+ .common.command;version="2.10.1",org.eclipse.emf.common.notify;versio
+ n="2.10.1";uses:="org.eclipse.emf.common.util",org.eclipse.emf.common
+ .notify.impl;version="2.10.1";uses:="org.eclipse.emf.common.util,org.
+ eclipse.emf.common.notify",org.eclipse.emf.common.util;version="2.10.
+ 1";uses:="org.eclipse.core.runtime,new org.eclipse.emf.common.util",o
+ rg.eclipse.emf.ecore;version="2.10.1"; uses:="org.eclipse.emf.ecore.r
+ esource,  org.eclipse.emf.ecore.util,  org.eclipse.emf.common.util,  
+ org.eclipse.emf.common.notify",org.eclipse.emf.ecore.impl;version="2.
+ 10.1"; uses:="org.eclipse.emf.ecore.resource,  new new org.eclipse.em
+ f.ecore.impl,  org.eclipse.emf.common.util,  org.eclipse.emf.common.n
+ otify,  org.eclipse.emf.ecore.resource.impl,  org.eclipse.emf.ecore.u
+ til,  org.eclipse.emf.ecore,  org.eclipse.emf.common.notify.impl,  ne
+ w org.eclipse.emf.ecore.impl",org.eclipse.emf.ecore.plugin;version="2
+ .10.1"; uses:="org.eclipse.emf.ecore.resource,  org.eclipse.core.runt
+ ime.spi,  org.eclipse.core.runtime,  org.eclipse.emf.common.util,  or
+ g.eclipse.emf.ecore.resource.impl,  org.xml.sax,  org.eclipse.emf.eco
+ re.util,  org.eclipse.emf.ecore,  org.eclipse.core.resources,  org.ec
+ lipse.emf.common,  org.osgi.framework,  org.xml.sax.helpers",org.ecli
+ pse.emf.ecore.resource;version="2.10.1";uses:="org.eclipse.emf.ecore,
+ org.eclipse.emf.common.util,org.eclipse.emf.common.notify",org.eclips
+ e.emf.ecore.resource.impl;version="2.10.1"; uses:="org.eclipse.emf.ec
+ ore.resource,  org.eclipse.core.runtime,  org.eclipse.emf.common.util
+ ,  org.eclipse.emf.common.notify,  javax.crypto,  org.eclipse.emf.eco
+ re.util,  org.eclipse.emf.ecore,  org.eclipse.emf.common.notify.impl,
+   org.eclipse.core.resources,  org.eclipse.core.runtime.content,  org
+ .eclipse.emf.common.archive",org.eclipse.emf.ecore.util;version="2.10
+ .1"; uses:="org.eclipse.emf.ecore.resource,  org.eclipse.emf.ecore,  
+ org.eclipse.emf.common.notify.impl,  org.eclipse.emf.common.util,  or
+ g.eclipse.emf.ecore.xml.type.util,  org.eclipse.emf.ecore.impl,  org.
+ eclipse.emf.common.notify",org.eclipse.emf.ecore.xmi;version="2.10.1"
+ ; uses:="org.eclipse.emf.ecore.resource,  org.eclipse.emf.common.util
+ ,  javax.xml.parsers,  org.w3c.dom,  org.xml.sax,  org.eclipse.emf.ec
+ ore.util,  org.eclipse.emf.ecore,  org.xml.sax.ext,  org.eclipse.emf.
+ common,  org.osgi.framework",org.eclipse.emf.ecore.xmi.impl;version="
+ 2.10.1"; uses:="new org.eclipse.emf.ecore.xmi.impl,  org.eclipse.emf.
+ ecore.resource,  org.eclipse.emf.ecore.xmi,  org.eclipse.emf.ecore.xm
+ l.type,  org.eclipse.emf.common.util,  javax.xml.parsers,  new new or
+ g.eclipse.emf.ecore.xmi.impl,  org.eclipse.emf.ecore.resource.impl,  
+ org.w3c.dom,  org.xml.sax,  org.eclipse.emf.ecore.util,  org.eclipse.
+ emf.ecore,  org.xml.sax.ext,  org.xml.sax.helpers",org.eclipse.emf.ec
+ ore.xmi.util;version="2.10.1"; uses:="org.eclipse.emf.ecore.resource,
+   org.eclipse.emf.ecore.util,  org.eclipse.emf.ecore,  org.eclipse.em
+ f.ecore.xmi,  org.eclipse.emf.common.util,  org.w3c.dom,  org.xml.sax
+ ",org.eclipse.emf.ecore.xml.namespace;version="2.10.1";uses:="org.ecl
+ ipse.emf.ecore.util,org.eclipse.emf.ecore,org.eclipse.emf.common.util
+ ",org.eclipse.emf.ecore.xml.namespace.impl;version="2.10.1"; uses:="o
+ rg.eclipse.emf.ecore.xml.namespace,  org.eclipse.emf.ecore.util,  org
+ .eclipse.emf.ecore,  org.eclipse.emf.common.util,  org.eclipse.emf.ec
+ ore.impl,  org.eclipse.emf.common.notify",org.eclipse.emf.ecore.xml.n
+ amespace.util;version="2.10.1"; uses:="org.eclipse.emf.ecore.xml.name
+ space,  org.eclipse.emf.ecore.util,  org.eclipse.emf.ecore,  org.ecli
+ pse.emf.common.util,  org.eclipse.emf.ecore.xml.type.util",org.eclips
+ e.emf.ecore.xml.type;version="2.10.1"; uses:="org.eclipse.emf.ecore.u
+ til,  org.eclipse.emf.ecore,  org.eclipse.emf.common.util,  javax.xml
+ .namespace,  javax.xml.datatype",org.eclipse.emf.ecore.xml.type.impl;
+ version="2.10.1"; uses:="org.eclipse.emf.ecore.util,  org.eclipse.emf
+ .ecore,  org.eclipse.emf.common.util,  org.eclipse.emf.ecore.xml.type
+ ,  org.eclipse.emf.ecore.impl,  org.eclipse.emf.common.notify,  javax
+ .xml.namespace,  javax.xml.datatype",org.eclipse.emf.ecore.xml.type.i
+ nternal;version="2.10.1";uses:="javax.xml.datatype,javax.xml.namespac
+ e",org.eclipse.emf.ecore.xml.type.util;version="2.10.1"; uses:="org.e
+ clipse.emf.ecore.util,  org.eclipse.emf.ecore,  org.eclipse.emf.commo
+ n.util,  org.eclipse.emf.ecore.xml.type,  org.eclipse.emf.ecore.resou
+ rce.impl,  org.xml.sax.helpers,  javax.xml.namespace,  javax.xml.data
+ type,  org.xml.sax"
+Bundle-Vendor: %providerName
+Bundle-ClassPath: .,package-registry-adapter.jar,org.eclipse.emf.commo
+ n_2.10.1.v20140901-1043.jar,org.eclipse.emf.ecore_2.10.1.v20140901-10
+ 43.jar,org.eclipse.emf.ecore.xmi_2.10.1.v20140901-1043.jar
+Bundle-Version: 2.10.1.001
+Bundle-Localization: plugin
+Bundle-Name: EMF Subset Plug-In
+Bundle-ManifestVersion: 2
+Import-Package: com.tibco.tpcl.org.eclipse.emf;version="[2.10.1,3.0.0)
+ ",javax.crypto;version="0.0.0",javax.crypto.spec;version="0.0.0",java
+ x.xml.datatype;version="[1.3.0,2.0.0)",javax.xml.namespace;version="[
+ 1.1.0,2.0.0)",javax.xml.parsers;version="[1.3.0,2.0.0)",org.eclipse.e
+ mf.common;version="[2.10.1,3.0.0)",org.eclipse.emf.common.archive;ver
+ sion="[2.10.1,3.0.0)",org.eclipse.emf.common.command;version="[2.10.1
+ ,3.0.0)",org.eclipse.emf.common.notify;version="[2.10.1,3.0.0)",org.e
+ clipse.emf.common.notify.impl;version="[2.10.1,3.0.0)",org.eclipse.em
+ f.common.util;version="[2.10.1,3.0.0)",org.eclipse.emf.ecore;version=
+ "[2.10.1,3.0.0)",org.eclipse.emf.ecore.impl;version="[2.10.1,3.0.0)",
+ org.eclipse.emf.ecore.plugin;version="[2.10.1,3.0.0)",org.eclipse.emf
+ .ecore.resource;version="[2.10.1,3.0.0)",org.eclipse.emf.ecore.resour
+ ce.impl;version="[2.10.1,3.0.0)",org.eclipse.emf.ecore.util;version="
+ [2.10.1,3.0.0)",org.eclipse.emf.ecore.xmi;version="[2.10.1,3.0.0)",or
+ g.eclipse.emf.ecore.xmi.impl;version="[2.10.1,3.0.0)",org.eclipse.emf
+ .ecore.xmi.util;version="[2.10.1,3.0.0)",org.eclipse.emf.ecore.xml.na
+ mespace;version="[2.10.1,3.0.0)",org.eclipse.emf.ecore.xml.namespace.
+ impl;version="[2.10.1,3.0.0)",org.eclipse.emf.ecore.xml.namespace.uti
+ l;version="[2.10.1,3.0.0)",org.eclipse.emf.ecore.xml.type;version="[2
+ .10.1,3.0.0)",org.eclipse.emf.ecore.xml.type.impl;version="[2.10.1,3.
+ 0.0)",org.eclipse.emf.ecore.xml.type.internal;version="[2.10.1,3.0.0)
+ ",org.eclipse.emf.ecore.xml.type.util;version="[2.10.1,3.0.0)",org.os
+ gi.framework;version="[1.3.0,2.0.0)",org.w3c.dom;version="[3.0.0,4.0.
+ 0)",org.xml.sax;version="[2.0.0,3.0.0)",org.xml.sax.ext;version="[2.0
+ .0,3.0.0)",org.xml.sax.helpers;version="[2.0.0,3.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.eclipse.emf; singleton:=true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

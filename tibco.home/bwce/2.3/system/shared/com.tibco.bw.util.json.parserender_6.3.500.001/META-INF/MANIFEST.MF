@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Export-Package: com.tibco.bw.util.json.parse;version="6.3.500",com.tib
+ co.bw.util.json.render;version="6.3.500"
+Bundle-ClassPath: lib/xdata.jar,lib/TIBCOxml.jar,lib/datar.jar,jsonuti
+ l.jar,lib/spar.jar
+Bundle-Version: 6.3.500.001
+Bundle-Name: ParseRenderJSON
+Bundle-ManifestVersion: 2
+Import-Package: com.tibco.bw.palette.shared.java;version="6.1.100",com
+ .tibco.bw.runtime;version="6.2.100",javax.xml.parsers;version="[1.4.0
+ ,2.0.0)",javax.xml.transform;version="[1.4.0,2.0.0)",javax.xml.transf
+ orm.dom;version="[1.4.0,2.0.0)",javax.xml.transform.stream;version="[
+ 1.4.0,2.0.0)",org.apache.log4j;version="1.2.400",org.eclipse.emf.comm
+ on.util;version="2.4.0",org.slf4j;version="1.6.0"
+Bundle-SymbolicName: com.tibco.bw.util.json.parserender
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

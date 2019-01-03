@@ -1,0 +1,145 @@
+Manifest-Version: 1.0
+Export-Package: org.eclipse.jetty.ajp;version="8.2.0",org.eclipse.jett
+ y.annotations;version="8.2.0",org.eclipse.jetty.client;version="8.2.0
+ "; uses:="org.eclipse.jetty.client.security,  org.eclipse.jetty.io,  
+ org.eclipse.jetty.http,  org.eclipse.jetty.util.component,  org.eclip
+ se.jetty.io.nio,  org.eclipse.jetty.util.thread,  javax.net.ssl,  org
+ .eclipse.jetty.util.log,  org.eclipse.jetty.util.ssl,  org.eclipse.je
+ tty.util",org.eclipse.jetty.client.security;version="8.2.0";uses:="or
+ g.eclipse.jetty.client,org.eclipse.jetty.io",org.eclipse.jetty.client
+ .webdav;version="8.2.0";uses:="org.eclipse.jetty.client,org.eclipse.j
+ etty.io",org.eclipse.jetty.continuation;version="8.2.0";uses:="javax.
+ servlet,org.mortbay.util.ajax",org.eclipse.jetty.http;version="8.2.0"
+ ; uses:="org.eclipse.jetty.io,  org.eclipse.jetty.util.component,  or
+ g.eclipse.jetty.http,  org.eclipse.jetty.util.resource,  org.eclipse.
+ jetty.util",org.eclipse.jetty.http.gzip;version="8.2.0";uses:="javax.
+ servlet,org.eclipse.jetty.util,javax.servlet.http",org.eclipse.jetty.
+ http.ssl;version="8.2.0";uses:="org.eclipse.jetty.util.ssl",org.eclip
+ se.jetty.io;version="8.2.0";uses:="org.eclipse.jetty.util.thread,org.
+ eclipse.jetty.util",org.eclipse.jetty.io.bio;version="8.2.0";uses:="o
+ rg.eclipse.jetty.io",org.eclipse.jetty.io.nio;version="8.2.0"; uses:=
+ "org.eclipse.jetty.io,  org.eclipse.jetty.util.component,  org.eclips
+ e.jetty.util.thread,  javax.net.ssl,  org.eclipse.jetty.util.log",org
+ .eclipse.jetty.plus.annotation;version="8.2.0";uses:="org.eclipse.jet
+ ty.webapp,javax.servlet,org.eclipse.jetty.servlet",org.eclipse.jetty.
+ plus.jaas;version="8.2.0"; uses:="org.eclipse.jetty.server,  javax.se
+ curity.auth.callback,  org.eclipse.jetty.security,  javax.security.au
+ th.login,  javax.security.auth,  org.eclipse.jetty.util.component",or
+ g.eclipse.jetty.plus.jaas.callback;version="8.2.0";uses:="org.eclipse
+ .jetty.server,javax.security.auth.callback",org.eclipse.jetty.plus.ja
+ as.spi;version="8.2.0"; uses:="javax.security.auth.callback,  org.ecl
+ ipse.jetty.util.security,  javax.security.auth.spi,  javax.security.a
+ uth",org.eclipse.jetty.plus.jndi;version="8.2.0";uses:="javax.naming,
+ javax.transaction",org.eclipse.jetty.plus.security;version="8.2.0";us
+ es:="org.eclipse.jetty.server,org.eclipse.jetty.security",org.eclipse
+ .jetty.plus.servlet;version="8.2.0";uses:="org.eclipse.jetty.servlet,
+ org.eclipse.jetty.plus.annotation",org.eclipse.jetty.plus.webapp;vers
+ ion="8.2.0"; uses:="javax.servlet,  org.eclipse.jetty.webapp,  javax.
+ naming,  org.eclipse.jetty.servlet,  org.eclipse.jetty.xml,  org.ecli
+ pse.jetty.jndi",org.eclipse.jetty.security;version="8.2.0"; uses:="or
+ g.eclipse.jetty.server,  org.eclipse.jetty.util.security,  org.eclips
+ e.jetty.server.handler,  org.eclipse.jetty.util.component,  javax.sec
+ urity.auth,  org.eclipse.jetty.util.resource,  javax.servlet.annotati
+ on,  javax.servlet,  org.eclipse.jetty.util,  javax.servlet.http",org
+ .eclipse.jetty.security.authentication;version="8.2.0"; uses:="org.ec
+ lipse.jetty.server,  javax.servlet,  org.eclipse.jetty.security,  jav
+ ax.security.auth,  org.eclipse.jetty.util.log,  javax.servlet.http",o
+ rg.eclipse.jetty.server;version="8.2.0"; uses:="org.eclipse.jetty.ser
+ ver,  org.eclipse.jetty.io,  org.eclipse.jetty.http,  org.eclipse.jet
+ ty.server.handler,  org.eclipse.jetty.continuation,  javax.security.a
+ uth,  org.eclipse.jetty.util.component,  org.eclipse.jetty.util.resou
+ rce,  org.eclipse.jetty.io.nio,  javax.servlet,  org.eclipse.jetty.ut
+ il.thread,  org.eclipse.jetty.server.session,  org.eclipse.jetty.util
+ .log,  org.eclipse.jetty.util,  javax.servlet.http",org.eclipse.jetty
+ .server.bio;version="8.2.0"; uses:="org.eclipse.jetty.server,  org.ec
+ lipse.jetty.io.bio,  org.eclipse.jetty.io,  org.eclipse.jetty.util.lo
+ g",org.eclipse.jetty.server.handler;version="8.2.0"; uses:="org.eclip
+ se.jetty.server.handler,  org.eclipse.jetty.continuation,  org.eclips
+ e.jetty.util.component,  org.eclipse.jetty.util.resource,  javax.serv
+ let,  org.eclipse.jetty.io.nio,  org.eclipse.jetty.util.statistic,  o
+ rg.eclipse.jetty.util.thread,  org.eclipse.jetty.util,  org.eclipse.j
+ etty.server,  org.eclipse.jetty.io,  org.eclipse.jetty.http,  javax.s
+ ervlet.descriptor,  org.eclipse.jetty.http.gzip,  org.eclipse.jetty.u
+ til.log,  javax.servlet.http",org.eclipse.jetty.server.handler.jmx;ve
+ rsion="8.2.0";uses:="org.eclipse.jetty.jmx,org.eclipse.jetty.server.h
+ andler",org.eclipse.jetty.server.jmx;version="8.2.0";uses:="org.eclip
+ se.jetty.server,org.eclipse.jetty.jmx",org.eclipse.jetty.server.nio;v
+ ersion="8.2.0"; uses:="org.eclipse.jetty.io.nio,  org.eclipse.jetty.s
+ erver,  org.eclipse.jetty.io,  org.eclipse.jetty.util.thread,  org.ec
+ lipse.jetty.util.log",org.eclipse.jetty.server.session;version="8.2.0
+ "; uses:="org.eclipse.jetty.server,  org.eclipse.jetty.http,  org.ecl
+ ipse.jetty.server.handler,  org.eclipse.jetty.util.component,  javax.
+ servlet,  org.eclipse.jetty.util.statistic,  javax.sql,  org.eclipse.
+ jetty.util.log,  javax.servlet.http",org.eclipse.jetty.server.session
+ .jmx;version="8.2.0";uses:="org.eclipse.jetty.server.handler.jmx",org
+ .eclipse.jetty.server.ssl;version="8.2.0"; uses:="org.eclipse.jetty.s
+ erver,  org.eclipse.jetty.io,  org.eclipse.jetty.server.nio,  org.ecl
+ ipse.jetty.io.nio,  javax.net.ssl,  org.eclipse.jetty.util.log,  org.
+ eclipse.jetty.server.bio,  org.eclipse.jetty.util.ssl",org.eclipse.je
+ tty.servlet;version="8.2.0"; uses:="org.eclipse.jetty.server,  org.ec
+ lipse.jetty.security,  org.eclipse.jetty.http,  org.eclipse.jetty.ser
+ ver.handler,  org.eclipse.jetty.util.resource,  org.eclipse.jetty.uti
+ l.component,  javax.servlet,  javax.servlet.descriptor,  org.eclipse.
+ jetty.server.session,  org.eclipse.jetty.util.log,  javax.servlet.htt
+ p",org.eclipse.jetty.servlet.jmx;version="8.2.0";uses:="org.eclipse.j
+ etty.jmx",org.eclipse.jetty.servlet.listener;version="8.2.0";uses:="j
+ avax.servlet",org.eclipse.jetty.servlets;version="8.2.0"; uses:="org.
+ eclipse.jetty.client,  org.eclipse.jetty.io,  org.eclipse.jetty.http,
+   org.eclipse.jetty.continuation,  javax.servlet,  org.eclipse.jetty.
+ http.gzip,  org.eclipse.jetty.util.thread,  org.eclipse.jetty.util.lo
+ g,  org.eclipse.jetty.servlets,  org.eclipse.jetty.util,  javax.servl
+ et.http",org.eclipse.jetty.util;version="8.2.0"; uses:="org.eclipse.j
+ etty.util.component,  javax.servlet,  org.eclipse.jetty.util.log,  ja
+ vax.servlet.http",org.eclipse.jetty.util.ajax;version="8.2.0";uses:="
+ org.eclipse.jetty.util.log,org.eclipse.jetty.util",org.eclipse.jetty.
+ util.component;version="8.2.0";uses:="org.eclipse.jetty.util.componen
+ t,org.eclipse.jetty.util.log",org.eclipse.jetty.util.log;version="8.2
+ .0";uses:="org.slf4j.spi,org.slf4j",org.eclipse.jetty.util.preventers
+ ;version="8.2.0";uses:="org.eclipse.jetty.util.component,org.eclipse.
+ jetty.util.log",org.eclipse.jetty.util.resource;version="8.2.0",org.e
+ clipse.jetty.util.security;version="8.2.0";uses:="org.eclipse.jetty.u
+ til.log,org.eclipse.jetty.util",org.eclipse.jetty.util.ssl;version="8
+ .2.0";uses:="org.eclipse.jetty.util.component,org.eclipse.jetty.util.
+ resource,javax.net.ssl",org.eclipse.jetty.util.statistic;version="8.2
+ .0",org.eclipse.jetty.util.thread;version="8.2.0";uses:="org.eclipse.
+ jetty.util.component,org.eclipse.jetty.util.log",org.eclipse.jetty.we
+ bapp;version="8.2.0"; uses:="org.eclipse.jetty.server,  org.eclipse.j
+ etty.servlet,  org.eclipse.jetty.security,  org.eclipse.jetty.server.
+ handler,  org.eclipse.jetty.util.resource,  javax.servlet,  org.eclip
+ se.jetty.server.session,  org.eclipse.jetty.util.log,  org.eclipse.je
+ tty.xml,  org.eclipse.jetty.util",org.eclipse.jetty.websocket;version
+ ="8.2.0"; uses:="org.eclipse.jetty.server,  org.eclipse.jetty.io,  or
+ g.eclipse.jetty.http,  org.eclipse.jetty.server.handler,  org.eclipse
+ .jetty.util.component,  org.eclipse.jetty.io.nio,  org.eclipse.jetty.
+ util.thread,  javax.net.ssl,  org.eclipse.jetty.util.log,  org.eclips
+ e.jetty.util.ssl,  org.eclipse.jetty.websocket,  javax.servlet.http",
+ org.eclipse.jetty.xml;version="8.2.0";uses:="javax.xml.parsers,org.ec
+ lipse.jetty.util.log,org.xml.sax"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,org.eclipse.jetty.ajp_8.1.16.v20140903.jar,org.ecl
+ ipse.jetty.annotations_8.1.16.v20140903.jar,org.eclipse.jetty.client_
+ 8.1.16.v20140903.jar,org.eclipse.jetty.continuation_8.1.16.v20140903.
+ jar,org.eclipse.jetty.http_8.1.16.v20140903.jar,org.eclipse.jetty.io_
+ 8.1.16.v20140903.jar,org.eclipse.jetty.plus_8.1.16.v20140903.jar,org.
+ eclipse.jetty.security_8.1.16.v20140903.jar,org.eclipse.jetty.server_
+ 8.1.16.v20140903.jar,org.eclipse.jetty.servlet_8.1.16.v20140903.jar,o
+ rg.eclipse.jetty.servlets_8.1.16.v20140903.jar,org.eclipse.jetty.util
+ _8.1.16.v20140903.jar,org.eclipse.jetty.webapp_8.1.16.v20140903.jar,o
+ rg.eclipse.jetty.websocket_8.1.16.v20140903.jar,org.eclipse.jetty.xml
+ _8.1.16.v20140903.jar
+Bundle-Version: 8.2.0.001
+Bundle-Name: TIBCO TPCL Eclipse Jetty 8
+Bundle-ManifestVersion: 2
+Import-Package: javax.naming,javax.net.ssl,javax.security.auth,javax.s
+ ecurity.auth.callback,javax.security.auth.login,javax.security.auth.s
+ pi,javax.security.cert,javax.servlet;version="2.6.0",javax.servlet.de
+ scriptor;version="2.6.0",javax.servlet.http;version="2.6.0",javax.sql
+ ,javax.transaction,javax.xml.parsers,org.ietf.jgss,org.slf4j;version=
+ "[1.6.0,2.0.0)";resolution:=optional,org.slf4j.helpers;version="[1.6.
+ 0,2.0.0)";resolution:=optional,org.slf4j.spi;version="[1.6.0,2.0.0)";
+ resolution:=optional
+Bundle-SymbolicName: com.tibco.tpcl.org.eclipse.jetty
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

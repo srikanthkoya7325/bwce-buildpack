@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.xml.serializer;version="2.10.0"; uses:="org
+ .apache.xml.serializer.utils,  new org.apache.xml.serializer,  org.w3
+ c.dom,  org.xml.sax,  org.w3c.dom.ls,  org.xml.sax.ext,  javax.xml.tr
+ ansform,  org.xml.sax.helpers",org.apache.xml.serializer.dom3;version
+ ="2.10.0";uses:="org.apache.xml.serializer,org.w3c.dom.ls,org.w3c.dom
+ ",org.apache.xml.serializer.utils;version="2.10.0";uses:="org.w3c.dom
+ ,org.xml.sax"
+Bundle-Vendor: The Apache Software Foundation
+Bundle-ClassPath: encodings-tibco-fix.jar,serializer.jar
+Bundle-Version: 2.10.0.001
+Bundle-Name: Apache Xalan Serializer Plug-in
+Bundle-ManifestVersion: 2
+Import-Package: javax.xml.transform;version="[1.3.0,2.0.0)",org.apache
+ .xml.serializer;version="[2.10.0,3.0.0)",org.apache.xml.serializer.ut
+ ils;version="[2.10.0,3.0.0)",org.w3c.dom;version="[3.0.0,4.0.0)",org.
+ w3c.dom.ls;version="[3.0.0,4.0.0)",org.w3c.dom.traversal;version="[3.
+ 0.0,4.0.0)",org.xml.sax;version="[2.0.0,3.0.0)",org.xml.sax.ext;versi
+ on="[2.0.0,3.0.0)",org.xml.sax.helpers;version="[2.0.0,3.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.xml.serializer
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

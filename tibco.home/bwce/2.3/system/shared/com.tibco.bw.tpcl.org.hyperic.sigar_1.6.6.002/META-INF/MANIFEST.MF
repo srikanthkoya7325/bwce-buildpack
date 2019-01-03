@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Export-Package: org.hyperic.jni;version="1.6.6";uses:="org.apache.tool
+ s.ant.taskdefs,org.apache.tools.ant",org.hyperic.sigar;version="1.6.6
+ ";uses:="org.apache.log4j,org.hyperic.sigar.jmx,org.hyperic.jni",org.
+ hyperic.sigar.cmd;version="1.6.6";uses:="org.hyperic.sigar,org.hyperi
+ c.sigar.shell,org.hyperic.sigar.util",org.hyperic.sigar.jmx;version="
+ 1.6.6";uses:="org.hyperic.sigar,javax.management",org.hyperic.sigar.p
+ ager;version="1.6.6",org.hyperic.sigar.ptql;version="1.6.6";uses:="or
+ g.hyperic.sigar",org.hyperic.sigar.shell;version="1.6.6";uses:="org.h
+ yperic.sigar.pager,sun.misc,org.hyperic.sigar.util",org.hyperic.sigar
+ .util;version="1.6.6";uses:="new org.hyperic.sigar.util",org.hyperic.
+ sigar.vmware;version="1.6.6";uses:="org.hyperic.sigar",org.hyperic.si
+ gar.win32;version="1.6.6";uses:="org.hyperic.sigar"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: ., log4j.jar,sigar.jar
+Bundle-Version: 1.6.6.002
+Bundle-Name: SIGAR Plug-In
+Bundle-NativeCode: sigar-x86-winnt.dll;osname=WindowsServer2000;osname
+ =WindowsServer2003;osname=WindowsNT;osname=WindowsXP;osname=WindowsVi
+ sta;osname=Windows7;osname=WindowsServer2008;osname="windows server 2
+ 008 r2";osname=Win32;processor=x86,sigar-amd64-winnt.dll;osname=Windo
+ wsVista;osname=Windows7;osname=WindowsServer2008;osname="windows serv
+ er 2008 r2";osname=WindowsServer2003;osname="Windows Server 2012 R2";
+ osname="Windows Server 2012";osname=WindowsServer2012;osname=WindowsS
+ erver2012R2;osname=Windows8;osname=Windows 8;processor=x86-64,libsiga
+ r-amd64-linux.so;osname=Linux;processor=x86-64,libsigar-ia64-linux.so
+ ;osname=Linux;processor=ia64w,libsigar-ppc-linux.so;libsigar-ppc64-li
+ nux.so;osname=Linux;processor=powerpc,libsigar-s390x-linux.so;osname=
+ Linux;processor=s390x,libsigar-x86-linux.so;osname=Linux;processor=x8
+ 6,libsigar-amd64-freebsd-6.so;osname=FreeBSD;processor=x86-64,libsiga
+ r-x86-freebsd-5.so;libsigar-x86-freebsd-6.so;osname=FreeBSD;processor
+ =x86,libsigar-amd64-solaris.so;osname=Solaris;processor=x86-64,libsig
+ ar-sparc-solaris.so;osname=Solaris;processor=sparc,libsigar-sparc64-s
+ olaris.so;osname=Solaris;processor=sparcv9,libsigar-x86-solaris.so;os
+ name=Solaris;processor=x86,libsigar-universal-macosx.dylib;osname=Mac
+ OSX;processor=x86;processor=powerpc,libsigar-universal64-macosx.dylib
+ ;osname=MacOSX;processor=x86-64;processor=powerpc,libsigar-ppc64-aix-
+ 5.so;osname=AIX;processor=powerpc,libsigar-ppc-aix-5.so;osname=AIX;pr
+ ocessor=powerpc,libsigar-ia64-hpux-11.sl;osname=HPUX;processor=ia64w,
+ libsigar-pa-hpux-11.sl;osname=HPUX;processor=parisc,*
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.tibco.bw.tpcl.org.hyperic.sigar
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Export-Package: org.genxdm.processor.convert;version="1.3";uses:="java
+ x.xml.namespace,org.genxdm,org.genxdm.exceptions,org.genxdm.io,org.ge
+ nxdm.typed.io,org.genxdm.typed.types"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: org.genxdm.processor.convert_1.3.0.jar
+Bundle-Version: 1.3.0.002
+Bundle-Name: GenXDM Conversion Processor
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: GenXDM enables applications to write code that use
+ s and manipulates XML trees without being tied to a particular XML tr
+ ee representation like DOM, DOM4J, AXIOM, or any other. It also prods
+  developers towards an immutable view of XML trees, which will make i
+ t easier and faster to work with XML across multiple cores and multip
+ le processors.
+Import-Package: javax.xml.namespace;version="[1.1.0,2)",org.genxdm;ver
+ sion="[1.3,2)",org.genxdm.exceptions;version="[1.3,2)",org.genxdm.io;
+ version="[1.3,2)",org.genxdm.typed;version="[1.3,2)",org.genxdm.typed
+ .io;version="[1.3,2)",org.genxdm.typed.types;version="[1.3,2)",org.ge
+ nxdm.xs;version="[1.3,2)",org.genxdm.xs.types;version="[1.3,2)"
+Bundle-SymbolicName: com.tibco.tpcl.org.genxdm.processor.convert
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

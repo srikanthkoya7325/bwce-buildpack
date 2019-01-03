@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="com.tibco.bw.jdbc.datasourcefactory.datadirect.informix">
+   <implementation class="com.tibco.bw.jdbc.datasourcefactory.datadirect.InformixDataSourceFactory"/>
+   
+     <property name="osgi.jdbc.driver.class" type="String" value="tibcosoftwareinc.jdbc.informix.InformixDriver"/>
+   <property name="osgi.jdbc.driver.name" type="String" value="TIBCO-DD-Informix-Driver"/>
+   <property name="osgi.jdbc.driver.version" type="String" value="5.1.4"/>
+   
+   <service>
+      <provide interface="org.osgi.service.jdbc.DataSourceFactory"/>
+   </service>
+</scr:component>

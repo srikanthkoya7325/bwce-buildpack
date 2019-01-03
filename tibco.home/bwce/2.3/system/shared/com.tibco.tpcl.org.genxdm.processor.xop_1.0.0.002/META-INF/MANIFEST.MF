@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Export-Package: org.genxdm.processor.xop;uses:="javax.activation,org.g
+ enxdm,org.genxdm.mutable,org.genxdm.xop.api,org.genxdm.xop.api.datast
+ ore,org.genxdm.exceptions";version="1.0.0",org.genxdm.processor.xop.b
+ ase64;uses:="org.genxdm.exceptions";version="1.0.0",org.genxdm.proces
+ sor.xop.fs;uses:="org.genxdm.processor.xop,org.genxdm.xop.api,org.gen
+ xdm.io,org.genxdm.xop.api.datastore,org.genxdm.exceptions,org.genxdm.
+ processor.xop.base64,javax.activation";version="1.0.0"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: org.genxdm.processor.xop_1.0.0.jar
+Bundle-Version: 1.0.0.002
+Bundle-Name: GenXDM XOP Processor
+Bundle-ManifestVersion: 2
+Import-Package: javax.activation;version="[1.1,2)",javax.xml.namespace
+ ;version="[1.1,2)",javax.xml.stream;version="[1.0,2)",org.genxdm;vers
+ ion="[1.0,2)",org.genxdm.bridgekit.tree;version="[1.0,2)",org.genxdm.
+ exceptions;version="[1.0,2)",org.genxdm.io;version="[1.0,2)",org.genx
+ dm.mutable;version="[1.0,2)",org.genxdm.names;version="[1.0,2)",org.g
+ enxdm.typed;version="[1.0,2)",org.genxdm.typed.io;version="[1.0,2)",o
+ rg.genxdm.typed.types;version="[1.0,2)",org.genxdm.xop.api;version="[
+ 1.0,2)",org.genxdm.xop.api.datastore;version="[1.0,2)",org.genxdm.xs;
+ version="[1.0,2)"
+Bundle-SymbolicName: com.tibco.tpcl.org.genxdm.processor.xop
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

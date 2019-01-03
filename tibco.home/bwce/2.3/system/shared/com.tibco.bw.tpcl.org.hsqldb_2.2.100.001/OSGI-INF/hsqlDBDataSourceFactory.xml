@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="com.tibco.bw.jdbc.datasourcefactory.hsqldb">
+   <implementation class="com.tibco.bw.jdbc.datasourcefactory.hsqldb.HSQLDbDataSourceFactory"/>
+   <property name="osgi.jdbc.driver.class" type="String" value="org.hsqldb.jdbc.JDBCDriver"/>
+   <property name="osgi.jdbc.driver.name" type="String" value="hsqldb"/>
+   <service>
+      <provide interface="org.osgi.service.jdbc.DataSourceFactory"/>
+   </service>
+</scr:component>

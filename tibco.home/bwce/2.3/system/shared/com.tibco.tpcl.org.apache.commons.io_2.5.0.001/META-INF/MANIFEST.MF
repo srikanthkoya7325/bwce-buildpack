@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.commons.io;version="2.0.0";uses:="org.apach
+ e.commons.io.filefilter",org.apache.commons.io.comparator;version="2.
+ 0.0",org.apache.commons.io.filefilter;version="2.0.0",org.apache.comm
+ ons.io.input;version="2.0.0",org.apache.commons.io.monitor;version="2
+ .0.0",org.apache.commons.io.output;version="2.0.0",org.apache.commons
+ .io.serialization;version="2.0.0"
+Bundle-Vendor: The Apache Software Foundation
+Bundle-ClassPath: commons-io-2.5.jar
+Bundle-Version: 2.5.0.001
+Bundle-Name: Apache Jakarta Commons IO
+Bundle-ManifestVersion: 2
+Import-Package: org.apache.commons.io;version="[2.0.0,3.0.0)",org.apac
+ he.commons.io.comparator;version="[2.0.0,3.0.0)",org.apache.commons.i
+ o.filefilter;version="[2.0.0,3.0.0)",org.apache.commons.io.input;vers
+ ion="[2.0.0,3.0.0)",org.apache.commons.io.monitor;version="[2.0.0,3.0
+ .0)",org.apache.commons.io.output;version="[2.0.0,3.0.0)",org.apache.
+ commons.io.serialization;version="[2.0.0,3.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.commons.io
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

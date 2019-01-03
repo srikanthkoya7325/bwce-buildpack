@@ -1,0 +1,175 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.sshd;version="0.7.100"; uses:="org.apache.s
+ shd.common.future,  org.apache.sshd.client.future,  org.apache.sshd.c
+ lient.channel,  org.apache.mina.core.session,  org.apache.mina.core.f
+ uture,  org.apache.sshd.common.session,  org.apache.sshd.client.sessi
+ on,  org.apache.sshd.common,  org.apache.sshd.common.compression,  or
+ g.apache.sshd.common.signature,  org.apache.sshd.common.cipher,  org.
+ apache.sshd.common.util,  org.apache.sshd.common.mac,  org.apache.ssh
+ d.client.kex,  org.apache.mina.core.service,  org.apache.sshd.client,
+   org.apache.sshd.agent,  org.apache.mina.transport.socket.nio,  org.
+ apache.sshd.common.random,  org.apache.sshd.server,  org.apache.sshd.
+ server.session,  org.apache.sshd.server.channel,  org.apache.sshd.ser
+ ver.filesystem,  org.apache.sshd.server.shell,  org.apache.sshd.serve
+ r.kex,  org.apache.sshd.server.auth.gss,  org.apache.sshd.server.auth
+ ,  org.slf4j,  org.apache.sshd.server.keyprovider,  org.apache.mina.t
+ ransport.socket",org.apache.sshd.agent;version="0.7.100";uses:="org.a
+ pache.sshd.common",org.apache.sshd.agent.common;version="0.7.100"; us
+ es:="org.apache.sshd.common.util,  org.apache.sshd.agent,  org.apache
+ .sshd.common,  org.apache.sshd.server.session,  org.slf4j",org.apache
+ .sshd.agent.local;version="0.7.100"; uses:="org.apache.sshd.common.fu
+ ture,  org.apache.sshd.common.util,  org.apache.sshd.agent,  org.apac
+ he.sshd.agent.common,  org.apache.sshd.common,  org.apache.sshd.clien
+ t.future,  org.slf4j,  org.apache.sshd.common.channel,  org.apache.ss
+ hd.client.channel,  org.apache.sshd.common.signature,  org.apache.ssh
+ d.server.session,  org.apache.mina.core.future,  org.apache.sshd.serv
+ er.channel",org.apache.sshd.agent.unix;version="0.7.100"; uses:="org.
+ apache.sshd.common.util,  org.apache.sshd.common,  org.apache.sshd.ag
+ ent.common,  org.apache.tomcat.jni,  org.apache.sshd.common.future,  
+ org.apache.sshd.client.future,  org.slf4j,  org.apache.sshd.common.ch
+ annel,  org.apache.sshd.client.channel,  org.apache.sshd.agent,  org.
+ apache.sshd.agent.local,  org.apache.sshd.server.session,  org.apache
+ .mina.core.future,  org.apache.sshd.server.channel",org.apache.sshd.c
+ lient;version="0.7.100"; uses:="org.apache.sshd.common,  org.apache.s
+ shd,  org.apache.mina.core.session,  org.apache.sshd.common.session, 
+  org.apache.sshd.client.session,  org.apache.sshd.common.util",org.ap
+ ache.sshd.client.auth;version="0.7.100"; uses:="org.apache.mina.core.
+ future,  org.apache.sshd.common,  org.slf4j,  org.apache.sshd.common.
+ util,  org.apache.sshd.client,  org.apache.sshd.agent,  org.apache.ss
+ hd.client.session",org.apache.sshd.client.channel;version="0.7.100"; 
+ uses:="org.apache.sshd.common.future,  org.apache.sshd.client.future,
+   org.apache.mina.core.future,  org.apache.sshd.common.util,  org.apa
+ che.sshd.common,  org.apache.sshd,  org.apache.sshd.common.channel,  
+ org.slf4j",org.apache.sshd.client.future;version="0.7.100";uses:="org
+ .apache.sshd.common.future,org.apache.sshd,org.apache.sshd.common",or
+ g.apache.sshd.client.kex;version="0.7.100"; uses:="org.apache.mina.co
+ re.future,  org.apache.sshd.common.util,  org.apache.sshd.common,  or
+ g.apache.sshd.common.kex,  org.apache.sshd.common.session,  org.apach
+ e.sshd.client.session,  org.apache.sshd.common.digest,  org.slf4j",or
+ g.apache.sshd.client.keyverifier;version="0.7.100"; uses:="org.apache
+ .sshd.common.util,  org.apache.sshd.client,  org.apache.sshd,  org.sl
+ f4j",org.apache.sshd.client.session;version="0.7.100"; uses:="org.apa
+ che.sshd.common.future,  org.apache.mina.core.future,  org.apache.ssh
+ d.common.util,  org.apache.sshd.server.channel,  org.apache.sshd.comm
+ on,  org.apache.sshd.client.future,  org.apache.sshd.common.channel, 
+  org.apache.sshd.client,  org.apache.sshd.common.session,  org.slf4j,
+   org.apache.sshd.client.channel,  org.apache.mina.core.session,  org
+ .apache.sshd.agent,  org.apache.sshd,  org.apache.sshd.client.auth",o
+ rg.apache.sshd.common;version="0.7.100"; uses:="org.apache.sshd.agent
+ ,  org.slf4j,  org.apache.sshd.common.future,  org.apache.mina.core.s
+ ession,  org.apache.mina.core.buffer,  org.apache.mina.core.service, 
+  org.apache.sshd.common.session,  org.apache.sshd.common.util,  org.a
+ pache.sshd.client.future,  org.apache.sshd.common.channel,  org.apach
+ e.mina.core.future",org.apache.sshd.common.channel;version="0.7.100";
+  uses:="org.apache.sshd.common.future,  org.apache.mina.core.future, 
+  org.apache.sshd.common.util,  org.apache.sshd.common,  org.slf4j",or
+ g.apache.sshd.common.cipher;version="0.7.100"; uses:="org.apache.sshd
+ .common,  org.apache.sshd.common.util,  javax.crypto.spec,  javax.cry
+ pto",org.apache.sshd.common.compression;version="0.7.100";uses:="org.
+ apache.sshd.common,org.apache.sshd.common.util,com.jcraft.jzlib",org.
+ apache.sshd.common.digest;version="0.7.100";uses:="org.apache.sshd.co
+ mmon.util,org.apache.sshd.common",org.apache.sshd.common.future;versi
+ on="0.7.100";uses:="org.apache.mina.util",org.apache.sshd.common.kex;
+ version="0.7.100"; uses:="javax.crypto.interfaces,  org.apache.sshd.c
+ ommon.util,  javax.crypto.spec,  javax.crypto",org.apache.sshd.common
+ .keyprovider;version="0.7.100"; uses:="org.apache.sshd.common,  org.s
+ lf4j,  org.apache.sshd.common.util,  org.bouncycastle.openssl",org.ap
+ ache.sshd.common.mac;version="0.7.100"; uses:="org.apache.sshd.common
+ .util,  javax.crypto.spec,  org.apache.sshd.common,  javax.crypto",or
+ g.apache.sshd.common.random;version="0.7.100";uses:="org.apache.sshd.
+ common,org.bouncycastle.crypto.prng",org.apache.sshd.common.session;v
+ ersion="0.7.100"; uses:="org.apache.sshd.common.future,  org.apache.m
+ ina.core.session,  org.apache.mina.core.future,  org.slf4j,  org.apac
+ he.sshd.common,  org.apache.mina.core.buffer,  org.apache.sshd.client
+ .channel,  org.apache.sshd.common.util",org.apache.sshd.common.signat
+ ure;version="0.7.100";uses:="org.apache.sshd.common.util,org.apache.s
+ shd.common",org.apache.sshd.common.util;version="0.7.100"; uses:="org
+ .apache.sshd.common,  org.apache.mina.core.buffer,  org.slf4j,  org.b
+ ouncycastle.jce.provider,  javax.crypto",org.apache.sshd.server;versi
+ on="0.7.100"; uses:="org.apache.sshd.common,  org.apache.mina.transpo
+ rt.socket.nio,  org.apache.sshd.server.session,  org.apache.sshd.comm
+ on.util,  org.apache.sshd.server.auth.gss",org.apache.sshd.server.aut
+ h;version="0.7.100"; uses:="org.apache.sshd.common,  org.apache.sshd.
+ server,  org.apache.sshd.common.util,  org.apache.sshd.server.session
+ ,  org.apache.mina.core.future",org.apache.sshd.server.auth.gss;versi
+ on="0.7.100"; uses:="javax.security.auth.login,  org.ietf.jgss,  java
+ x.security.auth.callback,  javax.security.auth,  org.apache.sshd.serv
+ er.session,  org.apache.sshd.common,  org.apache.sshd.server,  org.ap
+ ache.mina.core.future,  org.apache.sshd.common.util,  org.slf4j",org.
+ apache.sshd.server.channel;version="0.7.100"; uses:="org.apache.mina.
+ core.future,  org.apache.sshd.common.util,  org.apache.sshd.common,  
+ org.apache.sshd.client.future,  org.slf4j,  org.apache.sshd.common.ch
+ annel,  org.apache.mina.core.session,  org.apache.mina.core.buffer,  
+ org.apache.mina.core.service,  org.apache.sshd.common.future,  org.ap
+ ache.sshd.server,  org.apache.mina.transport.socket.nio,  org.apache.
+ sshd.server.session,  org.apache.sshd.agent",org.apache.sshd.server.c
+ ommand;version="0.7.100";uses:="org.apache.sshd.common.util,org.apach
+ e.sshd.server,org.slf4j",org.apache.sshd.server.filesystem;version="0
+ .7.100";uses:="org.apache.sshd.common,org.apache.sshd.server,org.slf4
+ j",org.apache.sshd.server.jaas;version="0.7.100"; uses:="javax.securi
+ ty.auth.callback,  javax.security.auth.login,  org.apache.sshd.server
+ ,  org.apache.sshd.server.session,  javax.security.auth,  org.slf4j",
+ org.apache.sshd.server.kex;version="0.7.100"; uses:="org.apache.mina.
+ core.future,  org.apache.sshd.common.util,  org.apache.sshd.common,  
+ org.apache.sshd.common.kex,  org.apache.sshd.common.session,  org.apa
+ che.sshd.server.session,  org.apache.sshd.common.digest,  org.slf4j",
+ org.apache.sshd.server.keyprovider;version="0.7.100"; uses:="org.apac
+ he.sshd.common.util,  org.apache.sshd.common.keyprovider,  org.slf4j,
+   org.bouncycastle.openssl",org.apache.sshd.server.session;version="0
+ .7.100"; uses:="org.apache.sshd.server,  org.apache.mina.transport.so
+ cket.nio,  org.apache.mina.transport.socket,  org.slf4j,  org.apache.
+ sshd.common.future,  org.apache.mina.core.future,  org.apache.sshd.co
+ mmon.util,  org.apache.sshd.server.channel,  org.apache.sshd.common, 
+  org.apache.sshd.client.future,  org.apache.sshd.common.channel,  org
+ .apache.sshd.common.session,  org.apache.sshd.agent.common,  org.apac
+ he.mina.core.session,  org.apache.sshd.server.x11,  org.apache.mina.c
+ ore.service,  org.apache.sshd,  org.apache.mina.core.buffer,  org.apa
+ che.sshd.client.channel,  org.apache.mina.filter.executor,  org.apach
+ e.mina.core.filterchain",org.apache.sshd.server.sftp;version="0.7.100
+ "; uses:="org.apache.sshd.server,  org.apache.sshd.common,  org.apach
+ e.sshd.common.util,  org.apache.sshd.server.session,  org.slf4j",org.
+ apache.sshd.server.shell;version="0.7.100"; uses:="org.apache.sshd.se
+ rver,  org.apache.mina.util,  org.apache.sshd.server.session,  org.ap
+ ache.sshd.common.util,  org.slf4j,  org.apache.sshd.common",org.apach
+ e.sshd.server.x11;version="0.7.100"; uses:="org.apache.mina.core.futu
+ re,  org.apache.sshd.common,  org.apache.mina.core.buffer,  org.apach
+ e.sshd.client.future,  org.apache.sshd.client.channel,  org.slf4j,  o
+ rg.apache.sshd.common.future,  org.apache.mina.core.session,  org.apa
+ che.sshd.common.util,  org.apache.sshd.common.channel,  org.apache.mi
+ na.filter.executor,  org.apache.mina.core.filterchain,  org.apache.mi
+ na.core.service,  org.apache.sshd.server,  org.apache.mina.transport.
+ socket.nio,  org.apache.sshd.server.session"
+Bundle-ClassPath: org.apache.sshd.core_0.7.0.v201303101611.jar
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/too
+ ls:org.eclipse.orbit/org.apache.sshd.core;tag=v201303101611
+Bundle-Vendor: %providerName
+Bundle-Version: 0.7.100.001
+Bundle-ManifestVersion: 2
+Bundle-Description: The Apache Software Foundation provides support fo
+ r the Apache community of open-source software projects. The Apache p
+ rojects are characterized by a collaborative, consensus based develop
+ ment process, an open and    pragmatic software license, and a desire
+  to create high quality software that leads the way in its field.    
+ We consider ourselves not simply a group of projects sharing a server
+ , but rather a community of developers and users.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-DocURL: http://www.apache.org/
+Bundle-SymbolicName: org.apache.sshd.core
+Import-Package: com.jcraft.jzlib;resolution:=optional,javax.crypto,jav
+ ax.crypto.interfaces,javax.crypto.spec,javax.security.auth,javax.secu
+ rity.auth.callback,javax.security.auth.login,org.apache.mina.core.buf
+ fer;version="[2.0.0,3.0.0)",org.apache.mina.core.filterchain;version=
+ "[2.0.0,3.0.0)",org.apache.mina.core.future;version="[2.0.0,3.0.0)",o
+ rg.apache.mina.core.service;version="[2.0.0,3.0.0)",org.apache.mina.c
+ ore.session;version="[2.0.0,3.0.0)",org.apache.mina.filter.executor;v
+ ersion="[2.0.0,3.0.0)",org.apache.mina.transport.socket;version="[2.0
+ .0,3.0.0)",org.apache.mina.transport.socket.nio;version="[2.0.0,3.0.0
+ )",org.apache.mina.util;version="[2.0.0,3.0.0)",org.apache.tomcat.jni
+ ;resolution:=optional,org.bouncycastle.crypto.prng;resolution:=option
+ al,org.bouncycastle.jce.provider;resolution:=optional,org.bouncycastl
+ e.openssl;resolution:=optional,org.ietf.jgss,org.slf4j;version="[1.6.
+ 0,2.0.0)"
+
+

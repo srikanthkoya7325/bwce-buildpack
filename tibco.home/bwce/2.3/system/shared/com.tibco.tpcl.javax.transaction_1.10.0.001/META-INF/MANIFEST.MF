@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Export-Package: javax.transaction;version="1.10.0";uses:="javax.transa
+ ction.xa",javax.transaction.xa;version="1.10.0"
+Bundle-Vendor: %providerName
+Bundle-ClassPath: geronimo-jta_1.1_spec-1.1.1.jar
+Bundle-Version: 1.10.0.001
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Import-Package: javax.transaction;version="[1.10.0,2.0.0)", javax.tran
+ saction.xa;version="[1.10.0,2.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.javax.transaction
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

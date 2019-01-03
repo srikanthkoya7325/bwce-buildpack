@@ -1,0 +1,91 @@
+Manifest-Version: 1.0
+Export-Package: com.tibco.rta;version="2.1.0"; uses:="com.tibco.rta.mo
+ del.mutable,  com.tibco.rta.query,  com.tibco.rta.log,  com.tibco.rta
+ .property,  com.tibco.rta.service.transport,  com.tibco.rta.model.rul
+ e,  com.tibco.rta.model,  com.tibco.rta.client",com.tibco.rta.client;
+ version="2.1.0"; uses:="com.tibco.rta.impl,  com.tibco.rta.util.relea
+ se,  com.tibco.rta.query,  com.tibco.rta.log",com.tibco.rta.client.ht
+ tp;version="2.1.0"; uses:="com.tibco.rta.service.transport,  com.tibc
+ o.rta.client,  com.tibco.rta,  org.apache.http.client,  org.apache.ht
+ tp",com.tibco.rta.client.notify;version="2.1.0",com.tibco.rta.client.
+ notify.impl;version="2.1.0"; uses:="org.apache.http.message,  javax.j
+ ms,  com.tibco.rta.client,  com.tibco.rta.client.notify,  org.apache.
+ http.util",com.tibco.rta.client.taskdefs;version="2.1.0"; uses:="com.
+ tibco.rta.impl,  com.tibco.rta,  com.tibco.rta.log,  com.tibco.rta.cl
+ ient.notify,  com.tibco.rta.impl.util,  com.tibco.rta.client.transpor
+ t",com.tibco.rta.client.taskdefs.impl;version="2.1.0"; uses:="javax.j
+ ms,  com.tibco.rta.common.service,  com.tibco.rta.client.tcp,  com.ti
+ bco.rta.client.transport,  com.tibco.rta.query.impl,  com.tibco.rta.i
+ mpl,  com.tibco.rta.client.taskdefs,  com.tibco.rta.client.transport.
+ impl,  com.tibco.rta.model,  com.tibco.rta.model.rule,  com.tibco.rta
+ ",com.tibco.rta.common;version="2.1.0";uses:="com.tibco.rta.util.rele
+ ase",com.tibco.rta.common.service;version="2.1.0"; uses:="com.tibco.r
+ ta.service.rules,  com.tibco.rta.service.cluster,  com.tibco.rta.runt
+ ime.model.rule,  com.tibco.rta.runtime.model,  com.tibco.rta.service.
+ purge,  com.tibco.rta.service.admin,  com.tibco.rta.service.heartbeat
+ ,  com.tibco.rta.service.metric,  com.tibco.rta.service.om,  com.tibc
+ o.rta.service.transport,  com.tibco.rta.model,  com.tibco.rta,  com.t
+ ibco.rta.service.persistence,  com.tibco.rta.service.recovery,  com.t
+ ibco.rta.service.query",com.tibco.rta.impl;version="2.1.0"; uses:="co
+ m.tibco.rta.query,  com.tibco.rta.log,  com.tibco.rta.client.transpor
+ t,  com.tibco.rta.query.impl,  com.tibco.rta.util,  com.tibco.rta.cli
+ ent.taskdefs,  com.tibco.rta.model.rule,  com.tibco.rta.model,  com.t
+ ibco.rta",com.tibco.rta.impl.util;version="2.1.0"; uses:="com.tibco.r
+ ta.impl,  com.tibco.rta.common.service,  com.tibco.rta,  com.tibco.rt
+ a.util",com.tibco.rta.log;version="2.1.0",com.tibco.rta.metric;versio
+ n="2.1.0";uses:="com.tibco.rta.client",com.tibco.rta.model;version="2
+ .1.0";uses:="com.tibco.rta,com.tibco.rta.model.serialize",com.tibco.r
+ ta.property;version="2.1.0",com.tibco.rta.property.impl;version="2.1.
+ 0";uses:="com.tibco.rta.property",com.tibco.rta.query;version="2.1.0"
+ ,com.tibco.rta.query.impl;version="2.1.0";uses:="com.tibco.rta.impl,c
+ om.tibco.rta.client,com.tibco.rta.query",com.tibco.rta.service.transp
+ ort;version="2.1.0";uses:="com.tibco.rta.common.service",com.tibco.rt
+ a.util;version="2.1.0"; uses:="javax.jms,  com.tibco.rta.model.rule, 
+  com.tibco.rta.query,  com.tibco.rta,  com.tibco.rta.log",com.tibco.s
+ pm.rule.action;version="2.1.0"; uses:="com.tibco.rta.runtime.model.ru
+ le,  com.tibco.rta.runtime.model,  com.tibco.rta.model,  com.tibco.rt
+ a,  com.tibco.rta.log,  javax.mail,  javax.mail.event"
+Bundle-Vendor: %providerName
+Bundle-ClassPath: lib/rtclient.jar,lib/rtcommon.jar,lib/rtruntime.jar,
+ lib/spm.jar,lib/rttransport.jar,lib/rtapi.jar,lib/rtmetrics.jar
+Bundle-Version: 2.1.0.004
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Import-Package: com.fasterxml.jackson.annotation;version="[2.1.4,3.0.0
+ )",com.fasterxml.jackson.core;version="[2.1.4,3.0.0)",com.fasterxml.j
+ ackson.core.base;version="[2.1.4,3.0.0)",com.fasterxml.jackson.core.f
+ ormat;version="[2.1.4,3.0.0)",com.fasterxml.jackson.core.io;version="
+ [2.1.4,3.0.0)",com.fasterxml.jackson.core.json;version="[2.1.4,3.0.0)
+ ",com.fasterxml.jackson.core.sym;version="[2.1.4,3.0.0)",com.fasterxm
+ l.jackson.core.type;version="[2.1.4,3.0.0)",com.fasterxml.jackson.cor
+ e.util;version="[2.1.4,3.0.0)",com.fasterxml.jackson.databind;version
+ ="[2.1.4,3.0.0)",com.fasterxml.jackson.databind.annotation;version="[
+ 2.1.4,3.0.0)",com.fasterxml.jackson.databind.cfg;version="[2.1.4,3.0.
+ 0)",com.fasterxml.jackson.databind.deser;version="[2.1.4,3.0.0)",com.
+ fasterxml.jackson.databind.deser.impl;version="[2.1.4,3.0.0)",com.fas
+ terxml.jackson.databind.deser.std;version="[2.1.4,3.0.0)",com.fasterx
+ ml.jackson.databind.exc;version="[2.1.4,3.0.0)",com.fasterxml.jackson
+ .databind.ext;version="[2.1.4,3.0.0)",com.fasterxml.jackson.databind.
+ introspect;version="[2.1.4,3.0.0)",com.fasterxml.jackson.databind.jso
+ nFormatVisitors;version="[2.1.4,3.0.0)",com.fasterxml.jackson.databin
+ d.jsonschema;version="[2.1.4,3.0.0)",com.fasterxml.jackson.databind.j
+ sontype;version="[2.1.4,3.0.0)",com.fasterxml.jackson.databind.jsonty
+ pe.impl;version="[2.1.4,3.0.0)",com.fasterxml.jackson.databind.module
+ ;version="[2.1.4,3.0.0)",com.fasterxml.jackson.databind.node;version=
+ "[2.1.4,3.0.0)",com.fasterxml.jackson.databind.ser;version="[2.1.4,3.
+ 0.0)",com.fasterxml.jackson.databind.ser.impl;version="[2.1.4,3.0.0)"
+ ,com.fasterxml.jackson.databind.ser.std;version="[2.1.4,3.0.0)",com.f
+ asterxml.jackson.databind.type;version="[2.1.4,3.0.0)",com.fasterxml.
+ jackson.databind.util;version="[2.1.4,3.0.0)",com.tibco.security;vers
+ ion="[2.15.0,3.0.0)",com.tibco.tibjms;version="5.0.0",com.tibco.tibjm
+ s.admin;version="5.0.0",com.tibco.tibjms.naming;version="5.0.0",com.t
+ ibco.tibjms.naming.tibjmsnaming;version="5.0.0",javax.jms;version="[1
+ .1.100,3.0.0)",javax.xml.parsers;version="[1.3.0,2.0.0)",javax.xml.tr
+ ansform.dom;version="[1.3.0,2.0.0)",javax.xml.transform.sax;version="
+ [1.3.0,2.0.0)",javax.xml.transform.stream;version="[1.3.0,2.0.0)",org
+ .apache.log4j;version="[1.2.400,2.0.0)",org.slf4j;version="[1.6.100,2
+ .0.0)"
+Bundle-SymbolicName: com.tibco.amx.spm.client
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+

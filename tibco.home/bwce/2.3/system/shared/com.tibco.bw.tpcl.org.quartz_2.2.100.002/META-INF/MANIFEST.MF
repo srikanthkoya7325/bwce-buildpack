@@ -1,0 +1,88 @@
+Manifest-Version: 1.0
+Export-Package: org.quartz;version="2.2.100";uses:="org.quartz.utils,o
+ rg.quartz.spi,org.quartz.impl.matchers",org.quartz.commonj;version="2
+ .2.100";uses:="commonj.work,org.quartz.spi",org.quartz.core;version="
+ 2.2.100"; uses:="javax.management.openmbean,  org.quartz.spi,  org.qu
+ artz,  org.quartz.core.jmx,  org.quartz.listeners,  javax.management,
+   org.quartz.management,  org.slf4j,  org.quartz.impl,  org.quartz.im
+ pl.matchers",org.quartz.core.jmx;version="2.2.100";uses:="javax.manag
+ ement.openmbean,org.quartz.spi,org.quartz",org.quartz.ee.jmx.jboss;ve
+ rsion="2.2.100";uses:="org.quartz.impl,javax.management,org.jboss.sys
+ tem",org.quartz.ee.jta;version="2.2.100"; uses:="org.quartz.core,  or
+ g.quartz.spi,  org.quartz,  javax.transaction",org.quartz.ee.servlet;
+ version="2.2.100";uses:="javax.servlet,org.quartz.impl,javax.servlet.
+ http",org.quartz.helpers;version="2.2.100",org.quartz.impl;version="2
+ .2.100"; uses:="org.quartz.core,  org.quartz.spi,  org.quartz,  org.q
+ uartz.listeners,  javax.management,  org.slf4j,  org.quartz.impl.matc
+ hers",org.quartz.impl.calendar;version="2.2.100";uses:="org.quartz",o
+ rg.quartz.impl.jdbcjobstore;version="2.2.100"; uses:="org.quartz.spi,
+   org.quartz,  org.slf4j,  org.quartz.utils,  javax.transaction,  org
+ .quartz.impl.matchers",org.quartz.impl.jdbcjobstore.oracle;version="2
+ .2.100";uses:="org.quartz.spi,org.quartz,org.quartz.impl.jdbcjobstore
+ ",org.quartz.impl.jdbcjobstore.oracle.weblogic;version="2.2.100";uses
+ :="org.quartz.impl.jdbcjobstore.oracle",org.quartz.impl.matchers;vers
+ ion="2.2.100";uses:="org.quartz.utils,org.quartz,new org.quartz.impl.
+ matchers",org.quartz.impl.triggers;version="2.2.100";uses:="org.quart
+ z.spi,org.quartz",org.quartz.jobs;version="2.2.100";uses:="org.quartz
+ ,org.slf4j",org.quartz.jobs.ee.ejb;version="2.2.100";uses:="javax.nam
+ ing,org.quartz",org.quartz.jobs.ee.jms;version="2.2.100";uses:="javax
+ .naming,javax.jms,org.quartz",org.quartz.jobs.ee.jmx;version="2.2.100
+ ";uses:="org.quartz,org.slf4j",org.quartz.jobs.ee.mail;version="2.2.1
+ 00"; uses:="org.quartz,  javax.mail.internet,  javax.mail,  org.slf4j
+ ",org.quartz.listeners;version="2.2.100";uses:="org.quartz,org.slf4j"
+ ,org.quartz.management;version="2.2.100";uses:="org.quartz.core",org.
+ quartz.plugins;version="2.2.100"; uses:="org.quartz.spi,  org.quartz,
+   javax.transaction,  org.slf4j",org.quartz.plugins.history;version="
+ 2.2.100";uses:="org.quartz.spi,org.quartz,org.slf4j",org.quartz.plugi
+ ns.management;version="2.2.100";uses:="org.quartz.spi,org.quartz,org.
+ slf4j",org.quartz.plugins.xml;version="2.2.100"; uses:="org.quartz.jo
+ bs,  org.quartz.spi,  org.quartz,  javax.transaction,  org.slf4j,  or
+ g.quartz.plugins",org.quartz.simpl;version="2.2.100"; uses:="org.quar
+ tz.spi,  org.quartz,  org.slf4j,  org.quartz.impl.matchers",org.quart
+ z.spi;version="2.2.100";uses:="org.quartz,org.quartz.impl.matchers",o
+ rg.quartz.utils;version="2.2.100";uses:="com.mchange.v2.c3p0,org.slf4
+ j",org.quartz.utils.counter;version="2.2.100",org.quartz.utils.counte
+ r.sampled;version="2.2.100";uses:="org.quartz.utils,org.quartz.utils.
+ counter",org.quartz.utils.weblogic;version="2.2.100";uses:="org.quart
+ z.utils",org.quartz.xml;version="2.2.100"; uses:="javax.xml.xpath,  o
+ rg.quartz.spi,  org.quartz,  org.w3c.dom,  org.xml.sax,  javax.xml.na
+ mespace"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: quartz-jobs-2.2.1.jar,quartz-2.2.1.jar,c3p0-0.9.1.1.
+ jar
+Bundle-Version: 2.2.100.002
+Bundle-Name: TIBCO BW TPCL for Quartz 2.2.1
+Bundle-ManifestVersion: 2
+Import-Package: javax.ejb;version="[3.0.0,4.0.0)";resolution:=optional
+ ,javax.jms;version="[1.1.0,3.0.0)";resolution:=optional,javax.mail;ve
+ rsion="[1.4.0,2.0.0)",javax.mail.internet;version="[1.4.0,2.0.0)",jav
+ ax.management;version="[1.2.0,2.0.0)",javax.management.openmbean;vers
+ ion="[1.2.0,2.0.0)",javax.naming;version="0.0.0",javax.rmi;version="0
+ .0.0",javax.servlet;version="[2.4.0,3.0.0)",javax.servlet.http;versio
+ n="[2.4.0,3.0.0)",javax.sql;version="[3.0.0,4.0.0)",javax.transaction
+ ;version="[1.0.1,2.0.0)",javax.xml.namespace;version="[1.1.0,2.0.0)",
+ javax.xml.parsers;version="[1.3.0,2.0.0)",javax.xml.xpath;version="[1
+ .3.0,2.0.0)",org.apache.commons.dbcp;version="[1.2.1,2.0.0)",org.quar
+ tz;version="[2.2.100,3.0.0)",org.quartz.core;version="[2.2.100,3.0.0)
+ ",org.quartz.core.jmx;version="[2.2.100,3.0.0)",org.quartz.ee.jta;ver
+ sion="[2.2.100,3.0.0)",org.quartz.ee.servlet;version="[2.2.100,3.0.0)
+ ",org.quartz.helpers;version="[2.2.100,3.0.0)",org.quartz.impl;versio
+ n="[2.2.100,3.0.0)",org.quartz.impl.calendar;version="[2.2.100,3.0.0)
+ ",org.quartz.impl.jdbcjobstore;version="[2.2.100,3.0.0)",org.quartz.j
+ obs;version="[2.2.100,3.0.0)",org.quartz.jobs.ee.ejb;version="[2.2.10
+ 0,3.0.0)",org.quartz.jobs.ee.jms;version="[2.2.100,3.0.0)",org.quartz
+ .jobs.ee.jmx;version="[2.2.100,3.0.0)",org.quartz.jobs.ee.mail;versio
+ n="[2.2.100,3.0.0)",org.quartz.listeners;version="[2.2.100,3.0.0)",or
+ g.quartz.plugins;version="[2.2.100,3.0.0)",org.quartz.plugins.history
+ ;version="[2.2.100,3.0.0)",org.quartz.plugins.management;version="[2.
+ 2.100,3.0.0)",org.quartz.plugins.xml;version="[2.2.100,3.0.0)",org.qu
+ artz.simpl;version="[2.2.100,3.0.0)",org.quartz.spi;version="[2.2.100
+ ,3.0.0)",org.quartz.utils;version="[2.2.100,3.0.0)",org.quartz.utils.
+ counter;version="[2.2.100,3.0.0)",org.quartz.utils.counter.sampled;ve
+ rsion="[2.2.100,3.0.0)",org.quartz.xml;version="[2.2.100,3.0.0)",org.
+ slf4j;version="[1.5.2,2.0.0)",org.w3c.dom;version="[3.0.0,4.0.0)",org
+ .xml.sax;version="[2.0.0,3.0.0)"
+Bundle-SymbolicName: com.tibco.bw.tpcl.org.quartz
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

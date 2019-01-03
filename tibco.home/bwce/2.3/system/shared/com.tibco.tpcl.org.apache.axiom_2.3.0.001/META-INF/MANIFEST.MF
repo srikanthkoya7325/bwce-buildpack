@@ -1,0 +1,198 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.axiom.attachments;version="2.2.0"; uses:="o
+ rg.apache.commons.logging,  javax.mail.internet,  org.apache.axiom.ex
+ t.activation,  org.apache.axiom.om,  javax.activation,  org.apache.ax
+ iom.attachments.lifecycle,  org.apache.james.mime4j.stream",org.apach
+ e.axiom.attachments.impl;version="2.2.0";uses:="javax.activation,org.
+ apache.axiom.attachments.utils",org.apache.axiom.attachments.lifecycl
+ e;version="2.2.0";uses:="org.apache.axiom.attachments.lifecycle.impl"
+ ,org.apache.axiom.attachments.lifecycle.impl;version="2.2.0";uses:="j
+ avax.activation,org.apache.commons.logging,org.apache.axiom.attachmen
+ ts.lifecycle",org.apache.axiom.attachments.utils;version="2.2.0";uses
+ :="org.apache.axiom.ext.io",org.apache.axiom.c14n;version="2.2.0";use
+ s:="org.apache.axiom.c14n.omwrapper.interfaces,org.apache.axiom.om",o
+ rg.apache.axiom.c14n.exceptions;version="2.2.0",org.apache.axiom.c14n
+ .helpers;version="2.2.0";uses:="org.apache.axiom.c14n.omwrapper.inter
+ faces",org.apache.axiom.c14n.impl;version="2.2.0";uses:="org.apache.a
+ xiom.c14n,org.apache.axiom.c14n.omwrapper.interfaces,org.apache.axiom
+ .c14n.helpers",org.apache.axiom.c14n.omwrapper;version="2.2.0";uses:=
+ "org.apache.axiom.c14n.omwrapper.interfaces,org.apache.axiom.c14n.omw
+ rapper.factory,org.apache.axiom.om",org.apache.axiom.c14n.omwrapper.f
+ actory;version="2.2.0";uses:="org.apache.axiom.c14n.omwrapper.interfa
+ ces,org.apache.axiom.om",org.apache.axiom.c14n.omwrapper.interfaces;v
+ ersion="2.2.0",org.apache.axiom.c14n.utils;version="2.2.0",org.apache
+ .axiom.ext.activation;version="2.2.0";uses:="javax.activation",org.ap
+ ache.axiom.ext.io;version="2.2.0",org.apache.axiom.ext.stax;version="
+ 2.2.0";uses:="javax.xml.stream",org.apache.axiom.ext.stax.datahandler
+ ;version="2.2.0";uses:="javax.activation",org.apache.axiom.locator;ve
+ rsion="2.2.0";uses:="org.osgi.util.tracker,org.osgi.framework,org.apa
+ che.axiom.om",org.apache.axiom.locator.loader;version="2.2.0";uses:="
+ org.apache.axiom.om",org.apache.axiom.mime;version="2.2.0";uses:="jav
+ ax.activation",org.apache.axiom.mime.impl.axiom;version="2.2.0";uses:
+ ="javax.activation,org.apache.axiom.mime",org.apache.axiom.mime.impl.
+ javamail;version="2.2.0";uses:="javax.activation,org.apache.axiom.mim
+ e",org.apache.axiom.om;version="2.2.0"; uses:="org.apache.axiom.mime,
+   org.apache.axiom.attachments,  org.apache.axiom.om.util,  org.apach
+ e.axiom.ext.stax.datahandler,  org.apache.axiom.util.stax.xop,  javax
+ .xml.namespace,  org.xml.sax,  org.apache.axiom.soap,  javax.activati
+ on,  javax.xml.stream,  javax.xml.transform,  javax.xml.transform.sax
+ ",org.apache.axiom.om.dom;version="2.2.0";uses:="javax.xml.parsers,or
+ g.apache.axiom.om",org.apache.axiom.om.ds;version="2.2.0"; uses:="jav
+ ax.activation,  javax.xml.stream,  org.apache.commons.logging,  new o
+ rg.apache.axiom.om.ds,  javax.xml.namespace,  org.apache.axiom.om",or
+ g.apache.axiom.om.ds.custombuilder;version="2.2.0";uses:="javax.xml.s
+ tream,org.apache.axiom.om.impl.builder,org.apache.axiom.om",org.apach
+ e.axiom.om.impl;version="2.2.0"; uses:="org.apache.axiom.util.stax,  
+ org.apache.axiom.util.activation,  javax.mail.internet,  org.apache.a
+ xiom.attachments,  org.apache.axiom.om.util,  org.apache.axiom.ext.st
+ ax.datahandler,  org.apache.axiom.om,  org.apache.axiom.util.stax.xop
+ ,  javax.xml.namespace,  javax.activation,  javax.xml.stream",org.apa
+ che.axiom.om.impl.builder;version="2.2.0"; uses:="org.apache.axiom.at
+ tachments,  org.apache.axiom.ext.stax.datahandler,  org.apache.axiom.
+ om,  org.apache.axiom.util.stax.xop,  org.xml.sax,  javax.xml.namespa
+ ce,  javax.activation,  javax.xml.stream,  org.xml.sax.ext,  org.xml.
+ sax.helpers",org.apache.axiom.om.impl.dom;version="2.2.0"; uses:="org
+ .apache.axiom.om.impl,  org.apache.axiom.util.stax,  org.apache.axiom
+ .util.namespace,  org.w3c.dom,  org.apache.axiom.ext.stax.datahandler
+ ,  org.apache.axiom.om,  javax.xml.namespace,  javax.activation,  org
+ .apache.axiom.soap,  javax.xml.stream,  javax.xml.stream.util,  org.a
+ pache.axiom.util.stax.wrapper,  org.apache.axiom.ext.stax,  javax.xml
+ .transform.sax,  org.apache.axiom.om.impl.traverse",org.apache.axiom.
+ om.impl.dom.factory;version="2.2.0"; uses:="org.apache.axiom.om.dom, 
+  javax.xml.parsers,  org.apache.axiom.om.util,  org.apache.axiom.ext.
+ stax.datahandler,  org.apache.axiom.util.stax.xop,  org.xml.sax,  org
+ .apache.axiom.om,  javax.xml.namespace,  org.apache.axiom.soap,  java
+ x.xml.stream,  javax.xml.transform,  org.apache.axiom.om.impl.dom,  o
+ rg.apache.axiom.locator.loader,  javax.xml.transform.sax",org.apache.
+ axiom.om.impl.dom.jaxp;version="2.2.0"; uses:="javax.xml.parsers,  ja
+ vax.xml.validation,  org.w3c.dom,  org.xml.sax",org.apache.axiom.om.i
+ mpl.exception;version="2.2.0";uses:="org.apache.axiom.om",org.apache.
+ axiom.om.impl.jaxp;version="2.2.0";uses:="javax.xml.transform.sax,org
+ .apache.axiom.om",org.apache.axiom.om.impl.llom;version="2.2.0"; uses
+ :="org.apache.axiom.om.impl,  org.apache.axiom.util.stax,  org.apache
+ .axiom.util.namespace,  org.apache.axiom.ext.stax.datahandler,  org.a
+ pache.axiom.om,  javax.xml.namespace,  javax.activation,  javax.xml.s
+ tream,  javax.xml.stream.util,  org.apache.axiom.util.stax.wrapper,  
+ org.apache.axiom.ext.stax,  javax.xml.transform.sax,  org.apache.axio
+ m.om.impl.traverse",org.apache.axiom.om.impl.llom.factory;version="2.
+ 2.0"; uses:="org.apache.axiom.om.impl.builder,  org.apache.axiom.om.u
+ til,  org.apache.axiom.ext.stax.datahandler,  org.apache.axiom.util.s
+ tax.xop,  org.apache.axiom.om,  javax.xml.namespace,  org.xml.sax,  o
+ rg.apache.axiom.soap,  javax.xml.stream,  javax.xml.transform,  org.a
+ pache.axiom.soap.impl.builder,  org.apache.axiom.locator.loader,  jav
+ ax.xml.transform.sax",org.apache.axiom.om.impl.llom.util;version="2.2
+ .0";uses:="org.apache.axiom.util.namespace,org.apache.axiom.om.util,o
+ rg.apache.axiom.om",org.apache.axiom.om.impl.serialize;version="2.2.0
+ "; uses:="javax.xml.stream,  org.apache.axiom.util.sax,  org.xml.sax,
+   org.apache.axiom.om",org.apache.axiom.om.impl.traverse;version="2.2
+ .0";uses:="javax.xml.namespace,org.apache.axiom.om",org.apache.axiom.
+ om.impl.util;version="2.2.0";uses:="javax.xml.stream,org.apache.axiom
+ .om",org.apache.axiom.om.util;version="2.2.0"; uses:="org.apache.axio
+ m.util.stax.debug,  new org.apache.axiom.om.util,  org.apache.commons
+ .logging,  org.apache.axiom.util.base64,  org.apache.axiom.om,  javax
+ .xml.namespace,  org.apache.axiom.soap,  javax.activation,  org.apach
+ e.axiom.attachments.utils,  javax.xml.stream,  org.apache.axiom.util.
+ stax.dialect",org.apache.axiom.om.xpath;version="2.2.0";uses:="org.ja
+ xen,org.apache.axiom.om",org.apache.axiom.soap;version="2.2.0";uses:=
+ "org.apache.axiom.om,javax.xml.namespace",org.apache.axiom.soap.impl.
+ builder;version="2.2.0"; uses:="javax.activation,  org.apache.axiom.s
+ oap,  javax.xml.stream,  org.apache.axiom.attachments,  org.apache.ax
+ iom.om.impl.builder,  org.apache.axiom.om,  org.apache.axiom.util.sta
+ x.xop",org.apache.axiom.soap.impl.dom;version="2.2.0"; uses:="org.apa
+ che.axiom.soap,  javax.xml.stream,  org.apache.axiom.om.impl.dom,  or
+ g.w3c.dom,  org.apache.axiom.om",org.apache.axiom.soap.impl.dom.facto
+ ry;version="2.2.0"; uses:="org.apache.axiom.soap,  org.apache.axiom.o
+ m.impl.dom,  org.apache.axiom.om.impl.dom.factory,  org.apache.axiom.
+ om",org.apache.axiom.soap.impl.dom.soap11;version="2.2.0"; uses:="org
+ .apache.axiom.soap,  javax.xml.stream,  org.apache.axiom.soap.impl.do
+ m.factory,  org.apache.axiom.om.impl.dom,  org.apache.axiom.om.impl.d
+ om.factory,  javax.xml.namespace,  org.apache.axiom.soap.impl.dom,  o
+ rg.apache.axiom.om",org.apache.axiom.soap.impl.dom.soap12;version="2.
+ 2.0"; uses:="org.apache.axiom.soap,  javax.xml.stream,  org.apache.ax
+ iom.soap.impl.dom.factory,  org.apache.axiom.om.impl.dom,  org.apache
+ .axiom.om.impl.dom.factory,  javax.xml.namespace,  org.apache.axiom.s
+ oap.impl.dom,  org.apache.axiom.om",org.apache.axiom.soap.impl.llom;v
+ ersion="2.2.0"; uses:="org.apache.axiom.soap,  javax.xml.stream,  org
+ .apache.axiom.om.impl.llom,  org.apache.axiom.om",org.apache.axiom.so
+ ap.impl.llom.soap11;version="2.2.0"; uses:="org.apache.axiom.om.impl.
+ llom.factory,  org.apache.axiom.soap,  javax.xml.stream,  org.apache.
+ axiom.soap.impl.llom,  javax.xml.namespace,  org.apache.axiom.om",org
+ .apache.axiom.soap.impl.llom.soap12;version="2.2.0"; uses:="org.apach
+ e.axiom.om.impl.llom.factory,  org.apache.axiom.soap,  javax.xml.stre
+ am,  org.apache.axiom.soap.impl.llom,  javax.xml.namespace,  org.apac
+ he.axiom.om",org.apache.axiom.util;version="2.2.0",org.apache.axiom.u
+ til.activation;version="2.2.0";uses:="javax.activation,org.apache.axi
+ om.ext.activation",org.apache.axiom.util.base64;version="2.2.0";uses:
+ ="javax.activation",org.apache.axiom.util.blob;version="2.2.0";uses:=
+ "org.apache.axiom.ext.io,org.apache.axiom.ext.activation",org.apache.
+ axiom.util.namespace;version="2.2.0";uses:="javax.xml.namespace",org.
+ apache.axiom.util.sax;version="2.2.0";uses:="org.xml.sax.ext,org.xml.
+ sax",org.apache.axiom.util.stax;version="2.2.0"; uses:="javax.activat
+ ion,  javax.xml.stream,  org.apache.axiom.ext.stax.datahandler,  java
+ x.xml.namespace",org.apache.axiom.util.stax.debug;version="2.2.0";use
+ s:="javax.xml.stream,org.apache.commons.logging,org.apache.axiom.util
+ .stax.wrapper",org.apache.axiom.util.stax.dialect;version="2.2.0"; us
+ es:="javax.xml.stream,  org.apache.axiom.util.stax,  org.apache.axiom
+ .util.namespace,  org.apache.axiom.util.stax.wrapper,  javax.xml.tran
+ sform,  org.apache.axiom.ext.stax,  javax.xml.namespace",org.apache.a
+ xiom.util.stax.wrapper;version="2.2.0"; uses:="javax.xml.stream,  jav
+ ax.xml.stream.util,  javax.xml.transform,  javax.xml.namespace",org.a
+ pache.axiom.util.stax.xop;version="2.2.0"; uses:="javax.activation,  
+ javax.xml.stream,  org.apache.axiom.util.stax.wrapper,  org.apache.ax
+ iom.ext.stax.datahandler,  javax.xml.namespace"
+Bundle-Vendor: %providerName
+Bundle-ClassPath: axiom-api-1.2.13.jar,axiom-c14n-1.2.13.jar,axiom-dom
+ -1.2.13.jar,axiom-impl-1.2.13.jar
+Bundle-Version: 2.3.0.001
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Import-Package: javax.activation;version="[1.1.0,2.0.0)",javax.mail;ve
+ rsion="[1.4.100,2.0.0)",javax.mail.internet;version="[1.4.100,2.0.0)"
+ ,javax.mail.util;version="[1.4.100,2.0.0)",javax.xml.namespace;versio
+ n="[1.1.0,2.0.0)",javax.xml.parsers;version="[1.3.0,2.0.0)",javax.xml
+ .stream;version="[1.0.0,2.0.0)",javax.xml.stream.util;version="[1.0.0
+ ,2.0.0)",javax.xml.transform;version="[1.3.0,2.0.0)",javax.xml.transf
+ orm.sax;version="[1.3.0,2.0.0)",javax.xml.validation;version="[1.3.0,
+ 2.0.0)",org.apache.axiom.attachments;version="[2.2.0,2.3.0)",org.apac
+ he.axiom.attachments.impl;version="[2.2.0,2.3.0)",org.apache.axiom.at
+ tachments.lifecycle;version="[2.2.0,2.3.0)",org.apache.axiom.attachme
+ nts.lifecycle.impl;version="[2.2.0,2.3.0)",org.apache.axiom.attachmen
+ ts.utils;version="[2.2.0,2.3.0)",org.apache.axiom.c14n;version="[2.2.
+ 0,2.3.0)",org.apache.axiom.c14n.exceptions;version="[2.2.0,2.3.0)",or
+ g.apache.axiom.c14n.helpers;version="[2.2.0,2.3.0)",org.apache.axiom.
+ c14n.impl;version="[2.2.0,2.3.0)",org.apache.axiom.c14n.omwrapper;ver
+ sion="[2.2.0,2.3.0)",org.apache.axiom.c14n.omwrapper.factory;version=
+ "[2.2.0,2.3.0)",org.apache.axiom.c14n.omwrapper.interfaces;version="[
+ 2.2.0,2.3.0)",org.apache.axiom.c14n.utils;version="[2.2.0,2.3.0)",org
+ .apache.axiom.om;version="[2.2.0,2.3.0)",org.apache.axiom.om.ds;versi
+ on="[2.2.0,2.3.0)",org.apache.axiom.om.ds.custombuilder;version="[2.2
+ .0,2.3.0)",org.apache.axiom.om.impl;version="[2.2.0,2.3.0)",org.apach
+ e.axiom.om.impl.builder;version="[2.2.0,2.3.0)",org.apache.axiom.om.i
+ mpl.dom;version="[2.2.0,2.3.0)",org.apache.axiom.om.impl.dom.factory;
+ version="[2.2.0,2.3.0)",org.apache.axiom.om.impl.dom.jaxp;version="[2
+ .2.0,2.3.0)",org.apache.axiom.om.impl.exception;version="[2.2.0,2.3.0
+ )",org.apache.axiom.om.impl.llom;version="[2.2.0,2.3.0)",org.apache.a
+ xiom.om.impl.llom.factory;version="[2.2.0,2.3.0)",org.apache.axiom.om
+ .impl.llom.util;version="[2.2.0,2.3.0)",org.apache.axiom.om.impl.seri
+ alize;version="[2.2.0,2.3.0)",org.apache.axiom.om.impl.traverse;versi
+ on="[2.2.0,2.3.0)",org.apache.axiom.om.impl.util;version="[2.2.0,2.3.
+ 0)",org.apache.axiom.om.util;version="[2.2.0,2.3.0)",org.apache.axiom
+ .om.xpath;version="[2.2.0,2.3.0)",org.apache.axiom.soap;version="[2.2
+ .0,2.3.0)",org.apache.axiom.soap.impl.builder;version="[2.2.0,2.3.0)"
+ ,org.apache.axiom.soap.impl.dom;version="[2.2.0,2.3.0)",org.apache.ax
+ iom.soap.impl.dom.factory;version="[2.2.0,2.3.0)",org.apache.axiom.so
+ ap.impl.dom.soap11;version="[2.2.0,2.3.0)",org.apache.axiom.soap.impl
+ .dom.soap12;version="[2.2.0,2.3.0)",org.apache.axiom.soap.impl.llom;v
+ ersion="[2.2.0,2.3.0)",org.apache.axiom.soap.impl.llom.soap11;version
+ ="[2.2.0,2.3.0)",org.apache.axiom.soap.impl.llom.soap12;version="[2.2
+ .0,2.3.0)",org.apache.commons.logging;version="[1.3.1,2.0.0)",org.apa
+ che.james.mime4j;version="[1.0.0,2.0.0)",org.apache.james.mime4j.stre
+ am;version="[1.0.0,2.0.0)",org.jaxen;version="[1.1.300,2.0.0)",org.ja
+ xen.saxpath;version="[1.1.300,2.0.0)",org.jaxen.util;version="[1.1.30
+ 0,2.0.0)",org.w3c.dom;version="[3.0.0,4.0.0)",org.xml.sax;version="[2
+ .0.2,3.0.0)",org.xml.sax.ext;version="[2.0.2,3.0.0)",org.xml.sax.help
+ ers;version="[2.0.2,3.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.axiom
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

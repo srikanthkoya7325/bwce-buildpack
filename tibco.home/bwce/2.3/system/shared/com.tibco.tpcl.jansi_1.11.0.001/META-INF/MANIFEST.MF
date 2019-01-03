@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Export-Package: org.fusesource.jansi;version="1.11.0"
+Ignore-Package: org.fusesource.jansi,org.fusesource.jansi.internal
+Implementation-Title: jansi
+Implementation-Version: 1.11
+Bundle-ClassPath: jansi-1.11.jar
+Specification-Vendor: FuseSource, Corp.
+Bundle-Name: TIBCO TPCL jansi
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: FuseSource, Corp.
+Implementation-Vendor: FuseSource, Corp.
+Implementation-Vendor-Id: org.fusesource.jansi
+Build-Jdk: 1.7.0_07
+Bundle-Version: 1.11.0.001
+Specification-Title: jansi
+Bundle-ManifestVersion: 2
+Bundle-Description: Jansi is a java library for generating and interpr
+ eting ANSI escape sequences.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Import-Package: sun.reflect;resolution:=optional
+Specification-Version: 1.11
+Bundle-DocURL: http://fusesource.com/
+Bundle-SymbolicName: com.tibco.tpcl.jansi
+
+

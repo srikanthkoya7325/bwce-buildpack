@@ -1,0 +1,127 @@
+Manifest-Version: 1.0
+Export-Package: org.codehaus.jackson;version="1.10.0"; uses:="org.code
+ haus.jackson.format,  org.codehaus.jackson.io,  org.codehaus.jackson.
+ sym,  org.codehaus.jackson.util,  org.codehaus.jackson.type",org.code
+ haus.jackson.annotate;version="1.10.0",org.codehaus.jackson.format;ve
+ rsion="1.10.0";uses:="org.codehaus.jackson",org.codehaus.jackson.impl
+ ;version="1.10.0"; uses:="org.codehaus.jackson.format,  org.codehaus.
+ jackson.io,  org.codehaus.jackson.sym,  org.codehaus.jackson.util,  o
+ rg.codehaus.jackson",org.codehaus.jackson.io;version="1.10.0";uses:="
+ org.codehaus.jackson.util,org.codehaus.jackson",org.codehaus.jackson.
+ jaxrs;version="1.10.0"; uses:="org.codehaus.jackson.map,  org.codehau
+ s.jackson,  javax.ws.rs.ext,  javax.ws.rs.core",org.codehaus.jackson.
+ map;version="1.10.0"; uses:="org.codehaus.jackson.format,  org.codeha
+ us.jackson.schema,  org.codehaus.jackson.map.annotate,  org.codehaus.
+ jackson.annotate,  org.codehaus.jackson.map.type,  org.codehaus.jacks
+ on.type,  org.codehaus.jackson.io,  org.codehaus.jackson.node,  org.c
+ odehaus.jackson.map.deser,  org.codehaus.jackson.map.introspect,  org
+ .codehaus.jackson.map.jsontype,  org.codehaus.jackson,  org.codehaus.
+ jackson.map.util,  org.codehaus.jackson.map.jsontype.impl,  org.codeh
+ aus.jackson.map.ser",org.codehaus.jackson.map.annotate;version="1.10.
+ 0",org.codehaus.jackson.map.deser;version="1.10.0"; uses:="org.codeha
+ us.jackson.map.deser.impl,  org.codehaus.jackson.map.type,  org.codeh
+ aus.jackson.type,  org.codehaus.jackson.io,  org.codehaus.jackson.nod
+ e,  org.codehaus.jackson.map.ext,  org.codehaus.jackson.map,  org.cod
+ ehaus.jackson.util,  org.codehaus.jackson.map.introspect,  org.codeha
+ us.jackson,  org.codehaus.jackson.map.deser.std,  org.codehaus.jackso
+ n.map.util",org.codehaus.jackson.map.deser.impl;version="1.10.0"; use
+ s:="org.codehaus.jackson.map,  org.codehaus.jackson.map.deser,  org.c
+ odehaus.jackson.util,  org.codehaus.jackson.map.introspect,  org.code
+ haus.jackson,  org.codehaus.jackson.map.util,  org.codehaus.jackson.t
+ ype",org.codehaus.jackson.map.deser.std;version="1.10.0"; uses:="org.
+ codehaus.jackson.map.deser.impl,  org.codehaus.jackson.map.type,  org
+ .codehaus.jackson.type,  org.codehaus.jackson.node,  org.codehaus.jac
+ kson.map,  org.codehaus.jackson.map.deser,  org.codehaus.jackson.util
+ ,  org.codehaus.jackson.map.introspect,  org.codehaus.jackson,  org.c
+ odehaus.jackson.map.util",org.codehaus.jackson.map.exc;version="1.10.
+ 0";uses:="org.codehaus.jackson.map,org.codehaus.jackson",org.codehaus
+ .jackson.map.ext;version="1.10.0"; uses:="org.codehaus.jackson.map.se
+ r.std,  javax.xml.parsers,  org.codehaus.jackson.type,  org.w3c.dom, 
+  javax.xml.datatype,  javax.xml.namespace,  org.w3c.dom.ls,  org.joda
+ .time,  org.codehaus.jackson.map,  org.joda.time.format,  org.codehau
+ s.jackson.map.deser.std,  org.codehaus.jackson,  org.codehaus.jackson
+ .map.util",org.codehaus.jackson.map.introspect;version="1.10.0"; uses
+ :="org.codehaus.jackson.map.annotate,  org.codehaus.jackson.annotate,
+   org.codehaus.jackson.map.type,  org.codehaus.jackson.type,  org.cod
+ ehaus.jackson.map.introspect,  org.codehaus.jackson.map,  org.codehau
+ s.jackson.map.jsontype,  org.codehaus.jackson.map.util,  org.codehaus
+ .jackson.map.jsontype.impl",org.codehaus.jackson.map.jsontype;version
+ ="1.10.0"; uses:="org.codehaus.jackson.map,  org.codehaus.jackson.ann
+ otate,  org.codehaus.jackson.map.introspect,  org.codehaus.jackson.ty
+ pe",org.codehaus.jackson.map.jsontype.impl;version="1.10.0"; uses:="o
+ rg.codehaus.jackson.map,  org.codehaus.jackson.util,  org.codehaus.ja
+ ckson.annotate,  org.codehaus.jackson.map.type,  org.codehaus.jackson
+ .map.introspect,  org.codehaus.jackson.map.jsontype,  org.codehaus.ja
+ ckson,  org.codehaus.jackson.type",org.codehaus.jackson.map.module;ve
+ rsion="1.10.0"; uses:="org.codehaus.jackson.map.deser,  org.codehaus.
+ jackson.map,  org.codehaus.jackson.map.type,  org.codehaus.jackson,  
+ org.codehaus.jackson.type",org.codehaus.jackson.map.ser;version="1.10
+ .0"; uses:="org.codehaus.jackson.schema,  org.codehaus.jackson.map.an
+ notate,  org.codehaus.jackson.map.ser.impl,  org.codehaus.jackson.map
+ .ser.std,  org.codehaus.jackson.map.type,  org.codehaus.jackson.type,
+   org.codehaus.jackson.io,  org.codehaus.jackson.map.ext,  org.codeha
+ us.jackson.map,  org.codehaus.jackson.map.introspect,  org.codehaus.j
+ ackson,  org.codehaus.jackson.map.util",org.codehaus.jackson.map.ser.
+ impl;version="1.10.0"; uses:="org.codehaus.jackson.map,  org.codehaus
+ .jackson.map.ser.std,  org.codehaus.jackson,  org.codehaus.jackson.ma
+ p.ser,  org.codehaus.jackson.type",org.codehaus.jackson.map.ser.std;v
+ ersion="1.10.0"; uses:="org.codehaus.jackson.schema,  org.codehaus.ja
+ ckson.map.ser.impl,  org.codehaus.jackson.type,  org.codehaus.jackson
+ .node,  org.codehaus.jackson.map,  org.codehaus.jackson.util,  org.co
+ dehaus.jackson.map.introspect,  org.codehaus.jackson,  org.codehaus.j
+ ackson.map.util,  org.codehaus.jackson.map.ser",org.codehaus.jackson.
+ map.type;version="1.10.0";uses:="org.codehaus.jackson.map,org.codehau
+ s.jackson,org.codehaus.jackson.type",org.codehaus.jackson.map.util;ve
+ rsion="1.10.0"; uses:="org.codehaus.jackson.io,  org.codehaus.jackson
+ .map,  org.codehaus.jackson.map.introspect,  org.codehaus.jackson,  o
+ rg.codehaus.jackson.type",org.codehaus.jackson.mrbean;version="1.10.0
+ "; uses:="org.codehaus.jackson.map,  org.codehaus.jackson.map.type,  
+ org.codehaus.jackson,  org.codehaus.jackson.type",org.codehaus.jackso
+ n.node;version="1.10.0";uses:="org.codehaus.jackson.map,org.codehaus.
+ jackson.impl,org.codehaus.jackson",org.codehaus.jackson.org.objectweb
+ .asm;version="1.10.0",org.codehaus.jackson.org.objectweb.asm.signatur
+ e;version="1.10.0",org.codehaus.jackson.schema;version="1.10.0";uses:
+ ="org.codehaus.jackson.node,org.codehaus.jackson.map,org.codehaus.jac
+ kson",org.codehaus.jackson.smile;version="1.10.0"; uses:="org.codehau
+ s.jackson.format,  org.codehaus.jackson.io,  org.codehaus.jackson.sym
+ ,  org.codehaus.jackson.impl,  org.codehaus.jackson",org.codehaus.jac
+ kson.sym;version="1.10.0",org.codehaus.jackson.type;version="1.10.0",
+ org.codehaus.jackson.util;version="1.10.0";uses:="org.codehaus.jackso
+ n.io,org.codehaus.jackson.impl,org.codehaus.jackson",org.codehaus.jac
+ kson.xc;version="1.10.0"; uses:="org.codehaus.jackson.schema,  org.co
+ dehaus.jackson.map.annotate,  org.codehaus.jackson.map.ser.std,  java
+ x.xml.bind.annotation.adapters,  javax.xml.parsers,  org.codehaus.jac
+ kson.type,  org.w3c.dom,  javax.activation,  org.codehaus.jackson.map
+ ,  javax.xml.bind.annotation,  org.codehaus.jackson.map.introspect,  
+ org.codehaus.jackson.map.jsontype,  org.codehaus.jackson,  org.codeha
+ us.jackson.map.deser.std"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: .,lib/jackson-all-1.9.11.jar
+Provide-Capability: osgi.contract;osgi.contract=org.codehaus.jackson;v
+ ersion:Version=1.9.2;uses:="javax.xml.bind.annotation.adapters,  java
+ x.xml.parsers,  org.w3c.dom,  javax.activation,  javax.xml.bind.annot
+ ation,  javax.ws.rs,  javax.ws.rs.core,  javax.ws.rs.ext,  org.codeha
+ us.jackson,  org.codehaus.jackson.annotate,  org.codehaus.jackson.for
+ mat,  org.codehaus.jackson.impl,  org.codehaus.jackson.io,  org.codeh
+ aus.jackson.jaxrs,  org.codehaus.jackson.map,  org.codehaus.jackson.m
+ ap.annotate,  org.codehaus.jackson.map.deser,  org.codehaus.jackson.m
+ ap.deser.impl,  org.codehaus.jackson.map.deser.std,  org.codehaus.jac
+ kson.map.exc,  org.codehaus.jackson.map.ext,  org.codehaus.jackson.ma
+ p.introspect,  org.codehaus.jackson.map.jsontype,  org.codehaus.jacks
+ on.map.jsontype.impl,  org.codehaus.jackson.map.module,  org.codehaus
+ .jackson.map.ser,  org.codehaus.jackson.map.ser.impl,  org.codehaus.j
+ ackson.map.ser.std,  org.codehaus.jackson.map.type,  org.codehaus.jac
+ kson.map.util,  org.codehaus.jackson.node,  org.codehaus.jackson.sche
+ ma,  org.codehaus.jackson.sym,  org.codehaus.jackson.type,  org.codeh
+ aus.jackson.util,  org.codehaus.jackson.xc"
+Bundle-Version: 1.10.0.001
+Bundle-Name: Codehaus Jackson
+Bundle-ManifestVersion: 2
+Import-Package: javax.activation,javax.ws.rs.core;version="[2.0.0,3.0.
+ 0)",javax.ws.rs.ext;version="[2.0.0,3.0.0)",javax.xml.bind.annotation
+ ;version="[2.1.0,3.0.0)",javax.xml.bind.annotation.adapters;version="
+ [2.1.0,3.0.0)",javax.xml.parsers;version="[1.3.0,2.0.0)",org.w3c.dom
+Bundle-SymbolicName: com.tibco.bw.tpcl.org.codehaus.jackson
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

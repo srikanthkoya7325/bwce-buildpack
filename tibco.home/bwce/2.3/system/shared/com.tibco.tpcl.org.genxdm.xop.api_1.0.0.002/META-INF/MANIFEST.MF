@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Export-Package: org.genxdm.xop.api;uses:="org.genxdm.io,javax.activati
+ on,org.genxdm,org.genxdm.mutable,org.genxdm.xop.api.datastore";versio
+ n="1.0",org.genxdm.xop.api.datastore;uses:="javax.activation";version
+ ="1.0"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: org.genxdm.xop.api_1.0.0.jar
+Bundle-Version: 1.0.0.002
+Bundle-Name: GenXDM XOP API
+Bundle-ManifestVersion: 2
+Bundle-Description: The GenXDM XML-binary Optimized Packaging API modu
+ le.
+Import-Package: javax.activation;version="[1.1,2)",org.genxdm;version=
+ "[1.0,2)",org.genxdm.io;version="[1.0,2)",org.genxdm.mutable;version=
+ "[1.0,2)"
+Bundle-SymbolicName: com.tibco.tpcl.org.genxdm.xop.api
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

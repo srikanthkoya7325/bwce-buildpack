@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Export-Package: org.joda.time;version="1.6.2"; uses:="org.joda.time.ch
+ rono,  org.joda.time.format,  org.joda.time.base,  org.joda.time.fiel
+ d,  org.joda.time.tz",org.joda.time.base;version="1.6.2";uses:="org.j
+ oda.time,org.joda.time.format",org.joda.time.chrono;version="1.6.2";u
+ ses:="org.joda.time,org.joda.time.field",org.joda.time.convert;versio
+ n="1.6.2";uses:="org.joda.time,org.joda.time.format",org.joda.time.fi
+ eld;version="1.6.2";uses:="org.joda.time",org.joda.time.format;versio
+ n="1.6.2";uses:="org.joda.time",org.joda.time.tz;version="1.6.2";uses
+ :="org.joda.time"
+Bundle-Vendor: %providerName
+Bundle-ClassPath: joda-time-1.6.2.jar
+Bundle-Version: 1.6.2.001
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Import-Package: org.joda.time;version="[1.6.2,2.0.0)",org.joda.time.ba
+ se;version="[1.6.2,2.0.0)",org.joda.time.chrono;version="[1.6.2,2.0.0
+ )",org.joda.time.convert;version="[1.6.2,2.0.0)",org.joda.time.field;
+ version="[1.6.2,2.0.0)",org.joda.time.format;version="[1.6.2,2.0.0)",
+ org.joda.time.tz;version="[1.6.2,2.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.joda.time
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+

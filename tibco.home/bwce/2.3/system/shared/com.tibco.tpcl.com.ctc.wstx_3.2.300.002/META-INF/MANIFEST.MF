@@ -1,0 +1,83 @@
+Manifest-Version: 1.0
+Export-Package: com.ctc.wstx.api;version="3.2.300"; uses:="com.ctc.wst
+ x.dtd,  com.ctc.wstx.util,  org.codehaus.stax2,  javax.xml.stream,  c
+ om.ctc.wstx.io,  org.codehaus.stax2.io,  com.ctc.wstx.cfg",com.ctc.ws
+ tx.cfg;version="3.2.300";uses:="javax.xml.stream",com.ctc.wstx.compat
+ ;version="3.2.300";uses:="javax.xml.namespace",com.ctc.wstx.dom;versi
+ on="3.2.300"; uses:="org.codehaus.stax2,  com.ctc.wstx.io,  javax.xml
+ .transform.dom,  org.codehaus.stax2.validation,  org.w3c.dom,  javax.
+ xml.namespace,  com.ctc.wstx.util,  javax.xml.stream,  com.ctc.wstx.a
+ pi",com.ctc.wstx.dtd;version="3.2.300"; uses:="com.ctc.wstx.util,  co
+ m.ctc.wstx.sr,  javax.xml.stream,  com.ctc.wstx.io,  com.ctc.wstx.api
+ ,  com.ctc.wstx.ent,  org.codehaus.stax2.validation",com.ctc.wstx.ent
+ ;version="3.2.300"; uses:="javax.xml.stream,  com.ctc.wstx.io,  com.c
+ tc.wstx.evt,  com.ctc.wstx.api",com.ctc.wstx.evt;version="3.2.300"; u
+ ses:="com.ctc.wstx.dtd,  org.codehaus.stax2,  org.codehaus.stax2.evt,
+   javax.xml.stream.events,  javax.xml.namespace,  com.ctc.wstx.util, 
+  com.ctc.wstx.sr,  javax.xml.stream,  javax.xml.stream.util,  com.ctc
+ .wstx.sw,  com.ctc.wstx.cfg",com.ctc.wstx.exc;version="3.2.300";uses:
+ ="javax.xml.stream,org.codehaus.stax2.validation",com.ctc.wstx.io;ver
+ sion="3.2.300"; uses:="org.codehaus.stax2,  com.ctc.wstx.util,  javax
+ .xml.stream,  com.ctc.wstx.api",com.ctc.wstx.msv;version="3.2.300"; u
+ ses:="com.sun.msv.reader.util,  com.sun.msv.reader,  javax.xml.parser
+ s,  org.relaxng.datatype,  org.codehaus.stax2.validation,  com.sun.ms
+ v.verifier.regexp,  org.xml.sax,  com.ctc.wstx.util,  com.sun.msv.uti
+ l,  com.sun.msv.verifier,  com.sun.msv.grammar,  com.ctc.wstx.api,  c
+ om.sun.msv.grammar.trex",com.ctc.wstx.sax;version="3.2.300"; uses:="c
+ om.ctc.wstx.dtd,  javax.xml.parsers,  org.xml.sax,  com.ctc.wstx.stax
+ ,  com.ctc.wstx.sr,  javax.xml.stream,  org.xml.sax.ext,  com.ctc.wst
+ x.api,  org.xml.sax.helpers",com.ctc.wstx.sr;version="3.2.300"; uses:
+ ="com.ctc.wstx.exc,  com.ctc.wstx.dtd,  org.codehaus.stax2,  com.ctc.
+ wstx.io,  org.codehaus.stax2.validation,  javax.xml.namespace,  org.x
+ ml.sax,  com.ctc.wstx.util,  javax.xml.stream,  org.xml.sax.ext,  com
+ .ctc.wstx.api,  com.ctc.wstx.sw,  com.ctc.wstx.ent,  com.ctc.wstx.cfg
+ ",com.ctc.wstx.stax;version="3.2.300"; uses:="org.codehaus.stax2,  co
+ m.ctc.wstx.dtd,  com.ctc.wstx.io,  org.codehaus.stax2.evt,  javax.xml
+ .stream.events,  javax.xml.namespace,  com.ctc.wstx.util,  com.ctc.ws
+ tx.sr,  javax.xml.stream,  javax.xml.stream.util,  javax.xml.transfor
+ m,  com.ctc.wstx.api,  com.ctc.wstx.cfg",com.ctc.wstx.sw;version="3.2
+ .300"; uses:="org.codehaus.stax2,  javax.xml.stream.events,  org.code
+ haus.stax2.validation,  javax.xml.namespace,  com.ctc.wstx.sr,  com.c
+ tc.wstx.util,  javax.xml.stream,  com.ctc.wstx.api,  com.ctc.wstx.cfg
+ ",com.ctc.wstx.util;version="3.2.300"; uses:="com.ctc.wstx.dtd,  org.
+ codehaus.stax2.validation,  javax.xml.namespace,  org.xml.sax,  javax
+ .xml.stream,  org.xml.sax.ext,  com.ctc.wstx.api,  com.ctc.wstx.util"
+ ,org.codehaus.stax2;version="3.2.300";uses:="javax.xml.stream,org.cod
+ ehaus.stax2.validation,javax.xml.namespace",org.codehaus.stax2.evt;ve
+ rsion="3.2.300";uses:="javax.xml.stream,javax.xml.stream.events",org.
+ codehaus.stax2.io;version="3.2.300";uses:="javax.xml.transform",org.c
+ odehaus.stax2.ri;version="3.2.300"; uses:="org.codehaus.stax2,  javax
+ .xml.stream,  javax.xml.stream.util,  org.codehaus.stax2.validation, 
+  javax.xml.namespace",org.codehaus.stax2.validation;version="3.2.300"
+ ;uses:="javax.xml.stream,javax.xml.namespace"
+Bundle-Vendor: %providerName
+Bundle-ClassPath: wstx-asl-3.2.9.jar
+Bundle-Version: 3.2.300.002
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Import-Package: com.ctc.wstx.api;version="[3.2.300,4.0.0)",com.ctc.wst
+ x.cfg;version="[3.2.300,4.0.0)",com.ctc.wstx.compat;version="[3.2.300
+ ,4.0.0)",com.ctc.wstx.dom;version="[3.2.300,4.0.0)",com.ctc.wstx.dtd;
+ version="[3.2.300,4.0.0)",com.ctc.wstx.ent;version="[3.2.300,4.0.0)",
+ com.ctc.wstx.evt;version="[3.2.300,4.0.0)",com.ctc.wstx.exc;version="
+ [3.2.300,4.0.0)",com.ctc.wstx.io;version="[3.2.300,4.0.0)",com.ctc.ws
+ tx.msv;version="[3.2.300,4.0.0)",com.ctc.wstx.sax;version="[3.2.300,4
+ .0.0)",com.ctc.wstx.sr;version="[3.2.300,4.0.0)",com.ctc.wstx.stax;ve
+ rsion="[3.2.300,4.0.0)",com.ctc.wstx.sw;version="[3.2.300,4.0.0)",com
+ .ctc.wstx.util;version="[3.2.300,4.0.0)",javax.xml.namespace;version=
+ "[1.1.0,2.0.0)",javax.xml.parsers;version="[1.3.0,2.0.0)",javax.xml.s
+ tream;version="[1.0.0,2.0.0)",javax.xml.stream.events;version="[1.0.0
+ ,2.0.0)",javax.xml.stream.util;version="[1.0.0,2.0.0)",javax.xml.tran
+ sform;version="[1.3.0,2.0.0)",javax.xml.transform.dom;version="[1.3.0
+ ,2.0.0)",javax.xml.transform.sax;version="[1.3.0,2.0.0)",javax.xml.tr
+ ansform.stream;version="[1.3.0,2.0.0)",org.codehaus.stax2;version="[3
+ .2.300,4.0.0)",org.codehaus.stax2.evt;version="[3.2.300,4.0.0)",org.c
+ odehaus.stax2.io;version="[3.2.300,4.0.0)",org.codehaus.stax2.ri;vers
+ ion="[3.2.300,4.0.0)",org.codehaus.stax2.validation;version="[3.2.300
+ ,4.0.0)",org.w3c.dom;version="[3.0.0,4.0.0)",org.xml.sax;version="[2.
+ 0.0,3.0.0)",org.xml.sax.ext;version="[2.0.0,3.0.0)",org.xml.sax.helpe
+ rs;version="[2.0.0,3.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.com.ctc.wstx
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

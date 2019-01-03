@@ -1,0 +1,90 @@
+Manifest-Version: 1.0
+Export-Package: com.tibco.governance.agent;version="3.0.100"; uses:="c
+ om.tibco.governance.agent.pep,  com.tibco.tns.xsd.governance.agent.x2
+ 011,  com.tibco.governance.agent.pdp,  com.tibco.tns.xsd.governance.a
+ gent.listener.x2011,  com.tibco.governance.agent.action,  org.slf4j, 
+  com.tibco.governance.agent.model.prs,  javax.xml.namespace",com.tibc
+ o.governance.agent.action;version="3.0.100",com.tibco.governance.agen
+ t.event;version="3.0.100";uses:="javax.xml.namespace",com.tibco.gover
+ nance.agent.lifecycle;version="3.0.100";uses:="javax.xml.namespace",c
+ om.tibco.governance.agent.model.prs;version="3.0.100";uses:="org.ecli
+ pse.emf.ecore,org.eclipse.emf.common.util",com.tibco.governance.agent
+ .model.prs.impl;version="3.0.100",com.tibco.governance.agent.sharedre
+ source;version="3.0.100",com.tibco.tns.wsdl.governance.agent._2011;ve
+ rsion="3.0.100";uses:="com.tibco.tns.xsd.governance.agent.x2011,com.t
+ ibco.tns.xsd.governance.x2011",com.tibco.tns.wsdl.governance.agent.li
+ stener._2011;version="3.0.100";uses:="com.tibco.tns.xsd.governance.ag
+ ent.listener.x2011",com.tibco.tns.xsd.governance.agent.listener.x2011
+ ;version="3.0.100"; uses:="javax.xml.stream,  org.apache.xmlbeans,  c
+ om.tibco.tns.xsd.governance.x2011,  org.w3c.dom,  org.apache.xmlbeans
+ .xml.stream",com.tibco.tns.xsd.governance.agent.listener.x2011.impl;v
+ ersion="3.0.100"; uses:="org.apache.xmlbeans.impl.values,  org.apache
+ .xmlbeans,  com.tibco.tns.xsd.governance.x2011,  com.tibco.tns.xsd.go
+ vernance.agent.listener.x2011",com.tibco.tns.xsd.governance.agent.x20
+ 11;version="3.0.100"; uses:="javax.xml.stream,  org.apache.xmlbeans, 
+  com.tibco.tns.xsd.governance.x2011,  org.w3c.dom,  javax.xml.namespa
+ ce,  org.apache.xmlbeans.xml.stream",com.tibco.tns.xsd.governance.age
+ nt.x2011.impl;version="3.0.100"; uses:="org.apache.xmlbeans.impl.valu
+ es,  com.tibco.tns.xsd.governance.agent.x2011,  org.apache.xmlbeans, 
+  com.tibco.tns.xsd.governance.x2011,  javax.xml.namespace",com.tibco.
+ tns.xsd.governance.x2011;version="3.0.100"; uses:="javax.xml.stream, 
+  org.apache.xmlbeans,  org.w3c.dom,  javax.xml.namespace,  org.apache
+ .xmlbeans.xml.stream",com.tibco.tns.xsd.governance.x2011.impl;version
+ ="3.0.100"; uses:="org.apache.xmlbeans.impl.values,  org.apache.xmlbe
+ ans,  com.tibco.tns.xsd.governance.x2011,  javax.xml.namespace",schem
+ aorg_apache_xmlbeans.element.URI_SHA_1_1B8DF22CC49B515DA533CC79BA9FB0
+ 76075F9CBD;version="3.0.100",schemaorg_apache_xmlbeans.element.http_3
+ A_2F_2Fxsd_2Etns_2Etibco_2Ecom_2Fgovernance_2F2011;version="3.0.100",
+ schemaorg_apache_xmlbeans.element.http_3A_2F_2Fxsd_2Etns_2Etibco_2Eco
+ m_2Fgovernance_2Fagent_2F2011;version="3.0.100",schemaorg_apache_xmlb
+ eans.javaname.com.tibco.tns.xsd.governance.agent.listener.x2011;versi
+ on="3.0.100",schemaorg_apache_xmlbeans.javaname.com.tibco.tns.xsd.gov
+ ernance.agent.x2011;version="3.0.100",schemaorg_apache_xmlbeans.javan
+ ame.com.tibco.tns.xsd.governance.agent.x2011.GetDetailedConfiguration
+ StatusOutType;version="3.0.100",schemaorg_apache_xmlbeans.javaname.co
+ m.tibco.tns.xsd.governance.x2011;version="3.0.100",schemaorg_apache_x
+ mlbeans.javaname.com.tibco.tns.xsd.governance.x2011.PolicySetStatusTy
+ pe;version="3.0.100",schemaorg_apache_xmlbeans.namespace.URI_SHA_1_1B
+ 8DF22CC49B515DA533CC79BA9FB076075F9CBD;version="3.0.100",schemaorg_ap
+ ache_xmlbeans.namespace.http_3A_2F_2Fxsd_2Etns_2Etibco_2Ecom_2Fgovern
+ ance_2F2011;version="3.0.100",schemaorg_apache_xmlbeans.namespace.htt
+ p_3A_2F_2Fxsd_2Etns_2Etibco_2Ecom_2Fgovernance_2Fagent_2F2011;version
+ ="3.0.100",schemaorg_apache_xmlbeans.src.URI_SHA_1_058A29767AE854EA38
+ 02A661ADE5DD0B2A6CD515;version="3.0.100",schemaorg_apache_xmlbeans.sr
+ c.URI_SHA_1_F7FE6B719680F68C9E1568AB0BF24237185950F4;version="3.0.100
+ ",schemaorg_apache_xmlbeans.system.s0D4591207F51738BE2B89D886591168C;
+ version="3.0.100";uses:="org.apache.xmlbeans",schemaorg_apache_xmlbea
+ ns.system.sAC6AA4D55584EDEFEFD37356C640FE9D;version="3.0.100";uses:="
+ org.apache.xmlbeans",schemaorg_apache_xmlbeans.type.http_3A_2F_2Fxsd_
+ 2Etns_2Etibco_2Ecom_2Fgovernance_2F2011;version="3.0.100",schemaorg_a
+ pache_xmlbeans.type.http_3A_2F_2Fxsd_2Etns_2Etibco_2Ecom_2Fgovernance
+ _2Fagent_2F2011;version="3.0.100"
+Bundle-Vendor: TIBCO Inc.
+Bundle-ClassPath: GovernanceAgentListenerPT-d935958f-service-beans.jar
+ ,GovernanceAgentListenerPT-d935958f-service-interface.jar,GovernanceA
+ gentPT-48ded1d8-service-beans.jar,GovernanceAgentPT-48ded1d8-service-
+ interface.jar,.
+Bundle-Version: 3.0.100.001
+Bundle-Name: TIBCO Governance Agent API Plug-in
+Bundle-ManifestVersion: 2
+Import-Package: com.tibco.governance.agent;version="[3.0.100,4.0.0)",c
+ om.tibco.governance.agent.action;version="[3.0.100,4.0.0)",com.tibco.
+ governance.agent.model.prs;version="[3.0.100,4.0.0)",com.tibco.govern
+ ance.agent.sharedresource;version="[3.0.100,4.0.0)",com.tibco.tns.wsd
+ l.governance.agent._2011;version="[3.0.100,4.0.0)",com.tibco.tns.xsd.
+ governance.agent.listener.x2011;version="[3.0.100,4.0.0)",com.tibco.t
+ ns.xsd.governance.agent.x2011;version="[3.0.100,4.0.0)",com.tibco.tns
+ .xsd.governance.x2011;version="[3.0.100,4.0.0)",org.apache.neethi;ver
+ sion="[3.0.0,4.0.0)",org.apache.neethi.builders;version="[3.0.0,4.0.0
+ )",org.apache.xmlbeans;version="[2.5.0,3.0.0)",org.apache.xmlbeans.im
+ pl.common;version="2.5.0",org.apache.xmlbeans.impl.schema;version="[2
+ .5.0,3.0.0)",org.apache.xmlbeans.impl.soap;version="[2.5.0,3.0.0)",or
+ g.apache.xmlbeans.impl.store;version="[2.5.0,3.0.0)",org.apache.xmlbe
+ ans.impl.tool;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.util;v
+ ersion="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.values;version="[2.5.
+ 0,3.0.0)",org.apache.xmlbeans.xml.stream;version="[2.5.0,3.0.0)",org.
+ slf4j;version="[1.5.2,2.0.0)"
+Bundle-SymbolicName: com.tibco.governance.agent.api
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

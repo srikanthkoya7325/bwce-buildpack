@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-Name: %pluginName
+Bundle-ClassPath: XmlSchema-1.4.2.jar
+Import-Package: javax.xml.namespace;version="[1.1.0,2.0.0)",javax.xml.
+ parsers;version="[1.3.0,2.0.0)",javax.xml.transform;version="[1.3.0,2
+ .0.0)",javax.xml.transform.dom;version="[1.3.0,2.0.0)",javax.xml.tran
+ sform.sax;version="[1.3.0,2.0.0)",javax.xml.transform.stream;version=
+ "[1.3.0,2.0.0)",org.apache.ws.commons.schema;version="[2.0.100,3.0.0)
+ ",org.apache.ws.commons.schema.constants;version="[2.0.100,3.0.0)",or
+ g.apache.ws.commons.schema.extensions;version="[2.0.100,3.0.0)",org.a
+ pache.ws.commons.schema.resolver;version="[2.0.100,3.0.0)",org.apache
+ .ws.commons.schema.utils;version="[2.0.100,3.0.0)",org.w3c.dom;versio
+ n="[3.0.0,4.0.0)",org.xml.sax;version="[2.0.0,3.0.0)"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ManifestVersion: 2
+Bundle-Vendor: %providerName
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.ws.commons.schema
+Bundle-Localization: plugin
+Export-Package: org.apache.ws.commons.schema;version="2.0.100"; uses:=
+ "org.xml.sax,  javax.xml.namespace,  org.w3c.dom,  org.apache.ws.comm
+ ons.schema.extensions,  javax.xml.transform,  org.apache.ws.commons.s
+ chema.resolver,  org.apache.ws.commons.schema.utils,  javax.xml.parse
+ rs,  org.apache.ws.commons.schema.constants",org.apache.ws.commons.sc
+ hema.constants;version="2.0.100";uses:="javax.xml.namespace",org.apac
+ he.ws.commons.schema.extensions;version="2.0.100";uses:="org.apache.w
+ s.commons.schema,javax.xml.namespace,org.w3c.dom",org.apache.ws.commo
+ ns.schema.resolver;version="2.0.100";uses:="org.xml.sax",org.apache.w
+ s.commons.schema.utils;version="2.0.100";uses:="org.apache.ws.commons
+ .schema,javax.xml.namespace,org.w3c.dom"
+Bundle-Version: 2.0.100.001
+

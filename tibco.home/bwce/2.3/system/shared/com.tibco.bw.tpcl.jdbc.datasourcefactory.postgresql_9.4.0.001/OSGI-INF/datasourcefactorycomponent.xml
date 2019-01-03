@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="TIBCO BW PostgreSQL DataSource Factory">
+   <implementation class="com.tibco.bw.tpcl.jdbc.datasourcefactory.postgresql.PostgreSQLDataSourceFactory"/>
+   <property name="osgi.jdbc.driver.class" type="String" value="org.postgresql.Driver"/>
+   <property name="osgi.jdbc.driver.name" type="String" value="postgresql"/>
+   <property name="osgi.jdbc.driver.version" type="String" value="9.2"/>
+   <service>
+      <provide interface="org.osgi.service.jdbc.DataSourceFactory"/>
+   </service>
+</scr:component>

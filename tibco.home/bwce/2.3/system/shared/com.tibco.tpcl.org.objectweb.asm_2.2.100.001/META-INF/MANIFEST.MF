@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bundle-Name: %pluginName
+Bundle-ClassPath: asm-all-2.2.2.jar
+Import-Package: javax.xml.transform;version="[1.3.0,2.0.0)",javax.xml.
+ transform.sax;version="[1.3.0,2.0.0)",javax.xml.transform.stream;vers
+ ion="[1.3.0,2.0.0)",org.objectweb.asm;version="[2.2.2,3.0.0)",org.obj
+ ectweb.asm.attrs;version="[2.2.2,3.0.0)",org.objectweb.asm.commons;ve
+ rsion="[2.2.2,3.0.0)",org.objectweb.asm.optimizer;version="[2.2.2,3.0
+ .0)",org.objectweb.asm.signature;version="[2.2.2,3.0.0)",org.objectwe
+ b.asm.tree;version="[2.2.2,3.0.0)",org.objectweb.asm.tree.analysis;ve
+ rsion="[2.2.2,3.0.0)",org.objectweb.asm.util;version="[2.2.2,3.0.0)",
+ org.objectweb.asm.util.attrs;version="[2.2.2,3.0.0)",org.objectweb.as
+ m.xml;version="[2.2.2,3.0.0)",org.xml.sax;version="[2.0.0,3.0.0)",org
+ .xml.sax.ext;version="[2.0.0,3.0.0)",org.xml.sax.helpers;version="[2.
+ 0.0,3.0.0)"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ManifestVersion: 2
+Bundle-Vendor: %providerName
+Bundle-SymbolicName: com.tibco.tpcl.org.objectweb.asm
+Bundle-Localization: plugin
+Export-Package: org.objectweb.asm;version="2.2.100",org.objectweb.asm.
+ attrs;version="2.2.100";uses:="org.objectweb.asm",org.objectweb.asm.c
+ ommons;version="2.2.100";uses:="org.objectweb.asm",org.objectweb.asm.
+ optimizer;version="2.2.100";uses:="org.objectweb.asm",org.objectweb.a
+ sm.signature;version="2.2.100",org.objectweb.asm.tree;version="2.2.10
+ 0";uses:="org.objectweb.asm",org.objectweb.asm.tree.analysis;version=
+ "2.2.100";uses:="org.objectweb.asm.tree,org.objectweb.asm",org.object
+ web.asm.util;version="2.2.100";uses:="org.objectweb.asm.signature,org
+ .objectweb.asm",org.objectweb.asm.util.attrs;version="2.2.100";uses:=
+ "org.objectweb.asm.attrs,org.objectweb.asm",org.objectweb.asm.xml;ver
+ sion="2.2.100"; uses:="javax.xml.transform.sax,  org.xml.sax,  org.xm
+ l.sax.ext,  org.objectweb.asm.xml,  org.xml.sax.helpers,  org.objectw
+ eb.asm,  javax.xml.transform"
+Bundle-Version: 2.2.100.001
+

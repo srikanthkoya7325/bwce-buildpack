@@ -1,0 +1,51 @@
+Manifest-Version: 1.0
+Export-Package: org.eclipse.xsd;version="2.10.0"; uses:="org.eclipse.e
+ mf.common,  org.w3c.dom,  org.eclipse.emf.common.util,  org.eclipse.e
+ mf.ecore.resource,  org.eclipse.emf.ecore",org.eclipse.xsd.ecore;vers
+ ion="2.10.0"; uses:="org.w3c.dom,  org.eclipse.xsd,  org.eclipse.emf.
+ common.util,  org.eclipse.emf.ecore.util,  javax.xml.transform,  org.
+ eclipse.emf.ecore.resource,  org.eclipse.xsd.util,  org.eclipse.emf.e
+ core",org.eclipse.xsd.impl;version="2.10.0"; uses:="org.w3c.dom,  org
+ .eclipse.emf.common.notify,  org.eclipse.emf.common.util,  org.w3c.do
+ m.events,  org.eclipse.emf.ecore.util,  org.eclipse.emf.ecore.resourc
+ e,  org.eclipse.xsd.util,  org.eclipse.emf.ecore.impl,  org.eclipse.x
+ sd,  org.eclipse.xsd.impl.type,  org.eclipse.emf.ecore",org.eclipse.x
+ sd.impl.type;version="2.10.0";uses:="org.eclipse.xsd.impl,org.w3c.dom
+ ,org.eclipse.xsd.util",org.eclipse.xsd.util;version="2.10.0"; uses:="
+ org.xml.sax,  org.eclipse.emf.common.notify,  org.w3c.dom,  org.eclip
+ se.emf.common.util,  org.eclipse.emf.ecore.util,  org.eclipse.emf.eco
+ re.resource,  javax.xml.transform,  org.eclipse.emf.common.notify.imp
+ l,  org.eclipse.emf.ecore.resource.impl,  org.xml.sax.ext,  org.xml.s
+ ax.helpers,  javax.xml.parsers,  org.eclipse.xsd,  org.eclipse.emf.ec
+ ore"
+Bundle-Vendor: Eclipse Foundation
+Bundle-ClassPath: .,org.eclipse.xsd_2.10.0.v20140901-1055.jar
+Bundle-Version: 2.10.0.001
+Bundle-Localization: plugin
+Bundle-Name: Eclipse XSD Subset Plug-In
+Bundle-ManifestVersion: 2
+Import-Package: javax.xml.namespace;version="[1.1.0,2.0.0)",javax.xml.
+ parsers;version="[1.3.0,2.0.0)",javax.xml.transform;version="[1.3.0,2
+ .0.0)",javax.xml.transform.dom;version="[1.3.0,2.0.0)",javax.xml.tran
+ sform.stream;version="[1.3.0,2.0.0)",org.eclipse.emf.common;version="
+ [0,3.0.0)",org.eclipse.emf.common.notify;version="[0,3.0.0)",org.ecli
+ pse.emf.common.notify.impl;version="[0,3.0.0)",org.eclipse.emf.common
+ .util;version="[0,3.0.0)",org.eclipse.emf.ecore;version="[0,3.0.0)",o
+ rg.eclipse.emf.ecore.impl;version="[0,3.0.0)",org.eclipse.emf.ecore.p
+ lugin;version="[0,3.0.0)",org.eclipse.emf.ecore.resource;version="[0,
+ 3.0.0)",org.eclipse.emf.ecore.resource.impl;version="[0,3.0.0)",org.e
+ clipse.emf.ecore.util;version="[0,3.0.0)",org.eclipse.emf.ecore.xml.n
+ amespace;version="[0,3.0.0)",org.eclipse.emf.ecore.xml.type;version="
+ [0,3.0.0)",org.eclipse.emf.ecore.xml.type.internal;version="[0,3.0.0)
+ ",org.eclipse.emf.ecore.xml.type.util;version="[0,3.0.0)",org.eclipse
+ .xsd;version="[2.4.200,3.0.0)",org.eclipse.xsd.ecore;version="[2.4.20
+ 0,3.0.0)",org.eclipse.xsd.impl;version="[2.4.200,3.0.0)",org.eclipse.
+ xsd.impl.type;version="[2.4.200,3.0.0)",org.eclipse.xsd.util;version=
+ "[2.4.200,3.0.0)",org.w3c.dom;version="[3.0.0,4.0.0)",org.w3c.dom.eve
+ nts;version="[3.0.0,4.0.0)",org.xml.sax;version="[2.0.0,3.0.0)",org.x
+ ml.sax.ext;version="[2.0.0,3.0.0)",org.xml.sax.helpers;version="[2.0.
+ 0,3.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.eclipse.xsd;singleton:=true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

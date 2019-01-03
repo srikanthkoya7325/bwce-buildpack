@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Export-Package: javax.ws.rs;version="2.1.0";uses:="javax.ws.rs.core",j
+ avax.ws.rs.client;version="2.1.0";uses:="javax.ws.rs,javax.net.ssl,ja
+ vax.ws.rs.core",javax.ws.rs.container;version="2.1.0";uses:="javax.ws
+ .rs.core",javax.ws.rs.core;version="2.1.0";uses:="javax.ws.rs,javax.x
+ ml.bind.annotation.adapters",javax.ws.rs.ext;version="2.1.0";uses:="j
+ avax.ws.rs.core"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: lib/javax.ws.rs-api-2.0.jar,.
+Provide-Capability: osgi.contract;osgi.contract=javax.ws.rs;version:Ve
+ rsion=2.0.0;uses:="javax.ws.rs.core,javax.ws.rs.ext,javax.ws.rs"
+Bundle-Version: 2.1.0.001
+Bundle-Name: JAX-RS API
+Bundle-ManifestVersion: 2
+Import-Package: javax.net.ssl,javax.xml.bind.annotation.adapters;versi
+ on="[2.2.0,3.0.0)"
+Bundle-SymbolicName: com.tibco.bw.tpcl.javax.ws.rs
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

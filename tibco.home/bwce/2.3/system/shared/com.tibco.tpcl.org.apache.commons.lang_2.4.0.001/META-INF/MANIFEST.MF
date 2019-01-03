@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.commons.lang;version="2.4.0";uses:="org.apa
+ che.commons.lang.exception",org.apache.commons.lang.builder;version="
+ 2.4.0",org.apache.commons.lang.enum;version="2.4.0",org.apache.common
+ s.lang.enums;version="2.4.0",org.apache.commons.lang.exception;versio
+ n="2.4.0",org.apache.commons.lang.math;version="2.4.0",org.apache.com
+ mons.lang.mutable;version="2.4.0",org.apache.commons.lang.text;versio
+ n="2.4.0",org.apache.commons.lang.time;version="2.4.0"
+Bundle-Vendor: The Apache Software Foundation
+Bundle-ClassPath: commons-lang-2.4.jar
+Bundle-Version: 2.4.0.001
+Bundle-Name: Apache Jakarta Commons Language Support
+Bundle-ManifestVersion: 2
+Import-Package: org.apache.commons.lang;version="[2.4.0,3.0.0)",org.ap
+ ache.commons.lang.builder;version="[2.4.0,3.0.0)",org.apache.commons.
+ lang.enum;version="[2.4.0,3.0.0)",org.apache.commons.lang.enums;versi
+ on="[2.4.0,3.0.0)",org.apache.commons.lang.exception;version="[2.4.0,
+ 3.0.0)",org.apache.commons.lang.math;version="[2.4.0,3.0.0)",org.apac
+ he.commons.lang.mutable;version="[2.4.0,3.0.0)",org.apache.commons.la
+ ng.text;version="[2.4.0,3.0.0)",org.apache.commons.lang.time;version=
+ "[2.4.0,3.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.commons.lang
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

@@ -1,0 +1,214 @@
+Manifest-Version: 1.0
+Bundle-Name: Apache Ant Project Build Support
+Bundle-ClassPath: ant.jar,ant-launcher.jar,ant-nodeps.jar,ant-antlr.ja
+ r,ant-apache-bcel.jar,ant-apache-bsf.jar,ant-apache-log4j.jar,ant-apa
+ che-regexp.jar,ant-apache-resolver.jar,ant-commons-logging.jar,ant-jm
+ f.jar,ant-stylebook.jar,ant-swing.jar,ant-trax.jar,ant-javamail.jar
+Import-Package: javax.activation;version="[1.1.0,2.0.0)";resolution:=o
+ ptional,javax.mail;version="[1.4.0,2.0.0)";resolution:=optional,javax
+ .mail.internet;version="[1.4.0,2.0.0)";resolution:=optional,javax.sou
+ nd.sampled;version="0.0.0",javax.swing;version="0.0.0",javax.xml.pars
+ ers;version="[1.3.0,2.0.0)",javax.xml.transform;version="[1.3.0,2.0.0
+ )",javax.xml.transform.sax;version="[1.3.0,2.0.0)",javax.xml.transfor
+ m.stream;version="[1.3.0,2.0.0)",org.apache.bcel.classfile;version="[
+ 5.1.0,6.0.0)";resolution:=optional,org.apache.bsf;version="[2.4.0,3.0
+ .0)";resolution:=optional,org.apache.commons.logging;version="[1.3.1,
+ 2.0.0)";resolution:=optional,org.apache.log4j;version="[1.2.13,2.0.0)
+ ";resolution:=optional,org.apache.log4j.helpers;version="[1.2.13,2.0.
+ 0)";resolution:=optional,org.apache.regexp;version="[1.4.0,2.0.0)";re
+ solution:=optional,org.apache.tools.ant;version="[1.7.0,2.0.0)",org.a
+ pache.tools.ant.dispatch;version="[1.7.0,2.0.0)",org.apache.tools.ant
+ .filters;version="[1.7.0,2.0.0)",org.apache.tools.ant.filters.util;ve
+ rsion="[1.7.0,2.0.0)",org.apache.tools.ant.helper;version="[1.7.0,2.0
+ .0)",org.apache.tools.ant.input;version="[1.7.0,2.0.0)",org.apache.to
+ ols.ant.launch;version="[1.7.0,2.0.0)",org.apache.tools.ant.listener;
+ version="[1.7.0,2.0.0)",org.apache.tools.ant.loader;version="[1.7.0,2
+ .0.0)",org.apache.tools.ant.taskdefs;version="[1.7.0,2.0.0)",org.apac
+ he.tools.ant.taskdefs.compilers;version="[1.7.0,2.0.0)",org.apache.to
+ ols.ant.taskdefs.condition;version="[1.7.0,2.0.0)",org.apache.tools.a
+ nt.taskdefs.cvslib;version="[1.7.0,2.0.0)",org.apache.tools.ant.taskd
+ efs.email;version="[1.7.0,2.0.0)",org.apache.tools.ant.taskdefs.optio
+ nal;version="[1.7.0,2.0.0)",org.apache.tools.ant.taskdefs.optional.cc
+ m;version="[1.7.0,2.0.0)",org.apache.tools.ant.taskdefs.optional.clea
+ rcase;version="[1.7.0,2.0.0)",org.apache.tools.ant.taskdefs.optional.
+ depend;version="[1.7.0,2.0.0)",org.apache.tools.ant.taskdefs.optional
+ .depend.constantpool;version="[1.7.0,2.0.0)",org.apache.tools.ant.tas
+ kdefs.optional.dotnet;version="[1.7.0,2.0.0)",org.apache.tools.ant.ta
+ skdefs.optional.ejb;version="[1.7.0,2.0.0)",org.apache.tools.ant.task
+ defs.optional.extension;version="[1.7.0,2.0.0)",org.apache.tools.ant.
+ taskdefs.optional.extension.resolvers;version="[1.7.0,2.0.0)",org.apa
+ che.tools.ant.taskdefs.optional.i18n;version="[1.7.0,2.0.0)",org.apac
+ he.tools.ant.taskdefs.optional.j2ee;version="[1.7.0,2.0.0)",org.apach
+ e.tools.ant.taskdefs.optional.javacc;version="[1.7.0,2.0.0)",org.apac
+ he.tools.ant.taskdefs.optional.javah;version="[1.7.0,2.0.0)",org.apac
+ he.tools.ant.taskdefs.optional.jlink;version="[1.7.0,2.0.0)",org.apac
+ he.tools.ant.taskdefs.optional.jsp;version="[1.7.0,2.0.0)",org.apache
+ .tools.ant.taskdefs.optional.jsp.compilers;version="[1.7.0,2.0.0)",or
+ g.apache.tools.ant.taskdefs.optional.native2ascii;version="[1.7.0,2.0
+ .0)",org.apache.tools.ant.taskdefs.optional.net;version="[1.7.0,2.0.0
+ )",org.apache.tools.ant.taskdefs.optional.pvcs;version="[1.7.0,2.0.0)
+ ",org.apache.tools.ant.taskdefs.optional.script;version="[1.7.0,2.0.0
+ )",org.apache.tools.ant.taskdefs.optional.sos;version="[1.7.0,2.0.0)"
+ ,org.apache.tools.ant.taskdefs.optional.sound;version="[1.7.0,2.0.0)"
+ ,org.apache.tools.ant.taskdefs.optional.splash;version="[1.7.0,2.0.0)
+ ",org.apache.tools.ant.taskdefs.optional.unix;version="[1.7.0,2.0.0)"
+ ,org.apache.tools.ant.taskdefs.optional.vss;version="[1.7.0,2.0.0)",o
+ rg.apache.tools.ant.taskdefs.optional.windows;version="[1.7.0,2.0.0)"
+ ,org.apache.tools.ant.taskdefs.rmic;version="[1.7.0,2.0.0)",org.apach
+ e.tools.ant.types;version="[1.7.0,2.0.0)",org.apache.tools.ant.types.
+ mappers;version="[1.7.0,2.0.0)",org.apache.tools.ant.types.optional;v
+ ersion="[1.7.0,2.0.0)",org.apache.tools.ant.types.optional.depend;ver
+ sion="[1.7.0,2.0.0)",org.apache.tools.ant.types.resolver;version="[1.
+ 7.0,2.0.0)",org.apache.tools.ant.types.resources;version="[1.7.0,2.0.
+ 0)",org.apache.tools.ant.types.resources.comparators;version="[1.7.0,
+ 2.0.0)",org.apache.tools.ant.types.resources.selectors;version="[1.7.
+ 0,2.0.0)",org.apache.tools.ant.types.selectors;version="[1.7.0,2.0.0)
+ ",org.apache.tools.ant.types.selectors.modifiedselector;version="[1.7
+ .0,2.0.0)",org.apache.tools.ant.types.spi;version="[1.7.0,2.0.0)",org
+ .apache.tools.ant.util;version="[1.7.0,2.0.0)",org.apache.tools.ant.u
+ til.depend;version="[1.7.0,2.0.0)",org.apache.tools.ant.util.depend.b
+ cel;version="[1.7.0,2.0.0)",org.apache.tools.ant.util.facade;version=
+ "[1.7.0,2.0.0)",org.apache.tools.ant.util.java15;version="[1.7.0,2.0.
+ 0)",org.apache.tools.ant.util.optional;version="[1.7.0,2.0.0)",org.ap
+ ache.tools.ant.util.regexp;version="[1.7.0,2.0.0)",org.apache.tools.b
+ zip2;version="[1.7.0,2.0.0)",org.apache.tools.mail;version="[1.7.0,2.
+ 0.0)",org.apache.tools.tar;version="[1.7.0,2.0.0)",org.apache.tools.z
+ ip;version="[1.7.0,2.0.0)",org.apache.xml.resolver;version="[1.1.0,2.
+ 0.0)";resolution:=optional,org.apache.xml.resolver.helpers;version="[
+ 1.1.0,2.0.0)";resolution:=optional,org.apache.xml.resolver.tools;vers
+ ion="[1.1.0,2.0.0)";resolution:=optional,org.w3c.dom;version="[3.0.0,
+ 4.0.0)",org.xml.sax;version="[2.0.0,3.0.0)",org.xml.sax.helpers;versi
+ on="[2.0.0,3.0.0)"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: The Apache Software Foundation
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.tools.ant
+Export-Package: org.apache.tools.ant;version="1.7.100"; uses:="org.apa
+ che.tools.ant.types,  org.xml.sax,  org.apache.tools.ant,  org.apache
+ .tools.ant.types.selectors,  org.apache.tools.ant.launch,  org.apache
+ .tools.ant.input",org.apache.tools.ant.dispatch;version="1.7.100";use
+ s:="org.apache.tools.ant",org.apache.tools.ant.filters;version="1.7.1
+ 00";uses:="org.apache.tools.ant.types,org.apache.tools.ant,org.apache
+ .tools.ant.util",org.apache.tools.ant.filters.util;version="1.7.100",
+ org.apache.tools.ant.helper;version="1.7.100"; uses:="org.xml.sax,  o
+ rg.apache.tools.ant,  org.apache.tools.ant.util,  org.xml.sax.helpers
+ ",org.apache.tools.ant.input;version="1.7.100",org.apache.tools.ant.l
+ aunch;version="1.7.100",org.apache.tools.ant.listener;version="1.7.10
+ 0";uses:="org.apache.tools.ant",org.apache.tools.ant.loader;version="
+ 1.7.100";uses:="org.apache.tools.ant",org.apache.tools.ant.taskdefs;v
+ ersion="1.7.100"; uses:="org.apache.tools.ant.types.resources.compara
+ tors,  org.apache.tools.ant.util.facade,  org.apache.tools.ant.taskde
+ fs.condition,  org.apache.tools.ant.types,  org.apache.tools.ant.filt
+ ers,  org.apache.tools.ant.types.selectors,  org.apache.tools.ant.typ
+ es.selectors.modifiedselector,  org.apache.tools.ant.util,  org.apach
+ e.tools.zip,  org.apache.tools.ant.types.spi,  org.apache.tools.tar, 
+  org.apache.tools.ant.types.resources,  org.xml.sax,  org.apache.tool
+ s.ant,  org.apache.tools.ant.types.resources.selectors,  org.apache.t
+ ools.ant.taskdefs.email,  org.w3c.dom,  org.apache.tools.ant.input",o
+ rg.apache.tools.ant.taskdefs.compilers;version="1.7.100";uses:="org.a
+ pache.tools.ant.types,org.apache.tools.ant.taskdefs,org.apache.tools.
+ ant",org.apache.tools.ant.taskdefs.condition;version="1.7.100"; uses:
+ ="org.apache.tools.ant.types,  org.apache.tools.ant.taskdefs,  org.ap
+ ache.tools.ant,  org.apache.tools.ant.types.selectors",org.apache.too
+ ls.ant.taskdefs.cvslib;version="1.7.100";uses:="org.apache.tools.ant.
+ taskdefs,org.apache.tools.ant.types,org.apache.tools.ant.util",org.ap
+ ache.tools.ant.taskdefs.email;version="1.7.100";uses:="javax.activati
+ on,javax.mail",org.apache.tools.ant.taskdefs.optional;version="1.7.10
+ 0"; uses:="org.apache.tools.ant.taskdefs,  org.apache.tools.ant.types
+ ,  org.xml.sax,  javax.xml.transform",org.apache.tools.ant.taskdefs.o
+ ptional.ccm;version="1.7.100";uses:="org.apache.tools.ant.taskdefs,or
+ g.apache.tools.ant.types,org.apache.tools.ant",org.apache.tools.ant.t
+ askdefs.optional.clearcase;version="1.7.100";uses:="org.apache.tools.
+ ant.types,org.apache.tools.ant",org.apache.tools.ant.taskdefs.optiona
+ l.depend;version="1.7.100";uses:="org.apache.tools.ant.util.depend,or
+ g.apache.tools.ant.taskdefs,org.apache.tools.ant.types",org.apache.to
+ ols.ant.taskdefs.optional.depend.constantpool;version="1.7.100",org.a
+ pache.tools.ant.taskdefs.optional.dotnet;version="1.7.100";uses:="org
+ .apache.tools.ant.taskdefs,org.apache.tools.ant.types,org.apache.tool
+ s.ant",org.apache.tools.ant.taskdefs.optional.ejb;version="1.7.100"; 
+ uses:="org.apache.tools.ant.types,  org.apache.tools.ant.taskdefs,  o
+ rg.xml.sax,  org.apache.tools.ant,  javax.xml.parsers",org.apache.too
+ ls.ant.taskdefs.optional.extension;version="1.7.100"; uses:="org.apac
+ he.tools.ant.types,  org.apache.tools.ant,  org.apache.tools.ant.util
+ ,  org.apache.tools.ant.taskdefs.optional.extension.resolvers",org.ap
+ ache.tools.ant.taskdefs.optional.extension.resolvers;version="1.7.100
+ ";uses:="org.apache.tools.ant,org.apache.tools.ant.taskdefs.optional.
+ extension",org.apache.tools.ant.taskdefs.optional.i18n;version="1.7.1
+ 00";uses:="org.apache.tools.ant.taskdefs,org.apache.tools.ant.types",
+ org.apache.tools.ant.taskdefs.optional.j2ee;version="1.7.100";uses:="
+ org.apache.tools.ant.taskdefs,org.apache.tools.ant.types,org.apache.t
+ ools.ant",org.apache.tools.ant.taskdefs.optional.javacc;version="1.7.
+ 100";uses:="org.apache.tools.ant.types,org.apache.tools.ant",org.apac
+ he.tools.ant.taskdefs.optional.javah;version="1.7.100";uses:="org.apa
+ che.tools.ant,org.apache.tools.ant.taskdefs.optional",org.apache.tool
+ s.ant.taskdefs.optional.jlink;version="1.7.100";uses:="org.apache.too
+ ls.ant.taskdefs,org.apache.tools.ant.types",org.apache.tools.ant.task
+ defs.optional.jsp;version="1.7.100";uses:="org.apache.tools.ant.taskd
+ efs,org.apache.tools.ant.types",org.apache.tools.ant.taskdefs.optiona
+ l.jsp.compilers;version="1.7.100";uses:="org.apache.tools.ant.types,o
+ rg.apache.tools.ant,org.apache.tools.ant.taskdefs.optional.jsp",org.a
+ pache.tools.ant.taskdefs.optional.native2ascii;version="1.7.100";uses
+ :="org.apache.tools.ant.types,org.apache.tools.ant,org.apache.tools.a
+ nt.taskdefs.optional",org.apache.tools.ant.taskdefs.optional.net;vers
+ ion="1.7.100";uses:="org.apache.tools.ant,org.apache.tools.ant.taskde
+ fs.email",org.apache.tools.ant.taskdefs.optional.pvcs;version="1.7.10
+ 0";uses:="org.apache.tools.ant.taskdefs,org.apache.tools.ant.types,or
+ g.apache.tools.ant",org.apache.tools.ant.taskdefs.optional.script;ver
+ sion="1.7.100";uses:="org.apache.tools.ant.taskdefs,org.apache.tools.
+ ant",org.apache.tools.ant.taskdefs.optional.sos;version="1.7.100";use
+ s:="org.apache.tools.ant.types,org.apache.tools.ant",org.apache.tools
+ .ant.taskdefs.optional.sound;version="1.7.100";uses:="javax.sound.sam
+ pled,org.apache.tools.ant",org.apache.tools.ant.taskdefs.optional.spl
+ ash;version="1.7.100";uses:="org.apache.tools.ant,javax.swing",org.ap
+ ache.tools.ant.taskdefs.optional.unix;version="1.7.100";uses:="org.ap
+ ache.tools.ant.taskdefs,org.apache.tools.ant.types,org.apache.tools.a
+ nt.dispatch",org.apache.tools.ant.taskdefs.optional.vss;version="1.7.
+ 100";uses:="org.apache.tools.ant.types,org.apache.tools.ant",org.apac
+ he.tools.ant.taskdefs.optional.windows;version="1.7.100";uses:="org.a
+ pache.tools.ant.taskdefs",org.apache.tools.ant.taskdefs.rmic;version=
+ "1.7.100"; uses:="org.apache.tools.ant.types,  org.apache.tools.ant.t
+ askdefs,  org.apache.tools.ant,  org.apache.tools.ant.util",org.apach
+ e.tools.ant.types;version="1.7.100"; uses:="org.apache.tools.ant.task
+ defs,  org.xml.sax,  org.apache.tools.ant,  org.apache.tools.ant.filt
+ ers,  org.apache.tools.ant.util.regexp,  org.apache.tools.ant.types.s
+ electors,  javax.xml.transform,  org.apache.tools.ant.types.selectors
+ .modifiedselector,  org.apache.tools.ant.util",org.apache.tools.ant.t
+ ypes.mappers;version="1.7.100";uses:="org.apache.tools.ant.types,org.
+ apache.tools.ant.util",org.apache.tools.ant.types.optional;version="1
+ .7.100"; uses:="org.apache.tools.ant.taskdefs.condition,  org.apache.
+ tools.ant.types,  org.apache.tools.ant,  org.apache.tools.ant.util,  
+ org.apache.tools.ant.filters,  org.apache.tools.ant.types.selectors",
+ org.apache.tools.ant.types.optional.depend;version="1.7.100";uses:="o
+ rg.apache.tools.ant.types,org.apache.tools.ant",org.apache.tools.ant.
+ types.resolver;version="1.7.100";uses:="org.apache.tools.ant.types,or
+ g.apache.xml.resolver,org.apache.xml.resolver.tools",org.apache.tools
+ .ant.types.resources;version="1.7.100"; uses:="org.apache.tools.ant.t
+ ypes.resources.comparators,  org.apache.tools.tar,  org.apache.tools.
+ ant.types,  org.apache.tools.ant,  org.apache.tools.ant.types.resourc
+ es.selectors,  org.apache.tools.ant.types.selectors,  org.apache.tool
+ s.ant.util,  org.apache.tools.zip",org.apache.tools.ant.types.resourc
+ es.comparators;version="1.7.100";uses:="org.apache.tools.ant.types,or
+ g.apache.tools.ant",org.apache.tools.ant.types.resources.selectors;ve
+ rsion="1.7.100";uses:="org.apache.tools.ant.types.resources.comparato
+ rs,org.apache.tools.ant.types,org.apache.tools.ant",org.apache.tools.
+ ant.types.selectors;version="1.7.100"; uses:="org.apache.tools.ant.ty
+ pes.selectors.modifiedselector,  org.apache.tools.ant.types,  org.apa
+ che.tools.ant,  org.apache.tools.ant.util,  org.apache.tools.ant.type
+ s.resources.selectors",org.apache.tools.ant.types.selectors.modifieds
+ elector;version="1.7.100"; uses:="org.apache.tools.ant.types,  org.ap
+ ache.tools.ant,  org.apache.tools.ant.types.resources.selectors,  org
+ .apache.tools.ant.types.selectors",org.apache.tools.ant.types.spi;ver
+ sion="1.7.100";uses:="org.apache.tools.ant",org.apache.tools.ant.util
+ ;version="1.7.100";uses:="org.apache.tools.ant.util.optional",org.apa
+ che.tools.ant.util.depend;version="1.7.100";uses:="org.apache.tools.a
+ nt.types",org.apache.tools.ant.util.depend.bcel;version="1.7.100";use
+ s:="org.apache.tools.ant.util.depend,org.apache.bcel.classfile",org.a
+ pache.tools.ant.util.facade;version="1.7.100";uses:="org.apache.tools
+ .ant.types",org.apache.tools.ant.util.java15;version="1.7.100",org.ap
+ ache.tools.ant.util.optional;version="1.7.100";uses:="org.apache.tool
+ s.ant.util",org.apache.tools.ant.util.regexp;version="1.7.100";uses:=
+ "org.apache.regexp",org.apache.tools.bzip2;version="1.7.100",org.apac
+ he.tools.mail;version="1.7.100",org.apache.tools.tar;version="1.7.100
+ ",org.apache.tools.zip;version="1.7.100"
+Bundle-Version: 1.7.100.001
+

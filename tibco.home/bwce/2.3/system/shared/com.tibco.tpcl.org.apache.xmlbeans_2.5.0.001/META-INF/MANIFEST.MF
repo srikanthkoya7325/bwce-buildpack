@@ -1,0 +1,440 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.xmlbeans;version="2.5.0"; uses:="org.xml.sa
+ x,  javax.xml.namespace,  org.w3c.dom,  org.apache.xmlbeans.xml.strea
+ m,  org.xml.sax.ext,  javax.xml.stream",org.apache.xmlbeans.impl.comm
+ on;version="2.5.0"; uses:="org.apache.xmlbeans,  org.xml.sax,  javax.
+ xml.namespace,  org.w3c.dom,  org.apache.xmlbeans.impl.common,  org.a
+ pache.xmlbeans.xml.stream,  org.xml.sax.ext,  org.xml.sax.helpers,  j
+ avax.xml.stream",org.apache.xmlbeans.impl.config;version="2.5.0"; use
+ s:="org.apache.xmlbeans,  javax.xml.namespace,  org.apache.xmlbeans.i
+ mpl.jam,  org.apache.xmlbeans.impl.xb.xmlconfig",org.apache.xmlbeans.
+ impl.inst2xsd;version="2.5.0"; uses:="org.apache.xmlbeans,  org.apach
+ e.xmlbeans.impl.xb.xsdschema,  javax.xml.namespace,  org.apache.xmlbe
+ ans.impl.common,  org.apache.xmlbeans.impl.inst2xsd.util",org.apache.
+ xmlbeans.impl.inst2xsd.util;version="2.5.0"; uses:="org.apache.xmlbea
+ ns,  org.apache.xmlbeans.impl.xb.xsdschema,  javax.xml.namespace,  or
+ g.apache.xmlbeans.impl.common",org.apache.xmlbeans.impl.jam;version="
+ 2.5.0";uses:="org.apache.xmlbeans.impl.jam.provider,org.apache.xmlbea
+ ns.impl.jam.annotation,org.apache.xmlbeans.impl.jam.visitor",org.apac
+ he.xmlbeans.impl.jam.annotation;version="2.5.0"; uses:="org.apache.xm
+ lbeans.impl.jam.provider,  org.apache.xmlbeans.impl.jam,  org.apache.
+ xmlbeans.impl.jam.mutable,  com.sun.javadoc",org.apache.xmlbeans.impl
+ .jam.internal;version="2.5.0"; uses:="org.apache.xmlbeans.impl.jam.pr
+ ovider,  org.apache.xmlbeans.impl.jam.internal.elements,  org.apache.
+ xmlbeans.impl.jam.annotation,  org.apache.xmlbeans.impl.jam,  org.apa
+ che.xmlbeans.impl.jam.visitor,  org.apache.xmlbeans.impl.jam.mutable"
+ ,org.apache.xmlbeans.impl.jam.internal.classrefs;version="2.5.0";uses
+ :="org.apache.xmlbeans.impl.jam",org.apache.xmlbeans.impl.jam.interna
+ l.elements;version="2.5.0"; uses:="org.apache.xmlbeans.impl.jam.provi
+ der,  org.apache.xmlbeans.impl.jam.annotation,  org.apache.xmlbeans.i
+ mpl.jam,  org.apache.xmlbeans.impl.jam.internal.classrefs,  org.apach
+ e.xmlbeans.impl.jam.visitor,  org.apache.xmlbeans.impl.jam.mutable",o
+ rg.apache.xmlbeans.impl.jam.internal.javadoc;version="2.5.0"; uses:="
+ org.apache.xmlbeans.impl.jam.provider,  org.apache.xmlbeans.impl.jam.
+ internal.elements,  org.apache.xmlbeans.impl.jam.internal,  org.apach
+ e.xmlbeans.impl.jam.mutable,  com.sun.javadoc",org.apache.xmlbeans.im
+ pl.jam.internal.parser;version="2.5.0"; uses:="org.apache.xmlbeans.im
+ pl.jam.internal.parser,  org.apache.xmlbeans.impl.jam.provider,  org.
+ apache.xmlbeans.impl.jam,  org.apache.xmlbeans.impl.jam.mutable",org.
+ apache.xmlbeans.impl.jam.internal.reflect;version="2.5.0"; uses:="org
+ .apache.xmlbeans.impl.jam.provider,  org.apache.xmlbeans.impl.jam.int
+ ernal.elements,  org.apache.xmlbeans.impl.jam.internal,  org.apache.x
+ mlbeans.impl.jam.mutable",org.apache.xmlbeans.impl.jam.mutable;versio
+ n="2.5.0";uses:="org.apache.xmlbeans.impl.jam,org.apache.xmlbeans.imp
+ l.jam.visitor",org.apache.xmlbeans.impl.jam.provider;version="2.5.0";
+  uses:="org.apache.xmlbeans.impl.jam.internal.elements,  org.apache.x
+ mlbeans.impl.jam,  org.apache.xmlbeans.impl.jam.annotation,  org.apac
+ he.xmlbeans.impl.jam.visitor,  org.apache.xmlbeans.impl.jam.mutable",
+ org.apache.xmlbeans.impl.jam.visitor;version="2.5.0";uses:="org.apach
+ e.xmlbeans.impl.jam,org.apache.xmlbeans.impl.jam.mutable",org.apache.
+ xmlbeans.impl.jam.xml;version="2.5.0"; uses:="org.apache.xmlbeans.imp
+ l.jam.internal.elements,  org.apache.xmlbeans.impl.jam.internal,  org
+ .apache.xmlbeans.impl.jam,  javax.xml.stream",org.apache.xmlbeans.imp
+ l.piccolo.io;version="2.5.0",org.apache.xmlbeans.impl.piccolo.util;ve
+ rsion="2.5.0",org.apache.xmlbeans.impl.piccolo.xml;version="2.5.0"; u
+ ses:="org.apache.xmlbeans.impl.piccolo.io,  org.xml.sax,  org.xml.sax
+ .ext,  javax.xml.parsers,  org.apache.xmlbeans.impl.piccolo.util",org
+ .apache.xmlbeans.impl.regex;version="2.5.0";uses:="org.apache.xmlbean
+ s.impl.regex",org.apache.xmlbeans.impl.richParser;version="2.5.0";use
+ s:="org.apache.xmlbeans,javax.xml.namespace,javax.xml.stream",org.apa
+ che.xmlbeans.impl.schema;version="2.5.0"; uses:="org.apache.xmlbeans,
+   org.xml.sax,  javax.xml.namespace,  org.apache.xmlbeans.soap,  org.
+ w3c.dom,  org.apache.xmlbeans.impl.values,  org.apache.xmlbeans.xml.s
+ tream,  org.apache.xmlbeans.impl.regex,  org.apache.xmlbeans.impl.sch
+ ema,  org.apache.xmlbeans.impl.xb.xsdschema,  javax.xml.stream",org.a
+ pache.xmlbeans.impl.soap;version="2.5.0";uses:="org.w3c.dom,javax.xml
+ .transform",org.apache.xmlbeans.impl.store;version="2.5.0"; uses:="or
+ g.apache.xmlbeans,  org.xml.sax,  org.apache.xmlbeans.impl.soap,  jav
+ ax.xml.namespace,  org.w3c.dom,  javax.xml.transform,  org.apache.xml
+ beans.impl.values,  org.apache.xmlbeans.xml.stream,  org.xml.sax.ext,
+   org.apache.xmlbeans.impl.common,  javax.xml.stream",org.apache.xmlb
+ eans.impl.tool;version="2.5.0"; uses:="org.apache.tools.ant.taskdefs,
+   org.apache.xmlbeans,  org.apache.tools.ant.types,  org.xml.sax,  or
+ g.apache.tools.ant,  javax.xml.namespace,  org.apache.xmlbeans.soap, 
+  repackage,  org.apache.xmlbeans.impl.xb.xsdschema",org.apache.xmlbea
+ ns.impl.util;version="2.5.0";uses:="org.apache.xmlbeans,repackage,jav
+ ax.xml.namespace",org.apache.xmlbeans.impl.validator;version="2.5.0";
+  uses:="org.apache.xmlbeans.xml.stream,  org.apache.xmlbeans,  javax.
+ xml.namespace,  org.apache.xmlbeans.impl.common,  javax.xml.stream.ut
+ il,  javax.xml.stream",org.apache.xmlbeans.impl.values;version="2.5.0
+ "; uses:="org.apache.xmlbeans,  org.xml.sax,  javax.xml.namespace,  o
+ rg.w3c.dom,  org.apache.xmlbeans.xml.stream,  org.xml.sax.ext,  org.a
+ pache.xmlbeans.impl.common,  javax.xml.stream",org.apache.xmlbeans.im
+ pl.xb.ltgfmt;version="2.5.0"; uses:="org.apache.xmlbeans.xml.stream, 
+  org.apache.xmlbeans,  org.w3c.dom,  javax.xml.stream",org.apache.xml
+ beans.impl.xb.ltgfmt.impl;version="2.5.0";uses:="org.apache.xmlbeans.
+ impl.values,org.apache.xmlbeans,org.apache.xmlbeans.impl.xb.ltgfmt",o
+ rg.apache.xmlbeans.impl.xb.substwsdl;version="2.5.0"; uses:="org.apac
+ he.xmlbeans.xml.stream,  org.apache.xmlbeans,  org.w3c.dom,  javax.xm
+ l.stream",org.apache.xmlbeans.impl.xb.substwsdl.impl;version="2.5.0";
+ uses:="org.apache.xmlbeans.impl.values,org.apache.xmlbeans,org.apache
+ .xmlbeans.impl.xb.substwsdl",org.apache.xmlbeans.impl.xb.xmlconfig;ve
+ rsion="2.5.0"; uses:="org.apache.xmlbeans.xml.stream,  org.apache.xml
+ beans,  javax.xml.namespace,  org.w3c.dom,  javax.xml.stream",org.apa
+ che.xmlbeans.impl.xb.xmlconfig.impl;version="2.5.0"; uses:="org.apach
+ e.xmlbeans.impl.values,  org.apache.xmlbeans,  javax.xml.namespace,  
+ org.apache.xmlbeans.impl.xb.xmlconfig",org.apache.xmlbeans.impl.xb.xm
+ lschema;version="2.5.0"; uses:="org.apache.xmlbeans.xml.stream,  org.
+ apache.xmlbeans,  org.w3c.dom,  javax.xml.stream",org.apache.xmlbeans
+ .impl.xb.xmlschema.impl;version="2.5.0";uses:="org.apache.xmlbeans.im
+ pl.values,org.apache.xmlbeans,org.apache.xmlbeans.impl.xb.xmlschema",
+ org.apache.xmlbeans.impl.xb.xsdownload;version="2.5.0"; uses:="org.ap
+ ache.xmlbeans.xml.stream,  org.apache.xmlbeans,  org.w3c.dom,  javax.
+ xml.stream",org.apache.xmlbeans.impl.xb.xsdownload.impl;version="2.5.
+ 0";uses:="org.apache.xmlbeans.impl.values,org.apache.xmlbeans.impl.xb
+ .xsdownload,org.apache.xmlbeans",org.apache.xmlbeans.impl.xb.xsdschem
+ a;version="2.5.0"; uses:="org.apache.xmlbeans.xml.stream,  org.apache
+ .xmlbeans,  javax.xml.namespace,  org.w3c.dom,  javax.xml.stream",org
+ .apache.xmlbeans.impl.xb.xsdschema.impl;version="2.5.0"; uses:="org.a
+ pache.xmlbeans.impl.values,  org.apache.xmlbeans,  org.apache.xmlbean
+ s.impl.xb.xsdschema,  javax.xml.namespace",org.apache.xmlbeans.impl.x
+ path.saxon;version="2.5.0";uses:="org.apache.xmlbeans.impl.store",org
+ .apache.xmlbeans.impl.xpathgen;version="2.5.0";uses:="org.apache.xmlb
+ eans,javax.xml.namespace",org.apache.xmlbeans.impl.xquery.saxon;versi
+ on="2.5.0";uses:="org.apache.xmlbeans.impl.store",org.apache.xmlbeans
+ .impl.xsd2inst;version="2.5.0";uses:="org.apache.xmlbeans,javax.xml.n
+ amespace",org.apache.xmlbeans.soap;version="2.5.0";uses:="javax.xml.n
+ amespace,org.apache.xmlbeans.impl.common",org.apache.xmlbeans.xml.str
+ eam;version="2.5.0";uses:="org.apache.xmlbeans.xml.stream.utils",org.
+ apache.xmlbeans.xml.stream.events;version="2.5.0",org.apache.xmlbeans
+ .xml.stream.utils;version="2.5.0",schemaorg_apache_xmlbeans.attribute
+ .http_3A_2F_2Fwww_2Ew3_2Eorg_2FXML_2F1998_2Fnamespace;version="2.5.0"
+ ,schemaorg_apache_xmlbeans.attributegroup.http_3A_2F_2Fwww_2Ew3_2Eorg
+ _2F2001_2FXMLSchema;version="2.5.0",schemaorg_apache_xmlbeans.attribu
+ tegroup.http_3A_2F_2Fwww_2Ew3_2Eorg_2FXML_2F1998_2Fnamespace;version=
+ "2.5.0",schemaorg_apache_xmlbeans.element.http_3A_2F_2Fwww_2Ebea_2Eco
+ m_2F2003_2F01_2Fxmlbean_2Fxsdownload;version="2.5.0",schemaorg_apache
+ _xmlbeans.element.http_3A_2F_2Fwww_2Ebea_2Ecom_2F2003_2F05_2Fxmlbean_
+ 2Fltgfmt;version="2.5.0",schemaorg_apache_xmlbeans.element.http_3A_2F
+ _2Fwww_2Ew3_2Eorg_2F2001_2FXMLSchema;version="2.5.0",schemaorg_apache
+ _xmlbeans.element.URI_SHA_1_0072531D5C2BA64B5A3672B694CDAA153CD30788;
+ version="2.5.0",schemaorg_apache_xmlbeans.element.URI_SHA_1_5AAF5BEFD
+ 4F30D215E94ED53118FE32C537C3B26;version="2.5.0",schemaorg_apache_xmlb
+ eans.identityconstraint.http_3A_2F_2Fwww_2Ew3_2Eorg_2F2001_2FXMLSchem
+ a;version="2.5.0",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbe
+ ans.impl.xb.ltgfmt;version="2.5.0",schemaorg_apache_xmlbeans.javaname
+ .org.apache.xmlbeans.impl.xb.ltgfmt.FileDesc;version="2.5.0",schemaor
+ g_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.ltgfmt.TestCas
+ e;version="2.5.0",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbe
+ ans.impl.xb.ltgfmt.TestsDocument;version="2.5.0",schemaorg_apache_xml
+ beans.javaname.org.apache.xmlbeans.impl.xb.substwsdl;version="2.5.0",
+ schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.substw
+ sdl.DefinitionsDocument;version="2.5.0",schemaorg_apache_xmlbeans.jav
+ aname.org.apache.xmlbeans.impl.xb.xmlconfig;version="2.5.0",schemaorg
+ _apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xmlconfig.Confi
+ gDocument;version="2.5.0",schemaorg_apache_xmlbeans.javaname.org.apac
+ he.xmlbeans.impl.xb.xmlconfig.Extensionconfig;version="2.5.0",schemao
+ rg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xmlconfig.Jav
+ aNameList;version="2.5.0",schemaorg_apache_xmlbeans.javaname.org.apac
+ he.xmlbeans.impl.xb.xmlconfig.NamespaceList;version="2.5.0",schemaorg
+ _apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xmlconfig.Names
+ paceList.Member2;version="2.5.0",schemaorg_apache_xmlbeans.javaname.o
+ rg.apache.xmlbeans.impl.xb.xmlconfig.NamespaceList.Member2.Item;versi
+ on="2.5.0",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.imp
+ l.xb.xmlschema;version="2.5.0",schemaorg_apache_xmlbeans.javaname.org
+ .apache.xmlbeans.impl.xb.xmlschema.SpaceAttribute;version="2.5.0",sch
+ emaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdownloa
+ d;version="2.5.0",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbe
+ ans.impl.xb.xsdownload.DownloadedSchemasDocument;version="2.5.0",sche
+ maorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema;
+ version="2.5.0",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbean
+ s.impl.xb.xsdschema.All;version="2.5.0",schemaorg_apache_xmlbeans.jav
+ aname.org.apache.xmlbeans.impl.xb.xsdschema.AllNNI;version="2.5.0",sc
+ hemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschem
+ a.AnnotationDocument;version="2.5.0",schemaorg_apache_xmlbeans.javana
+ me.org.apache.xmlbeans.impl.xb.xsdschema.AnyDocument;version="2.5.0",
+ schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdsch
+ ema.AppinfoDocument;version="2.5.0",schemaorg_apache_xmlbeans.javanam
+ e.org.apache.xmlbeans.impl.xb.xsdschema.Attribute;version="2.5.0",sch
+ emaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema
+ .BlockSet;version="2.5.0",schemaorg_apache_xmlbeans.javaname.org.apac
+ he.xmlbeans.impl.xb.xsdschema.BlockSet.Member2;version="2.5.0",schema
+ org_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.Co
+ mplexContentDocument;version="2.5.0",schemaorg_apache_xmlbeans.javana
+ me.org.apache.xmlbeans.impl.xb.xsdschema.DerivationSet;version="2.5.0
+ ",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsds
+ chema.DocumentationDocument;version="2.5.0",schemaorg_apache_xmlbeans
+ .javaname.org.apache.xmlbeans.impl.xb.xsdschema.FieldDocument;version
+ ="2.5.0",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.
+ xb.xsdschema.FieldDocument.Field;version="2.5.0",schemaorg_apache_xml
+ beans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.FullDerivationSe
+ t;version="2.5.0",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbe
+ ans.impl.xb.xsdschema.ImportDocument;version="2.5.0",schemaorg_apache
+ _xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.IncludeDocum
+ ent;version="2.5.0",schemaorg_apache_xmlbeans.javaname.org.apache.xml
+ beans.impl.xb.xsdschema.KeyrefDocument;version="2.5.0",schemaorg_apac
+ he_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.ListDocume
+ nt;version="2.5.0",schemaorg_apache_xmlbeans.javaname.org.apache.xmlb
+ eans.impl.xb.xsdschema.NamedGroup;version="2.5.0",schemaorg_apache_xm
+ lbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.NamespaceList;v
+ ersion="2.5.0",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans
+ .impl.xb.xsdschema.NamespaceList.Member2;version="2.5.0",schemaorg_ap
+ ache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.Namespac
+ eList.Member2.Item;version="2.5.0",schemaorg_apache_xmlbeans.javaname
+ .org.apache.xmlbeans.impl.xb.xsdschema.NarrowMaxMin;version="2.5.0",s
+ chemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdsche
+ ma.NotationDocument;version="2.5.0",schemaorg_apache_xmlbeans.javanam
+ e.org.apache.xmlbeans.impl.xb.xsdschema.PatternDocument;version="2.5.
+ 0",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsd
+ schema.RedefineDocument;version="2.5.0",schemaorg_apache_xmlbeans.jav
+ aname.org.apache.xmlbeans.impl.xb.xsdschema.RestrictionDocument;versi
+ on="2.5.0",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.imp
+ l.xb.xsdschema.SchemaDocument;version="2.5.0",schemaorg_apache_xmlbea
+ ns.javaname.org.apache.xmlbeans.impl.xb.xsdschema.SelectorDocument;ve
+ rsion="2.5.0",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.
+ impl.xb.xsdschema.SelectorDocument.Selector;version="2.5.0",schemaorg
+ _apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.Simpl
+ eContentDocument;version="2.5.0",schemaorg_apache_xmlbeans.javaname.o
+ rg.apache.xmlbeans.impl.xb.xsdschema.SimpleDerivationSet;version="2.5
+ .0",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xs
+ dschema.SimpleDerivationSet.Member2;version="2.5.0",schemaorg_apache_
+ xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.TotalDigitsDo
+ cument;version="2.5.0",schemaorg_apache_xmlbeans.javaname.org.apache.
+ xmlbeans.impl.xb.xsdschema.UnionDocument;version="2.5.0",schemaorg_ap
+ ache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.UnionDoc
+ ument.Union;version="2.5.0",schemaorg_apache_xmlbeans.javaname.org.ap
+ ache.xmlbeans.impl.xb.xsdschema.WhiteSpaceDocument;version="2.5.0",sc
+ hemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschem
+ a.WhiteSpaceDocument.WhiteSpace;version="2.5.0",schemaorg_apache_xmlb
+ eans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.Wildcard;version=
+ "2.5.0",schemaorg_apache_xmlbeans.modelgroup.http_3A_2F_2Fwww_2Ew3_2E
+ org_2F2001_2FXMLSchema;version="2.5.0",schemaorg_apache_xmlbeans.name
+ space.http_3A_2F_2Fwww_2Ebea_2Ecom_2F2003_2F01_2Fxmlbean_2Fxsdownload
+ ;version="2.5.0",schemaorg_apache_xmlbeans.namespace.http_3A_2F_2Fwww
+ _2Ebea_2Ecom_2F2003_2F05_2Fxmlbean_2Fltgfmt;version="2.5.0",schemaorg
+ _apache_xmlbeans.namespace.http_3A_2F_2Fwww_2Ew3_2Eorg_2F2001_2FXMLSc
+ hema;version="2.5.0",schemaorg_apache_xmlbeans.namespace.http_3A_2F_2
+ Fwww_2Ew3_2Eorg_2FXML_2F1998_2Fnamespace;version="2.5.0",schemaorg_ap
+ ache_xmlbeans.namespace.URI_SHA_1_0072531D5C2BA64B5A3672B694CDAA153CD
+ 30788;version="2.5.0",schemaorg_apache_xmlbeans.namespace.URI_SHA_1_5
+ AAF5BEFD4F30D215E94ED53118FE32C537C3B26;version="2.5.0",schemaorg_apa
+ che_xmlbeans.src;version="2.5.0",schemaorg_apache_xmlbeans.system.sXM
+ LCONFIG;version="2.5.0",schemaorg_apache_xmlbeans.system.sXMLLANG;ver
+ sion="2.5.0",schemaorg_apache_xmlbeans.system.sXMLSCHEMA;version="2.5
+ .0",schemaorg_apache_xmlbeans.system.sXMLTOOLS;version="2.5.0",schema
+ org_apache_xmlbeans.type.http_3A_2F_2Fwww_2Ebea_2Ecom_2F2003_2F01_2Fx
+ mlbean_2Fxsdownload;version="2.5.0",schemaorg_apache_xmlbeans.type.ht
+ tp_3A_2F_2Fwww_2Ebea_2Ecom_2F2003_2F05_2Fxmlbean_2Fltgfmt;version="2.
+ 5.0",schemaorg_apache_xmlbeans.type.http_3A_2F_2Fwww_2Ew3_2Eorg_2F200
+ 1_2FXMLSchema;version="2.5.0",schemaorg_apache_xmlbeans.type.URI_SHA_
+ 1_0072531D5C2BA64B5A3672B694CDAA153CD30788;version="2.5.0",schemaorg_
+ apache_xmlbeans.type.URI_SHA_1_5AAF5BEFD4F30D215E94ED53118FE32C537C3B
+ 26;version="2.5.0"
+Bundle-Vendor: %providerName
+Bundle-ClassPath: xbean.jar,xbean_xpath.jar
+Bundle-Version: 2.5.0.001
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Import-Package: javax.xml.namespace;version="[1.1.0,2.0.0)",javax.xml.
+ parsers;version="[1.3.0,2.0.0)",javax.xml.stream;version="[1.0.0,2.0.
+ 0)",javax.xml.stream.events;version="[1.0.0,2.0.0)",javax.xml.stream.
+ util;version="[1.0.0,2.0.0)",javax.xml.transform;version="[1.3.0,2.0.
+ 0)",javax.xml.transform.dom;version="[1.3.0,2.0.0)",net.sf.saxon;vers
+ ion="[9.1.0,10.0.0)";resolution:=optional,net.sf.saxon.dom;version="[
+ 9.1.0,10.0.0)";resolution:=optional,net.sf.saxon.om;version="[9.1.0,1
+ 0.0.0)";resolution:=optional,net.sf.saxon.query;version="[9.1.0,10.0.
+ 0)";resolution:=optional,net.sf.saxon.sxpath;version="[9.1.0,10.0.0)"
+ ;resolution:=optional,net.sf.saxon.trans;version="[9.1.0,10.0.0)";res
+ olution:=optional,net.sf.saxon.value;version="[9.1.0,10.0.0)";resolut
+ ion:=optional,org.apache.xml.resolver;version="[1.1.0,2.0.0)",org.apa
+ che.xmlbeans;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.common;
+ version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.config;version="[2.5
+ .0,3.0.0)",org.apache.xmlbeans.impl.inst2xsd;version="[2.5.0,3.0.0)",
+ org.apache.xmlbeans.impl.inst2xsd.util;version="[2.5.0,3.0.0)",org.ap
+ ache.xmlbeans.impl.jam;version="[2.5.0,3.0.0)",org.apache.xmlbeans.im
+ pl.jam.annotation;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.ja
+ m.internal;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.jam.inter
+ nal.classrefs;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.jam.in
+ ternal.elements;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.jam.
+ internal.javadoc;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.jam
+ .internal.parser;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.jam
+ .internal.reflect;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.ja
+ m.mutable;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.jam.provid
+ er;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.jam.visitor;versi
+ on="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.jam.xml;version="[2.5.0,3
+ .0.0)",org.apache.xmlbeans.impl.piccolo.io;version="[2.5.0,3.0.0)",or
+ g.apache.xmlbeans.impl.piccolo.util;version="[2.5.0,3.0.0)",org.apach
+ e.xmlbeans.impl.piccolo.xml;version="[2.5.0,3.0.0)",org.apache.xmlbea
+ ns.impl.regex;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.richPa
+ rser;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.schema;version=
+ "[2.5.0,3.0.0)",org.apache.xmlbeans.impl.soap;version="[2.5.0,3.0.0)"
+ ,org.apache.xmlbeans.impl.store;version="[2.5.0,3.0.0)",org.apache.xm
+ lbeans.impl.tool;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.uti
+ l;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.validator;version=
+ "[2.5.0,3.0.0)",org.apache.xmlbeans.impl.values;version="[2.5.0,3.0.0
+ )",org.apache.xmlbeans.impl.xb.ltgfmt;version="[2.5.0,3.0.0)",org.apa
+ che.xmlbeans.impl.xb.ltgfmt.impl;version="[2.5.0,3.0.0)",org.apache.x
+ mlbeans.impl.xb.substwsdl;version="[2.5.0,3.0.0)",org.apache.xmlbeans
+ .impl.xb.substwsdl.impl;version="[2.5.0,3.0.0)",org.apache.xmlbeans.i
+ mpl.xb.xmlconfig;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.xb.
+ xmlconfig.impl;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.xb.xm
+ lschema;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.xb.xmlschema
+ .impl;version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.xb.xsdownload;
+ version="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.xb.xsdownload.impl;v
+ ersion="[2.5.0,3.0.0)",org.apache.xmlbeans.impl.xb.xsdschema;version=
+ "[2.5.0,3.0.0)",org.apache.xmlbeans.impl.xb.xsdschema.impl;version="[
+ 2.5.0,3.0.0)",org.apache.xmlbeans.impl.xpath.saxon;version="[2.5.0,3.
+ 0.0)",org.apache.xmlbeans.impl.xpathgen;version="[2.5.0,3.0.0)",org.a
+ pache.xmlbeans.impl.xquery.saxon;version="[2.5.0,3.0.0)",org.apache.x
+ mlbeans.impl.xsd2inst;version="[2.5.0,3.0.0)",org.apache.xmlbeans.soa
+ p;version="[2.5.0,3.0.0)",org.apache.xmlbeans.xml.stream;version="[2.
+ 5.0,3.0.0)",org.apache.xmlbeans.xml.stream.events;version="[2.5.0,3.0
+ .0)",org.apache.xmlbeans.xml.stream.utils;version="[2.5.0,3.0.0)",org
+ .xml.sax;version="[2.0.0,3.0.0)",org.xml.sax.ext;version="[2.0.0,3.0.
+ 0)",org.xml.sax.helpers;version="[2.0.0,3.0.0)",schemaorg_apache_xmlb
+ eans.attribute.http_3A_2F_2Fwww_2Ew3_2Eorg_2FXML_2F1998_2Fnamespace;v
+ ersion="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.attributegroup.http_
+ 3A_2F_2Fwww_2Ew3_2Eorg_2F2001_2FXMLSchema;version="[2.5.0,3.0.0)",sch
+ emaorg_apache_xmlbeans.attributegroup.http_3A_2F_2Fwww_2Ew3_2Eorg_2FX
+ ML_2F1998_2Fnamespace;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbea
+ ns.element.http_3A_2F_2Fwww_2Ebea_2Ecom_2F2003_2F01_2Fxmlbean_2Fxsdow
+ nload;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.element.http_
+ 3A_2F_2Fwww_2Ebea_2Ecom_2F2003_2F05_2Fxmlbean_2Fltgfmt;version="[2.5.
+ 0,3.0.0)",schemaorg_apache_xmlbeans.element.http_3A_2F_2Fwww_2Ew3_2Eo
+ rg_2F2001_2FXMLSchema;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbea
+ ns.element.URI_SHA_1_0072531D5C2BA64B5A3672B694CDAA153CD30788;version
+ ="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.element.URI_SHA_1_5AAF5BEF
+ D4F30D215E94ED53118FE32C537C3B26;version="[2.5.0,3.0.0)",schemaorg_ap
+ ache_xmlbeans.identityconstraint.http_3A_2F_2Fwww_2Ew3_2Eorg_2F2001_2
+ FXMLSchema;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname
+ .org.apache.xmlbeans.impl.xb.ltgfmt;version="[2.5.0,3.0.0)",schemaorg
+ _apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.ltgfmt.FileDesc
+ ;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.apach
+ e.xmlbeans.impl.xb.ltgfmt.TestCase;version="[2.5.0,3.0.0)",schemaorg_
+ apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.ltgfmt.TestsDocu
+ ment;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.a
+ pache.xmlbeans.impl.xb.substwsdl;version="[2.5.0,3.0.0)",schemaorg_ap
+ ache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.substwsdl.Definiti
+ onsDocument;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javanam
+ e.org.apache.xmlbeans.impl.xb.xmlconfig;version="[2.5.0,3.0.0)",schem
+ aorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xmlconfig.C
+ onfigDocument;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javan
+ ame.org.apache.xmlbeans.impl.xb.xmlconfig.Extensionconfig;version="[2
+ .5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.i
+ mpl.xb.xmlconfig.JavaNameList;version="[2.5.0,3.0.0)",schemaorg_apach
+ e_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xmlconfig.NamespaceLi
+ st;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.apa
+ che.xmlbeans.impl.xb.xmlconfig.NamespaceList.Member2;version="[2.5.0,
+ 3.0.0)",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.x
+ b.xmlconfig.NamespaceList.Member2.Item;version="[2.5.0,3.0.0)",schema
+ org_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xmlschema;ve
+ rsion="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.apache.x
+ mlbeans.impl.xb.xmlschema.SpaceAttribute;version="[2.5.0,3.0.0)",sche
+ maorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdownload
+ ;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.apach
+ e.xmlbeans.impl.xb.xsdownload.DownloadedSchemasDocument;version="[2.5
+ .0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.imp
+ l.xb.xsdschema;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.java
+ name.org.apache.xmlbeans.impl.xb.xsdschema.All;version="[2.5.0,3.0.0)
+ ",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsds
+ chema.AllNNI;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javana
+ me.org.apache.xmlbeans.impl.xb.xsdschema.AnnotationDocument;version="
+ [2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans
+ .impl.xb.xsdschema.AnyDocument;version="[2.5.0,3.0.0)",schemaorg_apac
+ he_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.AppinfoDoc
+ ument;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.
+ apache.xmlbeans.impl.xb.xsdschema.Attribute;version="[2.5.0,3.0.0)",s
+ chemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdsche
+ ma.BlockSet;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javanam
+ e.org.apache.xmlbeans.impl.xb.xsdschema.BlockSet.Member2;version="[2.
+ 5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.im
+ pl.xb.xsdschema.ComplexContentDocument;version="[2.5.0,3.0.0)",schema
+ org_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.De
+ rivationSet;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javanam
+ e.org.apache.xmlbeans.impl.xb.xsdschema.DocumentationDocument;version
+ ="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbea
+ ns.impl.xb.xsdschema.FieldDocument;version="[2.5.0,3.0.0)",schemaorg_
+ apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.FieldD
+ ocument.Field;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javan
+ ame.org.apache.xmlbeans.impl.xb.xsdschema.FullDerivationSet;version="
+ [2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans
+ .impl.xb.xsdschema.ImportDocument;version="[2.5.0,3.0.0)",schemaorg_a
+ pache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.Include
+ Document;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.o
+ rg.apache.xmlbeans.impl.xb.xsdschema.KeyrefDocument;version="[2.5.0,3
+ .0.0)",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb
+ .xsdschema.ListDocument;version="[2.5.0,3.0.0)",schemaorg_apache_xmlb
+ eans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.NamedGroup;versio
+ n="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbe
+ ans.impl.xb.xsdschema.NamespaceList;version="[2.5.0,3.0.0)",schemaorg
+ _apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.Names
+ paceList.Member2;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.ja
+ vaname.org.apache.xmlbeans.impl.xb.xsdschema.NamespaceList.Member2.It
+ em;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.apa
+ che.xmlbeans.impl.xb.xsdschema.NarrowMaxMin;version="[2.5.0,3.0.0)",s
+ chemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdsche
+ ma.NotationDocument;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans
+ .javaname.org.apache.xmlbeans.impl.xb.xsdschema.PatternDocument;versi
+ on="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.apache.xmlb
+ eans.impl.xb.xsdschema.RedefineDocument;version="[2.5.0,3.0.0)",schem
+ aorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.R
+ estrictionDocument;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.
+ javaname.org.apache.xmlbeans.impl.xb.xsdschema.SchemaDocument;version
+ ="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbea
+ ns.impl.xb.xsdschema.SelectorDocument;version="[2.5.0,3.0.0)",schemao
+ rg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.Sel
+ ectorDocument.Selector;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbe
+ ans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.SimpleContentDocum
+ ent;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.ap
+ ache.xmlbeans.impl.xb.xsdschema.SimpleDerivationSet;version="[2.5.0,3
+ .0.0)",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb
+ .xsdschema.SimpleDerivationSet.Member2;version="[2.5.0,3.0.0)",schema
+ org_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.To
+ talDigitsDocument;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.j
+ avaname.org.apache.xmlbeans.impl.xb.xsdschema.UnionDocument;version="
+ [2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.apache.xmlbeans
+ .impl.xb.xsdschema.UnionDocument.Union;version="[2.5.0,3.0.0)",schema
+ org_apache_xmlbeans.javaname.org.apache.xmlbeans.impl.xb.xsdschema.Wh
+ iteSpaceDocument;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.ja
+ vaname.org.apache.xmlbeans.impl.xb.xsdschema.WhiteSpaceDocument.White
+ Space;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.javaname.org.
+ apache.xmlbeans.impl.xb.xsdschema.Wildcard;version="[2.5.0,3.0.0)",sc
+ hemaorg_apache_xmlbeans.modelgroup.http_3A_2F_2Fwww_2Ew3_2Eorg_2F2001
+ _2FXMLSchema;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.namesp
+ ace.http_3A_2F_2Fwww_2Ebea_2Ecom_2F2003_2F01_2Fxmlbean_2Fxsdownload;v
+ ersion="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.namespace.http_3A_2F
+ _2Fwww_2Ebea_2Ecom_2F2003_2F05_2Fxmlbean_2Fltgfmt;version="[2.5.0,3.0
+ .0)",schemaorg_apache_xmlbeans.namespace.http_3A_2F_2Fwww_2Ew3_2Eorg_
+ 2F2001_2FXMLSchema;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.
+ namespace.http_3A_2F_2Fwww_2Ew3_2Eorg_2FXML_2F1998_2Fnamespace;versio
+ n="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.namespace.URI_SHA_1_00725
+ 31D5C2BA64B5A3672B694CDAA153CD30788;version="[2.5.0,3.0.0)",schemaorg
+ _apache_xmlbeans.namespace.URI_SHA_1_5AAF5BEFD4F30D215E94ED53118FE32C
+ 537C3B26;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.src;versio
+ n="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.system.sXMLCONFIG;version
+ ="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.system.sXMLLANG;version="[
+ 2.5.0,3.0.0)",schemaorg_apache_xmlbeans.system.sXMLSCHEMA;version="[2
+ .5.0,3.0.0)",schemaorg_apache_xmlbeans.system.sXMLTOOLS;version="[2.5
+ .0,3.0.0)",schemaorg_apache_xmlbeans.type.http_3A_2F_2Fwww_2Ebea_2Eco
+ m_2F2003_2F01_2Fxmlbean_2Fxsdownload;version="[2.5.0,3.0.0)",schemaor
+ g_apache_xmlbeans.type.http_3A_2F_2Fwww_2Ebea_2Ecom_2F2003_2F05_2Fxml
+ bean_2Fltgfmt;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.type.
+ http_3A_2F_2Fwww_2Ew3_2Eorg_2F2001_2FXMLSchema;version="[2.5.0,3.0.0)
+ ",schemaorg_apache_xmlbeans.type.URI_SHA_1_0072531D5C2BA64B5A3672B694
+ CDAA153CD30788;version="[2.5.0,3.0.0)",schemaorg_apache_xmlbeans.type
+ .URI_SHA_1_5AAF5BEFD4F30D215E94ED53118FE32C537C3B26;version="[2.5.0,3
+ .0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.xmlbeans
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+

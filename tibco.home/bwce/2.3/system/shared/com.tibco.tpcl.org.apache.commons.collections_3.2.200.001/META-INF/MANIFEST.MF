@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.commons.collections;version="3.2.200";uses:
+ ="org.apache.commons.collections.keyvalue,org.apache.commons.collecti
+ ons",org.apache.commons.collections.bag;version="3.2.200";uses:="org.
+ apache.commons.collections,org.apache.commons.collections.collection,
+ org.apache.commons.collections.set",org.apache.commons.collections.bi
+ dimap;version="3.2.200"; uses:="org.apache.commons.collections.iterat
+ ors,  org.apache.commons.collections.keyvalue,  org.apache.commons.co
+ llections.map,  org.apache.commons.collections,  org.apache.commons.c
+ ollections.collection",org.apache.commons.collections.buffer;version=
+ "3.2.200";uses:="org.apache.commons.collections,org.apache.commons.co
+ llections.collection",org.apache.commons.collections.collection;versi
+ on="3.2.200";uses:="org.apache.commons.collections",org.apache.common
+ s.collections.comparators;version="3.2.200";uses:="org.apache.commons
+ .collections",org.apache.commons.collections.functors;version="3.2.20
+ 0";uses:="org.apache.commons.collections.functors,org.apache.commons.
+ collections",org.apache.commons.collections.iterators;version="3.2.20
+ 0";uses:="org.apache.commons.collections",org.apache.commons.collecti
+ ons.keyvalue;version="3.2.200";uses:="org.apache.commons.collections"
+ ,org.apache.commons.collections.list;version="3.2.200"; uses:="org.ap
+ ache.commons.collections.iterators,  org.apache.commons.collections, 
+  org.apache.commons.collections.list,  org.apache.commons.collections
+ .collection",org.apache.commons.collections.map;version="3.2.200"; us
+ es:="org.apache.commons.collections.iterators,  org.apache.commons.co
+ llections.keyvalue,  org.apache.commons.collections,  org.apache.comm
+ ons.collections.set",org.apache.commons.collections.set;version="3.2.
+ 200"; uses:="org.apache.commons.collections.iterators,  org.apache.co
+ mmons.collections.set,  org.apache.commons.collections,  org.apache.c
+ ommons.collections.collection"
+Bundle-Vendor: The Apache Software Foundation
+Bundle-ClassPath: commons-collections-3.2.2.jar
+Bundle-Version: 3.2.200.001
+Bundle-Name: Apache Commons Java Collections Extensions
+Bundle-ManifestVersion: 2
+Import-Package: org.apache.commons.collections;version="[3.2.200,4.0.0
+ )",org.apache.commons.collections.bag;version="[3.2.200,4.0.0)",org.a
+ pache.commons.collections.bidimap;version="[3.2.200,4.0.0)",org.apach
+ e.commons.collections.buffer;version="[3.2.200,4.0.0)",org.apache.com
+ mons.collections.collection;version="[3.2.200,4.0.0)",org.apache.comm
+ ons.collections.comparators;version="[3.2.200,4.0.0)",org.apache.comm
+ ons.collections.functors;version="[3.2.200,4.0.0)",org.apache.commons
+ .collections.iterators;version="[3.2.200,4.0.0)",org.apache.commons.c
+ ollections.keyvalue;version="[3.2.200,4.0.0)",org.apache.commons.coll
+ ections.list;version="[3.2.200,4.0.0)",org.apache.commons.collections
+ .map;version="[3.2.200,4.0.0)",org.apache.commons.collections.set;ver
+ sion="[3.2.200,4.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.commons.collections
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

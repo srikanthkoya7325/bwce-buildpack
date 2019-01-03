@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema name="BW_6" display-name="BW 6.2">
+    <retention-policies>
+        <retention-policy type="fact" period="1" unit="DAY" purge-time-of-day="-1" purge-frequency-period="3600000"/>        
+    </retention-policies>
+    <attributes>
+        <!-- Dimension Related Attributes -->
+        <attribute datatype="STRING" name="domain"/>
+        <attribute datatype="STRING" name="appspace"/>
+        <attribute datatype="STRING" name="appnode"/>        
+        <attribute datatype="STRING" name="application"/>
+        <attribute datatype="STRING" name="process"/>
+        <attribute datatype="STRING" name="component_name"/>       
+        <attribute datatype="STRING" name="process_id"/>
+        <attribute datatype="STRING" name="job_id"/>
+        <attribute datatype="STRING" name="activity_name"/>       
+        <attribute datatype="LONG" name="timestamp"/>
+        <attribute datatype="LONG" name="svc_hit"/>
+        <attribute datatype="LONG" name="svc_success"/>
+        <attribute datatype="LONG" name="svc_fault"/>
+        <attribute datatype="LONG" name="act_exec_time"/>
+        <!--  activity level attributes -->          
+        <attribute datatype="STRING" name="activity_status"/>
+        <attribute datatype="LONG" name="act_start_time"/>
+        <attribute datatype="STRING" name="process_status"/>
+        <attribute datatype="STRING" name="execution_path"/>
+    </attributes>
+
+    <dimensions>
+        <dimension name="domain" attribute-ref="domain"/>
+        <dimension name="appspace" attribute-ref="appspace"/>
+        <dimension name="appnode" attribute-ref="appnode"/>       
+        <dimension name="application" attribute-ref="application"/>
+        <dimension name="process_id" attribute-ref="process_id"/>
+        <dimension name="job_id" attribute-ref="job_id"/>
+        <dimension name="process" attribute-ref="process"/>
+        <dimension name="component_name" attribute-ref="component_name"/>               
+        <dimension name="activity_name" attribute-ref="activity_name"/>
+        <dimension name="execution_path" attribute-ref="execution_path"/>             
+        <time-dimension name="month" attribute-ref="timestamp" unit="MONTH" frequency="1"/>
+        <time-dimension name="weeks" attribute-ref="timestamp" unit="WEEK" frequency="1"/>
+        <time-dimension name="days" attribute-ref="timestamp" unit="DAY" frequency="1"/>
+        <time-dimension name="hours" attribute-ref="timestamp" unit="HOUR" frequency="1"/>
+        <time-dimension name="minutes" attribute-ref="timestamp" unit="MINUTE" frequency="1"/>
+        <!-- TODO: change the frequency to 5 min -->
+    </dimensions>
+
+    <measurements>
+
+        <measurement name="HitCount" unit="svc_hit">
+            <metric-function ref="System.SUM">
+                <function-params>
+                    <function-param name="PARAM1" attribute-ref="svc_hit"/>
+                </function-params>
+            </metric-function>
+        </measurement>
+
+        <measurement name="SuccessCount" unit="svc_success">
+            <metric-function ref="System.SUM">
+                <function-params>
+                    <function-param name="PARAM1" attribute-ref="svc_success"/>
+                </function-params>
+            </metric-function>
+        </measurement>
+
+        <measurement name="FaultCount" unit="svc_fault">
+            <metric-function ref="System.SUM">
+                <function-params>
+                    <function-param name="PARAM1" attribute-ref="svc_fault"/>
+                </function-params>
+            </metric-function>
+        </measurement>
+
+        <measurement name="AvgExecutionTime" unit="ms">
+            <metric-function ref="System.AVG">
+                <function-params>
+                    <function-param name="PARAM1" attribute-ref="act_exec_time"/>
+                </function-params>
+            </metric-function>
+        </measurement>
+
+        <measurement name="StdDevExecutionTime" unit="ms" depends="AvgExecutionTime">
+            <metric-function ref="System.STDDEV">
+                <function-params>
+                    <function-param name="PARAM1" attribute-ref="act_exec_time"/>
+                </function-params>
+            </metric-function>
+        </measurement>
+
+        <measurement name="TP95ExecutionTime" unit="ms" depends="AvgExecutionTime, StdDevExecutionTime">
+            <metric-function ref="System.TP95">
+                <function-params>
+                    <function-param name="PARAM1" attribute-ref="act_exec_time"/>
+                </function-params>
+            </metric-function>
+        </measurement>
+
+        <measurement name="TP5ExecutionTime" unit="ms" depends="AvgExecutionTime, StdDevExecutionTime">
+            <metric-function ref="System.TP5">
+                <function-params>
+                    <function-param name="PARAM1" attribute-ref="act_exec_time"/>
+                </function-params>
+            </metric-function>
+        </measurement>
+
+        <measurement name="ExecutionTime" unit="ms" datatype="DOUBLE">
+            <properties>
+                <property name="storage-datatype" value="DOUBLE"/>
+            </properties>
+            <metric-function ref="System.SETVAL">
+                <function-params>
+                    <function-param name="PARAM1" attribute-ref="act_exec_time"/>
+                </function-params>
+            </metric-function>
+        </measurement>        
+
+        <measurement name="ActivityStatus" datatype="STRING">
+            <properties>
+                <property name="storage-datatype" value="STRING"/>
+            </properties>
+            <metric-function ref="System.SETVAL">
+                <function-params>
+                    <function-param name="PARAM1" attribute-ref="activity_status"/>
+                </function-params>
+            </metric-function>
+        </measurement>
+
+        <measurement name="ActStartTime" datatype="LONG">
+            <properties>
+                <property name="storage-datatype" value="LONG"/>
+            </properties>
+            <metric-function ref="System.SETVAL">
+                <function-params>
+                    <function-param name="PARAM1" attribute-ref="act_start_time"/>
+                </function-params>
+            </metric-function>
+        </measurement>
+
+        <measurement name="ProcessStatus" datatype="STRING">
+            <properties>
+                <property name="storage-datatype" value="STRING"/>
+            </properties>
+            <metric-function ref="System.SETVAL">
+                <function-params>
+                    <function-param name="PARAM1" attribute-ref="process_status"/>
+                </function-params>
+            </metric-function>
+        </measurement>
+        
+        <measurement name="ExecutionPath" datatype="STRING">
+            <properties>
+                <property name="storage-datatype" value="STRING"/>
+            </properties>
+            <metric-function ref="System.SETVAL">
+                <function-params>
+                    <function-param name="PARAM1" attribute-ref="execution_path"/>
+                </function-params>
+            </metric-function>
+        </measurement>
+    </measurements>
+
+    <cubes>        
+        <cube name="ProcessCube">
+            <hierarchies>
+                <hierarchy name="GrpBy_Process">
+                    <properties>
+                        <property name="storage-schema" value="GrpByProc"/>
+                    </properties>
+                    <dimensions>
+                        <dimension ref="domain" compute="false"/>
+                        <dimension ref="appspace" compute="false"/>
+        				<dimension ref="appnode" compute="false"/>
+                        <dimension ref="application" compute="false"/>
+                        <dimension ref="job_id" compute="false"/>
+                        <dimension ref="component_name" compute="false"/>
+                        <dimension ref="process" compute="false"/>
+                        <dimension ref="process_id" compute="false"/>                        
+                        <dimension ref="weeks"/>
+                        <dimension ref="days"/>
+                        <dimension ref="hours"/>
+                        <dimension ref="minutes"/>
+                    </dimensions>
+                    <measurement-refs>
+                        <measurement ref="HitCount"/>
+                        <measurement ref="SuccessCount"/>
+                        <measurement ref="FaultCount"/>
+                        <measurement ref="AvgExecutionTime"/>
+                        <measurement ref="TP5ExecutionTime"/>
+                        <measurement ref="ProcessStatus"/>
+                        <measurement ref="ExecutionPath"/>
+                    </measurement-refs>
+                </hierarchy>
+
+                <hierarchy name="Process_Exe_Flow">
+                    <properties>
+                        <property name="storage-schema" value="ProcExeFlow"/>
+                    </properties>
+                    <dimensions>
+                        <dimension ref="domain" compute="false"/>
+                        <dimension ref="appspace" compute="false"/>
+        				<dimension ref="appnode" compute="false"/>
+                        <dimension ref="application" compute="false"/>                       
+                        <dimension ref="component_name" compute="false"/>
+                        <dimension ref="process" compute="false"/>
+                        <dimension ref="process_id"/>                                          
+                        <dimension ref="activity_name"/>
+                    </dimensions>
+                    <measurement-refs>
+                        <measurement ref="ExecutionTime"/>                                                
+                        <measurement ref="ActivityStatus"/>
+                        <measurement ref="ActStartTime"/>
+                        <measurement ref="ExecutionPath"/>                                               
+                    </measurement-refs>
+                </hierarchy>
+                
+                
+                <hierarchy name="process_status">
+                    <properties>                        
+                        <property name="storage-schema" value="process_status"/>
+                    </properties>
+                    <dimensions>
+                        <dimension ref="domain" compute="false"/>
+                        <dimension ref="appspace" compute="false"/>
+                        <dimension ref="appnode" compute="false"/>
+                        <dimension ref="application" compute="false"/>                        
+                        <dimension ref="component_name" compute="false"/>                        
+                        <dimension ref="process"/>
+                    </dimensions>
+                    <measurement-refs>
+                        <measurement ref="ProcessStatus"/>
+                        <measurement ref="ExecutionPath"/>                        
+                    </measurement-refs>
+                </hierarchy>                                               
+            </hierarchies>
+        </cube>
+    </cubes>
+</schema>

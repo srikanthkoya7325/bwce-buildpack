@@ -1,0 +1,67 @@
+Manifest-Version: 1.0
+Export-Package: org.genxdm.bridgekit;version="1.3";uses:="org.genxdm",
+ org.genxdm.bridgekit.atoms;version="1.3";uses:="javax.xml.namespace,o
+ rg.genxdm.bridgekit.misc,org.genxdm.exceptions,org.genxdm.names,org.g
+ enxdm.typed,org.genxdm.typed.types,org.genxdm.xs,org.genxdm.xs.types"
+ ,org.genxdm.bridgekit.axes;version="1.3";uses:="org.genxdm",org.genxd
+ m.bridgekit.content;version="1.3";uses:="javax.xml.namespace,org.genx
+ dm,org.genxdm.creation,org.genxdm.io,org.genxdm.typed,org.genxdm.type
+ d.io,org.genxdm.typed.types,org.genxdm.xs,org.genxdm.xs.types",org.ge
+ nxdm.bridgekit.filters;version="1.3";uses:="javax.xml.namespace,org.g
+ enxdm.exceptions,org.genxdm.io,org.genxdm.names,org.genxdm.typed.io,o
+ rg.genxdm.typed.types,org.genxdm.xs",org.genxdm.bridgekit.misc;versio
+ n="1.3",org.genxdm.bridgekit.names;version="1.3";uses:="javax.xml.nam
+ espace,org.genxdm,org.genxdm.names",org.genxdm.bridgekit.tree;version
+ ="1.3";uses:="javax.xml.namespace,org.genxdm,org.genxdm.exceptions,or
+ g.genxdm.io,org.genxdm.mutable,org.genxdm.names,org.genxdm.nodes,org.
+ genxdm.typed,org.genxdm.typed.io,org.genxdm.typed.types,org.genxdm.xs
+ ",org.genxdm.bridgekit.validation;version="1.3";uses:="javax.xml.name
+ space,org.genxdm.io,org.genxdm.typed,org.genxdm.typed.io",org.genxdm.
+ bridgekit.xs;version="1.3";uses:="javax.xml.namespace,org.genxdm.brid
+ gekit.xs.complex,org.genxdm.exceptions,org.genxdm.names,org.genxdm.ty
+ ped.types,org.genxdm.xs,org.genxdm.xs.components,org.genxdm.xs.constr
+ aints,org.genxdm.xs.enums,org.genxdm.xs.resolve,org.genxdm.xs.types",
+ org.genxdm.bridgekit.xs.complex;version="1.3";uses:="javax.xml.namesp
+ ace,org.genxdm,org.genxdm.bridgekit.xs,org.genxdm.bridgekit.xs.simple
+ ,org.genxdm.names,org.genxdm.typed.types,org.genxdm.xs.components,org
+ .genxdm.xs.constraints,org.genxdm.xs.enums,org.genxdm.xs.exceptions,o
+ rg.genxdm.xs.types",org.genxdm.bridgekit.xs.constraint;version="1.3";
+ uses:="javax.xml.namespace,org.genxdm.bridgekit.xs,org.genxdm.bridgek
+ it.xs.complex,org.genxdm.bridgekit.xs.operations,org.genxdm.names,org
+ .genxdm.typed.types,org.genxdm.xs.components,org.genxdm.xs.constraint
+ s,org.genxdm.xs.exceptions,org.genxdm.xs.facets,org.genxdm.xs.types",
+ org.genxdm.bridgekit.xs.operations;version="1.3";uses:="org.genxdm.br
+ idgekit.xs.simple,org.genxdm.exceptions,org.genxdm.typed.types,org.ge
+ nxdm.xs.types",org.genxdm.bridgekit.xs.simple;version="1.3";uses:="ja
+ vax.xml.namespace,org.genxdm.bridgekit.xs,org.genxdm.bridgekit.xs.com
+ plex,org.genxdm.names,org.genxdm.typed.types,org.genxdm.xs.components
+ ,org.genxdm.xs.enums,org.genxdm.xs.exceptions,org.genxdm.xs.facets,or
+ g.genxdm.xs.types"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: org.genxdm.bridgekit_1.3.2.jar
+Bundle-Version: 1.3.200.001
+Bundle-Name: GenXDM Bridge Kit
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: GenXDM enables applications to write code that use
+ s and manipulates XML trees without being tied to a particular XML tr
+ ee representation like DOM, DOM4J, AXIOM, or any other. It also prods
+  developers towards an immutable view of XML trees, which will make i
+ t easier and faster to work with XML across multiple cores and multip
+ le processors.
+Import-Package: javax.xml;version="[1.0,2)",javax.xml.datatype;version
+ ="[1.3,2)",javax.xml.namespace;version="[1.1,2)",org.genxdm;version="
+ [1.3,2)",org.genxdm.creation;version="[1.3,2)",org.genxdm.exceptions;
+ version="[1.3,2)",org.genxdm.io;version="[1.3,2)",org.genxdm.mutable;
+ version="[1.3,2)",org.genxdm.names;version="[1.3,2)",org.genxdm.nodes
+ ;version="[1.3,2)",org.genxdm.typed;version="[1.3,2)",org.genxdm.type
+ d.io;version="[1.3,2)",org.genxdm.typed.types;version="[1.3,2)",org.g
+ enxdm.xs;version="[1.3,2)",org.genxdm.xs.components;version="[1.3,2)"
+ ,org.genxdm.xs.constraints;version="[1.3,2)",org.genxdm.xs.enums;vers
+ ion="[1.3,2)",org.genxdm.xs.exceptions;version="[1.3,2)",org.genxdm.x
+ s.facets;version="[1.3,2)",org.genxdm.xs.resolve;version="[1.3,2)",or
+ g.genxdm.xs.types;version="[1.3,2)"
+Bundle-SymbolicName: com.tibco.tpcl.org.genxdm.bridgekit
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

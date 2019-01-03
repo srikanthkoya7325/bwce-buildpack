@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/equino
+ x/rt.equinox.bundles.git;path="bundles/org.eclipse.equinox.console.ja
+ as.fragment";tag=v20120522-1841
+DynamicImport-Package: org.eclipse.equinox.console.jaas
+Bundle-Vendor: %bundleVendor
+Fragment-Host: org.apache.sshd.core;bundle-version="0.5.0"
+Bundle-ClassPath: org.eclipse.equinox.console.jaas.fragment_1.0.0.v201
+ 30327-1442.jar
+Bundle-Version: 1.0.100.001
+Bundle-Localization: plugin
+Bundle-Name: %bundleName
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.eclipse.equinox.console.jaas.fragment
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

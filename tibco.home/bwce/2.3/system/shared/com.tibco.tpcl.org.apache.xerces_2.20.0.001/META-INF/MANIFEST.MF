@@ -1,0 +1,170 @@
+Manifest-Version: 1.0
+Export-Package: com.tibco.xerces.parsers;version="2.20.0"; uses:="org.
+ apache.xerces.util,  org.apache.xerces.xni.grammars,  org.apache.xerc
+ es.parsers,  org.apache.xerces.xni.parser",org.apache.html.dom;versio
+ n="2.20.0"; uses:="org.apache.xerces.dom,  org.w3c.dom,  org.xml.sax,
+   org.w3c.dom.html",org.apache.wml;version="2.20.0";uses:="org.w3c.do
+ m",org.apache.wml.dom;version="2.20.0";uses:="org.apache.wml,org.apac
+ he.xerces.dom,org.w3c.dom",org.apache.xerces.dom;version="2.20.0"; us
+ es:="org.w3c.dom.events,  org.apache.xerces.xni.parser,  org.w3c.dom.
+ traversal,  org.apache.xerces.dom3.as,  org.w3c.dom.ranges,  org.w3c.
+ dom,  org.apache.xerces.xs,  org.apache.xerces.util,  org.apache.xerc
+ es.impl.validation,  org.apache.xerces.impl.dtd,  org.w3c.dom.ls,  or
+ g.apache.xerces.impl.dv,  org.apache.xerces.xni,  org.apache.xerces.i
+ mpl.xs,  org.apache.xerces.impl",org.apache.xerces.dom.events;version
+ ="2.20.0";uses:="org.w3c.dom.events,org.w3c.dom.views,org.w3c.dom",or
+ g.apache.xerces.dom3.as;version="2.20.0";uses:="org.w3c.dom.ls,org.w3
+ c.dom",org.apache.xerces.impl;version="2.20.0"; uses:="org.apache.xer
+ ces.util,  org.apache.xerces.impl.validation,  org.apache.xerces.impl
+ .dtd,  org.apache.xerces.xni.grammars,  org.apache.xerces.xni,  org.a
+ pache.xerces.xni.parser,  org.xml.sax",org.apache.xerces.impl.dtd;ver
+ sion="2.20.0"; uses:="org.apache.xerces.util,  org.apache.xerces.impl
+ .validation,  org.apache.xerces.xni.grammars,  org.apache.xerces.impl
+ .dv,  org.apache.xerces.impl.dtd.models,  org.apache.xerces.xni.parse
+ r,  org.apache.xerces.xni,  org.apache.xerces.impl",org.apache.xerces
+ .impl.dtd.models;version="2.20.0";uses:="org.apache.xerces.xni",org.a
+ pache.xerces.impl.dv;version="2.20.0";uses:="org.apache.xerces.xs,org
+ .apache.xerces.util,org.apache.xerces.impl.xs.util",org.apache.xerces
+ .impl.dv.dtd;version="2.20.0";uses:="org.apache.xerces.impl.dv",org.a
+ pache.xerces.impl.dv.util;version="2.20.0";uses:="org.apache.xerces.x
+ s.datatypes",org.apache.xerces.impl.dv.xs;version="2.20.0"; uses:="or
+ g.apache.xerces.impl.xs.util,  org.w3c.dom,  javax.xml.datatype,  org
+ .apache.xerces.util,  org.apache.xerces.xs,  org.apache.xerces.impl.d
+ v,  org.apache.xerces.xs.datatypes,  org.apache.xerces.xni,  org.apac
+ he.xerces.impl.xs",org.apache.xerces.impl.io;version="2.20.0";uses:="
+ org.apache.xerces.util",org.apache.xerces.impl.msg;version="2.20.0";u
+ ses:="org.apache.xerces.util",org.apache.xerces.impl.validation;versi
+ on="2.20.0";uses:="org.apache.xerces.util,org.apache.xerces.impl.dv,o
+ rg.apache.xerces.xni",org.apache.xerces.impl.xpath;version="2.20.0";u
+ ses:="org.apache.xerces.util,org.apache.xerces.xni",org.apache.xerces
+ .impl.xpath.regex;version="2.20.0",org.apache.xerces.impl.xs;version=
+ "2.20.0"; uses:="org.apache.xerces.xni.grammars,  org.apache.xerces.i
+ mpl.xs.util,  org.apache.xerces.parsers,  org.apache.xerces.xni.parse
+ r,  org.w3c.dom,  org.apache.xerces.impl.dv.xs,  javax.xml.namespace,
+   org.apache.xerces.xs,  org.apache.xerces.util,  org.apache.xerces.i
+ mpl.validation,  org.apache.xerces.impl.xs.identity,  org.w3c.dom.ls,
+   org.apache.xerces.impl.xs.models,  org.apache.xerces.impl.dv,  org.
+ apache.xerces.xs.datatypes,  org.apache.xerces.dom,  org.apache.xerce
+ s.xni,  org.apache.xerces.impl",org.apache.xerces.impl.xs.identity;ve
+ rsion="2.20.0"; uses:="org.apache.xerces.util,  org.apache.xerces.xs,
+   org.apache.xerces.impl.xpath,  org.apache.xerces.xni,  org.apache.x
+ erces.impl.xs",org.apache.xerces.impl.xs.models;version="2.20.0"; use
+ s:="org.apache.xerces.impl.dtd.models,  org.apache.xerces.xni,  org.a
+ pache.xerces.xni.parser,  org.apache.xerces.impl.xs",org.apache.xerce
+ s.impl.xs.opti;version="2.20.0"; uses:="org.apache.xerces.util,  org.
+ apache.xerces.impl.validation,  org.apache.xerces.xni.grammars,  org.
+ apache.xerces.impl.dv,  org.apache.xerces.parsers,  org.apache.xerces
+ .xni.parser,  org.apache.xerces.xni,  org.apache.xerces.impl,  org.w3
+ c.dom",org.apache.xerces.impl.xs.traversers;version="2.20.0"; uses:="
+ org.apache.xerces.impl.xs.util,  org.apache.xerces.parsers,  org.apac
+ he.xerces.xni.parser,  org.w3c.dom,  org.xml.sax,  org.apache.xerces.
+ util,  org.apache.xerces.xs,  org.apache.xerces.impl.validation,  org
+ .apache.xerces.impl.xs.opti,  org.apache.xerces.impl.xs.identity,  ja
+ vax.xml.stream,  org.apache.xerces.impl.dv,  org.apache.xerces.xni,  
+ org.apache.xerces.impl.xs",org.apache.xerces.impl.xs.util;version="2.
+ 20.0"; uses:="org.apache.xerces.util,  org.apache.xerces.xs,  org.w3c
+ .dom.ls,  org.apache.xerces.xs.datatypes,  org.apache.xerces.impl.xs.
+ util,  org.apache.xerces.xni.parser,  org.apache.xerces.xni,  org.apa
+ che.xerces.impl.xs",org.apache.xerces.jaxp;version="2.20.0"; uses:="o
+ rg.apache.xerces.parsers,  org.apache.xerces.jaxp.validation,  javax.
+ xml.parsers,  org.apache.xerces.xni.parser,  org.w3c.dom,  org.xml.sa
+ x,  org.apache.xerces.xs,  org.apache.xerces.util,  org.apache.xerces
+ .impl.validation,  org.w3c.dom.ls,  javax.xml.validation,  org.apache
+ .xerces.xni,  org.apache.xerces.impl,  org.xml.sax.helpers",org.apach
+ e.xerces.jaxp.datatype;version="2.20.0";uses:="javax.xml.namespace,ja
+ vax.xml.datatype",org.apache.xerces.jaxp.validation;version="2.20.0";
+  uses:="org.apache.xerces.xni.grammars,  javax.xml.transform.stax,  o
+ rg.apache.xerces.xni.parser,  javax.xml.transform.dom,  javax.xml.str
+ eam.events,  org.w3c.dom,  javax.xml.namespace,  org.xml.sax,  org.ap
+ ache.xerces.xs,  org.apache.xerces.util,  org.apache.xerces.impl.vali
+ dation,  javax.xml.stream,  org.w3c.dom.ls,  org.xml.sax.ext,  javax.
+ xml.transform,  javax.xml.transform.stream,  javax.xml.validation,  o
+ rg.apache.xerces.xni,  org.apache.xerces.impl.xs",org.apache.xerces.p
+ arsers;version="2.20.0"; uses:="org.apache.xerces.xinclude,  org.apac
+ he.xerces.xni.grammars,  org.apache.xerces.xni.parser,  org.apache.xe
+ rces.dom3.as,  org.w3c.dom,  org.xml.sax,  org.apache.xerces.util,  o
+ rg.apache.xerces.xs,  org.apache.xerces.impl.validation,  org.apache.
+ xerces.impl.dtd,  org.w3c.dom.ls,  org.xml.sax.ext,  org.apache.xerce
+ s.impl.dv,  org.apache.xerces.dom,  org.apache.xerces.xni,  org.apach
+ e.xerces.impl.xs,  org.apache.xerces.impl",org.apache.xerces.stax;ver
+ sion="2.20.0";uses:="javax.xml.stream,javax.xml.stream.events,javax.x
+ ml.namespace",org.apache.xerces.stax.events;version="2.20.0";uses:="j
+ avax.xml.stream,javax.xml.stream.events,javax.xml.namespace",org.apac
+ he.xerces.util;version="2.20.0"; uses:="org.apache.xerces.xni.grammar
+ s,  org.apache.xerces.xni.parser,  org.w3c.dom,  javax.xml.namespace,
+   org.xml.sax,  javax.xml.stream,  org.w3c.dom.ls,  org.xml.sax.ext, 
+  org.apache.xerces.dom,  org.apache.xerces.xni,  org.apache.xerces.im
+ pl",org.apache.xerces.xinclude;version="2.20.0"; uses:="org.apache.xe
+ rces.util,  org.apache.xerces.xpointer,  org.apache.xerces.xni.parser
+ ,  org.apache.xerces.xni,  org.apache.xerces.impl",org.apache.xerces.
+ xni;version="2.20.0";uses:="org.apache.xerces.xni.parser",org.apache.
+ xerces.xni.grammars;version="2.20.0";uses:="org.apache.xerces.xs,org.
+ apache.xerces.xni.parser,org.apache.xerces.xni",org.apache.xerces.xni
+ .parser;version="2.20.0";uses:="org.apache.xerces.xni",org.apache.xer
+ ces.xpointer;version="2.20.0"; uses:="org.apache.xerces.util,  org.ap
+ ache.xerces.xinclude,  org.apache.xerces.xni.parser,  org.apache.xerc
+ es.xni,  org.apache.xerces.impl",org.apache.xerces.xs;version="2.20.0
+ ";uses:="org.w3c.dom.ls,org.apache.xerces.xs.datatypes,org.w3c.dom",o
+ rg.apache.xerces.xs.datatypes;version="2.20.0";uses:="org.apache.xerc
+ es.xni,javax.xml.namespace,javax.xml.datatype",org.apache.xml.seriali
+ ze;version="2.20.0"; uses:="org.apache.xerces.util,  org.w3c.dom.ls, 
+  org.xml.sax.ext,  org.apache.xerces.dom,  org.w3c.dom,  org.xml.sax"
+ ,org.w3c.dom.html;version="2.20.0";uses:="org.w3c.dom"
+Bundle-Vendor: The Apache Software Foundation
+Bundle-ClassPath: xercesImpl.jar,fixSoftRefSymbolTable.jar
+Bundle-Version: 2.20.0.001
+Bundle-Name: Apache Xerces XML Parser
+Bundle-ManifestVersion: 2
+Import-Package: com.tibco.xerces.parsers;version="[2.20.0,3.0.0)",java
+ x.xml.datatype;version="[1.4.0,2.0.0)",javax.xml.namespace;version="[
+ 1.2.0,2.0.0)",javax.xml.parsers;version="[1.4.0,2.0.0)",javax.xml.str
+ eam;version="[1.2.0,2.0.0)",javax.xml.stream.events;version="[1.2.0,2
+ .0.0)",javax.xml.stream.util;version="[1.2.0,2.0.0)",javax.xml.transf
+ orm;version="[1.4.0,2.0.0)",javax.xml.transform.dom;version="[1.4.0,2
+ .0.0)",javax.xml.transform.sax;version="[1.4.0,2.0.0)",javax.xml.tran
+ sform.stax;version="[1.4.0,2.0.0)",javax.xml.transform.stream;version
+ ="[1.4.0,2.0.0)",javax.xml.validation;version="[1.4.0,2.0.0)",javax.x
+ ml.xpath;version="[1.4.0,2.0.0)",org.apache.html.dom;version="[2.20.0
+ ,3.0.0)",org.apache.wml;version="[2.20.0,3.0.0)",org.apache.wml.dom;v
+ ersion="[2.20.0,3.0.0)",org.apache.xerces.dom;version="[2.20.0,3.0.0)
+ ",org.apache.xerces.dom.events;version="[2.20.0,3.0.0)",org.apache.xe
+ rces.dom3.as;version="[2.20.0,3.0.0)",org.apache.xerces.impl;version=
+ "[2.20.0,3.0.0)",org.apache.xerces.impl.dtd;version="[2.20.0,3.0.0)",
+ org.apache.xerces.impl.dtd.models;version="[2.20.0,3.0.0)",org.apache
+ .xerces.impl.dv;version="[2.20.0,3.0.0)",org.apache.xerces.impl.dv.dt
+ d;version="[2.20.0,3.0.0)",org.apache.xerces.impl.dv.util;version="[2
+ .20.0,3.0.0)",org.apache.xerces.impl.dv.xs;version="[2.20.0,3.0.0)",o
+ rg.apache.xerces.impl.io;version="[2.20.0,3.0.0)",org.apache.xerces.i
+ mpl.msg;version="[2.20.0,3.0.0)",org.apache.xerces.impl.validation;ve
+ rsion="[2.20.0,3.0.0)",org.apache.xerces.impl.xpath;version="[2.20.0,
+ 3.0.0)",org.apache.xerces.impl.xpath.regex;version="[2.20.0,3.0.0)",o
+ rg.apache.xerces.impl.xs;version="[2.20.0,3.0.0)",org.apache.xerces.i
+ mpl.xs.identity;version="[2.20.0,3.0.0)",org.apache.xerces.impl.xs.mo
+ dels;version="[2.20.0,3.0.0)",org.apache.xerces.impl.xs.opti;version=
+ "[2.20.0,3.0.0)",org.apache.xerces.impl.xs.traversers;version="[2.20.
+ 0,3.0.0)",org.apache.xerces.impl.xs.util;version="[2.20.0,3.0.0)",org
+ .apache.xerces.jaxp;version="[2.20.0,3.0.0)",org.apache.xerces.jaxp.d
+ atatype;version="[2.20.0,3.0.0)",org.apache.xerces.jaxp.validation;ve
+ rsion="[2.20.0,3.0.0)",org.apache.xerces.parsers;version="[2.20.0,3.0
+ .0)",org.apache.xerces.stax;version="[2.20.0,3.0.0)",org.apache.xerce
+ s.stax.events;version="[2.20.0,3.0.0)",org.apache.xerces.util;version
+ ="[2.20.0,3.0.0)",org.apache.xerces.xinclude;version="[2.20.0,3.0.0)"
+ ,org.apache.xerces.xni;version="[2.20.0,3.0.0)",org.apache.xerces.xni
+ .grammars;version="[2.20.0,3.0.0)",org.apache.xerces.xni.parser;versi
+ on="[2.20.0,3.0.0)",org.apache.xerces.xpointer;version="[2.20.0,3.0.0
+ )",org.apache.xerces.xs;version="[2.20.0,3.0.0)",org.apache.xerces.xs
+ .datatypes;version="[2.20.0,3.0.0)",org.apache.xml.resolver;version="
+ [1.2.0,2.0.0)";resolution:=optional,org.apache.xml.resolver.readers;v
+ ersion="[1.2.0,2.0.0)";resolution:=optional,org.apache.xml.serialize;
+ version="[2.20.0,3.0.0)",org.apache.xml.serializer.dom3;version="[2.7
+ .200,3.0.0)",org.w3c.dom;version="[3.0.0,4.0.0)",org.w3c.dom.events;v
+ ersion="[3.0.0,4.0.0)",org.w3c.dom.html;version="[3.0.0,4.0.0)",org.w
+ 3c.dom.ls;version="[3.0.0,4.0.0)",org.w3c.dom.ranges;version="[3.0.0,
+ 4.0.0)",org.w3c.dom.traversal;version="[3.0.0,4.0.0)",org.w3c.dom.vie
+ ws;version="[3.0.0,4.0.0)",org.xml.sax;version="[2.0.2,3.0.0)",org.xm
+ l.sax.ext;version="[2.0.2,3.0.0)",org.xml.sax.helpers;version="[2.0.2
+ ,3.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.xerces
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

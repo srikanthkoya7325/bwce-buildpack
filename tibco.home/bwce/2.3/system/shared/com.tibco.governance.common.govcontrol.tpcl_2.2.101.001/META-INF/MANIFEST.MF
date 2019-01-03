@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Export-Package: com.tibco.governance.common.govcontrol.tpcl;version="2
+ .2.101"
+Bundle-Vendor: TIBCO
+Bundle-ClassPath: lib/velocity-1.7.jar, common-govcontrol.jar
+Bundle-Version: 2.2.101.001
+Bundle-Name: Third Party Library Plug-in
+Bundle-ManifestVersion: 2
+Import-Package: com.tibco.governance.common.govcontrol.exportimport.ut
+ il;version="[2.2.101,3.0.0)",org.apache.commons.collections;version="
+ [3.1.0,4.0.0)",org.apache.commons.collections.bag;version="[3.1.0,4.0
+ .0)",org.apache.commons.collections.bidimap;version="[3.1.0,4.0.0)",o
+ rg.apache.commons.collections.buffer;version="[3.1.0,4.0.0)",org.apac
+ he.commons.collections.collection;version="[3.1.0,4.0.0)",org.apache.
+ commons.collections.comparators;version="[3.1.0,4.0.0)",org.apache.co
+ mmons.collections.functors;version="[3.1.0,4.0.0)",org.apache.commons
+ .collections.iterators;version="[3.1.0,4.0.0)",org.apache.commons.col
+ lections.keyvalue;version="[3.1.0,4.0.0)",org.apache.commons.collecti
+ ons.list;version="[3.1.0,4.0.0)",org.apache.commons.collections.map;v
+ ersion="[3.1.0,4.0.0)",org.apache.commons.collections.set;version="[3
+ .1.0,4.0.0)",org.apache.commons.lang;version="[2.4.0,3.0.0)",org.apac
+ he.commons.lang.text;version="[2.4.0,3.0.0)",org.apache.commons.lang.
+ time;version="[2.4.0,3.0.0)"
+Bundle-SymbolicName: com.tibco.governance.common.govcontrol.tpcl
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

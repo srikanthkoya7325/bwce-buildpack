@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-Name: Apache Commons DB Connection Pooling
+Bundle-ClassPath: commons-dbcp-1.2.1.jar
+Import-Package: javax.naming;version="0.0.0",javax.naming.spi;version=
+ "0.0.0",javax.sql;version="[3.0.0,4.0.0)",org.apache.commons.collecti
+ ons;version="[3.1.0,4.0.0)",org.apache.commons.dbcp;version="[1.2.1,2
+ .0.0)",org.apache.commons.dbcp.cpdsadapter;version="[1.2.1,2.0.0)",or
+ g.apache.commons.dbcp.datasources;version="[1.2.1,2.0.0)",org.apache.
+ commons.pool;version="[1.3.0,2.0.0)",org.apache.commons.pool.impl;ver
+ sion="[1.3.0,2.0.0)",org.xml.sax;version="[2.0.0,3.0.0)",org.xml.sax.
+ helpers;version="[2.0.0,3.0.0)"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: The Apache Software Foundation
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.commons.dbcp
+Export-Package: org.apache.commons.dbcp;version="1.2.100"; uses:="java
+ x.naming,  org.apache.commons.pool.impl,  org.apache.commons.pool,  j
+ avax.naming.spi,  javax.sql",org.apache.commons.dbcp.cpdsadapter;vers
+ ion="1.2.100"; uses:="javax.naming,  org.apache.commons.pool,  javax.
+ naming.spi,  org.apache.commons.dbcp,  javax.sql",org.apache.commons.
+ dbcp.datasources;version="1.2.100"; uses:="javax.naming,  org.apache.
+ commons.pool,  javax.naming.spi,  javax.sql"
+Bundle-Version: 1.2.100.001
+DynamicImport-Package: *
+

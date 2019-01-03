@@ -1,0 +1,73 @@
+Manifest-Version: 1.0
+Export-Package: com.tibco.tpcl.org.apache.log4j;version="1.10.0";uses:
+ ="org.apache.log4j,org.apache.log4j.helpers,org.apache.log4j.spi",com
+ .tibco.tpcl.org.apache.log4j.osgi;version="1.10.0"; uses:="org.apache
+ .log4j.config,  org.apache.log4j,  org.osgi.framework,  org.apache.lo
+ g4j.spi,  org.w3c.dom,  org.xml.sax",org.apache.log4j;version="1.10.0
+ ";uses:="org.apache.log4j.helpers,org.apache.log4j.or,org.apache.log4
+ j.spi",org.apache.log4j.chainsaw;version="1.10.0"; uses:="org.apache.
+ log4j,  javax.swing,  javax.swing.table,  org.apache.log4j.spi,  java
+ x.swing.event,  org.xml.sax.helpers,  org.xml.sax",org.apache.log4j.c
+ onfig;version="1.10.0";uses:="org.apache.log4j",org.apache.log4j.help
+ ers;version="1.10.0";uses:="org.apache.log4j,org.apache.log4j.spi",or
+ g.apache.log4j.jdbc;version="1.10.0";uses:="org.apache.log4j,org.apac
+ he.log4j.spi",org.apache.log4j.jmx;version="1.10.0";uses:="org.apache
+ .log4j,org.apache.log4j.spi,javax.management",org.apache.log4j.lf5;ve
+ rsion="1.10.0";uses:="org.apache.log4j.lf5.viewer,org.apache.log4j,or
+ g.apache.log4j.spi",org.apache.log4j.lf5.util;version="1.10.0";uses:=
+ "org.apache.log4j.lf5.viewer,org.apache.log4j.lf5",org.apache.log4j.l
+ f5.viewer;version="1.10.0"; uses:="org.apache.log4j.lf5.util,  org.ap
+ ache.log4j.lf5.viewer.categoryexplorer,  org.apache.log4j.lf5,  javax
+ .swing,  javax.swing.table,  javax.swing.event,  org.apache.log4j.lf5
+ .viewer.configure",org.apache.log4j.lf5.viewer.categoryexplorer;versi
+ on="1.10.0"; uses:="javax.swing.tree,  org.apache.log4j.lf5,  javax.s
+ wing,  javax.swing.table,  javax.swing.event",org.apache.log4j.lf5.vi
+ ewer.configure;version="1.10.0";uses:="org.apache.log4j.lf5.viewer,ja
+ vax.swing.tree,org.w3c.dom",org.apache.log4j.net;version="1.10.0"; us
+ es:="javax.naming,  javax.jms,  org.apache.log4j,  org.apache.log4j.h
+ elpers,  javax.mail.internet,  org.apache.log4j.spi,  org.w3c.dom,  o
+ rg.apache.log4j.xml,  javax.mail",org.apache.log4j.nt;version="1.10.0
+ ";uses:="org.apache.log4j,org.apache.log4j.spi",org.apache.log4j.or;v
+ ersion="1.10.0";uses:="org.apache.log4j.spi",org.apache.log4j.or.jms;
+ version="1.10.0";uses:="org.apache.log4j.or",org.apache.log4j.or.sax;
+ version="1.10.0";uses:="org.apache.log4j.or",org.apache.log4j.spi;ver
+ sion="1.10.0";uses:="org.apache.log4j,org.apache.log4j.or",org.apache
+ .log4j.varia;version="1.10.0";uses:="org.apache.log4j,org.apache.log4
+ j.spi",org.apache.log4j.xml;version="1.10.0"; uses:="org.apache.log4j
+ .config,  org.apache.log4j.helpers,  org.apache.log4j,  javax.xml.par
+ sers,  org.apache.log4j.spi,  org.w3c.dom,  org.xml.sax"
+Bundle-Vendor: The Apache Software Foundation
+Bundle-ClassPath: extension.jar,log4j-1.2.15.jar
+Bundle-Version: 1.10.0.001
+Bundle-Name: Apache Jakarta Log4j Logging Library
+Bundle-ManifestVersion: 2
+Import-Package: com.tibco.tpcl.org.apache.log4j;version="[1.10.0,2.0.0
+ )",com.tibco.tpcl.org.apache.log4j.osgi;version="[1.10.0,2.0.0)",java
+ x.jms;version="[1.1.0,2.0.0)";resolution:=optional,javax.mail;version
+ ="[1.3.0,2.0.0)";resolution:=optional,javax.mail.internet;version="[1
+ .3.0,2.0.0)";resolution:=optional,javax.management;version="[1.2.0,2.
+ 0.0)",javax.naming;version="0.0.0",javax.swing;version="0.0.0",javax.
+ swing.event;version="0.0.0",javax.swing.table;version="0.0.0",javax.s
+ wing.text;version="0.0.0",javax.swing.tree;version="0.0.0",javax.xml.
+ parsers;version="[1.3.0,2.0.0)",org.apache.log4j;version="[1.10.0,2.0
+ .0)",org.apache.log4j.chainsaw;version="[1.10.0,2.0.0)",org.apache.lo
+ g4j.config;version="[1.10.0,2.0.0)",org.apache.log4j.helpers;version=
+ "[1.10.0,2.0.0)",org.apache.log4j.jdbc;version="[1.10.0,2.0.0)",org.a
+ pache.log4j.jmx;version="[1.10.0,2.0.0)",org.apache.log4j.lf5;version
+ ="[1.10.0,2.0.0)",org.apache.log4j.lf5.util;version="[1.10.0,2.0.0)",
+ org.apache.log4j.lf5.viewer;version="[1.10.0,2.0.0)",org.apache.log4j
+ .lf5.viewer.categoryexplorer;version="[1.10.0,2.0.0)",org.apache.log4
+ j.lf5.viewer.configure;version="[1.10.0,2.0.0)",org.apache.log4j.net;
+ version="[1.10.0,2.0.0)",org.apache.log4j.nt;version="[1.10.0,2.0.0)"
+ ,org.apache.log4j.or;version="[1.10.0,2.0.0)",org.apache.log4j.or.jms
+ ;version="[1.10.0,2.0.0)",org.apache.log4j.or.sax;version="[1.10.0,2.
+ 0.0)",org.apache.log4j.spi;version="[1.10.0,2.0.0)",org.apache.log4j.
+ varia;version="[1.10.0,2.0.0)",org.apache.log4j.xml;version="[1.10.0,
+ 2.0.0)",org.osgi.framework;version="[1.3.0,2.0.0)";resolution:=option
+ al,org.osgi.service.packageadmin;version="[1.2.0,2.0.0)";resolution:=
+ optional,org.w3c.dom;version="[3.0.0,4.0.0)",org.xml.sax;version="[2.
+ 0.0,3.0.0)",org.xml.sax.helpers;version="[2.0.0,3.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.log4j
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

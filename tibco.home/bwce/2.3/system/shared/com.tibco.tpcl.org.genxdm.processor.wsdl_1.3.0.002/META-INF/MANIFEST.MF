@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Export-Package: org.genxdm.processor.wsdl;version="1.3";uses:="javax.x
+ ml.namespace,org.genxdm.wsdl,org.genxdm.xs",org.genxdm.processor.wsdl
+ .io;version="1.3";uses:="javax.xml.namespace,org.genxdm.exceptions,or
+ g.genxdm.io,org.genxdm.wsdl,org.genxdm.wsdl.exceptions,org.genxdm.wsd
+ l.extension,org.genxdm.wsdl.io,org.genxdm.wsdl.patterns,org.genxdm.xs
+ ,org.genxdm.xs.exceptions,org.genxdm.xs.resolve"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: org.genxdm.processor.wsdl_1.3.0.jar
+Bundle-Version: 1.3.0.002
+Bundle-Name: GenXDM WSDL Processor
+Bundle-ManifestVersion: 2
+Import-Package: javax.xml;version="[1.0,2)",javax.xml.namespace;versio
+ n="[1.1,2)",javax.xml.stream;version="[1.0,2)",org.genxdm.bridgekit.m
+ isc;version="[1.3,2)",org.genxdm.bridgekit.names;version="[1.3,2)",or
+ g.genxdm.exceptions;version="[1.3,2)",org.genxdm.io;version="[1.3,2)"
+ ,org.genxdm.names;version="[1.3,2)",org.genxdm.processor.input;versio
+ n="[1.3,2)",org.genxdm.processor.output;version="[1.3,2)",org.genxdm.
+ processor.wsdl;version="[1.3,2)",org.genxdm.wsdl;version="[1.3,2)",or
+ g.genxdm.wsdl.components;version="[1.3,2)",org.genxdm.wsdl.exceptions
+ ;version="[1.3,2)",org.genxdm.wsdl.extension;version="[1.3,2)",org.ge
+ nxdm.wsdl.io;version="[1.3,2)",org.genxdm.wsdl.patterns;version="[1.3
+ ,2)",org.genxdm.wsdl.v11;version="[1.3,2)",org.genxdm.wsdl.v11.http;v
+ ersion="[1.3,2)",org.genxdm.wsdl.v11.mime;version="[1.3,2)",org.genxd
+ m.wsdl.v11.soap;version="[1.3,2)",org.genxdm.wsdl.v20;version="[1.3,2
+ )",org.genxdm.xs;version="[1.3,2)",org.genxdm.xs.exceptions;version="
+ [1.3,2)",org.genxdm.xs.resolve;version="[1.3,2)"
+Bundle-SymbolicName: com.tibco.tpcl.org.genxdm.processor.wsdl
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

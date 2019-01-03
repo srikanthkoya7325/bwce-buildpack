@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Export-Package: org.genxdm.processor.w3c.xs.validation;version="1.3";u
+ ses:="javax.xml.namespace,org.genxdm.processor.w3c.xs.validation.api,
+ org.genxdm.typed,org.genxdm.typed.io,org.genxdm.xs,org.genxdm.xs.exce
+ ptions,org.genxdm.xs.types,org.xml.sax",org.genxdm.processor.w3c.xs.v
+ alidation.api;version="1.3";uses:="javax.xml.namespace,org.genxdm.typ
+ ed.types,org.genxdm.xs,org.genxdm.xs.components,org.genxdm.xs.excepti
+ ons,org.genxdm.xs.types"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: org.genxdm.processor.w3c.xs.validation_1.3.0.jar
+Bundle-Version: 1.3.0.001
+Bundle-Name: GenXDM W3C XML Schema Validator
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: GenXDM enables applications to write code that use
+ s and manipulates XML trees without being tied to a particular XML tr
+ ee representation like DOM, DOM4J, AXIOM, or any other. It also prods
+  developers towards an immutable view of XML trees, which will make i
+ t easier and faster to work with XML across multiple cores and multip
+ le processors.
+Import-Package: javax.xml;version="[1.0,2)",javax.xml.namespace;versio
+ n="[1.1,2)",org.genxdm;version="[1.3,2)",org.genxdm.bridgekit.misc;ve
+ rsion="[1.3,2)",org.genxdm.exceptions;version="[1.3,2)",org.genxdm.io
+ ;version="[1.3,2)",org.genxdm.names;version="[1.3,2)",org.genxdm.proc
+ essor.w3c.xs.exception.cvc;version="[1.3,2)",org.genxdm.processor.w3c
+ .xs.exception.scc;version="[1.3,2)",org.genxdm.processor.w3c.xs.excep
+ tion.sm;version="[1.3,2)",org.genxdm.processor.w3c.xs.exception.src;v
+ ersion="[1.3,2)",org.genxdm.processor.w3c.xs.regex.api;version="[1.3,
+ 2)",org.genxdm.processor.w3c.xs.regex.nfa;version="[1.3,2)",org.genxd
+ m.processor.w3c.xs.validation.api;version="[1.3,2)",org.genxdm.proces
+ sor.w3c.xs.xmlrep.util;version="[1.3,2)",org.genxdm.typed;version="[1
+ .3,2)",org.genxdm.typed.io;version="[1.3,2)",org.genxdm.typed.types;v
+ ersion="[1.3,2)",org.genxdm.xs;version="[1.3,2)",org.genxdm.xs.compon
+ ents;version="[1.3,2)",org.genxdm.xs.constraints;version="[1.3,2)",or
+ g.genxdm.xs.enums;version="[1.3,2)",org.genxdm.xs.exceptions;version=
+ "[1.3,2)",org.genxdm.xs.resolve;version="[1.3,2)",org.genxdm.xs.types
+ ;version="[1.3,2)",org.xml.sax;version="[2.0.2,3)"
+Bundle-SymbolicName: com.tibco.tpcl.org.genxdm.processor.w3c.xs.valida
+ tion
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

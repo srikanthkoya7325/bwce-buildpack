@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Export-Package: org.jvnet.annox;version="0.4.100",org.jvnet.annox.anno
+ tation;version="0.4.100",org.jvnet.annox.io;version="0.4.100",org.jvn
+ et.annox.model;version="0.4.100";uses:="org.jvnet.annox.reflect",org.
+ jvnet.annox.parser;version="0.4.100";uses:="org.jvnet.annox.model,org
+ .w3c.dom",org.jvnet.annox.reader;version="0.4.100";uses:="org.jvnet.a
+ nnox.model",org.jvnet.annox.reader.resourced;version="0.4.100"; uses:
+ ="org.jvnet.annox.reader,  org.jvnet.annox.model,  javax.xml.bind,  o
+ rg.jvnet.annox.parser",org.jvnet.annox.reflect;version="0.4.100";uses
+ :="org.jvnet.annox.reader",org.jvnet.annox.util;version="0.4.100";use
+ s:="org.w3c.dom",org.jvnet.annox.xml.bind;version="0.4.100"; uses:="o
+ rg.jvnet.annox.reflect,  com.sun.xml.bind.v2.model.annotation,  org.j
+ vnet.annox.xml.bind,  com.sun.xml.bind.v2.runtime"
+Bundle-Vendor: %providerName
+Bundle-ClassPath: annox-0.4.3.jar
+Bundle-Version: 0.4.100.001
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Import-Package: com.sun.xml.bind.v2.model.annotation;version="[2.1.7,3
+ .0.0)",com.sun.xml.bind.v2.model.core;version="[2.1.7,3.0.0)",com.sun
+ .xml.bind.v2.runtime;version="[2.1.7,3.0.0)",javax.xml.bind;version="
+ [2.1.0,3.0.0)",javax.xml.bind.annotation;version="[2.1.0,3.0.0)",org.
+ apache.commons.lang;version="[2.4.0,3.0.0)",org.apache.commons.lang.b
+ uilder;version="[2.4.0,3.0.0)",org.jvnet.annox;version="[0.4.100,1.0.
+ 0)",org.jvnet.annox.annotation;version="[0.4.100,1.0.0)",org.jvnet.an
+ nox.io;version="[0.4.100,1.0.0)",org.jvnet.annox.model;version="[0.4.
+ 100,1.0.0)",org.jvnet.annox.parser;version="[0.4.100,1.0.0)",org.jvne
+ t.annox.reader;version="[0.4.100,1.0.0)",org.jvnet.annox.reader.resou
+ rced;version="[0.4.100,1.0.0)",org.jvnet.annox.reflect;version="[0.4.
+ 100,1.0.0)",org.jvnet.annox.util;version="[0.4.100,1.0.0)",org.jvnet.
+ annox.xml.bind;version="[0.4.100,1.0.0)",org.w3c.dom;version="[3.0.0,
+ 4.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.jvnet.annox
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

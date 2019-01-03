@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Export-Package: com.tibco.tibrv;version="8.4.200"
+Bundle-Vendor: %providerName
+Bundle-ClassPath: tibrvnativesd.jar
+Bundle-Version: 8.4.200.001
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Import-Package: com.tibco.tibrv;version="[8.4.200,9.0.0)"
+Bundle-SymbolicName: com.tibco.amx.tibrv.client
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

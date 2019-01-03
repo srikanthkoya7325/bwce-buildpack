@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.env;version="1.2.300",org.apache.xml.resolv
+ er;version="1.2.300";uses:="org.apache.xml.resolver.helpers,org.apach
+ e.xml.resolver.readers",org.apache.xml.resolver.apps;version="1.2.300
+ ";uses:="org.xml.sax",org.apache.xml.resolver.etc;version="1.2.300",o
+ rg.apache.xml.resolver.helpers;version="1.2.300";uses:="org.xml.sax,o
+ rg.w3c.dom,javax.xml.transform",org.apache.xml.resolver.readers;versi
+ on="1.2.300"; uses:="org.apache.xml.resolver.helpers,  org.xml.sax,  
+ org.xml.sax.helpers,  javax.xml.parsers,  org.apache.xml.resolver,  o
+ rg.w3c.dom",org.apache.xml.resolver.tools;version="1.2.300"; uses:="o
+ rg.xml.sax,  org.xml.sax.helpers,  org.apache.xml.resolver,  javax.xm
+ l.transform"
+Bundle-Vendor: The Apache Software Foundation
+Bundle-ClassPath: resolver.jar
+Bundle-Version: 1.2.300.001
+Bundle-Name: Apache XML Resolver
+Bundle-ManifestVersion: 2
+Import-Package: javax.xml.parsers;version="[1.3.0,2.0.0)",javax.xml.tr
+ ansform;version="[1.3.0,2.0.0)", javax.xml.transform.sax;version="[1.
+ 3.0,2.0.0)", org.apache.env;version="[1.2.300,2.0.0)",org.apache.xml.
+ resolver;version="[1.2.300,2.0.0)",org.apache.xml.resolver.apps;versi
+ on="[1.2.300,2.0.0)",org.apache.xml.resolver.etc;version="[1.2.300,2.
+ 0.0)",org.apache.xml.resolver.helpers;version="[1.2.300,2.0.0)",org.a
+ pache.xml.resolver.readers;version="[1.2.300,2.0.0)",org.apache.xml.r
+ esolver.tools;version="[1.2.300,2.0.0)",org.w3c.dom;version="[3.0.0,4
+ .0.0)", org.xml.sax;version="[2.0.0,3.0.0)", org.xml.sax.helpers;vers
+ ion="[2.0.0,3.0.0)
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.xml.resolver
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+

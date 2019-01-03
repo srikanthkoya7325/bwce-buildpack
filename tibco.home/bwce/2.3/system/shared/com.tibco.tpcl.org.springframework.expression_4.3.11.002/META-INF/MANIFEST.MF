@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Export-Package: org.springframework.expression;version="4.3.11",org.sp
+ ringframework.expression.common;version="4.3.11",org.springframework.
+ expression.spel;version="4.3.11",org.springframework.expression.spel.
+ ast;version="4.3.11",org.springframework.expression.spel.standard;ver
+ sion="4.3.11",org.springframework.expression.spel.support;version="4.
+ 3.11"
+Bundle-ClassPath: spring-expression-4.3.11.RELEASE.jar
+Bundle-Version: 4.3.11.002
+Bundle-Name: Expression
+Bundle-ManifestVersion: 2
+Import-Package: org.apache.commons.logging;version="[1.5.200,2.0.0)",o
+ rg.slf4j;version="[1.7.0,2.0.0)",org.slf4j.helpers;version="[1.7.0,2.
+ 0.0)",org.slf4j.impl;version="[1.7.0,2.0.0)",org.slf4j.spi;version="[
+ 1.7.0,2.0.0)",org.springframework.asm;version="[4.3.11,5.0.0)",org.sp
+ ringframework.core;version="[4.3.11,5.0.0)",org.springframework.core.
+ convert;version="[4.3.11,5.0.0)",org.springframework.core.convert.sup
+ port;version="[4.3.11,5.0.0)",org.springframework.util;version="[4.3.
+ 11,5.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.springframework.expression
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

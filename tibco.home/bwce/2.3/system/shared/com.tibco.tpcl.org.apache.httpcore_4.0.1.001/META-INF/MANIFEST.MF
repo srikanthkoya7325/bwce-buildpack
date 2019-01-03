@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.http;version="4.0.1";uses:="org.apache.http
+ .params,org.apache.http.util,org.apache.http.protocol",org.apache.htt
+ p.entity;version="4.0.1";uses:="org.apache.http",org.apache.http.impl
+ ;version="4.0.1"; uses:="org.apache.http,  org.apache.http.io,  org.a
+ pache.http.params,  org.apache.http.impl.entity,  org.apache.http.pro
+ tocol",org.apache.http.impl.entity;version="4.0.1";uses:="org.apache.
+ http,org.apache.http.io,org.apache.http.entity",org.apache.http.impl.
+ io;version="4.0.1"; uses:="org.apache.http,  org.apache.http.io,  org
+ .apache.http.message,  org.apache.http.params,  org.apache.http.util"
+ ,org.apache.http.io;version="4.0.1";uses:="org.apache.http,org.apache
+ .http.util",org.apache.http.message;version="4.0.1";uses:="org.apache
+ .http,org.apache.http.params,org.apache.http.util",org.apache.http.pa
+ rams;version="4.0.1";uses:="org.apache.http",org.apache.http.protocol
+ ;version="4.0.1";uses:="org.apache.http,org.apache.http.params",org.a
+ pache.http.util;version="4.0.1";uses:="org.apache.http"
+Bundle-Vendor: %providerName
+Bundle-ClassPath: httpcore-4.0.1.jar
+Bundle-Version: 4.0.1.001
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Import-Package: org.apache.http;version="[4.0.1,5.0.0)",org.apache.htt
+ p.entity;version="[4.0.1,5.0.0)",org.apache.http.impl;version="[4.0.1
+ ,5.0.0)",org.apache.http.impl.entity;version="[4.0.1,5.0.0)",org.apac
+ he.http.impl.io;version="[4.0.1,5.0.0)",org.apache.http.io;version="[
+ 4.0.1,5.0.0)",org.apache.http.message;version="[4.0.1,5.0.0)",org.apa
+ che.http.params;version="[4.0.1,5.0.0)",org.apache.http.protocol;vers
+ ion="[4.0.1,5.0.0)",org.apache.http.util;version="[4.0.1,5.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.httpcore
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

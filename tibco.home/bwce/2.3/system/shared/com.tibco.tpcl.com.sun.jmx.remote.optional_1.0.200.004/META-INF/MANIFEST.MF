@@ -1,0 +1,51 @@
+Manifest-Version: 1.0
+Export-Package: com.sun.jmx.remote.generic;version="1.0.200"; uses:="c
+ om.sun.jmx.remote.opt.util,  javax.security.auth,  javax.management.r
+ emote,  javax.management.remote.message,  javax.management.remote.gen
+ eric",com.sun.jmx.remote.opt.internal;version="1.0.200"; uses:="javax
+ .management,  org.omg.CORBA.portable,  org.omg.CORBA_2_3.portable,  j
+ avax.management.remote,  org.omg.CORBA,  com.sun.jmx.remote.opt.util,
+   javax.security.auth",com.sun.jmx.remote.opt.security;version="1.0.2
+ 00"; uses:="javax.management,  javax.management.remote,  javax.manage
+ ment.remote.generic,  com.sun.jmx.remote.generic,  javax.security.sas
+ l,  javax.security.auth,  javax.management.remote.message,  javax.net
+ .ssl,  javax.management.loading",com.sun.jmx.remote.opt.util;version=
+ "1.0.200";uses:="javax.management,javax.management.loading",com.sun.j
+ mx.remote.profile.sasl;version="1.0.200";uses:="com.sun.jmx.remote.ge
+ neric",com.sun.jmx.remote.profile.tls;version="1.0.200";uses:="com.su
+ n.jmx.remote.generic",com.sun.jmx.remote.protocol.jmxmp;version="1.0.
+ 200";uses:="javax.management,javax.management.remote",com.sun.jmx.rem
+ ote.socket;version="1.0.200"; uses:="javax.security.auth,  javax.mana
+ gement.remote,  javax.management.remote.message,  javax.management.re
+ mote.generic",javax.management.remote.generic;version="1.0.200"; uses
+ :="com.sun.jmx.remote.opt.internal,  com.sun.jmx.remote.opt.security,
+   javax.management,  javax.management.remote,  com.sun.jmx.remote.opt
+ .util,  com.sun.jmx.remote.generic,  javax.security.auth,  javax.mana
+ gement.remote.message,  javax.management.loading",javax.management.re
+ mote.jmxmp;version="1.0.200";uses:="javax.management,javax.management
+ .remote,javax.management.remote.generic",javax.management.remote.mess
+ age;version="1.0.200";uses:="javax.security.auth"
+Bundle-Vendor: %providerName
+Bundle-ClassPath: jmxremote_optional.jar
+Bundle-Version: 1.0.200.004
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Import-Package: com.sun.jmx.remote.generic;version="[1.0.1,2.0.0)",com
+ .sun.jmx.remote.opt.internal;version="[1.0.1,2.0.0)",com.sun.jmx.remo
+ te.opt.security;version="[1.0.1,2.0.0)",com.sun.jmx.remote.opt.util;v
+ ersion="[1.0.1,2.0.0)",com.sun.jmx.remote.profile.sasl;version="[1.0.
+ 1,2.0.0)",com.sun.jmx.remote.profile.tls;version="[1.0.1,2.0.0)",com.
+ sun.jmx.remote.protocol.jmxmp;version="[1.0.1,2.0.0)",com.sun.jmx.rem
+ ote.socket;version="[1.0.1,2.0.0)",javax.management.remote.generic;ve
+ rsion="[1.0.1,2.0.0)",javax.management.remote.jmxmp;version="[1.0.1,2
+ .0.0)",javax.management.remote.message;version="[1.0.1,2.0.0)",com.su
+ n.jmx.mbeanserver;resolution:=optional,javax.management;version="[1.2
+ .0,2.0.0)",javax.management.loading;version="[1.2.0,2.0.0)",javax.man
+ agement.remote;version="[1.2.0,2.0.0)",javax.net,javax.net.ssl,javax.
+ security.auth,javax.security.auth.callback,javax.security.auth.x500,j
+ avax.security.cert,javax.security.sasl,org.omg.CORBA,org.omg.CORBA.po
+ rtable,org.omg.CORBA_2_3.portable
+Bundle-SymbolicName: com.tibco.tpcl.com.sun.jmx.remote.optional
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+

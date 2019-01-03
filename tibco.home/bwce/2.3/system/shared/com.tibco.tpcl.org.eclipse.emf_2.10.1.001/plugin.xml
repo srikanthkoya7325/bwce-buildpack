@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+  <!-- org.clipse.emf.ecore.xmi -->
+
+  <extension point="org.eclipse.emf.ecore.extension_parser">
+    <parser type="*" class="org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl" />
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.extension_parser">
+    <parser type="ecore" class="org.eclipse.emf.ecore.xmi.impl.EcoreResourceFactoryImpl" />
+  </extension>
+
+  <extension
+        point="org.eclipse.emf.ecore.content_parser">
+     <parser
+           class="org.eclipse.emf.ecore.xmi.impl.EcoreResourceFactoryImpl"
+           contentTypeIdentifier="org.eclipse.emf.ecore">
+     </parser>
+  </extension>
+
+  <extension
+        point="org.eclipse.emf.ecore.content_parser">
+     <parser
+           class="org.eclipse.emf.ecore.xmi.impl.EMOFResourceFactoryImpl"
+           contentTypeIdentifier="org.eclipse.emf.emof">
+     </parser>
+  </extension>
+
+  <extension point="org.eclipse.emf.ecore.extension_parser">
+    <parser type="emof" class="org.eclipse.emf.ecore.xmi.impl.EMOFResourceFactoryImpl" />
+  </extension>
+
+  <extension point="org.eclipse.team.core.fileTypes">
+    <fileTypes extension="ecore" type="text" />
+    <fileTypes extension="emof" type="text" />
+    <fileTypes extension="xmi" type="text" />
+  </extension>
+
+  <!-- org.clipse.emf.ecore -->
+
+   <extension-point id="org.eclipse.emf.ecore.generated_package" name="%_UI_PackageRegistry_extensionpoint" schema="schema/generated_package.exsd"/>
+   <extension-point id="org.eclipse.emf.ecore.dynamic_package" name="%_UI_DynamicPackageRegistry_extensionpoint" schema="schema/dynamic_package.exsd"/>
+   <extension-point id="org.eclipse.emf.ecore.factory_override" name="%_UI_FactoryRegistry_extensionpoint" schema="schema/factory_override.exsd"/>
+   <extension-point id="org.eclipse.emf.ecore.extension_parser" name="%_UI_URIExtensionParserRegistry_extensionpoint" schema="schema/extension_parser.exsd"/>
+   <extension-point id="org.eclipse.emf.ecore.protocol_parser" name="%_UI_URIProtocolParserRegistry_extensionpoint" schema="schema/protocol_parser.exsd"/>
+   <extension-point id="org.eclipse.emf.ecore.content_parser" name="%_UI_URIContentTypeParserRegistry_extensionpoint" schema="schema/content_parser.exsd"/>
+   <extension-point id="org.eclipse.emf.ecore.content_handler" name="%_UI_ContentHandlerRegistry_extensionpoint" schema="schema/content_handler.exsd"/>
+   <extension-point id="org.eclipse.emf.ecore.uri_mapping" name="%_UI_URIMappingRegistry_extensionpoint" schema="schema/uri_mapping.exsd"/>
+   <extension-point id="org.eclipse.emf.ecore.package_registry_implementation" name="%_UI_PackageRegistryImplementation_extensionpoint" schema="schema/package_registry_implementation.exsd"/>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.eclipse.org/emf/2002/Ecore"
+            class="org.eclipse.emf.ecore.EcorePackage"
+            genModel="model/Ecore.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.eclipse.org/emf/2003/XMLType"
+            class="org.eclipse.emf.ecore.xml.type.XMLTypePackage"
+            genModel="model/XMLType.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.w3.org/XML/1998/namespace"
+            class="org.eclipse.emf.ecore.xml.namespace.XMLNamespacePackage"
+            genModel="model/XMLNamespace.genmodel"/>
+   </extension>
+
+   <extension
+         id="diagnostic"
+         name="%_UI_EMFDiagnostic_marker"
+         point="org.eclipse.core.resources.markers">
+      <super type="org.eclipse.core.resources.problemmarker"/>
+      <persistent value="true"/>
+      <attribute name="uri"/>
+   </extension>
+  
+   <extension point="org.eclipse.emf.ecore.content_handler">
+      <contentHandler
+            class="org.eclipse.emf.ecore.resource.impl.PlatformContentHandlerImpl"
+            priority="2000">
+      </contentHandler>
+   </extension>
+
+</plugin>

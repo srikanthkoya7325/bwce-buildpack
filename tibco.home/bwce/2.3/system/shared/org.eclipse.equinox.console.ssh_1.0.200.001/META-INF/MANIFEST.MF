@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Export-Package: org.eclipse.equinox.console.internal.ssh;x-internal:=t
+ rue,org.eclipse.equinox.console.jaas,org.eclipse.equinox.console.ssh;
+ x-internal:=true,org.eclipse.equinox.console.storage;x-internal:=true
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: org.eclipse.equinox.console.ssh_1.0.100.v20131208-17
+ 28.jar
+Built-By: e4Build
+Bundle-Localization: plugin
+Bundle-Name: %bundleName
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.equinox.console;bundle-version="1.0.0"
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/equino
+ x/rt.equinox.bundles.git;path="bundles/org.eclipse.equinox.console.ss
+ h";tag="I20131209-2000";commitId=35033c8021dde91c3dab707604ceb3df689a
+ 7d10
+Bundle-Vendor: %bundleVendor
+Bundle-Version: 1.0.200.001
+Build-Jdk: 1.7.0_25
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.equinox.console.ssh.Activator
+Import-Package: javax.security.auth;resolution:=optional,javax.securit
+ y.auth.callback;resolution:=optional,javax.security.auth.login;resolu
+ tion:=optional,javax.security.auth.spi;resolution:=optional,org.apach
+ e.felix.service.command;status=provisional;version="0.8.0",org.apache
+ .mina.util;version="2.0.0";resolution:=optional,org.apache.sshd;versi
+ on="0.5.0";resolution:=optional,org.apache.sshd.common;version="0.5.0
+ ";resolution:=optional,org.apache.sshd.server;version="0.5.0";resolut
+ ion:=optional,org.apache.sshd.server.jaas;version="0.5.0";resolution:
+ =optional,org.apache.sshd.server.keyprovider;version="0.5.0";resoluti
+ on:=optional,org.apache.sshd.server.session;version="0.5.0";resolutio
+ n:=optional,org.apache.sshd.server.shell;version="0.5.0";resolution:=
+ optional,org.eclipse.equinox.console.common,org.eclipse.equinox.conso
+ le.common.terminal,org.osgi.framework,org.osgi.service.cm;version="[1
+ .4.0,2.0.0)";resolution:=optional,org.osgi.util.tracker
+Bundle-SymbolicName: org.eclipse.equinox.console.ssh
+Archiver-Version: Plexus Archiver
+
+

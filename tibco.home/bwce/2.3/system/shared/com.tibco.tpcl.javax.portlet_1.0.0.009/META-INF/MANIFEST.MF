@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-Name: JSR168 Portlet API
+Bundle-ClassPath: portlet.jar
+Bundle-Vendor: Sun Microsystems, Inc. and IBM Corporation
+Bundle-ManifestVersion: 2
+Bundle-Localization: plugin
+Bundle-SymbolicName: com.tibco.tpcl.javax.portlet
+Export-Package: javax.portlet;version="1.0.0"
+Bundle-Version: 1.0.0.009
+

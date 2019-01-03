@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/PostgresDriverDefinition.xml,OSGI-INF/Orac
+ leDriverDefinition.xml,OSGI-INF/DB2DriverDefinition.xml,OSGI-INF/MySQ
+ LDriverDefinition.xml,OSGI-INF/SqlServerDriverDefinition.xml,OSGI-INF
+ /InformixDriverDefinition.xml,OSGI-INF/ddUnlocker.xml
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: lib/TIdb2.jar,lib/TIinformix.jar,lib/TImysql.jar,lib
+ /TIoracle.jar,lib/TIpostgresql.jar,lib/TIsqlserver.jar,.
+Bundle-Version: 1.0.401.002
+Bundle-Name: TIBCO Datadirect DatasourceFactory
+Bundle-ManifestVersion: 2
+Import-Package: com.tibco.bw.sharedresource.jdbc.runtime.api;version="
+ [6.0.0,7.0.0)",org.osgi.framework;version="[1.6.0,2.0.0)",org.osgi.se
+ rvice.jdbc;version="[1.0.0,2.0.0)"
+Bundle-SymbolicName: com.tibco.bw.jdbc.datasourcefactory.datadirect
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

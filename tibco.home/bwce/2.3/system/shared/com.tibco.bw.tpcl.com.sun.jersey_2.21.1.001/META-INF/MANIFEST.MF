@@ -1,0 +1,309 @@
+Manifest-Version: 1.0
+Export-Package: com.sun.research.ws.wadl;version="2.3.1";uses:="javax.
+ xml.namespace",javax.validation;version="1.2.1";uses:="javax.validati
+ on.metadata,javax.validation.executable,javax.validation.bootstrap",j
+ avax.validation.bootstrap;version="1.2.1";uses:="javax.validation",ja
+ vax.validation.constraints;version="1.2.1",javax.validation.constrain
+ tvalidation;version="1.2.1",javax.validation.executable;version="1.2.
+ 1",javax.validation.groups;version="1.2.1",javax.validation.metadata;
+ version="1.2.1";uses:="javax.validation",javax.validation.spi;version
+ ="1.2.1";uses:="javax.validation",org.glassfish.hk2.utilities.binding
+ ;version="2.4.1",org.glassfish.jersey;version="2.21.1"; uses:="javax.
+ ws.rs,  javax.net.ssl,  javax.ws.rs.ext,  org.glassfish.hk2.api,  jav
+ ax.ws.rs.core",org.glassfish.jersey.client;version="2.21.1"; uses:="j
+ avax.ws.rs,  org.glassfish.jersey.client.spi,  org.glassfish.jersey, 
+  org.glassfish.jersey.spi,  javax.net.ssl,  jersey.repackaged.com.goo
+ gle.common.util.concurrent,  javax.ws.rs.core,  org.glassfish.jersey.
+ message.internal,  org.glassfish.hk2.utilities.binding,  org.glassfis
+ h.jersey.internal,  org.glassfish.jersey.internal.util.collection,  j
+ avax.ws.rs.ext,  org.glassfish.hk2.api,  org.glassfish.jersey.message
+ ,  new org.glassfish.jersey.client,  org.glassfish.jersey.internal.in
+ ject,  jersey.repackaged.com.google.common.base,  org.glassfish.jerse
+ y.process.internal,  org.glassfish.jersey.internal.util,  javax.ws.rs
+ .client,  javax.inject",org.glassfish.jersey.client.authentication;ve
+ rsion="2.21.1"; uses:="javax.ws.rs,  new org.glassfish.jersey.client.
+ authentication,  javax.ws.rs.client,  javax.ws.rs.core",org.glassfish
+ .jersey.client.filter;version="2.21.1";uses:="javax.ws.rs.client,java
+ x.ws.rs.core",org.glassfish.jersey.client.internal;version="2.21.1"; 
+ uses:="org.glassfish.jersey.message.internal,  new org.glassfish.jers
+ ey.client.internal,  org.glassfish.jersey.internal.util.collection,  
+ org.glassfish.jersey.client.spi,  org.glassfish.jersey.client,  javax
+ .ws.rs.client,  javax.net.ssl,  org.glassfish.jersey.internal.l10n,  
+ javax.ws.rs.core",org.glassfish.jersey.client.spi;version="2.21.1"; u
+ ses:="org.glassfish.jersey.client,  javax.ws.rs.client,  org.glassfis
+ h.jersey.process,  javax.ws.rs.core",org.glassfish.jersey.filter;vers
+ ion="2.21.1";uses:="javax.ws.rs.container,javax.ws.rs.client,javax.ws
+ .rs.ext",org.glassfish.jersey.internal;version="2.21.1"; uses:="org.g
+ lassfish.hk2.utilities.binding,  javax.ws.rs,  javax.ws.rs.ext,  org.
+ glassfish.hk2.api,  org.glassfish.jersey,  org.glassfish.jersey.spi, 
+  new org.glassfish.jersey.internal,  org.osgi.framework,  org.glassfi
+ sh.jersey.internal.util,  org.glassfish.jersey.internal.l10n,  javax.
+ ws.rs.core",org.glassfish.jersey.internal.inject;version="2.21.1"; us
+ es:="org.glassfish.hk2.utilities,  org.glassfish.hk2.utilities.bindin
+ g,  javax.ws.rs,  org.glassfish.jersey.model.internal,  org.glassfish
+ .jersey.model,  org.glassfish.jersey.internal.util.collection,  org.g
+ lassfish.hk2.api,  jersey.repackaged.com.google.common.base,  org.gla
+ ssfish.hk2.utilities.cache,  javax.inject",org.glassfish.jersey.inter
+ nal.l10n;version="2.21.1",org.glassfish.jersey.internal.spi;version="
+ 2.21.1";uses:="javax.ws.rs.core",org.glassfish.jersey.internal.util;v
+ ersion="2.21.1"; uses:="javax.ws.rs,  org.glassfish.jersey.internal, 
+  javax.xml.parsers,  new org.glassfish.jersey.internal.util,  org.gla
+ ssfish.jersey.internal.util.collection,  javax.xml.namespace,  jersey
+ .repackaged.com.google.common.base,  javax.ws.rs.core",org.glassfish.
+ jersey.internal.util.collection;version="2.21.1";uses:="sun.misc,java
+ x.ws.rs.core",org.glassfish.jersey.jackson;version="2.21.1";uses:="ja
+ vax.ws.rs.core",org.glassfish.jersey.jaxb.internal;version="2.21.1",o
+ rg.glassfish.jersey.jettison;version="2.21.1";uses:="new org.glassfis
+ h.jersey.jettison,javax.xml.bind,javax.ws.rs.core",org.glassfish.jers
+ ey.jettison.internal;version="2.21.1"; uses:="javax.xml.bind.annotati
+ on.adapters,  org.w3c.dom,  org.xml.sax,  javax.xml.bind.attachment, 
+  javax.xml.stream,  org.glassfish.jersey.jettison,  javax.xml.transfo
+ rm,  javax.xml.validation,  javax.xml.bind,  org.glassfish.jersey.int
+ ernal.l10n",org.glassfish.jersey.jettison.internal.entity;version="2.
+ 21.1"; uses:="org.glassfish.jersey.message.internal,  org.codehaus.je
+ ttison.json,  javax.ws.rs.ext,  javax.xml.stream,  javax.xml.bind,  j
+ avax.ws.rs.core,  org.glassfish.jersey.jaxb.internal",org.glassfish.j
+ ersey.media.multipart;version="2.21.1"; uses:="org.glassfish.jersey.m
+ essage.internal,  org.glassfish.jersey.message,  org.glassfish.jersey
+ .internal.util.collection,  javax.ws.rs.ext,  org.jvnet.mimepull,  ja
+ vax.ws.rs.core",org.glassfish.jersey.media.multipart.file;version="2.
+ 21.1";uses:="org.glassfish.jersey.media.multipart,javax.ws.rs.core",o
+ rg.glassfish.jersey.media.multipart.internal;version="2.21.1"; uses:=
+ "org.glassfish.jersey.media.multipart,  org.glassfish.hk2.utilities.b
+ inding,  org.glassfish.jersey.server.spi.internal,  javax.ws.rs.ext, 
+  org.glassfish.jersey.server.model,  new org.glassfish.jersey.media.m
+ ultipart.internal,  org.glassfish.hk2.api,  jersey.repackaged.com.goo
+ gle.common.base,  org.glassfish.jersey.server.internal.inject,  javax
+ .inject,  org.glassfish.jersey.internal.l10n,  javax.ws.rs.core",org.
+ glassfish.jersey.media.sse;version="2.21.1"; uses:="org.glassfish.jer
+ sey.internal,  new org.glassfish.jersey.media.sse,  org.glassfish.jer
+ sey.server,  javax.ws.rs.ext,  org.glassfish.jersey.message,  org.gla
+ ssfish.jersey.client,  org.glassfish.jersey.internal.util,  javax.ws.
+ rs.client,  org.glassfish.jersey.internal.l10n,  javax.ws.rs.core",or
+ g.glassfish.jersey.message;version="2.21.1"; uses:="org.glassfish.jer
+ sey.spi,  org.glassfish.jersey.internal,  javax.ws.rs.ext,  javax.ws.
+ rs.core",org.glassfish.jersey.message.filtering;version="2.21.1",org.
+ glassfish.jersey.message.internal;version="2.21.1"; uses:="javax.ws.r
+ s,  new org.glassfish.jersey.message.internal,  javax.xml.transform.d
+ om,  org.glassfish.jersey.spi,  javax.xml.transform.sax,  javax.ws.rs
+ .core,  org.glassfish.hk2.utilities.binding,  org.glassfish.jersey.in
+ ternal,  org.glassfish.jersey.internal.util.collection,  javax.ws.rs.
+ ext,  org.glassfish.hk2.api,  javax.activation,  org.glassfish.jersey
+ .message,  jersey.repackaged.com.google.common.base,  org.glassfish.j
+ ersey.internal.inject,  javax.xml.transform,  javax.xml.transform.str
+ eam,  javax.inject",org.glassfish.jersey.model;version="2.21.1";uses:
+ ="new org.glassfish.jersey.model,jersey.repackaged.com.google.common.
+ collect",org.glassfish.jersey.model.internal;version="2.21.1"; uses:=
+ "org.glassfish.hk2.utilities,  org.glassfish.jersey.internal.spi,  ja
+ vax.ws.rs,  new org.glassfish.jersey.model.internal,  org.glassfish.j
+ ersey.model,  org.glassfish.hk2.api,  org.glassfish.jersey,  org.glas
+ sfish.jersey.internal.inject,  jersey.repackaged.com.google.common.ba
+ se,  org.glassfish.jersey.internal.util,  org.glassfish.jersey.proces
+ s,  javax.ws.rs.core",org.glassfish.jersey.process;version="2.21.1",o
+ rg.glassfish.jersey.process.internal;version="2.21.1"; uses:="org.gla
+ ssfish.hk2.utilities.binding,  jersey.repackaged.com.google.common.ba
+ se,  org.glassfish.jersey.internal.util.collection,  org.glassfish.je
+ rsey.internal.util,  new org.glassfish.jersey.process.internal,  org.
+ glassfish.jersey.process,  org.glassfish.hk2.api",org.glassfish.jerse
+ y.server;version="2.21.1"; uses:="org.glassfish.hk2.utilities,  javax
+ .ws.rs,  org.glassfish.jersey.model.internal,  javax.ws.rs.container,
+   org.glassfish.jersey.server.internal.routing,  org.glassfish.jersey
+ ,  org.glassfish.jersey.spi,  new org.glassfish.jersey.server,  org.g
+ lassfish.jersey.process,  javax.ws.rs.core,  org.glassfish.jersey.mes
+ sage.internal,  org.glassfish.jersey.server.spi,  org.glassfish.hk2.u
+ tilities.binding,  org.glassfish.jersey.internal,  org.glassfish.jers
+ ey.model,  org.glassfish.jersey.internal.util.collection,  javax.ws.r
+ s.ext,  org.glassfish.jersey.server.model,  org.glassfish.hk2.api,  o
+ rg.glassfish.jersey.server.internal.process,  jersey.repackaged.com.g
+ oogle.common.base,  org.glassfish.jersey.process.internal,  org.glass
+ fish.jersey.server.monitoring,  org.glassfish.jersey.server.internal,
+   org.glassfish.jersey.internal.util,  javax.inject",org.glassfish.je
+ rsey.server.filter;version="2.21.1";uses:="javax.ws.rs.container,org.
+ glassfish.jersey.server,javax.ws.rs.core",org.glassfish.jersey.server
+ .filter.internal;version="2.21.1";uses:="org.glassfish.jersey.interna
+ l.spi,javax.ws.rs.core",org.glassfish.jersey.server.internal;version=
+ "2.21.1"; uses:="org.glassfish.jersey.message.internal,  org.glassfis
+ h.jersey.server.spi,  org.glassfish.hk2.utilities.binding,  org.glass
+ fish.jersey.internal,  org.glassfish.jersey.server,  org.glassfish.je
+ rsey.model,  javax.ws.rs.ext,  org.glassfish.jersey.server.model,  or
+ g.glassfish.hk2.api,  javax.ws.rs.core,  org.glassfish.jersey.interna
+ l.l10n",org.glassfish.jersey.server.internal.inject;version="2.21.1";
+  uses:="org.glassfish.hk2.utilities,  org.glassfish.jersey.server.spi
+ .internal,  javax.ws.rs.container,  org.glassfish.jersey.server,  org
+ .glassfish.jersey.client,  org.glassfish.hk2.utilities.cache,  javax.
+ validation,  javax.ws.rs.core,  new org.glassfish.jersey.server.inter
+ nal.inject,  org.glassfish.hk2.utilities.binding,  org.glassfish.jers
+ ey.internal.util.collection,  javax.ws.rs.ext,  org.glassfish.jersey.
+ server.model,  org.glassfish.hk2.api,  new new org.glassfish.jersey.s
+ erver.internal.inject,  org.glassfish.jersey.internal.inject,  jersey
+ .repackaged.com.google.common.base,  org.glassfish.jersey.internal.ut
+ il,  javax.inject",org.glassfish.jersey.server.internal.monitoring;ve
+ rsion="2.21.1"; uses:="org.glassfish.jersey.server.spi,  org.glassfis
+ h.jersey.internal.spi,  org.glassfish.hk2.utilities.binding,  org.gla
+ ssfish.jersey.server,  javax.ws.rs.ext,  org.glassfish.jersey.server.
+ model,  org.glassfish.hk2.api,  jersey.repackaged.com.google.common.b
+ ase,  new org.glassfish.jersey.server.internal.monitoring,  org.glass
+ fish.jersey.server.monitoring,  javax.ws.rs.core",org.glassfish.jerse
+ y.server.internal.monitoring.jmx;version="2.21.1"; uses:="org.glassfi
+ sh.jersey.server.spi,  org.glassfish.jersey.server.monitoring,  org.g
+ lassfish.jersey.internal.util.collection,  javax.management",org.glas
+ sfish.jersey.server.internal.process;version="2.21.1"; uses:="org.gla
+ ssfish.hk2.utilities.binding,  javax.ws.rs,  javax.ws.rs.container,  
+ org.glassfish.jersey.server,  org.glassfish.jersey.internal.util.coll
+ ection,  org.glassfish.jersey.server.internal.routing,  org.glassfish
+ .hk2.api,  org.glassfish.jersey.internal.inject,  jersey.repackaged.c
+ om.google.common.base,  org.glassfish.jersey.process.internal,  org.g
+ lassfish.jersey.server.monitoring,  org.glassfish.jersey.server.inter
+ nal.monitoring,  org.glassfish.jersey.internal.util,  javax.inject,  
+ org.glassfish.jersey.process,  javax.ws.rs.core",org.glassfish.jersey
+ .server.internal.routing;version="2.21.1"; uses:="org.glassfish.jerse
+ y.uri,  jersey.repackaged.com.google.common.cache,  javax.ws.rs.conta
+ iner,  org.glassfish.jersey.server,  org.glassfish.jersey.internal.ut
+ il.collection,  org.glassfish.jersey.server.model,  org.glassfish.hk2
+ .api,  org.glassfish.jersey.server.internal.process,  new org.glassfi
+ sh.jersey.server.internal.routing,  org.glassfish.jersey.message,  je
+ rsey.repackaged.com.google.common.base,  org.glassfish.jersey.process
+ .internal,  org.glassfish.jersey.server.internal,  javax.ws.rs.core",
+ org.glassfish.jersey.server.internal.scanning;version="2.21.1"; uses:
+ ="new org.glassfish.jersey.server.internal.scanning,  org.glassfish.j
+ ersey.internal,  org.glassfish.jersey.server,  org.glassfish.jersey.s
+ erver.internal",org.glassfish.jersey.server.model;version="2.21.1"; u
+ ses:="javax.ws.rs,  org.glassfish.jersey.server.spi.internal,  org.gl
+ assfish.jersey.model.internal,  javax.ws.rs.container,  org.glassfish
+ .jersey.server,  org.glassfish.jersey,  new org.glassfish.jersey.serv
+ er.model,  org.glassfish.jersey.server.internal.inject,  org.glassfis
+ h.jersey.process,  javax.ws.rs.core,  org.glassfish.jersey.uri,  org.
+ glassfish.hk2.utilities.binding,  org.glassfish.jersey.internal.util.
+ collection,  org.glassfish.jersey.model,  org.glassfish.hk2.api,  org
+ .glassfish.jersey.server.internal.process,  org.glassfish.jersey.mess
+ age,  jersey.repackaged.com.google.common.base,  org.glassfish.jersey
+ .server.internal,  org.glassfish.jersey.internal.util",org.glassfish.
+ jersey.server.model.internal;version="2.21.1"; uses:="org.glassfish.h
+ k2.utilities.binding,  org.glassfish.jersey.server.spi.internal,  org
+ .glassfish.jersey.internal,  org.glassfish.jersey.server,  org.glassf
+ ish.jersey.server.model,  org.glassfish.hk2.api,  jersey.repackaged.c
+ om.google.common.base,  org.glassfish.jersey.server.internal.inject, 
+  org.glassfish.jersey.process,  javax.ws.rs.core",org.glassfish.jerse
+ y.server.monitoring;version="2.21.1";uses:="org.glassfish.jersey.serv
+ er,javax.ws.rs.ext,org.glassfish.jersey.server.model",org.glassfish.j
+ ersey.server.spi;version="2.21.1"; uses:="org.glassfish.jersey.server
+ ,  org.glassfish.jersey.server.model,  javax.ws.rs.core,  org.glassfi
+ sh.hk2.api",org.glassfish.jersey.server.spi.internal;version="2.21.1"
+ ; uses:="org.glassfish.jersey.server.internal.inject,  org.glassfish.
+ jersey.server,  org.glassfish.jersey.server.model,  javax.ws.rs.core,
+   org.glassfish.hk2.api",org.glassfish.jersey.server.wadl;version="2.
+ 21.1"; uses:="org.glassfish.hk2.utilities.binding,  com.sun.research.
+ ws.wadl,  org.glassfish.jersey.server.wadl.internal,  javax.xml.bind,
+   org.glassfish.jersey.server.model,  javax.xml.namespace,  javax.ws.
+ rs.core",org.glassfish.jersey.server.wadl.config;version="2.21.1";use
+ s:="org.glassfish.jersey.server.wadl,org.glassfish.hk2.api",org.glass
+ fish.jersey.server.wadl.internal;version="2.21.1"; uses:="org.glassfi
+ sh.jersey.internal.spi,  com.sun.research.ws.wadl,  org.glassfish.jer
+ sey.server.wadl,  org.glassfish.jersey.server,  javax.xml.parsers,  j
+ avax.xml.bind,  org.glassfish.jersey.server.model,  org.glassfish.hk2
+ .api,  javax.xml.namespace,  javax.ws.rs.core",org.glassfish.jersey.s
+ erver.wadl.internal.generators;version="2.21.1"; uses:="com.sun.resea
+ rch.ws.wadl,  org.glassfish.jersey.server.model,  javax.xml.namespace
+ ,  org.glassfish.jersey.server.wadl.internal,  org.glassfish.jersey.s
+ erver.wadl,  javax.xml.transform,  new org.glassfish.jersey.server.wa
+ dl.internal.generators,  javax.xml.bind,  javax.ws.rs.core",org.glass
+ fish.jersey.server.wadl.internal.generators.resourcedoc;version="2.21
+ .1"; uses:="com.sun.research.ws.wadl,  org.glassfish.jersey.server.wa
+ dl.internal,  org.glassfish.jersey.server.wadl,  org.glassfish.jersey
+ .server.wadl.internal.generators.resourcedoc.model,  org.glassfish.je
+ rsey.server.model,  javax.ws.rs.core",org.glassfish.jersey.server.wad
+ l.internal.generators.resourcedoc.model;version="2.21.1";uses:="javax
+ .xml.namespace",org.glassfish.jersey.server.wadl.internal.generators.
+ resourcedoc.xhtml;version="2.21.1";uses:="javax.xml.bind,javax.xml.na
+ mespace",org.glassfish.jersey.server.wadl.processor;version="2.21.1";
+  uses:="javax.ws.rs.container,  org.glassfish.jersey.process,  org.gl
+ assfish.jersey.server.model,  javax.ws.rs.core",org.glassfish.jersey.
+ servlet;version="2.21.1"; uses:="org.glassfish.jersey.servlet.interna
+ l,  org.glassfish.jersey.servlet.internal.spi,  org.glassfish.jersey.
+ server.spi,  org.glassfish.jersey.internal,  org.glassfish.jersey.ser
+ vlet.spi,  org.glassfish.jersey.server,  org.glassfish.jersey.interna
+ l.util.collection,  org.glassfish.hk2.api,  javax.servlet,  jersey.re
+ packaged.com.google.common.base,  new org.glassfish.jersey.servlet,  
+ org.glassfish.jersey.server.internal.scanning,  org.glassfish.jersey.
+ server.internal,  javax.ws.rs.core,  javax.servlet.http",org.glassfis
+ h.jersey.servlet.async;version="2.21.1";uses:="org.glassfish.jersey.s
+ ervlet.spi,javax.servlet.http",org.glassfish.jersey.servlet.init;vers
+ ion="2.21.1";uses:="javax.servlet",org.glassfish.jersey.servlet.init.
+ internal;version="2.21.1";uses:="org.glassfish.jersey.internal.l10n",
+ org.glassfish.jersey.servlet.internal;version="2.21.1"; uses:="org.gl
+ assfish.jersey.server.spi,  org.glassfish.jersey.servlet.internal.spi
+ ,  org.glassfish.hk2.utilities.binding,  org.glassfish.jersey.servlet
+ .spi,  org.glassfish.jersey.server,  org.glassfish.hk2.api,  javax.se
+ rvlet,  org.glassfish.jersey.internal.l10n,  javax.servlet.http",org.
+ glassfish.jersey.servlet.internal.spi;version="2.21.1"; uses:="javax.
+ servlet,  org.glassfish.jersey.server.spi,  org.glassfish.jersey.serv
+ er,  javax.servlet.http,  org.glassfish.hk2.api",org.glassfish.jersey
+ .servlet.spi;version="2.21.1";uses:="javax.servlet.http",org.glassfis
+ h.jersey.spi;version="2.21.1"; uses:="org.glassfish.jersey.internal.u
+ til,  org.glassfish.jersey.internal.util.collection,  javax.ws.rs.ext
+ ,  javax.ws.rs.core",org.glassfish.jersey.uri;version="2.21.1";uses:=
+ "org.glassfish.jersey.uri.internal,new org.glassfish.jersey.uri,javax
+ .ws.rs.core",org.glassfish.jersey.uri.internal;version="2.21.1";uses:
+ ="javax.ws.rs.core"
+Implementation-Title: jersey-bundle
+Implementation-Version: 2.4.1
+Bundle-ClassPath: .,lib/javax.annotation-api-1.2.jar,lib/validation-ap
+ i-1.1.0.Final.jar,lib/asm-all-repackaged-2.2.0-b21.jar,lib/cglib-2.2.
+ 0-b21.jar,lib/javax.inject-2.2.0-b21.jar,lib/javassist-3.18.1-GA.jar,
+ lib/hk2-api-2.4.0-b31.jar,lib/hk2-utils-2.4.0-b31.jar,lib/hk2-locator
+ -2.4.0-b31.jar,lib/osgi-resource-locator-1.0.1.jar,lib/mimepull-1.9.3
+ .jar,lib/jersey-client-2.21.1.jar,lib/jersey-common-2.21.1.jar,lib/je
+ rsey-container-servlet-2.21.1.jar,lib/jersey-entity-filtering-2.21.1.
+ jar,lib/jersey-guava-2.21.1.jar,lib/jersey-media-jaxb-2.21.1.jar,lib/
+ jersey-media-json-jackson-2.21.1.jar,lib/jersey-media-json-jettison-2
+ .21.1.jar,lib/jersey-media-multipart-2.21.1.jar,lib/jersey-media-sse-
+ 2.21.1.jar,lib/jersey-metainf-services-2.21.1.jar,lib/jersey-server-2
+ .21.1.jar,lib/jersey-container-servlet-core-2.21.1.jar
+Bundle-Name: Glassfish Jersey
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: TIBCO Software Inc.
+Implementation-Vendor: Oracle Corporation
+Implementation-Vendor-Id: com.sun.jersey
+Provide-Capability: osgi.contract;osgi.contract=com.sun.jersey;version
+ :Version=2.4.1;uses:="javax.ws.rs,javax.ws.rs.core,javax.ws.rs.ext,ja
+ vax.servlet,javax.servlet.http,javax.xml.bind,javax.xml.bind.annotati
+ on,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax
+ .xml.namespace,javax.xml.parsers,javax.xml.stream,javax.xml.transform
+ ,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transform.
+ stream,javax.xml.validation,org.codehaus.jackson,org.codehaus.jackson
+ .jaxrs,org.codehaus.jackson.map,org.codehaus.jackson.type,org.codehau
+ s.jettison.json,org.w3c.dom,org.xml.sax,org.xml.sax.helpersorg.osgi.f
+ ramework"
+Bundle-Version: 2.21.1.001
+Bundle-ManifestVersion: 2
+Bundle-License: http://glassfish.java.net/public/CDDL+GPL_1_1.html, ht
+ tp://glassfish.java.net/public/CDDL+GPL_1_1.html
+Import-Package: com.fasterxml.jackson.jaxrs.annotation;version="[2.6.1
+ ,3.0.0)",com.fasterxml.jackson.jaxrs.base;version="[2.6.1,3.0.0)",com
+ .fasterxml.jackson.jaxrs.cfg;version="[2.6.1,3.0.0)",com.fasterxml.ja
+ ckson.jaxrs.json;version="[2.6.1,3.0.0)",com.fasterxml.jackson.jaxrs.
+ json.annotation;version="[2.6.1,3.0.0)",com.fasterxml.jackson.jaxrs.u
+ til;version="[2.6.1,3.0.0)",javax.activation;version="[1.1.100,2.0.0)
+ ",javax.management,javax.net.ssl,javax.servlet;version="2.6.0",javax.
+ servlet.http;version="2.6.0",javax.validation;version="[1.2.1,2.0.0)"
+ ,javax.ws.rs;version="[2.0.0,3.0.0)",javax.ws.rs.client;version="[2.0
+ .0,3.0.0)",javax.ws.rs.container;version="[2.0.0,3.0.0)",javax.ws.rs.
+ core;version="[2.0.0,3.0.0)",javax.ws.rs.ext;version="[2.0.0,3.0.0)",
+ javax.xml.bind;version="[2.1.0,3.0.0)",javax.xml.bind.annotation;vers
+ ion="[2.0.0,3.0.0)",javax.xml.bind.annotation.adapters;version="[2.0.
+ 0,3.0.0)",javax.xml.bind.attachment;version="[2.0.0,3.0.0)",javax.xml
+ .namespace;version="[1.2.0,2.0.0)",javax.xml.parsers;version="[1.4.0,
+ 2.0.0)",javax.xml.stream;version="[1.2.0,2.0.0)",javax.xml.transform;
+ version="[1.4.0,2.0.0)",javax.xml.transform.dom;version="[1.4.0,2.0.0
+ )",javax.xml.transform.sax;version="[1.4.0,2.0.0)",javax.xml.transfor
+ m.stream;version="[1.4.0,2.0.0)",javax.xml.validation;version="[1.4.0
+ ,2.0.0)",org.codehaus.jettison.badgerfish;version="[1.3.0,2.0.0)",org
+ .codehaus.jettison.json;version="[1.3.0,2.0.0)",org.codehaus.jettison
+ .mapped;version="[1.3.0,2.0.0)",org.osgi.framework;version="[1.6.0,2.
+ 0.0)",org.w3c.dom;version="[3.0.0,4.0.0)",org.xml.sax;version="[2.0.2
+ ,3.0.0)"
+Bundle-SymbolicName: com.tibco.bw.tpcl.com.sun.jersey
+Bundle-DocURL: http://www.oracle.com/
+Originally-Created-By: Apache Maven
+
+

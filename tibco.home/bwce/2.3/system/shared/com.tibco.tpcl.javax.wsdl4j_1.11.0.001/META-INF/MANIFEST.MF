@@ -1,0 +1,60 @@
+Manifest-Version: 1.0
+Export-Package: com.ibm.wsdl;version="1.11.0"; uses:="javax.wsdl,  jav
+ ax.wsdl.extensions,  javax.xml.namespace,  org.w3c.dom",com.ibm.wsdl.
+ extensions;version="1.11.0";uses:="javax.wsdl.extensions",com.ibm.wsd
+ l.extensions.http;version="1.11.0"; uses:="javax.wsdl,  javax.wsdl.ex
+ tensions,  javax.wsdl.extensions.http,  javax.xml.namespace,  org.w3c
+ .dom",com.ibm.wsdl.extensions.mime;version="1.11.0"; uses:="javax.wsd
+ l,  javax.wsdl.extensions,  javax.xml.namespace,  org.w3c.dom,  javax
+ .wsdl.extensions.mime",com.ibm.wsdl.extensions.schema;version="1.11.0
+ "; uses:="javax.wsdl,  javax.wsdl.extensions,  javax.wsdl.xml,  javax
+ .xml.namespace,  javax.wsdl.extensions.schema,  org.w3c.dom",com.ibm.
+ wsdl.extensions.soap;version="1.11.0"; uses:="javax.wsdl,  javax.wsdl
+ .extensions,  javax.wsdl.extensions.soap,  javax.xml.namespace,  org.
+ w3c.dom",com.ibm.wsdl.extensions.soap12;version="1.11.0"; uses:="java
+ x.wsdl,  javax.wsdl.extensions,  javax.xml.namespace,  org.w3c.dom,  
+ javax.wsdl.extensions.soap12",com.ibm.wsdl.factory;version="1.11.0"; 
+ uses:="javax.wsdl,  javax.wsdl.extensions,  javax.wsdl.factory,  java
+ x.wsdl.xml",com.ibm.wsdl.util;version="1.11.0",com.ibm.wsdl.util.xml;
+ version="1.11.0";uses:="javax.wsdl,javax.xml.namespace,org.w3c.dom",c
+ om.ibm.wsdl.xml;version="1.11.0"; uses:="javax.wsdl,  javax.wsdl.exte
+ nsions,  org.xml.sax,  javax.wsdl.xml,  javax.wsdl.factory,  org.w3c.
+ dom",javax.wsdl;version="1.6.0";uses:="javax.wsdl.extensions,javax.xm
+ l.namespace,org.w3c.dom",javax.wsdl.extensions;version="1.6.0";uses:=
+ "javax.wsdl,javax.xml.namespace,org.w3c.dom",javax.wsdl.extensions.ht
+ tp;version="1.6.0";uses:="javax.wsdl.extensions",javax.wsdl.extension
+ s.mime;version="1.6.0";uses:="javax.wsdl.extensions",javax.wsdl.exten
+ sions.schema;version="1.6.0";uses:="javax.wsdl.extensions,org.w3c.dom
+ ",javax.wsdl.extensions.soap;version="1.6.0";uses:="javax.wsdl.extens
+ ions,javax.xml.namespace",javax.wsdl.extensions.soap12;version="1.6.0
+ ";uses:="javax.wsdl.extensions,javax.xml.namespace",javax.wsdl.factor
+ y;version="1.6.0";uses:="javax.wsdl,javax.wsdl.extensions,javax.wsdl.
+ xml",javax.wsdl.xml;version="1.6.0"; uses:="javax.wsdl,  javax.wsdl.e
+ xtensions,  org.xml.sax,  org.w3c.dom"
+Bundle-Vendor: %providerName
+Bundle-ClassPath: wsdl4j-1.6.3.jar
+Bundle-Version: 1.11.0.001
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Import-Package: com.ibm.wsdl;version="[1.11.0,2.0.0)",com.ibm.wsdl.ext
+ ensions;version="[1.11.0,2.0.0)",com.ibm.wsdl.extensions.http;version
+ ="[1.11.0,2.0.0)",com.ibm.wsdl.extensions.mime;version="[1.11.0,2.0.0
+ )",com.ibm.wsdl.extensions.schema;version="[1.11.0,2.0.0)",com.ibm.ws
+ dl.extensions.soap;version="[1.11.0,2.0.0)",com.ibm.wsdl.extensions.s
+ oap12;version="[1.11.0,2.0.0)",com.ibm.wsdl.factory;version="[1.11.0,
+ 2.0.0)",com.ibm.wsdl.util;version="[1.11.0,2.0.0)",com.ibm.wsdl.util.
+ xml;version="[1.11.0,2.0.0)",com.ibm.wsdl.xml;version="[1.11.0,2.0.0)
+ ",javax.xml.namespace;version="[1.1.0,2.0.0)",javax.xml.parsers;versi
+ on="[1.3.0,2.0.0)",javax.wsdl;version="[1.1.0,2.0.0)",javax.wsdl.exte
+ nsions;version="[1.1.0,2.0.0)",javax.wsdl.extensions.http;version="[1
+ .1.0,2.0.0)",javax.wsdl.extensions.mime;version="[1.1.0,2.0.0)",javax
+ .wsdl.extensions.schema;version="[1.1.0,2.0.0)",javax.wsdl.extensions
+ .soap;version="[1.1.0,2.0.0)",javax.wsdl.extensions.soap12;version="[
+ 1.1.0,2.0.0)",javax.wsdl.factory;version="[1.1.0,2.0.0)",javax.wsdl.x
+ ml;version="[1.1.0,2.0.0)",org.xml.sax;version="[2.0.0,3.0.0)",org.w3
+ c.dom;version="[3.0.0,4.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.javax.wsdl4j
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

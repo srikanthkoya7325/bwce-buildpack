@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Export-Package: com.wordnik.swagger.annotations;version="2.20.0",com.w
+ ordnik.swagger.config;version="2.20.0",com.wordnik.swagger.converter;
+ version="2.20.0",com.wordnik.swagger.core;version="2.20.0",com.wordni
+ k.swagger.core.filter;version="2.20.0",com.wordnik.swagger.core.util;
+ version="2.20.0",com.wordnik.swagger.jaxrs;version="2.20.0",com.wordn
+ ik.swagger.jaxrs.config;version="2.20.0",com.wordnik.swagger.jaxrs.fi
+ lter;version="2.20.0",com.wordnik.swagger.jaxrs.listing;version="2.20
+ .0",com.wordnik.swagger.jaxrs.reader;version="2.20.0",com.wordnik.swa
+ gger.jersey;version="2.20.0",com.wordnik.swagger.jersey.config;versio
+ n="2.20.0",com.wordnik.swagger.jersey.listing;version="2.20.0",com.wo
+ rdnik.swagger.model;version="2.20.0",com.wordnik.swagger.reader;versi
+ on="2.20.0",scala
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: .,lib/commons-lang-2.4.jar,lib/scala-library-2.10.0.
+ jar,lib/swagger-annotations-1.3.2.jar,lib/swagger-core_2.10-1.3.2.jar
+ ,lib/swagger-jaxrs_2.10-1.3.2.jar,lib/swagger-jersey2-jaxrs_2.10-1.3.
+ 2.jar,lib/json4s-ast_2.10-3.2.4.jar,lib/json4s-core_2.10-3.2.4.jar,li
+ b/json4s-jackson_2.10-3.2.4.jar,lib/jackson-databind-2.3.1.jar,lib/ja
+ ckson-all-1.9.11.jar,lib/jackson-annotations-2.3.0.jar,lib/jackson-co
+ re-2.3.1.jar
+Provide-Capability: osgi.contract;osgi.contract=com.wordnik.swagger;ve
+ rsion:Version=2.9.1;uses:="javax.ws.rs.core,javax.ws.rs.ext,org.slf4j
+ "
+Bundle-Version: 2.20.0.001
+Bundle-Name: Wordnik Swagger 2.10.0 1.3.2
+Bundle-ManifestVersion: 2
+Import-Package: javax.servlet;version="[2.0.0,3.0.0)",javax.servlet.ht
+ tp;version="[2.0.0,3.0.0)",javax.ws.rs;version="[2.0.0,3.0.0)",javax.
+ ws.rs.core;version="[2.0.0,3.0.0)",javax.ws.rs.ext;version="[2.0.0,3.
+ 0.0)",org.slf4j;version="[1.6.0,2.0.0)"
+Bundle-SymbolicName: com.tibco.bw.tpcl.com.wordnik.swagger
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

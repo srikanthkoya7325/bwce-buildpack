@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Export-Package: org.objectweb.asm;version="5.0.3",org.objectweb.asm.co
+ mmons;version="5.0.3";uses:="org.objectweb.asm,org.objectweb.asm.sign
+ ature,org.objectweb.asm.tree",org.objectweb.asm.signature;version="5.
+ 0.3",org.objectweb.asm.tree;version="5.0.3";uses:="org.objectweb.asm"
+ ,org.objectweb.asm.tree.analysis;version="5.0.3";uses:="org.objectweb
+ .asm,org.objectweb.asm.tree",org.objectweb.asm.util;version="5.0.3"; 
+ uses:="org.objectweb.asm,  org.objectweb.asm.signature,  org.objectwe
+ b.asm.tree,  org.objectweb.asm.tree.analysis",org.objectweb.asm.xml;v
+ ersion="5.0.3"; uses:="org.xml.sax.ext,  org.objectweb.asm,  javax.xm
+ l.transform,  javax.xml.transform.sax,  org.xml.sax.helpers,  org.xml
+ .sax"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: asm-all-5.0.3.jar
+Bundle-Version: 5.0.3.001
+Bundle-Name: ObjectWeb ASM Library
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.tibco.bw.tpcl.org.objectweb.asm
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

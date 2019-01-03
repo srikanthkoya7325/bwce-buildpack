@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.felix.cm;version="1.8.6",org.apache.felix.c
+ m.file;version="1.8.6";uses:="org.apache.felix.cm,org.osgi.framework"
+ ,org.apache.felix.cm.impl;version="1.8.6"; uses:="org.apache.felix.cm
+ ,  org.osgi.util.tracker,  org.osgi.framework,  org.osgi.service.cm",
+ org.osgi.service.cm;version="1.5.0";uses:="org.osgi.framework"
+Bundle-ClassPath: .,org.apache.felix.configadmin-1.8.6.jar
+Built-By: fmeschbe
+Bundle-Category: osgi
+Tool: Bnd-0.0.357
+Bundle-Name: Apache Felix Configuration Admin Service V1.8.6
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Apache Software Foundation
+DynamicImport-Package: org.osgi.service.log;version="1.3"
+Build-Jdk: 1.6.0_13
+Bundle-Version: 1.8.6.001
+Bnd-LastModified: 1283949712508
+Bundle-Activator: org.apache.felix.cm.impl.ConfigurationManager
+Bundle-ManifestVersion: 2
+Bundle-Description: Implementation of the OSGi Configuration Admin Ser
+ vice Specification 1.2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Import-Package: org.apache.felix.cm;version="[1.8.6,1.9.0)",org.apache
+ .felix.cm.file;version="[1.8.6,1.9.0)",org.osgi.framework;version="[1
+ .4.0,2.0.0)",org.osgi.service.cm;version="1.5.0",org.osgi.service.log
+ ;version="1.3.0";resolution:=optional
+Bundle-SymbolicName: org.apache.felix.configadmin
+Bundle-DocURL: http://www.apache.org/
+
+

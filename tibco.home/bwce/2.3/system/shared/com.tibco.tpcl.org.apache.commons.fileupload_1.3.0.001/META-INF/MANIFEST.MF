@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.commons.fileupload;version="1.3.0";uses:="j
+ avax.servlet.http,org.apache.commons.fileupload.disk,org.apache.commo
+ ns.fileupload.util",org.apache.commons.fileupload.disk;version="1.3.0
+ ";uses:="org.apache.commons.fileupload",org.apache.commons.fileupload
+ .portlet;version="1.3.0";uses:="javax.portlet,org.apache.commons.file
+ upload",org.apache.commons.fileupload.servlet;version="1.3.0";uses:="
+ javax.servlet.http,javax.servlet,org.apache.commons.fileupload",org.a
+ pache.commons.fileupload.util;version="1.3.0",org.apache.commons.file
+ upload.util.mime;version="1.3.0"
+Bundle-Vendor: The Apache Software Foundation
+Bundle-ClassPath: commons-fileupload-1.3.2.jar
+Bundle-Version: 1.3.0.001
+Bundle-Name: Apache Commons File Upload Web Service
+Bundle-ManifestVersion: 2
+Import-Package: javax.portlet;version="[1.0.0,2.0.0)",javax.servlet;ve
+ rsion="[2.4.0,3.0.0)",javax.servlet.http;version="[2.4.0,3.0.0)",org.
+ apache.commons.fileupload;version="[1.3.0,2.0.0)",org.apache.commons.
+ fileupload.disk;version="[1.3.0,2.0.0)",org.apache.commons.fileupload
+ .portlet;version="[1.3.0,2.0.0)",org.apache.commons.fileupload.servle
+ t;version="[1.3.0,2.0.0)",org.apache.commons.io;version="[2.0.0,3.0.0
+ )",org.apache.commons.io.output;version="[2.0.0,3.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.apache.commons.fileupload
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

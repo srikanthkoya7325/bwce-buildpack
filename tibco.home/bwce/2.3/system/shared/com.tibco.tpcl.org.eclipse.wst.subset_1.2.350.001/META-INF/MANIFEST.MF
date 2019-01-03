@@ -1,0 +1,93 @@
+Manifest-Version: 1.0
+Export-Package: model,org.eclipse.wst.wsdl;version="1.2.350"; uses:="j
+ avax.wsdl,  org.eclipse.wst.wsdl.util,  javax.xml.namespace,  org.w3c
+ .dom,  org.eclipse.emf.common.util,  javax.wsdl.extensions,  javax.ws
+ dl.factory,  org.eclipse.emf.common,  org.eclipse.xsd,  org.eclipse.e
+ mf.ecore",org.eclipse.wst.wsdl.binding.http;version="1.2.350";uses:="
+ javax.wsdl.extensions.http,org.eclipse.wst.wsdl,org.eclipse.emf.ecore
+ ",org.eclipse.wst.wsdl.binding.http.internal.generator;version="1.2.3
+ 50";x-internal:=true,org.eclipse.wst.wsdl.binding.http.internal.impl;
+ version="1.2.350";x-internal:=true,org.eclipse.wst.wsdl.binding.http.
+ internal.util;version="1.2.350";x-internal:=true,org.eclipse.wst.wsdl
+ .binding.mime;version="1.2.350"; uses:="javax.wsdl.extensions,  org.e
+ clipse.wst.wsdl,  org.eclipse.emf.common.util,  javax.wsdl.extensions
+ .mime,  org.eclipse.emf.ecore",org.eclipse.wst.wsdl.binding.mime.inte
+ rnal.impl;version="1.2.350";x-internal:=true,org.eclipse.wst.wsdl.bin
+ ding.mime.internal.util;version="1.2.350";x-internal:=true,org.eclips
+ e.wst.wsdl.binding.soap;version="1.2.350"; uses:="javax.wsdl.extensio
+ ns.soap,  org.eclipse.wst.wsdl,  javax.xml.namespace,  org.eclipse.em
+ f.common.util,  org.eclipse.emf.ecore",org.eclipse.wst.wsdl.binding.s
+ oap.internal.generator;version="1.2.350";x-internal:=true,org.eclipse
+ .wst.wsdl.binding.soap.internal.impl;version="1.2.350";x-internal:=tr
+ ue,org.eclipse.wst.wsdl.binding.soap.internal.util;version="1.2.350";
+ x-internal:=true,org.eclipse.wst.wsdl.internal.extensibility;version=
+ "1.2.350";x-internal:=true,org.eclipse.wst.wsdl.internal.generator;ve
+ rsion="1.2.350";x-internal:=true,org.eclipse.wst.wsdl.internal.genera
+ tor.extension;version="1.2.350";x-internal:=true,org.eclipse.wst.wsdl
+ .internal.impl;version="1.2.350";x-internal:=true,org.eclipse.wst.wsd
+ l.internal.impl.wsdl4j;version="1.2.350";x-internal:=true,org.eclipse
+ .wst.wsdl.internal.util;version="1.2.350";x-internal:=true,org.eclips
+ e.wst.wsdl.util;version="1.2.350"; uses:="org.xml.sax,  org.w3c.dom, 
+  org.eclipse.emf.common.util,  org.eclipse.emf.ecore.resource,  org.e
+ clipse.xsd.util,  org.eclipse.emf.ecore.impl,  org.eclipse.emf.ecore.
+ resource.impl,  org.eclipse.wst.wsdl,  org.xml.sax.ext,  org.xml.sax.
+ helpers,  javax.xml.parsers,  org.eclipse.xsd,  org.eclipse.emf.ecore
+ "
+Bundle-Vendor: Eclipse Foundation
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,org.eclipse.wst.wsdl_1.2.350.v201309242123.jar
+Bundle-Version: 1.2.350.001
+Bundle-Localization: plugin
+Bundle-Name: WST/WSDL4J Subset Plug-In
+Bundle-ManifestVersion: 2
+Import-Package: com.ibm.icu.util;version="[3.8.0,4.0.0)",com.ibm.wsdl.
+ factory;version="[0.0.0,2.0.0)",com.ibm.wsdl.xml;version="[0.0.0,2.0.
+ 0)",javax.xml.namespace;version="[1.1.0,2.0.0)",javax.xml.parsers;ver
+ sion="[1.3.0,2.0.0)",javax.xml.transform;version="[1.3.0,2.0.0)",java
+ x.xml.transform.dom;version="[1.3.0,2.0.0)",javax.xml.transform.strea
+ m;version="[1.3.0,2.0.0)",javax.wsdl;version="[0.0.0,2.0.0)",javax.ws
+ dl.extensions;version="[0.0.0,2.0.0)",javax.wsdl.extensions.http;vers
+ ion="[0.0.0,2.0.0)",javax.wsdl.extensions.mime;version="[0.0.0,2.0.0)
+ ",javax.wsdl.extensions.soap;version="[0.0.0,2.0.0)",javax.wsdl.facto
+ ry;version="[0.0.0,2.0.0)",javax.wsdl.xml;version="[0.0.0,2.0.0)",jav
+ ax.wsdl.extensions.schema;version="[0.0.0,2.0.0)",org.eclipse.emf.com
+ mon;version="[0,3.0.0)",org.eclipse.emf.common.notify;version="[0,3.0
+ .0)",org.eclipse.emf.common.notify.impl;version="[0,3.0.0)",org.eclip
+ se.emf.common.util;version="[0,3.0.0)",org.eclipse.emf.ecore;version=
+ "[0,3.0.0)",org.eclipse.emf.ecore.impl;version="[0,3.0.0)",org.eclips
+ e.emf.ecore.plugin;version="[0,3.0.0)",org.eclipse.emf.ecore.resource
+ ;version="[0,3.0.0)",org.eclipse.emf.ecore.resource.impl;version="[0,
+ 3.0.0)",org.eclipse.emf.ecore.util;version="[0,3.0.0)",org.eclipse.ws
+ t.wsdl;version="[1.1.400,2.0.0)",org.eclipse.wst.wsdl.binding.http;ve
+ rsion="[1.1.400,2.0.0)",org.eclipse.wst.wsdl.binding.http.internal.ge
+ nerator;x-internal:=true;version="[1.1.400,2.0.0)",org.eclipse.wst.ws
+ dl.binding.http.internal.impl;x-internal:=true;version="[1.1.400,2.0.
+ 0)",org.eclipse.wst.wsdl.binding.http.internal.util;x-internal:=true;
+ version="[1.1.400,2.0.0)",org.eclipse.wst.wsdl.binding.mime;version="
+ [1.1.400,2.0.0)",org.eclipse.wst.wsdl.binding.mime.internal.impl;x-in
+ ternal:=true;version="[1.1.400,2.0.0)",org.eclipse.wst.wsdl.binding.m
+ ime.internal.util;x-internal:=true;version="[1.1.400,2.0.0)",org.ecli
+ pse.wst.wsdl.binding.soap;version="[1.1.400,2.0.0)",org.eclipse.wst.w
+ sdl.binding.soap.internal.generator;x-internal:=true;version="[1.1.40
+ 0,2.0.0)",org.eclipse.wst.wsdl.binding.soap.internal.impl;x-internal:
+ =true;version="[1.1.400,2.0.0)",org.eclipse.wst.wsdl.binding.soap.int
+ ernal.util;x-internal:=true;version="[1.1.400,2.0.0)",org.eclipse.wst
+ .wsdl.internal.extensibility;x-internal:=true;version="[1.1.400,2.0.0
+ )",org.eclipse.wst.wsdl.internal.generator;x-internal:=true;version="
+ [1.1.400,2.0.0)",org.eclipse.wst.wsdl.internal.generator.extension;x-
+ internal:=true;version="[1.1.400,2.0.0)",org.eclipse.wst.wsdl.interna
+ l.impl;x-internal:=true;version="[1.1.400,2.0.0)",org.eclipse.wst.wsd
+ l.internal.impl.wsdl4j;x-internal:=true;version="[1.1.400,2.0.0)",org
+ .eclipse.wst.wsdl.internal.util;x-internal:=true;version="[1.1.400,2.
+ 0.0)",org.eclipse.wst.wsdl.util;version="[1.1.400,2.0.0)",org.eclipse
+ .xsd;version="[0,3.0.0)",org.eclipse.xsd.impl;version="[0,3.0.0)",org
+ .eclipse.xsd.util;version="[0,3.0.0)",org.osgi.framework;version="[1.
+ 3.0,2.0.0)",org.w3c.dom;version="[3.0.0,4.0.0)",org.w3c.dom.events;ve
+ rsion="[3.0.0,4.0.0)",org.xml.sax;version="[2.0.0,3.0.0)",org.xml.sax
+ .ext;version="[2.0.0,3.0.0)",org.xml.sax.helpers;version="[2.0.0,3.0.
+ 0)"
+Bundle-SymbolicName: com.tibco.tpcl.org.eclipse.wst.subset;singleton:=
+ true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

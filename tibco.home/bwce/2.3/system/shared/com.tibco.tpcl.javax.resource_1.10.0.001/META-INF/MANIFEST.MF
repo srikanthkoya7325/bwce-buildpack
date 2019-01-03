@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Export-Package: javax.resource;version="1.10.0";uses:="javax.naming",j
+ avax.resource.cci;version="1.10.0";uses:="javax.resource",javax.resou
+ rce.spi;version="1.10.0"; uses:="javax.resource.spi.endpoint,  javax.
+ resource.spi.work,  javax.resource,  javax.transaction.xa,  javax.sec
+ urity.auth",javax.resource.spi.endpoint;version="1.10.0";uses:="javax
+ .transaction.xa",javax.resource.spi.security;version="1.10.0";uses:="
+ javax.resource.spi",javax.resource.spi.work;version="1.10.0";uses:="j
+ avax.resource,javax.transaction.xa"
+Bundle-Vendor: %providerName
+Bundle-ClassPath: connector-api.jar
+Bundle-Version: 1.10.0.001
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Import-Package: javax.naming;version="0.0.0",javax.resource;version="[
+ 1.5.0,2.0.0)",javax.resource.cci;version="[1.5.0,2.0.0)",javax.resour
+ ce.spi;version="[1.5.0,2.0.0)",javax.resource.spi.endpoint;version="[
+ 1.5.0,2.0.0)",javax.resource.spi.security;version="[1.5.0,2.0.0)",jav
+ ax.resource.spi.work;version="[1.5.0,2.0.0)",javax.security.auth;vers
+ ion="0.0.0",javax.transaction.xa;version="[1.0.1,2.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.javax.resource
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+
